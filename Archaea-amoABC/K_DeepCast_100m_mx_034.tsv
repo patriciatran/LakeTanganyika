@@ -1,5 +1,0 @@
-name	start	end	strand	col	lty	lwd	pch	cex	gene_type	fill
-methane/ammonia monooxygenase subunit B	54432	54998	-	black	1	1	8	1	arrows	blue
-methane/ammonia monooxygenase subunit C	55280	55843	+	black	1	1	8	1	arrows	green
-hypothetical protein	55932	56297	+	black	1	1	8	1	arrows	grey
-methane/ammonia monooxygenase subunit A	56421	57071	+	black	1	1	8	1	arrows	red
