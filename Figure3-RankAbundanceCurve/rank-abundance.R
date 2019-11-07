@@ -103,7 +103,7 @@ ggplot(top_20.filter, aes(x=factor(Simplified.Taxonomy, levels=order.I.want), y=
   theme_bw()+
   theme(axis.text.x = element_text(angle = 45, hjust = 1),
         text = element_text(size=20),
-        legend.position = c(0.85, 0.85),
+        legend.position = c(0.78, 0.85),
         legend.background = element_rect(color = "black", fill = "white", size = 0.2, linetype = "solid"))+
   scale_fill_manual(name = ('Layer'), 
                       values =c('sumAbove'='#5384E0','sumOxy'="#255957", 'sumBelow'="#F7C548"), 
