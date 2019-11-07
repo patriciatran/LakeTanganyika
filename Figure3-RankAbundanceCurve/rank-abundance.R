@@ -1,14 +1,15 @@
 # Rank Abundance curve
-abundance.mags <- read.table("~/Box/PhD/Research/Lake-Tanganyika/1_Code/Figure3-RankAbundanceCurve/Abundance-MAGS.tsv", sep="\t", header=TRUE)
+abundance.mags <- read.table("~/Documents/Github/LakeTanganyika/Figure3-RankAbundanceCurve/Abundance-MAGS.tsv", sep="\t", header=TRUE)
 library(tidyverse)
 
 small.abundance.mags <- abundance.mags %>% select(MAG, Taxonomy, Domain, Epi, Oxy, Hypo)
 # Ok all good but we want simpler names
-lookup <- read.table("~/Box/PhD/Research/Lake-Tanganyika/1_Code/Figure3-RankAbundanceCurve/Simple_taxo_lookup.tsv", header=TRUE, sep="\t")
+lookup <- read.table("~/Documents/Github/LakeTanganyika/Figure3-RankAbundanceCurve/Simple_taxo_lookup.tsv", header=TRUE, sep="\t")
 
 small.abundance.mags <- left_join(small.abundance.mags, lookup, by="Taxonomy")
 # Regroup the all Actinobacteria together
 
+small.abundance.mags %>% filter(is.na(Simplified.Taxonomy))
 
 above.abund <- sum(small.abundance.mags$Epi)
 oxy.abund <- sum(small.abundance.mags$Oxy)
@@ -18,11 +19,18 @@ summary.abundance.mags <- small.abundance.mags %>% group_by(Simplified.Taxonomy)
                                                                                     sumOxy = sum(Oxy), meanOxy=mean(Oxy), maxOxy=max(Oxy), minOxy=min(Oxy),
                                                                                     sumBelow = sum(Hypo), meanBelow=mean(Hypo), maxBelow=max(Hypo), minBelow=min(Hypo))
 
+summary.abundance.mags$TotalSum <- 0
+for (i in 1:nrow(summary.abundance.mags)){
+  summary.abundance.mags$TotalSum[i] <- sum(summary.abundance.mags$sumAbove[i], summary.abundance.mags$sumOxy[i], summary.abundance.mags$sumBelow[i])
+  print(i)
+}
+
+class(summary.abundance.mags)
 # Plot:
 library(ggplot2)
 
 
-top_20 <- arrange(summary.abundance.mags,desc(sumAbove)) %>% top_n(n=20, wt=sumAbove)
+top_20 <- top_n(x=summary.abundance.mags, n=20, wt=TotalSum)
 
 ggplot(top_20) + 
   geom_line(aes(x=seq(1:20),y=100*sumAbove/above.abund, colour='above'))+
@@ -48,5 +56,60 @@ ggplot(top_20) +
   xlab("Taxonomic Group (ranked by coverage above the oxycline)")+
   ylab("Relative abundance \n of that group per layer (%)")
  
+#ggplot(top_20) + geom_bar(stat = "identity")
+
+top_20.filter <- top_20 %>% select(Simplified.Taxonomy, sumAbove, sumOxy, sumBelow)
+
+class(top_20.filter)
+
+top_20.filter <- top_20.filter %>% gather(key="LayerSum",value="Coverage", c(2,3,4))
+
+str(top_20.filter)
+
+#top_20.filter <- top_20.filter %>% arrange(desc(Coverage))
+
+order <- top_20 %>% arrange(desc(TotalSum)) 
+order
+order.I.want <- as.factor(order$Simplified.Taxonomy)
+
+order.I.want
+
+#top_20.filter$Simplified.Taxonomy_f <- as.factor(top_20.filter$Simplified.Taxonomy)
+
+
+# convert to relative abundance:
+top_20.filter$relative.abund <- 0
+
+for (i in 1:nrow(top_20.filter)){
+  if (top_20.filter$LayerSum[i] == "sumAbove"){
+    top_20.filter$relative.abund[i] <- top_20.filter$Coverage[i]/above.abund
+  }
+  if (top_20.filter$LayerSum[i] == "sumOxy"){
+    top_20.filter$relative.abund[i] <- top_20.filter$Coverage[i]/oxy.abund
+  }
+  else {
+    top_20.filter$relative.abund[i] <- top_20.filter$Coverage[i]/below.abund
+  }
+  print(i)
+}
+
+str(top_20.filter)
+
+#lvls <- names(sort(tapply(top_20.filter$Simplified.Taxonomy == "B", data$x, mean)))
+
+ggplot(top_20.filter, aes(x=factor(Simplified.Taxonomy, levels=order.I.want), y=relative.abund, fill=LayerSum)) + 
+  geom_bar(stat = "identity")+
+  #facet_grid(LayerSum~.)+
+  theme_bw()+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        text = element_text(size=20),
+        legend.position = c(0.85, 0.85),
+        legend.background = element_rect(color = "black", fill = "white", size = 0.2, linetype = "solid"))+
+  scale_fill_manual(name = ('Layer'), 
+                      values =c('sumAbove'='#5384E0','sumOxy'="#255957", 'sumBelow'="#F7C548"), 
+                      labels = c('Oxic Layer (0-50m)','Sub-oxic Layer (50-100m)','Anoxic Layer (100-1200m)'))+
+  xlab("Taxonomic Group, ranked by total abundance across all layers")+
+  ylab("Relative Abundance (%)")
+
 
   

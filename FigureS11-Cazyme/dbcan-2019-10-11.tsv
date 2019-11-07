@@ -1,0 +1,798 @@
+MAG_ID	Taxonomy	SimplifiedTaxonomy	Domain	Genome size (bp in MAG)	Percent CDS (CDS bp divided by total BP)	Cazyme density (nb of CAZYME/bp)	AA	CBM	CE	cohesin	GH	GT	PL
+K_Offshore_80m_m2_082	Acidobacteria	Acidobacteria	Bacteria	2039043	93%	2.89E-05	3	2	15	0	5	34	0
+K_Offshore_80m_m2_035	Acidobacteria	Acidobacteria	Bacteria	2327838	91%	1.25E-05	2	0	5	0	5	17	0
+K_DeepCast_150m_m1_111	Acidobacteria	Acidobacteria	Bacteria	2729021	89%	2.24E-05	2	3	8	0	23	23	2
+M_surface_10_m1_251	Acidobacteria	Acidobacteria	Bacteria	3084019	95%	2.63E-05	5	5	13	0	14	44	0
+K_DeepCast_65m_m1_223	Acidobacteria	Acidobacteria	Bacteria	3113930	94%	2.50E-05	4	1	13	0	20	40	0
+K_Offshore_80m_m2_020	Acidobacteria	Acidobacteria	Bacteria	3910054	92%	2.86E-05	7	17	16	0	9	63	0
+M_DeepCast_65m_m2_224	Acidobacteria	Acidobacteria	Bacteria	3963882	93%	2.62E-05	9	8	20	0	17	50	0
+K_Offshore_120m_m2_006	Acidobacteria	Acidobacteria	Bacteria	4217311	93%	2.11E-05	3	17	11	0	10	48	0
+K_Offshore_80m_m2_117	Acidobacteria	Acidobacteria	Bacteria	4440616	91%	2.16E-05	4	10	20	0	11	51	0
+K_Offshore_120m_m2_155	Acidobacteria	Acidobacteria	Bacteria	4571676	94%	1.33E-05	5	2	10	0	16	28	0
+K_Offshore_120m_m2_108	Acidobacteria	Acidobacteria	Bacteria	5290205	92%	2.19E-05	9	19	15	0	15	58	0
+K_Offshore_80m_m2_092	Acidobacteria	Acidobacteria	Bacteria	5425955	84%	3.43E-05	7	7	24	0	94	54	0
+K_DeepCast_65m_m1_022	Acidobacteria	Acidobacteria	Bacteria	6247865	94%	3.54E-05	8	5	42	0	69	92	5
+K_Offshore_80m_m2_152	Acidobacteria	Acidobacteria	Bacteria	6303403	89%	2.14E-05	9	12	15	0	23	76	0
+K_DeepCast_100m_m1_216	Actinobacteria	Actinobacteria	Bacteria	382480	90%	1.05E-05	1	0	1	0	1	1	0
+M_DeepCast_200m_mx_161	Actinobacteria	Actinobacteria	Bacteria	553761	89%	1.63E-05	3	0	2	0	1	3	0
+K_DeepCast_300m_m1_095	Actinobacteria	Actinobacteria	Bacteria	928753	90%	2.91E-05	3	0	4	0	9	10	1
+K_Offshore_40m_m2_139	Actinobacteria	Actinobacteria	Bacteria	952901	95%	1.89E-05	2	0	3	0	1	12	0
+K_Offshore_80m_m1_031	Actinobacteria	Actinobacteria	Bacteria	1169226	96%	1.45E-05	0	0	3	0	4	10	0
+M_DeepCast_400m_m1_127	Actinobacteria	Actinobacteria	Bacteria	1214271	94%	2.39E-05	3	0	6	0	7	13	0
+K_DeepCast_35m_m1_047	Actinobacteria	Actinobacteria	Bacteria	1250995	95%	1.44E-05	1	0	4	0	3	10	0
+K_DeepCast_100m_m2_081	Actinobacteria	Actinobacteria	Bacteria	1366387	85%	1.90E-05	3	1	4	0	4	14	0
+M_DeepCast_65m_m2_256	Actinobacteria	Actinobacteria	Bacteria	1464926	93%	2.05E-05	2	1	2	0	9	16	0
+K_DeepCast_150m_m1_051	Actinobacteria	Actinobacteria	Bacteria	1736768	90%	1.78E-05	0	2	3	0	11	15	0
+K_Offshore_surface_m2_014	Actinobacteria	Actinobacteria	Bacteria	1811387	93%	2.48E-05	3	2	8	0	11	21	0
+K_DeepCast_1200m_m2_005	Actinobacteria	Actinobacteria	Bacteria	1879613	84%	2.13E-05	2	1	7	0	5	25	0
+K_DeepCast_150m_m2_272	Actinobacteria	Actinobacteria	Bacteria	1902922	89%	9.98E-06	3	1	5	0	5	5	0
+K_DeepCast_1200m_m2_204	Actinobacteria	Actinobacteria	Bacteria	1998470	87%	3.10E-05	0	3	5	0	16	37	1
+K_DeepCast_150m_m2_097	Actinobacteria	Actinobacteria	Bacteria	2129990	87%	2.11E-05	2	3	5	0	7	28	0
+K_Offshore_40m_m2_012	Actinobacteria	Actinobacteria	Bacteria	2131968	95%	1.36E-05	3	0	6	0	4	16	0
+K_DeepCast_150m_m2_294	Actinobacteria	Actinobacteria	Bacteria	2187391	85%	3.15E-05	2	4	4	0	9	49	1
+K_DeepCast_100m_m1_278	Actinobacteria	Actinobacteria	Bacteria	2191797	85%	3.10E-05	0	2	7	0	4	53	2
+K_DeepCast_65m_m2_213	Actinobacteria	Actinobacteria	Bacteria	2498450	91%	2.08E-05	4	0	3	0	16	29	0
+M_DeepCast_400m_m2_130	Actinobacteria	Actinobacteria	Bacteria	2565459	91%	1.75E-05	1	0	13	0	11	19	1
+K_DeepCast_35m_m1_297	Actinobacteria	Actinobacteria	Bacteria	2717219	94%	2.32E-05	0	1	17	0	6	39	0
+M_DeepCast_50m_m2_189	Actinobacteria	Actinobacteria	Bacteria	2816131	93%	2.52E-05	5	0	13	0	17	36	0
+K_DeepCast_65m_m2_097	Actinobacteria	Actinobacteria	Bacteria	2983521	92%	3.12E-05	5	0	18	0	18	52	0
+K_DeepCast_250m_m1_088	Actinobacteria	Actinobacteria	Bacteria	3007614	83%	2.46E-05	3	1	11	0	8	50	1
+K_DeepCast_65m_m2_193	Actinobacteria	Actinobacteria	Bacteria	3102989	85%	3.06E-05	2	0	9	0	29	54	1
+K_DeepCast_150m_m1_088	Actinobacteria	Actinobacteria	Bacteria	3234887	84%	2.26E-05	2	2	9	0	12	47	1
+K_Offshore_80m_m2_056	Actinobacteria	Actinobacteria	Bacteria	3363940	93%	1.84E-05	1	0	14	0	9	38	0
+K_Offshore_80m_m2_094	Actinobacteria	Actinobacteria	Bacteria	3400093	91%	1.59E-05	5	0	5	0	13	31	0
+M_DeepCast_200m_m1_155	Actinobacteria	Actinobacteria	Bacteria	5051478	84%	2.51E-05	3	4	12	0	18	87	3
+M_surface_8_mx_219	Actinobacteria	Actinobacteria	Bacteria	5584131	91%	2.45E-05	2	3	14	0	24	93	1
+M_DeepCast_10m_mx_089	Actinobacteria acI-B1	Actinobacteria acI-B1	Bacteria	615209	95%	1.14E-05	0	0	3	0	1	3	0
+M_surface_7_m2_032	Actinobacteria acI-B1	Actinobacteria acI-B1	Bacteria	681184	96%	2.06E-05	2	0	4	0	2	6	0
+K_Offshore_40m_m2_034	Actinobacteria acI-B1	Actinobacteria acI-B1	Bacteria	1013695	96%	1.58E-05	1	0	4	0	2	9	0
+K_DeepCast_250m_m2_310	Actinobacteria acI-B1	Actinobacteria acI-B1	Bacteria	1288290	95%	1.94E-05	3	0	5	0	3	14	0
+K_DeepCast_65m_m2_221	Actinobacteria acI-B1	Actinobacteria acI-B1	Bacteria	1290778	95%	1.86E-05	2	0	3	0	7	12	0
+M_DeepCast_10m_m2_141	Actinobacteria acI-B1	Actinobacteria acI-B1	Bacteria	1356385	95%	1.99E-05	4	0	4	0	5	14	0
+K_DeepCast_65m_m2_120	Actinobacteria acI-B1	Actinobacteria acI-B1	Bacteria	1819942	95%	1.65E-05	3	0	8	0	4	15	0
+M_DeepCast_50m_m2_266	Actinobacteria acI-B1	Actinobacteria acI-B1	Bacteria	1880929	95%	1.70E-05	4	0	6	0	5	17	0
+K_DeepCast_1200m_m2_173	Actinobacteria acI-B1	Actinobacteria acI-B1	Bacteria	1928627	96%	1.71E-05	2	0	8	0	5	18	0
+M_surface_9_m1_017	Actinobacteria acI-C	Actinobacteria acI-C	Bacteria	1344465	96%	2.98E-05	2	2	5	0	15	16	0
+K_Offshore_0m_m1_007	Actinobacteria acI-C	Actinobacteria acI-C	Bacteria	1414536	95%	1.84E-05	4	0	6	0	6	10	0
+M_surface_9_m1_009	Actinobacteria acI-C	Actinobacteria acI-C	Bacteria	1452111	95%	2.48E-05	1	1	7	0	13	14	0
+M_surface_9_m2_080	Actinobacteria acI-C2	Actinobacteria acI-C2	Bacteria	1009652	96%	2.28E-05	1	2	4	0	7	9	0
+M_surface_10_m2_136	Actinobacteria acI-C2	Actinobacteria acI-C2	Bacteria	1049758	95%	2.38E-05	2	1	2	0	12	8	0
+M_surface_10_m2_076	Actinobacteria acI-C2	Actinobacteria acI-C2	Bacteria	1259877	95%	2.46E-05	0	2	4	0	13	12	0
+K_DeepCast_1200m_m2_272	Actinobacteria acIII	Actinobacteria acIII	Bacteria	3189298	90%	3.23E-05	4	5	11	0	47	36	0
+K_Offshore_120m_m1_107	Actinobacteria acIV	Actinobacteria acIV	Bacteria	239782	94%	4.17E-06	0	0	0	0	0	1	0
+M_surface_10_m2_188	Actinobacteria acIV	Actinobacteria acIV	Bacteria	1742107	94%	1.78E-05	2	0	9	0	6	14	0
+K_Offshore_120m_m1_195	Actinobacteria acIV	Actinobacteria acIV	Bacteria	1761153	96%	2.21E-05	0	0	6	0	4	29	0
+M_surface_8_m2_026	Actinobacteria acIV	Actinobacteria acIV	Bacteria	1951776	95%	1.43E-05	2	0	8	0	4	14	0
+K_Offshore_40m_m2_124	Actinobacteria acIV	Actinobacteria acIV	Bacteria	2203344	95%	2.27E-05	4	0	14	0	9	23	0
+K_Offshore_80m_m1_195	Actinobacteria acIV	Actinobacteria acIV	Bacteria	3197272	93%	3.88E-05	4	4	18	0	31	67	0
+M_surface_6_mx_034	Actinobacteria acIV-C	Actinobacteria acIV-C	Bacteria	847529	94%	2.71E-05	1	1	3	0	10	8	0
+K_DeepCast_0m_m1_227	Actinobacteria acIV-C	Actinobacteria acIV-C	Bacteria	1946970	95%	1.95E-05	3	0	10	0	7	18	0
+K_Offshore_surface_m2_010	Actinobacteria acIV-C	Actinobacteria acIV-C	Bacteria	2007417	96%	1.30E-05	1	0	8	0	2	15	0
+K_Offshore_40m_m2_105	Actinobacteria acIV-C	Actinobacteria acIV-C	Bacteria	2452062	95%	1.63E-05	3	1	10	0	6	20	0
+K_Offshore_80m_m2_226	Actinobacteria acSTL	Actinobacteria acSTL	Bacteria	2129102	95%	1.97E-05	6	2	6	0	10	18	0
+K_Offshore_40m_m1_268	Actinobacteria acSTL	Actinobacteria acSTL	Bacteria	2416216	94%	2.03E-05	6	3	8	0	13	19	0
+K_Offshore_40m_m2_150	Actinobacteria acSTL	Actinobacteria acSTL	Bacteria	2637260	94%	2.01E-05	10	3	8	0	11	21	0
+M_surface_9_m2_101	Actinobacteria acTH1	Actinobacteria acTH1	Bacteria	1015661	96%	2.17E-05	0	0	2	0	6	14	0
+M_DeepCast_50m_m2_117	Actinobacteria Iluma-A1	Actinobacteria Iluma-A1	Bacteria	1524517	96%	1.71E-05	4	0	6	0	3	13	0
+M_surface_7_m2_239	Actinobacteria Iluma-A1	Actinobacteria Iluma-A1	Bacteria	1582445	96%	1.52E-05	3	0	4	0	4	13	0
+K_DeepCast_300m_m2_027	Actinobacteria Iluma-A1	Actinobacteria Iluma-A1	Bacteria	1867370	96%	1.71E-05	4	0	9	0	3	16	0
+M_DeepCast_200m_m2_041	Alphaproteobacteria LD12	Alphaproteobacteria LD12	Bacteria	787713	96%	1.40E-05	1	0	0	0	2	8	0
+K_Offshore_40m_m1_069	Alphaproteobacteria LD12	Alphaproteobacteria LD12	Bacteria	920163	96%	2.06E-05	1	0	1	0	3	14	0
+M_DeepCast_400m_m2_260	Alphaproteobacteria LD12	Alphaproteobacteria LD12	Bacteria	920820	96%	2.28E-05	1	0	1	0	3	16	0
+M_surface_9_m1_039	Alphaproteobacteria LD12	Alphaproteobacteria LD12	Bacteria	1014956	96%	2.27E-05	1	0	1	0	4	17	0
+K_Offshore_surface_m1_056	Alphaproteobacteria LD12	Alphaproteobacteria LD12	Bacteria	1149720	96%	2.17E-05	1	0	2	0	6	16	0
+K_DeepCast_1200m_m1_106	Alphaproteobacteria LD12	Alphaproteobacteria LD12	Bacteria	1177045	94%	1.78E-05	0	0	2	0	5	14	0
+M_DeepCast_50m_m1_052	Alphaproteobacteria LD12	Alphaproteobacteria LD12	Bacteria	1248929	94%	1.76E-05	1	0	1	0	2	18	0
+K_DeepCast_150m_m2_191	Alphaproteobacteria LD12	Alphaproteobacteria LD12	Bacteria	1391968	95%	2.01E-05	1	0	2	0	4	21	0
+M_DeepCast_10m_m1_219	Alphaproteobacteria LD12	Alphaproteobacteria LD12	Bacteria	1556538	95%	2.57E-05	0	0	2	0	5	33	0
+M_surface_8_m1_222	Alphaproteobacteria LD12	Alphaproteobacteria LD12	Bacteria	1640940	95%	1.95E-05	1	0	2	0	9	20	0
+M_DeepCast_100m_m1_059	Alphaproteobacteria LD12	Alphaproteobacteria LD12	Bacteria	1697638	95%	2.18E-05	1	0	4	0	12	20	0
+K_DeepCast_100m_mx_319	Alphaproteobacteria LD12	Alphaproteobacteria LD12	Bacteria	1881686	92%	2.13E-05	1	0	3	0	6	30	0
+K_DeepCast_0m_mx_190	Alphaproteobacteria LD12	Alphaproteobacteria LD12	Bacteria	1959718	91%	2.04E-05	2	0	3	0	6	29	0
+M_DeepCast_65m_mx_239	Alphaproteobacteria LD12	Alphaproteobacteria LD12	Bacteria	3192738	93%	2.32E-05	0	0	3	0	11	60	0
+M_DeepCast_65m_m1_170	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	396055	93%	1.26E-05	0	0	0	0	0	5	0
+K_Offshore_80m_m1_082	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	596733	89%	2.68E-05	2	0	0	0	2	12	0
+K_DeepCast_300m_mx_266	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	607768	89%	8.23E-06	0	0	0	0	2	3	0
+M_surface_7_m2_013	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	790526	86%	1.14E-05	0	0	1	0	3	5	0
+K_Offshore_80m_m2_085	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	859712	89%	1.40E-05	3	0	1	0	4	4	0
+K_DeepCast_35m_m2_327	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	910812	89%	1.76E-05	0	0	1	0	3	12	0
+M_DeepCast_100m_m1_138	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	952735	93%	1.26E-05	2	0	1	0	4	5	0
+M_surface_8_m2_185	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	960826	95%	1.56E-05	1	0	2	0	3	9	0
+M_DeepCast_50m_m1_063	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	1151043	93%	1.56E-05	0	0	1	0	3	14	0
+K_Offshore_40m_m2_131	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	1285065	91%	1.71E-05	2	0	1	0	3	16	0
+M_DeepCast_400m_m1_109	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	1352435	88%	1.18E-05	1	0	1	0	5	9	0
+M_surface_6_m2_121	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	1433922	90%	1.19E-05	0	0	1	0	3	13	0
+K_DeepCast_35m_m1_027	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	1472916	90%	2.10E-05	0	0	3	0	6	22	0
+M_DeepCast_400m_m2_294	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	1508381	92%	2.32E-05	0	0	4	0	20	10	1
+K_Offshore_surface_mx_080	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	1546259	89%	1.42E-05	0	0	3	0	5	14	0
+K_Offshore_surface_m2_020	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	1657923	87%	1.33E-05	0	0	4	0	7	11	0
+M_surface_10_m2_100	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	1802957	89%	1.50E-05	0	0	3	0	5	19	0
+K_Offshore_80m_m2_146	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	1947366	93%	1.03E-05	5	0	1	0	7	7	0
+M_DeepCast_65m_m1_019	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	2077959	87%	1.49E-05	2	0	4	0	11	14	0
+M_DeepCast_400m_m1_040	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	2085338	93%	1.73E-05	1	1	7	0	12	15	0
+K_Offshore_40m_m2_283	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	2099710	90%	1.19E-05	2	0	5	0	6	12	0
+K_DeepCast_250m_m2_101	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	2100593	88%	1.48E-05	2	0	2	0	8	19	0
+K_DeepCast_65m_m1_262	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	2171432	92%	1.89E-05	5	0	4	0	6	26	0
+K_Offshore_80m_m1_220	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	2172388	94%	1.66E-05	7	0	3	0	4	22	0
+K_DeepCast_35m_m1_317	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	2203154	93%	1.23E-05	6	1	3	0	6	11	0
+K_Offshore_80m_m2_162	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	2362220	90%	1.31E-05	2	0	3	0	6	20	0
+M_surface_10_m2_180	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	2383215	90%	1.43E-05	7	1	2	0	7	17	0
+M_DeepCast_65m_m1_275	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	2465456	91%	1.50E-05	0	0	3	0	7	27	0
+K_DeepCast_1200m_m2_124	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	2469348	91%	2.19E-05	1	0	8	0	23	20	2
+M_DeepCast_65m_m2_016	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	2506200	90%	1.48E-05	7	0	2	0	11	17	0
+M_DeepCast_200m_m2_174	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	2755826	93%	1.85E-05	14	0	7	0	4	25	1
+K_Offshore_80m_m2_061	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	2772918	92%	1.91E-05	17	0	8	0	7	21	0
+K_Offshore_40m_m1_243	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	2894369	90%	1.31E-05	11	0	5	0	9	13	0
+M_DeepCast_400m_m2_041	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	2925535	92%	1.81E-05	3	2	9	0	21	18	0
+M_DeepCast_200m_mx_060	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	2964023	87%	1.18E-05	1	1	4	0	15	14	0
+K_Offshore_80m_m2_049	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	2968478	90%	1.65E-05	6	0	13	0	9	21	0
+K_Offshore_80m_m2_048	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	2997816	91%	1.70E-05	2	0	8	0	3	37	1
+K_Offshore_40m_m1_238	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	3144613	90%	1.40E-05	9	0	5	0	10	20	0
+M_DeepCast_65m_mx_036	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	3155036	88%	1.36E-05	3	0	5	0	12	23	0
+M_DeepCast_65m_m2_266	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	3199344	92%	1.66E-05	4	0	4	0	9	36	0
+M_surface_10_m2_064	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	3235968	94%	1.64E-05	1	0	8	0	22	22	0
+K_Offshore_80m_m1_144	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	3239723	92%	1.02E-05	3	0	7	0	7	16	0
+K_Offshore_40m_mx_105	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	3253286	94%	1.88E-05	14	0	10	0	4	32	1
+M_DeepCast_65m_m1_022	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	3284056	88%	1.55E-05	3	1	7	0	19	21	0
+M_DeepCast_200m_mx_050	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	3295877	88%	1.52E-05	4	0	6	0	13	27	0
+K_Offshore_120m_m1_147	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	3428055	88%	1.25E-05	1	2	5	0	17	18	0
+K_Offshore_80m_m2_187	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	3477454	91%	1.21E-05	5	0	9	0	6	22	0
+M_DeepCast_50m_m2_221	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	3486062	91%	1.52E-05	13	0	8	0	7	25	0
+K_Offshore_40m_mx_120	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	3547803	92%	1.69E-05	12	0	8	0	6	34	0
+M_surface_9_m2_109	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	3558980	93%	1.35E-05	11	0	9	0	11	16	1
+K_Offshore_80m_m2_115	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	3613993	92%	1.11E-05	5	0	10	0	7	18	0
+M_DeepCast_65m_m2_129	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	3694171	94%	1.54E-05	5	0	7	0	7	37	1
+K_DeepCast_65m_m2_082	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	3776854	88%	1.43E-05	3	0	8	0	15	28	0
+M_DeepCast_400m_m1_328	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	3783435	86%	2.33E-05	7	2	8	0	36	35	0
+K_Offshore_80m_m2_191	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	3927634	92%	1.86E-05	15	1	9	0	12	35	1
+M_DeepCast_65m_m2_041	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	3951533	87%	1.54E-05	5	0	7	0	14	35	0
+K_Offshore_80m_m2_228	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	3966172	92%	1.51E-05	8	0	10	0	7	34	1
+K_DeepCast_100m_mx_141	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	3972400	88%	1.43E-05	3	0	7	0	15	32	0
+K_Offshore_80m_m2_186	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	3985234	92%	1.48E-05	16	0	6	0	7	30	0
+M_DeepCast_65m_m2_243	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	4012884	93%	1.64E-05	4	0	8	0	11	43	0
+K_Offshore_surface_m1_194	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	4030933	94%	1.41E-05	7	0	10	0	8	32	0
+K_DeepCast_35m_m2_271	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	4095852	94%	1.37E-05	9	0	10	0	5	32	0
+K_Offshore_80m_m2_053	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	4109251	92%	1.22E-05	7	0	7	0	11	25	0
+K_Offshore_80m_m2_101	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	4121188	92%	1.67E-05	19	0	9	0	6	35	0
+K_DeepCast_250m_m1_099	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	4594194	93%	2.00E-05	22	0	11	0	9	49	1
+K_Offshore_80m_m2_081	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	4759417	93%	1.58E-05	10	0	12	0	15	38	0
+K_DeepCast_35m_m2_067	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	4836834	92%	1.36E-05	18	0	13	0	12	23	0
+K_Offshore_80m_m2_107	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	4851654	92%	1.79E-05	9	0	14	0	9	55	0
+K_Offshore_80m_m2_051	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	4976325	93%	2.31E-05	9	0	12	0	12	82	0
+K_Offshore_120m_m2_043	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	5014335	93%	1.48E-05	21	3	11	0	13	26	0
+K_Offshore_80m_m2_123	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	5150839	90%	1.42E-05	13	0	13	0	10	37	0
+M_DeepCast_50m_m2_111	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	6015939	91%	1.83E-05	13	2	18	0	16	61	0
+M_DeepCast_65m_m1_296	Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	Bacteria	6627931	94%	1.98E-05	14	0	13	0	11	93	0
+K_Offshore_80m_m1_225	Armatimonadetes	Armatimonadetes	Bacteria	2099479	92%	1.71E-05	3	0	12	0	3	18	0
+K_DeepCast_1200m_m2_191	Armatimonadetes	Armatimonadetes	Bacteria	2535439	94%	2.25E-05	2	0	11	0	16	27	1
+M_DeepCast_50m_m2_207	Armatimonadetes	Armatimonadetes	Bacteria	3657039	90%	2.30E-05	1	4	25	0	30	24	0
+K_DeepCast_100m_m2_289	Armatimonadetes	Armatimonadetes	Bacteria	4707799	90%	4.99E-05	2	12	18	0	155	45	3
+M_DeepCast_50m_m2_086	Armatimonadetes	Armatimonadetes	Bacteria	6098583	90%	2.49E-05	4	9	20	0	36	82	1
+K_DeepCast_150m_m2_147	Armatimonadetes	Armatimonadetes	Bacteria	6340464	91%	5.91E-05	2	40	26	0	234	60	13
+K_DeepCast_250m_m2_231	Armatimonadetes	Armatimonadetes	Bacteria	7870969	92%	5.48E-05	3	56	35	0	255	62	20
+K_DeepCast_0m_mx_011	Bacteroidetes	Bacteroidetes	Bacteria	140619	96%	7.11E-06	0	0	0	0	0	1	0
+M_DeepCast_10m_m1_138	Bacteroidetes	Bacteroidetes	Bacteria	221138	81%	4.52E-06	0	0	0	0	0	1	0
+M_DeepCast_10m_mx_049	Bacteroidetes	Bacteroidetes	Bacteria	382398	89%	1.57E-05	0	0	0	0	2	4	0
+K_DeepCast_0m_m1_127	Bacteroidetes	Bacteroidetes	Bacteria	385053	96%	2.34E-05	0	0	2	0	2	5	0
+M_surface_10_m1_080	Bacteroidetes	Bacteroidetes	Bacteria	514885	95%	3.88E-05	1	0	1	0	6	12	0
+M_surface_7_m1_092	Bacteroidetes	Bacteroidetes	Bacteria	619564	94%	1.45E-05	0	0	0	0	2	7	0
+M_surface_7_m1_073	Bacteroidetes	Bacteroidetes	Bacteria	746853	94%	1.34E-05	0	0	1	0	1	8	0
+K_DeepCast_100m_m1_107	Bacteroidetes	Bacteroidetes	Bacteria	769230	96%	2.99E-05	1	0	3	0	8	11	0
+M_surface_10_m2_091	Bacteroidetes	Bacteroidetes	Bacteria	911222	94%	1.98E-05	1	0	4	0	6	7	0
+K_DeepCast_100m_mx_053	Bacteroidetes	Bacteroidetes	Bacteria	1018682	90%	1.87E-05	1	1	2	0	5	10	0
+M_DeepCast_10m_mx_163	Bacteroidetes	Bacteroidetes	Bacteria	1101874	95%	2.27E-05	0	0	4	0	8	13	0
+K_Offshore_0m_mx_172	Bacteroidetes	Bacteroidetes	Bacteria	1119872	96%	3.39E-05	0	1	3	0	12	22	0
+K_DeepCast_35m_m1_052	Bacteroidetes	Bacteroidetes	Bacteria	1224310	96%	2.45E-05	1	2	5	0	7	15	0
+M_surface_8_mx_204	Bacteroidetes	Bacteroidetes	Bacteria	1333933	95%	3.30E-05	1	0	9	0	14	20	0
+K_Offshore_0m_mx_046	Bacteroidetes	Bacteroidetes	Bacteria	1349154	95%	2.30E-05	2	1	7	0	7	14	0
+K_Offshore_40m_mx_286	Bacteroidetes	Bacteroidetes	Bacteria	1357430	95%	3.09E-05	1	2	5	0	14	20	0
+M_surface_8_m2_110	Bacteroidetes	Bacteroidetes	Bacteria	1416275	96%	2.47E-05	1	1	6	0	8	19	0
+M_surface_9_m1_013	Bacteroidetes	Bacteroidetes	Bacteria	1434524	95%	3.69E-05	2	5	6	0	24	16	0
+K_DeepCast_300m_m1_038	Bacteroidetes	Bacteroidetes	Bacteria	1506584	96%	2.59E-05	1	0	5	0	8	25	0
+M_DeepCast_100m_mx_304	Bacteroidetes	Bacteroidetes	Bacteria	1515898	95%	3.30E-05	0	0	5	0	13	32	0
+K_Offshore_surface_m2_088	Bacteroidetes	Bacteroidetes	Bacteria	1594965	96%	2.63E-05	1	1	9	0	13	18	0
+M_DeepCast_100m_mx_282	Bacteroidetes	Bacteroidetes	Bacteria	1602239	95%	2.50E-05	1	1	7	0	10	21	0
+M_surface_9_m2_088	Bacteroidetes	Bacteroidetes	Bacteria	1617339	96%	2.41E-05	1	0	6	0	17	15	0
+K_Offshore_120m_mx_094	Bacteroidetes	Bacteroidetes	Bacteria	1619956	94%	2.53E-05	2	1	6	0	10	22	0
+K_Offshore_surface_mx_261	Bacteroidetes	Bacteroidetes	Bacteria	1670217	95%	2.39E-05	2	1	3	0	9	25	0
+M_DeepCast_50m_m2_146	Bacteroidetes	Bacteroidetes	Bacteria	1698923	95%	2.00E-05	1	1	3	0	6	23	0
+M_surface_10_m1_166	Bacteroidetes	Bacteroidetes	Bacteria	1703775	89%	2.05E-05	0	0	1	0	10	22	2
+K_DeepCast_35m_m2_004	Bacteroidetes	Bacteroidetes	Bacteria	1711390	96%	2.92E-05	2	0	5	0	16	27	0
+M_surface_10_m2_196	Bacteroidetes	Bacteroidetes	Bacteria	1711764	92%	2.69E-05	2	4	8	0	18	14	0
+K_DeepCast_100m_m2_150	Bacteroidetes	Bacteroidetes	Bacteria	1714580	96%	2.62E-05	1	1	7	0	14	22	0
+M_DeepCast_100m_m1_345	Bacteroidetes	Bacteroidetes	Bacteria	1715241	96%	2.57E-05	3	0	4	0	15	22	0
+M_DeepCast_65m_mx_068	Bacteroidetes	Bacteroidetes	Bacteria	1739071	94%	2.36E-05	2	1	3	0	12	23	0
+M_surface_7_m2_191	Bacteroidetes	Bacteroidetes	Bacteria	1753866	96%	3.71E-05	1	5	9	0	30	20	0
+K_DeepCast_0m_m2_222	Bacteroidetes	Bacteroidetes	Bacteria	1763194	95%	3.23E-05	4	2	9	0	20	22	0
+M_DeepCast_50m_m1_018	Bacteroidetes	Bacteroidetes	Bacteria	1767145	94%	3.34E-05	4	4	6	0	24	21	0
+M_surface_9_mx_130	Bacteroidetes	Bacteroidetes	Bacteria	1775146	93%	3.04E-05	5	2	7	0	20	19	1
+M_surface_9_m1_296	Bacteroidetes	Bacteroidetes	Bacteria	1787557	95%	3.02E-05	2	2	7	0	18	25	0
+K_DeepCast_300m_mx_011	Bacteroidetes	Bacteroidetes	Bacteria	1883325	90%	2.55E-05	0	1	2	0	12	33	0
+K_DeepCast_35m_m2_065	Bacteroidetes	Bacteroidetes	Bacteria	1900281	94%	2.42E-05	1	1	5	0	10	29	0
+K_Offshore_40m_m1_004	Bacteroidetes	Bacteroidetes	Bacteria	1900676	95%	2.95E-05	2	2	7	0	19	26	0
+K_DeepCast_0m_m2_115	Bacteroidetes	Bacteroidetes	Bacteria	1954571	95%	2.61E-05	1	0	9	0	13	28	0
+K_Offshore_40m_m2_146	Bacteroidetes	Bacteroidetes	Bacteria	1968913	94%	2.44E-05	1	2	6	0	9	30	0
+M_surface_9_m1_282	Bacteroidetes	Bacteroidetes	Bacteria	2030142	94%	3.30E-05	4	2	12	0	20	29	0
+M_surface_9_m2_059	Bacteroidetes	Bacteroidetes	Bacteria	2042262	94%	2.25E-05	1	2	7	0	13	23	0
+M_DeepCast_50m_m1_285	Bacteroidetes	Bacteroidetes	Bacteria	2045854	95%	2.93E-05	2	1	8	0	21	28	0
+M_surface_9_m1_279	Bacteroidetes	Bacteroidetes	Bacteria	2065080	95%	2.91E-05	2	1	6	0	23	28	0
+M_surface_9_m1_277	Bacteroidetes	Bacteroidetes	Bacteria	2073851	96%	2.84E-05	1	0	9	0	22	27	0
+M_DeepCast_50m_m2_245	Bacteroidetes	Bacteroidetes	Bacteria	2089674	93%	2.87E-05	2	1	9	0	17	31	0
+K_Offshore_40m_m2_149	Bacteroidetes	Bacteroidetes	Bacteria	2149660	95%	2.65E-05	2	0	8	0	19	28	0
+M_DeepCast_50m_m1_274	Bacteroidetes	Bacteroidetes	Bacteria	2166413	92%	2.22E-05	1	1	7	0	11	28	0
+M_surface_10_mx_103	Bacteroidetes	Bacteroidetes	Bacteria	2169095	94%	2.67E-05	0	1	2	0	18	37	0
+M_surface_9_mx_152	Bacteroidetes	Bacteroidetes	Bacteria	2170035	95%	2.95E-05	1	0	5	0	21	37	0
+M_surface_7_m2_242	Bacteroidetes	Bacteroidetes	Bacteria	2200311	94%	2.73E-05	1	1	6	0	16	36	0
+M_surface_9_mx_199	Bacteroidetes	Bacteroidetes	Bacteria	2220027	96%	2.48E-05	1	0	7	0	20	27	0
+K_DeepCast_150m_m2_259	Bacteroidetes	Bacteroidetes	Bacteria	2250735	93%	2.53E-05	0	2	3	0	37	15	0
+M_surface_9_m1_271	Bacteroidetes	Bacteroidetes	Bacteria	2258967	95%	2.83E-05	2	1	5	0	15	41	0
+M_DeepCast_100m_mx_212	Bacteroidetes	Bacteroidetes	Bacteria	2328043	88%	3.65E-05	0	2	8	0	6	67	2
+K_DeepCast_100m_m2_024	Bacteroidetes	Bacteroidetes	Bacteria	2338424	93%	2.57E-05	1	1	6	0	15	37	0
+K_Offshore_surface_m2_005	Bacteroidetes	Bacteroidetes	Bacteria	2340679	96%	2.78E-05	1	2	11	0	18	33	0
+M_surface_9_m2_064	Bacteroidetes	Bacteroidetes	Bacteria	2450283	94%	2.69E-05	1	1	8	0	20	36	0
+K_DeepCast_35m_m2_130	Bacteroidetes	Bacteroidetes	Bacteria	2451745	91%	2.12E-05	1	1	9	0	8	33	0
+M_surface_6_mx_005	Bacteroidetes	Bacteroidetes	Bacteria	2464163	93%	3.08E-05	1	1	15	0	24	35	0
+K_DeepCast_100m_m1_299	Bacteroidetes	Bacteroidetes	Bacteria	2533706	92%	3.83E-05	0	0	6	0	8	82	1
+K_Offshore_80m_m1_206	Bacteroidetes	Bacteroidetes	Bacteria	2638116	90%	2.58E-05	3	2	13	0	23	27	0
+K_Offshore_40m_m1_251	Bacteroidetes	Bacteroidetes	Bacteria	2648373	92%	3.10E-05	6	4	13	0	35	24	0
+K_DeepCast_250m_m2_333	Bacteroidetes	Bacteroidetes	Bacteria	2671414	92%	2.32E-05	1	1	9	0	12	39	0
+K_Offshore_40m_m2_287	Bacteroidetes	Bacteroidetes	Bacteria	2772386	94%	3.32E-05	8	7	15	0	37	25	0
+M_surface_10_m2_039	Bacteroidetes	Bacteroidetes	Bacteria	2836937	78%	1.80E-05	2	1	4	0	19	25	0
+K_DeepCast_150m_m2_049	Bacteroidetes	Bacteroidetes	Bacteria	2839959	92%	2.22E-05	0	3	8	0	15	36	1
+M_surface_9_m1_241	Bacteroidetes	Bacteroidetes	Bacteria	2847907	92%	4.53E-05	4	10	17	0	53	44	1
+K_DeepCast_250m_mx_282	Bacteroidetes	Bacteroidetes	Bacteria	2860067	91%	2.69E-05	2	4	5	0	21	45	0
+K_Offshore_surface_m2_247	Bacteroidetes	Bacteroidetes	Bacteria	2993297	87%	3.44E-05	4	8	27	0	25	37	2
+K_Offshore_0m_m2_159	Bacteroidetes	Bacteroidetes	Bacteria	2995160	94%	2.34E-05	1	2	11	0	20	36	0
+M_surface_8_mx_127	Bacteroidetes	Bacteroidetes	Bacteria	3004736	85%	1.86E-05	0	2	4	0	2	47	1
+K_DeepCast_100m_m2_162	Bacteroidetes	Bacteroidetes	Bacteria	3128383	89%	2.05E-05	0	3	4	0	28	29	0
+M_DeepCast_100m_m2_350	Bacteroidetes	Bacteroidetes	Bacteria	3138105	92%	2.29E-05	1	4	8	0	22	37	0
+M_surface_8_m1_077	Bacteroidetes	Bacteroidetes	Bacteria	3291715	92%	2.46E-05	1	1	9	0	17	52	1
+K_DeepCast_0m_m2_211	Bacteroidetes	Bacteroidetes	Bacteria	3333620	92%	2.10E-05	1	3	9	0	17	40	0
+M_surface_6_mx_051	Bacteroidetes	Bacteroidetes	Bacteria	3429656	87%	2.22E-05	0	0	5	0	8	62	1
+M_DeepCast_10m_m1_232	Bacteroidetes	Bacteroidetes	Bacteria	3754008	93%	2.61E-05	1	4	14	0	21	58	0
+M_surface_7_m1_164	Betaproteobacteria	Betaproteobacteria	Bacteria	393230	96%	2.03E-05	1	0	2	0	0	5	0
+M_surface_6_m1_036	Betaproteobacteria	Betaproteobacteria	Bacteria	783763	95%	1.02E-05	1	0	2	0	3	2	0
+K_DeepCast_150m_m2_250	Betaproteobacteria	Betaproteobacteria	Bacteria	1397722	94%	1.57E-05	2	1	1	0	8	10	0
+M_DeepCast_65m_m2_126	Betaproteobacteria	Betaproteobacteria	Bacteria	1561023	90%	1.79E-05	2	1	1	0	8	16	0
+K_DeepCast_35m_m1_018	Betaproteobacteria	Betaproteobacteria	Bacteria	1563733	95%	1.09E-05	3	0	2	0	5	7	0
+K_Offshore_40m_m2_212	Betaproteobacteria	Betaproteobacteria	Bacteria	1579616	95%	1.27E-05	5	0	3	0	4	8	0
+K_Offshore_40m_mx_130	Betaproteobacteria	Betaproteobacteria	Bacteria	1614181	92%	1.42E-05	3	0	2	0	6	12	0
+K_Offshore_120m_m1_203	Betaproteobacteria	Betaproteobacteria	Bacteria	1630466	92%	1.17E-05	4	0	4	0	5	6	0
+K_Offshore_40m_mx_206	Betaproteobacteria	Betaproteobacteria	Bacteria	1644519	91%	2.25E-05	2	2	3	0	3	27	0
+K_Offshore_0m_mx_055	Betaproteobacteria	Betaproteobacteria	Bacteria	1650932	91%	1.03E-05	0	0	2	0	7	8	0
+M_surface_10_m1_233	Betaproteobacteria	Betaproteobacteria	Bacteria	1651207	92%	2.42E-05	5	0	4	0	11	20	0
+M_surface_10_m1_315	Betaproteobacteria	Betaproteobacteria	Bacteria	1657532	94%	1.21E-05	4	0	3	0	6	7	0
+M_surface_6_mx_048	Betaproteobacteria	Betaproteobacteria	Bacteria	1968439	91%	1.52E-05	2	1	4	0	6	16	1
+K_Offshore_surface_m1_010	Betaproteobacteria	Betaproteobacteria	Bacteria	1978166	93%	1.92E-05	5	0	2	0	6	25	0
+K_Offshore_40m_m1_292	Betaproteobacteria	Betaproteobacteria	Bacteria	1988668	93%	8.05E-06	3	0	3	0	3	7	0
+K_Offshore_surface_m2_092	Betaproteobacteria	Betaproteobacteria	Bacteria	2048865	93%	1.37E-05	3	0	5	0	5	15	0
+K_Offshore_surface_m1_273	Betaproteobacteria	Betaproteobacteria	Bacteria	2072036	90%	1.59E-05	3	0	2	0	6	22	0
+K_Offshore_40m_m1_259	Betaproteobacteria	Betaproteobacteria	Bacteria	2136761	94%	1.54E-05	4	0	3	0	6	20	0
+K_Offshore_surface_m1_265	Betaproteobacteria	Betaproteobacteria	Bacteria	2159504	94%	1.71E-05	11	0	4	0	5	16	1
+K_DeepCast_35m_m2_259	Betaproteobacteria	Betaproteobacteria	Bacteria	2170900	93%	1.06E-05	5	0	2	0	3	13	0
+M_DeepCast_100m_m2_214	Betaproteobacteria	Betaproteobacteria	Bacteria	2261204	94%	9.29E-06	4	0	2	0	6	9	0
+K_Offshore_surface_m2_066	Betaproteobacteria	Betaproteobacteria	Bacteria	2452641	91%	1.59E-05	5	0	3	0	8	23	0
+K_DeepCast_65m_m2_129	Betaproteobacteria	Betaproteobacteria	Bacteria	2512652	94%	1.31E-05	9	0	3	0	7	14	0
+K_Offshore_0m_m1_114	Betaproteobacteria	Betaproteobacteria	Bacteria	2554248	91%	1.53E-05	2	1	7	0	9	20	0
+M_DeepCast_100m_m1_373	Betaproteobacteria	Betaproteobacteria	Bacteria	2673706	94%	1.42E-05	5	2	2	0	11	18	0
+K_DeepCast_150m_m1_387	Betaproteobacteria	Betaproteobacteria	Bacteria	2696632	92%	1.19E-05	3	1	1	0	11	16	0
+M_surface_9_m1_249	Betaproteobacteria	Betaproteobacteria	Bacteria	2703089	93%	1.89E-05	5	1	11	0	14	20	0
+K_Offshore_40m_mx_035	Betaproteobacteria	Betaproteobacteria	Bacteria	2709013	91%	1.33E-05	5	0	5	0	8	17	1
+K_DeepCast_35m_m1_286	Betaproteobacteria	Betaproteobacteria	Bacteria	2950379	91%	1.15E-05	6	1	6	0	9	12	0
+K_Offshore_40m_m1_237	Betaproteobacteria	Betaproteobacteria	Bacteria	3102617	92%	1.42E-05	5	0	11	0	8	20	0
+K_Offshore_40m_m2_080	Betaproteobacteria	Betaproteobacteria	Bacteria	3106837	93%	1.32E-05	8	0	9	0	10	14	0
+K_Offshore_40m_m2_045	Betaproteobacteria	Betaproteobacteria	Bacteria	3112246	91%	1.25E-05	6	0	1	0	9	23	0
+K_Offshore_80m_m2_043	Betaproteobacteria	Betaproteobacteria	Bacteria	3112902	88%	1.83E-05	14	0	6	0	6	31	0
+M_DeepCast_65m_m2_058	Betaproteobacteria	Betaproteobacteria	Bacteria	3146080	94%	1.75E-05	7	1	8	0	10	29	0
+K_Offshore_0m_mx_098	Betaproteobacteria	Betaproteobacteria	Bacteria	3268850	92%	1.47E-05	7	0	1	0	13	27	0
+K_Offshore_120m_m2_141	Betaproteobacteria	Betaproteobacteria	Bacteria	3763220	91%	1.86E-05	7	2	7	0	14	39	1
+M_surface_10_mx_121	Betaproteobacteria	Betaproteobacteria	Bacteria	3768173	91%	1.65E-05	5	0	11	0	12	34	0
+K_Offshore_80m_m1_178	Betaproteobacteria	Betaproteobacteria	Bacteria	3915125	88%	1.17E-05	4	2	5	0	15	20	0
+K_Offshore_80m_m2_113	Betaproteobacteria	Betaproteobacteria	Bacteria	4546803	88%	1.19E-05	11	0	11	0	13	19	0
+M_surface_7_m1_304	Betaproteobacteria	Betaproteobacteria	Bacteria	4665477	94%	1.05E-05	13	0	10	0	9	17	0
+K_Offshore_80m_m2_139	Betaproteobacteria	Betaproteobacteria	Bacteria	4786956	91%	1.38E-05	7	2	7	0	17	31	2
+M_DeepCast_400m_m2_340	Calditrichaeota	Calditrichaeota	Bacteria	1280443	92%	2.50E-05	1	1	4	0	6	20	0
+K_DeepCast_100m_mx_254	Calditrichaeota	Calditrichaeota	Bacteria	2767287	90%	2.24E-05	1	5	5	0	14	37	0
+M_DeepCast_65m_m1_265	Calditrichaeota	Calditrichaeota	Bacteria	2903125	91%	2.10E-05	1	1	6	0	11	42	0
+K_DeepCast_250m_m2_227	Calditrichaeota	Calditrichaeota	Bacteria	3099451	88%	1.94E-05	1	3	4	0	11	41	0
+M_DeepCast_50m_m2_212	Chlamydiae	Chlamydiae	Bacteria	569920	92%	1.40E-05	0	0	1	0	1	6	0
+M_DeepCast_50m_m2_194	Chlamydiae	Chlamydiae	Bacteria	904788	91%	2.21E-05	0	1	3	0	3	13	0
+K_DeepCast_35m_m1_073	Chlamydiae	Chlamydiae	Bacteria	951170	92%	2.10E-05	0	0	1	0	7	12	0
+K_DeepCast_35m_m2_204	Chlamydiae	Chlamydiae	Bacteria	1392548	92%	1.44E-05	0	1	1	0	7	11	0
+K_DeepCast_35m_m2_096	Chlamydiae	Chlamydiae	Bacteria	1419342	90%	1.34E-05	0	0	1	0	7	11	0
+M_surface_7_m1_001	Chlamydiae	Chlamydiae	Bacteria	1527882	92%	1.77E-05	0	1	2	0	6	18	0
+M_DeepCast_50m_m2_029	Chlamydiae	Chlamydiae	Bacteria	1547280	90%	2.00E-05	0	0	2	0	11	18	0
+K_DeepCast_35m_m1_012	Chlamydiae	Chlamydiae	Bacteria	1627192	92%	1.91E-05	0	1	3	0	7	20	0
+K_Offshore_120m_m2_055	Chlamydiae	Chlamydiae	Bacteria	1711665	92%	1.75E-05	0	1	2	0	7	20	0
+M_surface_9_m2_137	Chlamydiae	Chlamydiae	Bacteria	1879416	90%	2.23E-05	1	2	2	0	9	28	0
+M_DeepCast_65m_m2_268	Chlorobi	Chlorobi	Bacteria	2243535	89%	1.92E-05	0	0	3	0	11	29	0
+K_DeepCast_1200m_m2_283	Chlorobi	Chlorobi	Bacteria	2377652	90%	2.14E-05	0	0	3	0	13	35	0
+M_DeepCast_200m_m1_174	Chloroflexi	Chloroflexi	Bacteria	657112	89%	9.13E-06	0	0	2	0	0	4	0
+M_DeepCast_400m_m1_178	Chloroflexi	Chloroflexi	Bacteria	837331	91%	3.58E-05	0	0	4	0	7	19	0
+M_DeepCast_400m_m2_269	Chloroflexi	Chloroflexi	Bacteria	1001925	90%	7.98E-06	1	1	0	0	2	4	0
+M_DeepCast_200m_m1_116	Chloroflexi	Chloroflexi	Bacteria	1155628	91%	4.41E-05	1	5	7	0	24	14	0
+K_DeepCast_100m_m1_112	Chloroflexi	Chloroflexi	Bacteria	1171020	92%	5.98E-06	1	0	0	0	3	3	0
+K_DeepCast_300m_m2_134	Chloroflexi	Chloroflexi	Bacteria	1212648	89%	1.48E-05	4	0	5	0	0	9	0
+M_surface_10_mx_194	Chloroflexi	Chloroflexi	Bacteria	1337521	91%	4.11E-05	1	0	7	0	12	35	0
+K_DeepCast_250m_mx_116	Chloroflexi	Chloroflexi	Bacteria	1465205	90%	1.02E-05	2	1	1	0	5	6	0
+M_DeepCast_200m_mx_261	Chloroflexi	Chloroflexi	Bacteria	1485713	90%	1.68E-05	0	1	2	0	6	15	1
+K_DeepCast_150m_m2_267	Chloroflexi	Chloroflexi	Bacteria	1563931	91%	2.17E-05	1	0	3	0	4	26	0
+M_DeepCast_400m_m2_044	Chloroflexi	Chloroflexi	Bacteria	1678087	90%	1.07E-05	1	0	2	0	4	11	0
+K_DeepCast_65m_m1_015	Chloroflexi	Chloroflexi	Bacteria	1684401	87%	1.13E-05	1	0	7	0	4	5	2
+K_Offshore_80m_m2_157	Chloroflexi	Chloroflexi	Bacteria	1686000	94%	1.72E-05	0	0	4	0	4	21	0
+K_DeepCast_150m_m1_063	Chloroflexi	Chloroflexi	Bacteria	1707427	90%	1.17E-05	1	0	2	0	3	14	0
+K_DeepCast_250m_m2_195	Chloroflexi	Chloroflexi	Bacteria	1745554	91%	6.30E-06	0	0	0	0	2	9	0
+K_Offshore_80m_m1_004	Chloroflexi	Chloroflexi	Bacteria	1804332	89%	7.20E-06	0	0	5	0	1	7	0
+M_DeepCast_100m_mx_191	Chloroflexi	Chloroflexi	Bacteria	1852737	90%	1.62E-05	4	0	3	0	6	17	0
+K_DeepCast_100m_m2_152	Chloroflexi	Chloroflexi	Bacteria	1901682	89%	1.21E-05	2	0	5	0	4	12	0
+K_Offshore_80m_m2_170	Chloroflexi	Chloroflexi	Bacteria	1905784	87%	8.40E-06	1	0	5	0	1	9	0
+M_DeepCast_400m_m2_252	Chloroflexi	Chloroflexi	Bacteria	1956027	90%	9.71E-06	3	0	2	0	2	12	0
+K_DeepCast_250m_m1_047	Chloroflexi	Chloroflexi	Bacteria	1958852	90%	2.04E-05	5	0	5	0	6	24	0
+M_DeepCast_400m_m2_207	Chloroflexi	Chloroflexi	Bacteria	1967939	89%	1.17E-05	2	0	2	0	5	14	0
+K_DeepCast_150m_m2_167	Chloroflexi	Chloroflexi	Bacteria	1978023	91%	2.98E-05	1	0	5	0	20	32	1
+K_Offshore_80m_m2_034	Chloroflexi	Chloroflexi	Bacteria	2002254	88%	1.65E-05	1	1	3	0	9	19	0
+M_DeepCast_200m_m2_208	Chloroflexi	Chloroflexi	Bacteria	2007609	87%	1.10E-05	1	0	2	0	6	13	0
+M_DeepCast_50m_m2_054	Chloroflexi	Chloroflexi	Bacteria	2058424	92%	2.04E-05	4	0	8	0	8	22	0
+K_Offshore_80m_m2_183	Chloroflexi	Chloroflexi	Bacteria	2094126	90%	1.00E-05	1	0	9	0	0	11	0
+M_DeepCast_400m_m2_020	Chloroflexi	Chloroflexi	Bacteria	2163404	89%	1.02E-05	5	1	1	0	5	10	0
+M_surface_10_mx_126	Chloroflexi	Chloroflexi	Bacteria	2186876	92%	1.51E-05	1	2	1	0	8	21	0
+K_DeepCast_150m_m2_048	Chloroflexi	Chloroflexi	Bacteria	2227966	88%	9.87E-06	7	0	2	0	5	8	0
+K_Offshore_120m_m2_146	Chloroflexi	Chloroflexi	Bacteria	2275333	89%	1.19E-05	3	0	5	0	1	17	1
+K_DeepCast_150m_m1_015	Chloroflexi	Chloroflexi	Bacteria	2313938	89%	1.17E-05	3	0	4	0	6	14	0
+M_DeepCast_50m_m2_018	Chloroflexi	Chloroflexi	Bacteria	2338606	89%	1.41E-05	5	0	9	0	8	11	0
+M_DeepCast_200m_m1_335	Chloroflexi	Chloroflexi	Bacteria	2412012	90%	1.45E-05	5	0	4	0	7	19	0
+M_DeepCast_200m_m2_194	Chloroflexi	Chloroflexi	Bacteria	2436818	89%	2.38E-05	5	2	2	0	9	40	0
+K_Offshore_80m_m2_218	Chloroflexi	Chloroflexi	Bacteria	2517464	89%	1.19E-05	3	1	5	0	8	13	0
+K_DeepCast_250m_m2_143	Chloroflexi	Chloroflexi	Bacteria	2533325	85%	9.47E-06	2	4	2	0	4	12	0
+K_Offshore_80m_m2_084	Chloroflexi	Chloroflexi	Bacteria	2610834	85%	1.26E-05	11	1	8	0	2	11	0
+M_DeepCast_200m_mx_194	Chloroflexi	Chloroflexi	Bacteria	2613658	86%	9.95E-06	1	0	1	0	6	18	0
+K_DeepCast_65m_m2_033	Chloroflexi	Chloroflexi	Bacteria	2702280	84%	1.15E-05	8	0	8	0	2	13	0
+K_DeepCast_1200m_m1_340	Chloroflexi	Chloroflexi	Bacteria	2712177	90%	2.32E-05	2	0	6	0	11	44	0
+K_DeepCast_300m_mx_124	Chloroflexi	Chloroflexi	Bacteria	2798993	87%	3.61E-05	2	11	12	0	67	9	0
+K_Offshore_80m_m2_197	Chloroflexi	Chloroflexi	Bacteria	2852937	90%	1.65E-05	3	0	13	0	12	18	1
+K_Offshore_120m_m2_037	Chloroflexi	Chloroflexi	Bacteria	2854264	88%	1.02E-05	4	0	14	0	3	8	0
+K_DeepCast_150m_m2_126	Chloroflexi	Chloroflexi	Bacteria	2856360	90%	2.38E-05	0	1	9	0	21	36	1
+K_Offshore_80m_m2_174	Chloroflexi	Chloroflexi	Bacteria	2884020	92%	3.19E-05	6	2	18	0	29	37	0
+K_Offshore_surface_m1_220	Chloroflexi	Chloroflexi	Bacteria	2985617	93%	4.42E-05	3	4	13	0	50	62	0
+M_DeepCast_100m_mx_312	Chloroflexi	Chloroflexi	Bacteria	3069225	86%	3.03E-05	0	1	9	0	40	43	0
+K_Offshore_80m_m2_079	Chloroflexi	Chloroflexi	Bacteria	3071567	87%	1.95E-05	2	2	12	0	21	23	0
+M_DeepCast_65m_m2_156	Chloroflexi	Chloroflexi	Bacteria	3138775	91%	2.77E-05	1	1	10	0	37	36	2
+K_DeepCast_100m_m1_286	Chloroflexi	Chloroflexi	Bacteria	3155385	92%	3.33E-05	3	1	13	0	21	67	0
+K_DeepCast_150m_m2_071	Chloroflexi	Chloroflexi	Bacteria	3196865	91%	2.66E-05	3	1	11	0	30	39	1
+K_DeepCast_250m_m1_342	Chloroflexi	Chloroflexi	Bacteria	3246045	90%	2.65E-05	1	1	8	1	18	56	1
+K_Offshore_80m_m1_189	Chloroflexi	Chloroflexi	Bacteria	3375585	91%	2.96E-05	4	2	19	0	28	47	0
+K_DeepCast_100m_m2_305	Chloroflexi	Chloroflexi	Bacteria	3634265	91%	2.83E-05	2	0	15	0	26	59	1
+M_DeepCast_400m_m2_027	Chloroflexi	Chloroflexi	Bacteria	3637119	87%	1.35E-05	5	0	2	0	8	34	0
+K_DeepCast_100m_m2_203	Chloroflexi	Chloroflexi	Bacteria	3742704	89%	2.16E-05	3	0	12	0	15	50	1
+M_DeepCast_400m_m2_351	Chloroflexi	Chloroflexi	Bacteria	3812439	91%	4.12E-05	1	4	15	0	33	101	3
+K_Offshore_80m_m1_179	Chloroflexi	Chloroflexi	Bacteria	3870739	88%	2.12E-05	6	3	10	0	16	47	0
+K_DeepCast_300m_mx_197	Chloroflexi	Chloroflexi	Bacteria	4098761	87%	2.20E-05	2	5	4	0	38	40	1
+M_DeepCast_65m_m1_226	Chloroflexi	Chloroflexi	Bacteria	4150894	92%	3.06E-05	2	5	9	0	28	82	1
+K_DeepCast_1200m_m1_255	Chloroflexi	Chloroflexi	Bacteria	4243055	89%	3.79E-05	1	6	17	0	74	62	1
+K_DeepCast_250m_m2_317	Chloroflexi	Chloroflexi	Bacteria	4288286	90%	2.98E-05	0	7	7	0	43	70	1
+K_DeepCast_250m_m1_199	Chloroflexi	Chloroflexi	Bacteria	4800272	89%	3.29E-05	2	1	24	0	31	96	4
+K_DeepCast_250m_m2_061	Chloroflexi	Chloroflexi	Bacteria	6531770	90%	3.22E-05	3	20	21	0	94	69	3
+K_DeepCast_250m_m1_172	CP Aenigmarchaeota	CP Aenigmarchaeota	Archaea	772247	89%	1.68E-05	0	0	1	0	1	11	0
+M_DeepCast_200m_m2_220	CP Altiarchaeota	CP Altiarchaeota	Archaea	1152678	91%	2.00E-05	1	1	1	0	4	16	0
+M_DeepCast_400m_m2_133	CP Aminicemantes (OP8)	CP Aminicemantes (OP8)	Bacteria	1453565	91%	2.96E-05	1	1	4	0	12	25	0
+M_DeepCast_400m_m2_293	CP Aminicemantes (OP8)	CP Aminicemantes (OP8)	Bacteria	2441500	91%	3.48E-05	0	9	10	0	20	46	0
+K_DeepCast_150m_m1_388	CP Aminicemantes (OP8)	CP Aminicemantes (OP8)	Bacteria	2664845	93%	2.63E-05	3	10	8	0	34	15	0
+K_DeepCast_250m_m1_044	CP Aminicemantes (OP8)	CP Aminicemantes (OP8)	Bacteria	3330130	93%	3.51E-05	1	16	11	0	48	41	0
+M_DeepCast_400m_m2_244	CP Aminicemantes (OP8)	CP Aminicemantes (OP8)	Bacteria	3450504	93%	3.59E-05	2	10	13	0	47	52	0
+K_DeepCast_1200m_m2_098	CP Aminicemantes (OP8)	CP Aminicemantes (OP8)	Bacteria	3799480	93%	3.53E-05	2	15	11	0	49	57	0
+K_DeepCast_250m_mx_298	CP Bathyarchaeota	CP Bathyarchaeota	Archaea	1073225	88%	1.58E-05	0	0	0	0	3	14	0
+K_DeepCast_250m_m2_015	CP Bathyarchaeota	CP Bathyarchaeota	Archaea	1615704	90%	1.42E-05	2	1	6	0	2	12	0
+K_DeepCast_1200m_m1_317	CP BRC1	CP BRC1	Bacteria	3159967	85%	4.87E-05	2	4	18	0	69	51	10
+M_DeepCast_400m_m1_028	CP Eisenbacteria	CP Eisenbacteria	Bacteria	2188303	94%	3.61E-05	2	4	5	0	19	47	2
+M_DeepCast_400m_m2_100	CP Eisenbacteria	CP Eisenbacteria	Bacteria	3252766	90%	2.00E-05	0	5	4	0	10	45	1
+K_DeepCast_250m_m1_333	CP Eisenbacteria	CP Eisenbacteria	Bacteria	3350507	92%	2.51E-05	1	4	6	0	11	61	1
+K_DeepCast_150m_m1_344	CP Eisenbacteria	CP Eisenbacteria	Bacteria	3516609	90%	2.90E-05	1	1	11	0	14	75	0
+M_DeepCast_400m_m1_172	CP Fraserbacteria	CP Fraserbacteria	Bacteria	843476	92%	1.54E-05	0	2	2	0	3	6	0
+K_DeepCast_250m_m1_078	CP Gottesmanbacteria	CP Gottesmanbacteria	Bacteria	1631538	90%	4.47E-05	0	2	2	0	4	65	0
+M_DeepCast_400m_m2_153	CP Gribaldobacteria	CP Gribaldobacteria	Bacteria	421872	89%	1.66E-05	0	0	1	0	1	5	0
+K_DeepCast_65m_m1_133	CP Handelsmanbacteria	CP Handelsmanbacteria	Bacteria	4944551	91%	2.99E-05	3	8	11	0	67	57	2
+K_Offshore_80m_m1_122	CP Handelsmanbacteria	CP Handelsmanbacteria	Bacteria	5621577	93%	3.08E-05	3	10	18	0	76	65	1
+K_Offshore_120m_m1_041	CP Harrisonbacteria	CP Harrisonbacteria	Bacteria	631534	83%	2.06E-05	0	0	1	0	0	12	0
+M_DeepCast_65m_m2_204	CP Hydrogenedentes	CP Hydrogenedentes	Bacteria	2629029	88%	4.83E-05	2	5	15	0	64	41	0
+M_DeepCast_65m_m1_095	CP Kaiserbacteria	CP Kaiserbacteria	Bacteria	1008099	86%	1.59E-05	0	0	0	0	4	12	0
+M_DeepCast_65m_mx_099	CP Kaiserbacteria	CP Kaiserbacteria	Bacteria	1932875	89%	2.54E-05	0	1	4	0	13	29	2
+M_DeepCast_50m_m2_187	CP Liptonbacteria	CP Liptonbacteria	Bacteria	878862	89%	1.93E-05	0	0	1	0	2	13	1
+K_DeepCast_150m_m2_121	CP Micrarchaeota	CP Micrarchaeota	Archaea	405757	92%	1.48E-05	0	0	1	0	0	5	0
+K_DeepCast_250m_m2_117	CP Micrarchaeota	CP Micrarchaeota	Archaea	983510	92%	2.03E-05	0	0	2	0	3	15	0
+K_DeepCast_150m_m2_305	CP Moranbacteria	CP Moranbacteria	Bacteria	869887	89%	4.25E-05	0	0	0	0	2	35	0
+K_DeepCast_300m_m1_142	CP Nealsonbacteria	CP Nealsonbacteria	Bacteria	436548	94%	1.15E-05	0	0	0	0	0	5	0
+K_DeepCast_250m_m1_236	CP Nealsonbacteria	CP Nealsonbacteria	Bacteria	447797	92%	1.79E-05	0	0	0	0	4	4	0
+M_DeepCast_400m_m2_122	CP Nealsonbacteria	CP Nealsonbacteria	Bacteria	531980	88%	2.44E-05	0	0	0	0	1	12	0
+M_DeepCast_400m_m2_303	CP Pacearchaeota	CP Pacearchaeota	Archaea	460171	91%	1.30E-05	0	0	0	0	2	4	0
+K_Offshore_80m_m2_097	CP Pacearchaeota	CP Pacearchaeota	Archaea	593061	90%	2.36E-05	0	0	0	0	0	13	1
+M_DeepCast_50m_m2_169	CP Pacearchaeota	CP Pacearchaeota	Archaea	685645	90%	2.77E-05	0	0	0	0	0	19	0
+K_DeepCast_100m_m1_149	CP Pacearchaeota	CP Pacearchaeota	Archaea	751174	90%	2.13E-05	0	0	0	0	1	15	0
+K_Offshore_120m_m2_023	CP Pacearchaeota	CP Pacearchaeota	Archaea	805708	89%	2.48E-05	0	0	0	0	1	18	1
+M_DeepCast_400m_m2_082	CP Pacearchaeota	CP Pacearchaeota	Archaea	1064373	88%	2.16E-05	0	0	0	0	1	22	0
+K_DeepCast_65m_m2_166	CP Parcubacteria	CP Parcubacteria	Bacteria	375820	93%	1.86E-05	0	0	0	0	1	6	0
+K_Offshore_120m_mx_096	CP Parcubacteria	CP Parcubacteria	Bacteria	795067	86%	1.76E-05	0	1	1	0	0	12	0
+M_DeepCast_65m_m1_132	CP Parvarchaeota	CP Parvarchaeota	Archaea	613032	92%	8.16E-06	0	0	0	0	2	3	0
+M_DeepCast_65m_mx_140	CP Parvarchaeota	CP Parvarchaeota	Archaea	1247274	89%	1.12E-05	0	0	0	0	0	14	0
+K_Offshore_120m_m1_009	CP Peribacteria	CP Peribacteria	Bacteria	1121510	91%	2.94E-05	0	0	2	0	2	29	0
+K_DeepCast_65m_m2_238	CP Perigrinibacteria	CP Perigrinibacteria	Bacteria	1056455	90%	3.88E-05	0	0	1	0	2	38	0
+K_DeepCast_300m_m1_220	CP Poribacteria	CP Poribacteria	Bacteria	2717832	89%	4.01E-05	1	4	9	2	59	28	6
+K_DeepCast_300m_mx_113	CP Poribacteria	CP Poribacteria	Bacteria	2770732	90%	4.55E-05	0	10	13	0	75	27	1
+M_DeepCast_400m_m1_357	CP Poribacteria	CP Poribacteria	Bacteria	2992290	89%	4.31E-05	1	12	10	0	68	32	6
+K_DeepCast_1200m_m1_294	CP Poribacteria	CP Poribacteria	Bacteria	3745953	88%	3.63E-05	1	11	13	3	61	46	1
+M_DeepCast_65m_m2_014	CP Poribacteria	CP Poribacteria	Bacteria	4345014	92%	3.15E-05	1	17	17	0	68	26	8
+K_DeepCast_250m_mx_079	CP Poribacteria	CP Poribacteria	Bacteria	4647176	89%	4.09E-05	4	14	11	3	109	42	7
+K_DeepCast_1200m_m1_314	CP Poribacteria	CP Poribacteria	Bacteria	8159157	85%	2.56E-05	7	35	28	0	94	39	6
+M_DeepCast_200m_m2_052	CP Poribacteria	CP Poribacteria	Bacteria	9841100	84%	3.15E-05	7	45	39	0	176	38	5
+M_DeepCast_400m_m2_140	CP Roizmanbacteria	CP Roizmanbacteria	Bacteria	782032	91%	4.48E-05	0	0	0	0	0	35	0
+M_DeepCast_50m_m1_244	CP Rokubacteria	CP Rokubacteria	Bacteria	4800226	94%	2.00E-05	7	2	13	0	25	49	0
+M_DeepCast_50m_m1_133	CP Rokubacteria	CP Rokubacteria	Bacteria	5133623	93%	1.64E-05	7	0	20	0	17	40	0
+K_DeepCast_1200m_m2_081	CP Saccharibacteria	CP Saccharibacteria	Bacteria	848146	91%	3.30E-05	0	1	1	0	7	19	0
+K_DeepCast_250m_mx_219	CP Shapirobacteria	CP Shapirobacteria	Bacteria	687251	92%	6.98E-05	0	1	1	0	1	45	0
+K_DeepCast_150m_m1_139	CP Shapirobacteria	CP Shapirobacteria	Bacteria	1005243	91%	4.87E-05	0	0	1	0	2	46	0
+K_DeepCast_300m_mx_184	CP Staskawiczbacteria	CP Staskawiczbacteria	Bacteria	289127	88%	2.08E-05	0	0	0	0	0	6	0
+M_DeepCast_50m_m2_049	CP Staskawiczbacteria	CP Staskawiczbacteria	Bacteria	916196	90%	3.27E-05	0	0	0	0	1	28	1
+K_DeepCast_65m_m2_236	CP Tanganyikabacteria	CP Tanganyikabacteria	Bacteria	2533648	90%	1.97E-05	2	1	4	0	23	20	0
+K_Offshore_40m_m2_103	CP Tanganyikabacteria	CP Tanganyikabacteria	Bacteria	2851896	94%	2.45E-05	2	0	10	0	26	32	0
+M_DeepCast_65m_m2_071	CP Tanganyikabacteria	CP Tanganyikabacteria	Bacteria	6120079	91%	2.35E-05	7	0	12	0	61	62	2
+M_DeepCast_50m_m1_122	CP Tectomicrobia	CP Tectomicrobia	Bacteria	1136683	90%	3.69E-05	1	0	4	0	1	36	0
+K_DeepCast_65m_m2_066	CP Tectomicrobia	CP Tectomicrobia	Bacteria	5007022	89%	1.44E-05	12	2	23	0	11	24	0
+K_Offshore_120m_mx_063	CP Tectomicrobia	CP Tectomicrobia	Bacteria	5082042	89%	1.89E-05	2	2	9	0	17	65	1
+M_DeepCast_50m_m1_120	CP TM6	CP TM6	Bacteria	568853	88%	7.03E-06	0	0	0	0	2	2	0
+K_Offshore_40m_m1_063	CP TM6	CP TM6	Bacteria	1034239	91%	5.80E-06	0	0	0	0	0	6	0
+K_Offshore_120m_m2_035	CP TM6	CP TM6	Bacteria	1218045	91%	1.81E-05	1	0	2	0	0	18	1
+K_DeepCast_35m_m1_037	CP TM6	CP TM6	Bacteria	1327504	90%	1.81E-05	0	0	1	0	1	22	0
+M_DeepCast_50m_m2_233	CP Urhbacteria	CP Urhbacteria	Bacteria	722956	89%	2.77E-05	0	0	0	0	2	18	0
+M_DeepCast_50m_m1_090	CP Urhbacteria	CP Urhbacteria	Bacteria	833911	92%	3.72E-05	0	0	2	0	2	27	0
+M_DeepCast_400m_m2_128	CP Verstraetaerchaeota	CP Verstraetaerchaeota	Archaea	1451440	89%	1.38E-05	1	1	1	0	7	10	0
+K_Offshore_40m_m1_111	CP Verstraetaerchaeota	CP Verstraetaerchaeota	Archaea	152327165	34%	3.28E-07	0	1	2	0	13	34	0
+M_DeepCast_400m_m2_096	CP WOR-2 Omnitrophica	CP WOR-2 Omnitrophica	Bacteria	822666	95%	2.31E-05	0	0	3	0	5	11	0
+M_DeepCast_400m_m2_339	CP WOR-2 Omnitrophica	CP WOR-2 Omnitrophica	Bacteria	933501	93%	2.57E-05	1	0	0	0	8	15	0
+K_DeepCast_150m_m2_086	CP WOR-2 Omnitrophica	CP WOR-2 Omnitrophica	Bacteria	1063397	94%	3.48E-05	1	0	3	0	6	27	0
+M_DeepCast_400m_m2_183	CP WOR-2 Omnitrophica	CP WOR-2 Omnitrophica	Bacteria	1189554	90%	3.19E-05	2	2	2	0	9	23	0
+M_DeepCast_400m_m1_102	CP WOR-2 Omnitrophica	CP WOR-2 Omnitrophica	Bacteria	1374908	95%	4.58E-05	1	0	4	0	7	51	0
+K_DeepCast_250m_m2_027	CP WOR-2 Omnitrophica	CP WOR-2 Omnitrophica	Bacteria	1408423	92%	2.98E-05	1	2	3	0	8	28	0
+M_DeepCast_200m_m2_189	CP WOR-2 Omnitrophica	CP WOR-2 Omnitrophica	Bacteria	1471138	95%	3.33E-05	0	0	5	0	8	36	0
+K_DeepCast_150m_m1_084	CP WOR-2 Omnitrophica	CP WOR-2 Omnitrophica	Bacteria	1517252	95%	3.49E-05	0	1	6	0	9	37	0
+K_DeepCast_250m_m2_062	CP WOR-2 Omnitrophica	CP WOR-2 Omnitrophica	Bacteria	2115931	92%	3.69E-05	1	4	4	0	16	53	0
+M_DeepCast_400m_m2_089	CP WOR-3	CP WOR-3	Bacteria	1199396	91%	1.17E-05	0	0	0	0	2	12	0
+K_DeepCast_250m_m1_105	CP WOR-3	CP WOR-3	Bacteria	1307803	90%	1.22E-05	0	1	2	0	1	12	0
+M_DeepCast_400m_m1_356	CP WOR-3	CP WOR-3	Bacteria	2089483	92%	1.20E-05	1	1	2	0	4	17	0
+K_DeepCast_150m_m2_307	CP WOR-3	CP WOR-3	Bacteria	2368780	90%	1.48E-05	1	1	5	0	9	17	2
+K_DeepCast_150m_m2_040	CP WOR-3	CP WOR-3	Bacteria	3366184	87%	1.46E-05	1	0	6	0	4	38	0
+K_DeepCast_150m_m2_105	CP WWE1	CP WWE1	Bacteria	1697512	91%	2.06E-05	0	1	5	0	4	24	1
+K_DeepCast_250m_m1_043	CP WWE1	CP WWE1	Bacteria	2014744	91%	1.59E-05	0	0	2	0	8	22	0
+K_DeepCast_250m_m1_240	CP WWE3	CP WWE3	Bacteria	432403	91%	3.70E-05	0	0	0	0	2	14	0
+M_DeepCast_400m_m2_266	CP WWE3	CP WWE3	Bacteria	988385	85%	3.74E-05	0	0	1	0	3	33	0
+K_DeepCast_100m_m2_307	CP Ziwabacteria	CP Ziwabacteria	Bacteria	3007934	92%	2.73E-05	0	4	9	0	26	43	0
+K_DeepCast_100m_m2_321	CP Ziwabacteria	CP Ziwabacteria	Bacteria	3636611	92%	2.31E-05	1	6	10	0	19	45	3
+K_DeepCast_100m_m2_001	CP Ziwabacteria	CP Ziwabacteria	Bacteria	4601967	92%	3.30E-05	1	12	16	0	66	56	1
+K_Offshore_80m_m2_058	CP Zixibacteria	CP Zixibacteria	Bacteria	4379653	91%	3.70E-05	2	17	16	0	52	72	3
+M_surface_7_m1_184	Cyanobacteria	Cyanobacteria	Bacteria	282091	93%	4.25E-05	0	0	0	0	2	10	0
+M_surface_9_mx_156	Cyanobacteria	Cyanobacteria	Bacteria	296177	87%	4.39E-05	0	0	0	0	2	11	0
+M_surface_6_m1_267	Cyanobacteria	Cyanobacteria	Bacteria	372034	93%	1.88E-05	0	0	1	0	3	3	0
+M_DeepCast_100m_m1_202	Cyanobacteria	Cyanobacteria	Bacteria	486388	94%	4.93E-05	0	0	0	0	5	19	0
+M_surface_6_m2_128	Cyanobacteria	Cyanobacteria	Bacteria	838768	93%	2.15E-05	0	0	2	0	5	11	0
+M_DeepCast_400m_m2_330	Cyanobacteria	Cyanobacteria	Bacteria	949809	92%	1.90E-05	0	1	2	0	3	12	0
+M_surface_10_mx_133	Cyanobacteria	Cyanobacteria	Bacteria	1088734	85%	1.10E-05	0	0	2	0	0	10	0
+K_Offshore_120m_mx_085	Cyanobacteria	Cyanobacteria	Bacteria	1134405	91%	2.91E-05	0	0	6	0	1	26	0
+M_DeepCast_200m_mx_001	Cyanobacteria	Cyanobacteria	Bacteria	1184207	93%	1.60E-05	0	1	2	0	7	9	0
+M_DeepCast_100m_mx_180	Cyanobacteria	Cyanobacteria	Bacteria	1362103	91%	1.62E-05	1	0	1	0	4	14	2
+M_DeepCast_10m_m2_062	Cyanobacteria	Cyanobacteria	Bacteria	1393642	89%	1.65E-05	0	0	0	0	6	17	0
+M_DeepCast_100m_m1_067	Cyanobacteria	Cyanobacteria	Bacteria	1705678	93%	2.05E-05	2	0	3	0	10	20	0
+K_DeepCast_35m_m2_155	Cyanobacteria	Cyanobacteria	Bacteria	1739062	93%	2.47E-05	4	1	3	0	14	21	0
+M_surface_7_m2_037	Cyanobacteria	Cyanobacteria	Bacteria	1748353	92%	2.46E-05	3	1	3	0	13	23	0
+M_surface_9_m1_291	Cyanobacteria	Cyanobacteria	Bacteria	1809371	93%	2.98E-05	2	1	1	0	8	41	1
+M_surface_10_m2_179	Cyanobacteria	Cyanobacteria	Bacteria	1923915	93%	2.34E-05	3	1	3	0	14	24	0
+K_DeepCast_0m_m1_088	Cyanobacteria	Cyanobacteria	Bacteria	1926537	92%	3.37E-05	2	1	1	0	12	49	0
+M_surface_10_m1_298	Cyanobacteria	Cyanobacteria	Bacteria	1994314	93%	2.26E-05	4	1	3	0	14	23	0
+K_Offshore_surface_mx_199	Cyanobacteria	Cyanobacteria	Bacteria	2004156	92%	1.40E-05	0	0	0	0	5	23	0
+K_DeepCast_150m_m2_101	Cyanobacteria	Cyanobacteria	Bacteria	2058040	94%	2.58E-05	1	1	4	0	12	35	0
+M_surface_7_m2_040	Cyanobacteria	Cyanobacteria	Bacteria	2121097	92%	2.22E-05	3	2	2	0	13	26	1
+K_DeepCast_100m_m1_010	Cyanobacteria	Cyanobacteria	Bacteria	2128732	92%	2.91E-05	8	3	2	0	15	34	0
+K_DeepCast_250m_m2_038	Cyanobacteria	Cyanobacteria	Bacteria	2323629	92%	2.50E-05	7	1	5	0	16	29	0
+K_Offshore_0m_m2_072	Cyanobacteria	Cyanobacteria	Bacteria	2346286	93%	2.94E-05	3	1	2	0	8	54	1
+K_DeepCast_300m_m2_098	Cyanobacteria	Cyanobacteria	Bacteria	2402065	91%	2.71E-05	6	1	5	0	13	40	0
+M_surface_10_m2_146	Cyanobacteria	Cyanobacteria	Bacteria	2432388	92%	2.38E-05	3	2	3	0	18	32	0
+K_DeepCast_250m_m2_308	Cyanobacteria	Cyanobacteria	Bacteria	2479452	92%	2.70E-05	2	1	3	0	14	46	1
+M_DeepCast_10m_m1_171	Cyanobacteria	Cyanobacteria	Bacteria	2527948	29%	3.96E-07	0	0	0	0	0	1	0
+K_DeepCast_150m_m2_036	Cyanobacteria	Cyanobacteria	Bacteria	2571441	92%	2.45E-05	6	2	5	0	21	29	0
+M_surface_10_m2_119	Cyanobacteria	Cyanobacteria	Bacteria	2619735	91%	2.21E-05	4	1	5	0	15	33	0
+K_DeepCast_0m_mx_142	Cyanobacteria	Cyanobacteria	Bacteria	2653028	87%	1.70E-05	0	1	6	0	11	27	0
+K_DeepCast_35m_m1_288	Cyanobacteria	Cyanobacteria	Bacteria	2707209	92%	2.66E-05	4	1	4	0	10	53	0
+K_Offshore_surface_m1_225	Cyanobacteria	Cyanobacteria	Bacteria	2752154	90%	3.02E-05	3	2	5	0	16	57	0
+M_DeepCast_100m_m2_281	Cyanobacteria	Cyanobacteria	Bacteria	2882137	93%	3.02E-05	3	0	2	0	11	70	1
+K_Offshore_surface_m2_011	Cyanobacteria	Cyanobacteria	Bacteria	2891476	91%	2.73E-05	5	1	5	0	19	49	0
+K_Offshore_40m_m2_224	Cyanobacteria	Cyanobacteria	Bacteria	2913957	92%	3.29E-05	5	2	4	0	13	71	1
+K_DeepCast_35m_m2_023	Cyanobacteria	Cyanobacteria	Bacteria	2964584	90%	2.50E-05	4	4	3	0	19	44	0
+K_DeepCast_35m_m2_318	Cyanobacteria	Cyanobacteria	Bacteria	2975339	92%	2.08E-05	3	1	3	0	15	39	1
+K_DeepCast_150m_m2_006	Cyanobacteria	Cyanobacteria	Bacteria	3003199	91%	2.86E-05	3	1	7	0	19	55	1
+M_DeepCast_10m_m2_174	Cyanobacteria	Cyanobacteria	Bacteria	3361711	91%	3.03E-05	6	1	4	0	18	73	0
+M_DeepCast_10m_m1_011	Cyanobacteria	Cyanobacteria	Bacteria	3504883	92%	3.34E-05	1	1	1	0	13	100	1
+K_Offshore_surface_m2_239	Cyanobacteria	Cyanobacteria	Bacteria	3522277	88%	2.33E-05	2	1	7	0	22	50	0
+M_DeepCast_200m_mx_041	Cyanobacteria	Cyanobacteria	Bacteria	3916863	92%	2.81E-05	0	2	3	0	22	83	0
+M_surface_9_mx_081	Cyanobacteria	Cyanobacteria	Bacteria	4212418	70%	1.71E-05	0	0	0	0	8	64	0
+K_DeepCast_0m_m2_193	Cyanobacteria	Cyanobacteria	Bacteria	4311884	91%	2.97E-05	3	2	5	0	17	101	0
+M_DeepCast_200m_m1_110	Cyanobacteria	Cyanobacteria	Bacteria	4661165	91%	2.06E-05	0	0	3	0	5	88	0
+K_Offshore_surface_m1_122	Cyanobacteria	Cyanobacteria	Bacteria	4669976	25%	8.57E-07	0	0	0	0	2	2	0
+K_DeepCast_0m_mx_036	Cyanobacteria	Cyanobacteria	Bacteria	5067167	85%	1.74E-05	0	0	1	0	15	72	0
+K_DeepCast_0m_mx_006	Cyanobacteria	Cyanobacteria	Bacteria	5699698	63%	9.47E-06	0	0	0	0	12	42	0
+M_DeepCast_200m_mx_047	Cyanobacteria	Cyanobacteria	Bacteria	6013420	89%	1.56E-05	0	0	1	0	6	87	0
+M_DeepCast_100m_mx_041	Cyanobacteria	Cyanobacteria	Bacteria	6775835	89%	1.68E-05	0	0	1	0	13	100	0
+M_surface_10_mx_073	Cyanobacteria	Cyanobacteria	Bacteria	8104521	74%	1.31E-05	0	0	0	0	22	84	0
+M_surface_7_m1_222	Cyanobacteria	Cyanobacteria	Bacteria	24955658	37%	1.28E-06	1	0	5	0	2	24	0
+K_DeepCast_1200m_m2_318	Deinococcus thermus	Deinococcus thermus	Bacteria	1338893	88%	1.94E-05	1	2	1	0	11	10	1
+M_DeepCast_400m_m2_018	Deinococcus thermus	Deinococcus thermus	Bacteria	1351153	89%	2.15E-05	1	4	1	0	14	9	0
+M_DeepCast_200m_mx_174	Deltaproteobacteria	Deltaproteobacteria	Bacteria	381808	88%	2.62E-06	0	0	0	0	1	0	0
+M_DeepCast_200m_mx_168	Deltaproteobacteria	Deltaproteobacteria	Bacteria	408095	84%	1.23E-05	1	0	0	0	2	2	0
+K_Offshore_surface_mx_035	Deltaproteobacteria	Deltaproteobacteria	Bacteria	554216	90%	5.41E-06	0	0	0	0	0	3	0
+K_Offshore_40m_mx_060	Deltaproteobacteria	Deltaproteobacteria	Bacteria	738645	92%	2.44E-05	0	1	2	0	6	9	0
+K_DeepCast_300m_mx_261	Deltaproteobacteria	Deltaproteobacteria	Bacteria	1337176	93%	2.32E-05	2	0	1	0	8	20	0
+K_DeepCast_100m_m2_187	Deltaproteobacteria	Deltaproteobacteria	Bacteria	1418716	89%	4.79E-05	1	10	8	0	45	4	0
+K_DeepCast_100m_m2_189	Deltaproteobacteria	Deltaproteobacteria	Bacteria	1623402	88%	1.72E-05	2	0	2	0	7	17	0
+M_DeepCast_100m_mx_110	Deltaproteobacteria	Deltaproteobacteria	Bacteria	1687272	86%	1.66E-05	1	1	4	0	5	17	0
+M_DeepCast_400m_m1_039	Deltaproteobacteria	Deltaproteobacteria	Bacteria	2089841	92%	1.82E-05	1	1	6	0	11	19	0
+M_DeepCast_400m_m1_009	Deltaproteobacteria	Deltaproteobacteria	Bacteria	2397489	90%	1.67E-05	2	0	4	0	11	23	0
+M_DeepCast_100m_m2_010	Deltaproteobacteria	Deltaproteobacteria	Bacteria	2480717	91%	2.82E-05	2	1	5	0	7	54	1
+M_DeepCast_65m_m2_228	Deltaproteobacteria	Deltaproteobacteria	Bacteria	2556231	90%	1.33E-05	3	0	8	0	10	13	0
+K_DeepCast_100m_mx_244	Deltaproteobacteria	Deltaproteobacteria	Bacteria	2601273	92%	2.08E-05	0	2	5	0	22	24	1
+K_Offshore_120m_m2_196	Deltaproteobacteria	Deltaproteobacteria	Bacteria	2655529	91%	3.13E-05	1	1	5	0	8	67	1
+K_DeepCast_100m_mx_320	Deltaproteobacteria	Deltaproteobacteria	Bacteria	2758331	86%	2.28E-05	2	2	4	0	17	38	0
+M_DeepCast_400m_m2_357	Deltaproteobacteria	Deltaproteobacteria	Bacteria	2891956	88%	2.25E-05	7	1	2	0	18	37	0
+K_DeepCast_100m_mx_210	Deltaproteobacteria	Deltaproteobacteria	Bacteria	2907625	93%	1.75E-05	1	1	4	0	18	27	0
+K_DeepCast_250m_m1_077	Deltaproteobacteria	Deltaproteobacteria	Bacteria	2987125	82%	1.74E-05	1	0	2	0	16	33	0
+K_DeepCast_250m_m2_302	Deltaproteobacteria	Deltaproteobacteria	Bacteria	3045402	86%	1.28E-05	6	0	3	0	8	22	0
+K_DeepCast_250m_mx_162	Deltaproteobacteria	Deltaproteobacteria	Bacteria	3048470	90%	1.74E-05	3	2	5	0	13	30	0
+K_DeepCast_150m_m2_098	Deltaproteobacteria	Deltaproteobacteria	Bacteria	3108308	83%	2.41E-05	2	1	2	0	19	51	0
+K_DeepCast_150m_m1_356	Deltaproteobacteria	Deltaproteobacteria	Bacteria	3254097	86%	2.74E-05	16	2	2	0	14	55	0
+K_DeepCast_250m_m2_102	Deltaproteobacteria	Deltaproteobacteria	Bacteria	3342870	82%	2.39E-05	1	2	1	0	17	59	0
+K_DeepCast_65m_m1_217	Deltaproteobacteria	Deltaproteobacteria	Bacteria	3407509	88%	1.14E-05	2	0	7	0	11	19	0
+K_Offshore_80m_m2_039	Deltaproteobacteria	Deltaproteobacteria	Bacteria	3419660	92%	2.08E-05	4	2	15	0	12	37	1
+K_DeepCast_1200m_m2_207	Deltaproteobacteria	Deltaproteobacteria	Bacteria	3559718	88%	1.24E-05	6	0	7	0	9	22	0
+K_DeepCast_150m_m2_113	Deltaproteobacteria	Deltaproteobacteria	Bacteria	3564595	90%	1.68E-05	8	0	4	0	10	38	0
+M_DeepCast_400m_m1_331	Deltaproteobacteria	Deltaproteobacteria	Bacteria	3675192	94%	1.93E-05	4	2	8	0	31	25	1
+K_DeepCast_150m_m2_072	Deltaproteobacteria	Deltaproteobacteria	Bacteria	3699042	82%	1.87E-05	2	0	3	0	16	48	0
+K_DeepCast_300m_m2_211	Deltaproteobacteria	Deltaproteobacteria	Bacteria	3733707	83%	2.01E-05	2	0	5	0	16	52	0
+K_DeepCast_300m_m2_247	Deltaproteobacteria	Deltaproteobacteria	Bacteria	3745564	86%	2.30E-05	1	1	7	0	26	51	0
+K_DeepCast_1200m_m2_116	Deltaproteobacteria	Deltaproteobacteria	Bacteria	3827690	82%	2.12E-05	3	0	5	0	17	56	0
+K_DeepCast_100m_m2_268	Deltaproteobacteria	Deltaproteobacteria	Bacteria	3874731	95%	2.12E-05	4	3	18	0	18	38	1
+K_Offshore_0m_m1_055	Deltaproteobacteria	Deltaproteobacteria	Bacteria	3918758	93%	1.96E-05	4	2	13	0	22	35	1
+K_DeepCast_250m_m2_131	Deltaproteobacteria	Deltaproteobacteria	Bacteria	3934676	88%	1.35E-05	5	1	9	0	13	25	0
+K_DeepCast_100m_m1_199	Deltaproteobacteria	Deltaproteobacteria	Bacteria	3974121	85%	1.53E-05	6	0	6	0	10	39	0
+M_DeepCast_200m_m1_279	Deltaproteobacteria	Deltaproteobacteria	Bacteria	3991902	88%	1.50E-05	4	0	6	0	19	31	0
+K_DeepCast_100m_mx_276	Deltaproteobacteria	Deltaproteobacteria	Bacteria	4080899	87%	1.47E-05	7	0	9	0	10	33	1
+K_DeepCast_150m_m2_257	Deltaproteobacteria	Deltaproteobacteria	Bacteria	4090193	88%	1.98E-05	9	0	6	0	12	53	1
+K_DeepCast_250m_m2_089	Deltaproteobacteria	Deltaproteobacteria	Bacteria	4192817	87%	1.57E-05	5	0	6	0	16	39	0
+M_DeepCast_200m_m2_133	Deltaproteobacteria	Deltaproteobacteria	Bacteria	4386275	89%	8.44E-06	2	4	2	0	14	14	1
+K_DeepCast_300m_mx_218	Deltaproteobacteria	Deltaproteobacteria	Bacteria	4477731	86%	1.36E-05	4	3	4	0	7	42	1
+M_DeepCast_400m_m2_273	Deltaproteobacteria	Deltaproteobacteria	Bacteria	4496453	88%	1.82E-05	9	0	10	0	16	46	1
+K_Offshore_120m_mx_162	Deltaproteobacteria	Deltaproteobacteria	Bacteria	4514420	91%	1.44E-05	4	4	23	0	10	23	1
+K_Offshore_80m_m2_119	Deltaproteobacteria	Deltaproteobacteria	Bacteria	4651479	91%	2.00E-05	4	5	7	0	39	38	0
+K_DeepCast_150m_m1_199	Deltaproteobacteria	Deltaproteobacteria	Bacteria	4705734	86%	1.83E-05	6	1	6	0	10	61	2
+K_DeepCast_300m_m2_165	Deltaproteobacteria	Deltaproteobacteria	Bacteria	4713153	88%	1.42E-05	8	2	8	0	16	32	1
+K_DeepCast_35m_m1_177	Deltaproteobacteria	Deltaproteobacteria	Bacteria	4742819	93%	1.16E-05	2	2	7	0	19	24	1
+K_Offshore_120m_m2_200	Deltaproteobacteria	Deltaproteobacteria	Bacteria	4780307	94%	1.67E-05	5	0	5	0	28	42	0
+M_DeepCast_100m_m2_116	Deltaproteobacteria	Deltaproteobacteria	Bacteria	4861565	85%	1.42E-05	7	0	8	0	14	40	0
+K_DeepCast_35m_m2_009	Deltaproteobacteria	Deltaproteobacteria	Bacteria	5024321	93%	1.43E-05	2	2	17	0	22	29	0
+K_DeepCast_35m_m2_046	Deltaproteobacteria	Deltaproteobacteria	Bacteria	5133462	93%	1.48E-05	2	2	18	0	24	28	2
+M_DeepCast_65m_m1_099	Deltaproteobacteria	Deltaproteobacteria	Bacteria	5185230	88%	1.31E-05	8	2	11	0	19	28	0
+K_DeepCast_150m_m1_110	Deltaproteobacteria	Deltaproteobacteria	Bacteria	5333054	81%	1.52E-05	5	2	10	0	20	43	1
+M_DeepCast_65m_m2_104	Deltaproteobacteria	Deltaproteobacteria	Bacteria	5504261	94%	1.44E-05	7	2	5	0	25	40	0
+K_Offshore_80m_m1_159	Deltaproteobacteria	Deltaproteobacteria	Bacteria	5560410	88%	1.56E-05	8	1	12	0	19	46	1
+K_DeepCast_35m_m1_088	Deltaproteobacteria	Deltaproteobacteria	Bacteria	5615254	90%	1.21E-05	3	1	10	0	26	28	0
+K_DeepCast_100m_m1_326	Deltaproteobacteria	Deltaproteobacteria	Bacteria	5673043	92%	1.76E-05	2	3	12	0	45	38	0
+M_DeepCast_200m_m1_099	Deltaproteobacteria	Deltaproteobacteria	Bacteria	5850057	86%	2.94E-05	12	2	11	0	53	93	1
+K_DeepCast_100m_m2_324	Deltaproteobacteria	Deltaproteobacteria	Bacteria	5898880	92%	1.54E-05	2	2	9	0	45	33	0
+K_DeepCast_300m_m2_069	Deltaproteobacteria	Deltaproteobacteria	Bacteria	6066438	86%	1.53E-05	8	0	12	0	20	52	1
+K_Offshore_80m_m2_194	Deltaproteobacteria	Deltaproteobacteria	Bacteria	6140241	88%	1.63E-05	4	2	20	0	14	57	3
+K_DeepCast_65m_m2_035	Deltaproteobacteria	Deltaproteobacteria	Bacteria	6266316	92%	3.32E-05	12	5	26	0	39	123	3
+K_Offshore_80m_m2_211	Deltaproteobacteria	Deltaproteobacteria	Bacteria	6437535	90%	3.22E-05	12	3	29	0	48	111	4
+M_DeepCast_65m_m1_011	Deltaproteobacteria	Deltaproteobacteria	Bacteria	6656893	90%	1.20E-05	7	1	18	0	21	33	0
+M_DeepCast_400m_m2_239	Deltaproteobacteria	Deltaproteobacteria	Bacteria	7975730	86%	2.21E-05	21	2	7	0	23	122	1
+M_DeepCast_50m_m2_156	Diapherotrites	Diapherotrites	Archaea	876058	92%	1.83E-05	0	0	0	0	0	16	0
+M_DeepCast_65m_mx_143	Diapherotrites	Diapherotrites	Archaea	2802874	89%	1.68E-05	2	1	4	0	3	37	0
+M_DeepCast_400m_m2_325	Euryarchaeota	Euryarchaeota	Archaea	882349	91%	1.59E-05	2	0	1	0	1	10	0
+K_DeepCast_300m_m2_256	Euryarchaeota	Euryarchaeota	Archaea	2059370	83%	1.51E-05	3	0	0	0	3	25	0
+M_DeepCast_200m_m1_298	Euryarchaeota	Euryarchaeota	Archaea	3360796	89%	9.82E-06	4	8	0	0	3	18	0
+M_DeepCast_200m_mx_065	Fibrobacteres acidobacteria	Fibrobacteres acidobacteria	Bacteria	1399502	89%	2.86E-05	2	1	3	0	19	15	0
+M_DeepCast_50m_m2_162	Fibrobacteres acidobacteria	Fibrobacteres acidobacteria	Bacteria	3057924	89%	2.55E-05	1	3	15	0	24	35	0
+K_DeepCast_250m_m2_119	Fibrobacteres acidobacteria	Fibrobacteres acidobacteria	Bacteria	4119125	86%	2.55E-05	1	4	30	0	24	44	2
+K_Offshore_40m_m2_176	Fibrobacteres acidobacteria	Fibrobacteres acidobacteria	Bacteria	5723276	94%	3.41E-05	12	5	50	0	71	55	2
+K_DeepCast_250m_m1_110	Fibrobacteres acidobacteria	Fibrobacteres acidobacteria	Bacteria	5928059	91%	3.78E-05	3	6	27	0	112	69	7
+M_DeepCast_100m_m2_149	Fibrobacteres acidobacteria	Fibrobacteres acidobacteria	Bacteria	6327301	91%	3.02E-05	6	8	41	0	62	73	1
+M_DeepCast_100m_mx_118	Fibrobacteres acidobacteria	Fibrobacteres acidobacteria	Bacteria	6464961	95%	3.12E-05	10	9	60	0	57	64	2
+K_Offshore_80m_m2_102	Fibrobacteres acidobacteria	Fibrobacteres acidobacteria	Bacteria	6612146	93%	2.98E-05	12	5	49	0	76	52	3
+K_DeepCast_65m_m2_251	Fibrobacteres acidobacteria	Fibrobacteres acidobacteria	Bacteria	7144765	93%	3.16E-05	10	9	67	0	74	64	2
+M_DeepCast_100m_m2_066	Fibrobacteres acidobacteria	Fibrobacteres acidobacteria	Bacteria	7222881	94%	3.09E-05	8	7	52	0	78	76	2
+K_Offshore_80m_m2_003	Fibrobacteres acidobacteria	Fibrobacteres acidobacteria	Bacteria	8658050	94%	3.03E-05	15	5	63	0	110	65	4
+M_surface_6_m1_040	Firmicutes	Firmicutes	Bacteria	770635	95%	3.24E-05	0	2	1	0	14	8	0
+K_DeepCast_150m_m2_056	Firmicutes	Firmicutes	Bacteria	2133338	91%	9.84E-06	1	0	3	0	7	10	0
+K_DeepCast_65m_m1_161	Gammaproteobacteria	Gammaproteobacteria	Bacteria	228308	89%	4.38E-06	0	0	0	0	0	1	0
+K_DeepCast_150m_m1_262	Gammaproteobacteria	Gammaproteobacteria	Bacteria	370903	89%	5.39E-05	0	0	0	0	3	16	1
+M_surface_10_mx_151	Gammaproteobacteria	Gammaproteobacteria	Bacteria	419201	95%	2.15E-05	0	0	2	0	2	5	0
+M_surface_6_m1_057	Gammaproteobacteria	Gammaproteobacteria	Bacteria	642153	91%	1.71E-05	0	0	0	0	3	8	0
+M_DeepCast_65m_mx_134	Gammaproteobacteria	Gammaproteobacteria	Bacteria	676658	93%	1.18E-05	0	0	3	0	0	5	0
+M_surface_9_mx_037	Gammaproteobacteria	Gammaproteobacteria	Bacteria	983708	96%	1.83E-05	3	0	3	0	5	7	0
+M_surface_9_m2_177	Gammaproteobacteria	Gammaproteobacteria	Bacteria	1152751	92%	3.47E-06	0	0	1	0	0	3	0
+K_Offshore_40m_m1_054	Gammaproteobacteria	Gammaproteobacteria	Bacteria	1154426	94%	9.53E-06	1	0	3	0	3	4	0
+K_Offshore_40m_m1_049	Gammaproteobacteria	Gammaproteobacteria	Bacteria	1206401	95%	2.24E-05	1	1	1	0	6	18	0
+K_Offshore_80m_m2_057	Gammaproteobacteria	Gammaproteobacteria	Bacteria	1393987	93%	1.87E-05	5	1	6	0	6	8	0
+K_Offshore_surface_m1_032	Gammaproteobacteria	Gammaproteobacteria	Bacteria	1452508	95%	1.79E-05	3	0	4	0	8	11	0
+K_DeepCast_150m_m1_089	Gammaproteobacteria	Gammaproteobacteria	Bacteria	1491430	95%	1.68E-05	4	1	6	0	7	7	0
+M_surface_9_m2_039	Gammaproteobacteria	Gammaproteobacteria	Bacteria	1599690	95%	1.75E-05	6	2	5	0	9	6	0
+K_DeepCast_100m_m2_315	Gammaproteobacteria	Gammaproteobacteria	Bacteria	1663806	94%	2.04E-05	4	2	3	0	6	19	0
+K_Offshore_120m_m1_194	Gammaproteobacteria	Gammaproteobacteria	Bacteria	1805102	94%	1.55E-05	5	1	6	0	9	7	0
+M_DeepCast_100m_m2_072	Gammaproteobacteria	Gammaproteobacteria	Bacteria	1805733	96%	1.94E-05	6	1	8	0	9	11	0
+K_Offshore_40m_mx_227	Gammaproteobacteria	Gammaproteobacteria	Bacteria	1940038	94%	1.65E-05	4	1	7	0	9	11	0
+M_surface_6_m2_085	Gammaproteobacteria	Gammaproteobacteria	Bacteria	2192707	96%	1.37E-05	7	1	7	0	6	9	0
+K_DeepCast_250m_m1_004	Gammaproteobacteria	Gammaproteobacteria	Bacteria	2321166	94%	2.28E-05	6	3	10	0	8	26	0
+M_surface_9_m2_068	Gammaproteobacteria	Gammaproteobacteria	Bacteria	2358192	94%	1.99E-05	8	1	9	0	9	19	1
+M_DeepCast_100m_m1_014	Gammaproteobacteria	Gammaproteobacteria	Bacteria	2370162	93%	1.14E-05	3	1	11	0	5	7	0
+M_surface_9_mx_064	Gammaproteobacteria	Gammaproteobacteria	Bacteria	2431179	94%	2.26E-05	9	1	10	0	13	21	1
+M_DeepCast_65m_m1_284	Gammaproteobacteria	Gammaproteobacteria	Bacteria	2475407	87%	1.29E-05	2	1	1	0	11	17	0
+K_DeepCast_300m_m2_070	Gammaproteobacteria	Gammaproteobacteria	Bacteria	2498559	96%	1.52E-05	6	2	10	0	10	10	0
+K_Offshore_120m_m2_034	Gammaproteobacteria	Gammaproteobacteria	Bacteria	2557637	95%	1.99E-05	9	1	11	0	14	16	0
+K_Offshore_80m_m1_208	Gammaproteobacteria	Gammaproteobacteria	Bacteria	2568346	94%	2.02E-05	6	2	9	0	17	18	0
+M_surface_7_m1_262	Gammaproteobacteria	Gammaproteobacteria	Bacteria	2671660	95%	1.76E-05	9	1	12	0	7	17	1
+K_Offshore_0m_mx_160	Gammaproteobacteria	Gammaproteobacteria	Bacteria	2706451	95%	1.85E-05	12	3	8	0	8	19	0
+M_surface_10_mx_057	Gammaproteobacteria	Gammaproteobacteria	Bacteria	2719969	95%	1.58E-05	12	1	9	0	10	11	0
+M_DeepCast_100m_mx_044	Gammaproteobacteria	Gammaproteobacteria	Bacteria	2727404	95%	1.72E-05	11	1	12	0	8	15	0
+K_Offshore_0m_mx_117	Gammaproteobacteria	Gammaproteobacteria	Bacteria	2761619	91%	2.97E-05	6	5	7	0	18	45	1
+K_Offshore_80m_m2_176	Gammaproteobacteria	Gammaproteobacteria	Bacteria	2796710	93%	1.90E-05	6	1	7	0	5	32	2
+M_DeepCast_65m_m1_270	Gammaproteobacteria	Gammaproteobacteria	Bacteria	2810983	88%	2.31E-05	3	3	3	0	18	38	0
+M_DeepCast_65m_mx_133	Gammaproteobacteria	Gammaproteobacteria	Bacteria	2958691	93%	1.32E-05	4	1	11	0	8	14	1
+K_DeepCast_100m_m2_290	Gammaproteobacteria	Gammaproteobacteria	Bacteria	3057717	96%	1.77E-05	16	3	6	0	13	16	0
+M_surface_10_m2_141	Gammaproteobacteria	Gammaproteobacteria	Bacteria	3079122	93%	1.46E-05	6	0	6	0	5	27	1
+K_Offshore_surface_m1_044	Gammaproteobacteria	Gammaproteobacteria	Bacteria	3117966	95%	1.86E-05	12	2	18	0	11	15	0
+M_DeepCast_10m_m1_110	Gammaproteobacteria	Gammaproteobacteria	Bacteria	3134039	95%	1.56E-05	13	1	11	0	10	14	0
+K_Offshore_40m_m1_011	Gammaproteobacteria	Gammaproteobacteria	Bacteria	3205130	95%	2.25E-05	13	2	15	0	17	25	0
+M_surface_8_mx_141	Gammaproteobacteria	Gammaproteobacteria	Bacteria	3237505	85%	1.42E-05	0	0	2	0	9	35	0
+M_surface_8_m1_253	Gammaproteobacteria	Gammaproteobacteria	Bacteria	3335491	95%	1.56E-05	14	1	14	0	10	13	0
+M_surface_6_mx_073	Gammaproteobacteria	Gammaproteobacteria	Bacteria	3372227	93%	1.54E-05	8	3	7	0	10	24	0
+M_DeepCast_100m_m1_331	Gammaproteobacteria	Gammaproteobacteria	Bacteria	3407194	94%	2.11E-05	11	2	18	0	14	26	1
+K_DeepCast_35m_m1_077	Gammaproteobacteria	Gammaproteobacteria	Bacteria	3429140	93%	1.69E-05	4	0	11	0	11	31	1
+K_Offshore_120m_m1_138	Gammaproteobacteria	Gammaproteobacteria	Bacteria	3803527	91%	1.63E-05	9	1	8	0	11	32	1
+M_DeepCast_65m_mx_187	Gammaproteobacteria	Gammaproteobacteria	Bacteria	3809000	90%	1.65E-05	3	2	7	0	22	29	0
+K_Offshore_80m_m1_177	Gammaproteobacteria	Gammaproteobacteria	Bacteria	3939133	91%	1.55E-05	12	1	17	0	13	18	0
+M_surface_7_m1_048	Gemmatimonadetes	Gemmatimonadetes	Bacteria	927463	96%	1.94E-05	0	0	4	0	3	11	0
+K_DeepCast_250m_m2_025	Gemmatimonadetes	Gemmatimonadetes	Bacteria	1209575	93%	2.31E-05	0	7	5	0	9	7	0
+K_Offshore_120m_m2_168	Gemmatimonadetes	Gemmatimonadetes	Bacteria	1294880	90%	2.16E-05	0	2	2	0	4	20	0
+M_DeepCast_400m_m2_225	Gemmatimonadetes	Gemmatimonadetes	Bacteria	1561761	90%	2.24E-05	0	4	3	0	18	7	3
+M_DeepCast_50m_m2_218	Gemmatimonadetes	Gemmatimonadetes	Bacteria	2069953	95%	2.46E-05	4	1	9	0	14	23	0
+K_Offshore_40m_mx_046	Gemmatimonadetes	Gemmatimonadetes	Bacteria	2279195	95%	2.85E-05	5	2	11	0	22	25	0
+M_DeepCast_65m_mx_163	Gemmatimonadetes	Gemmatimonadetes	Bacteria	2756669	92%	2.50E-05	1	8	19	0	18	23	0
+M_DeepCast_65m_m1_262	Gemmatimonadetes	Gemmatimonadetes	Bacteria	2986908	92%	2.51E-05	3	5	15	0	25	27	0
+K_Offshore_120m_m2_038	Gemmatimonadetes	Gemmatimonadetes	Bacteria	3080682	94%	2.24E-05	3	10	14	0	14	27	1
+K_Offshore_80m_m2_041	Gemmatimonadetes	Gemmatimonadetes	Bacteria	3374563	92%	2.07E-05	4	11	16	0	9	30	0
+K_Offshore_80m_m1_181	Gemmatimonadetes	Gemmatimonadetes	Bacteria	3884958	94%	2.45E-05	10	5	37	0	16	26	1
+K_Offshore_0m_mx_139	Ignavibacteria	Ignavibacteria	Bacteria	2188896	94%	2.56E-05	0	1	7	0	14	33	1
+K_Offshore_80m_m2_224	Ignavibacteria	Ignavibacteria	Bacteria	2256930	95%	2.66E-05	1	1	7	0	16	34	1
+M_DeepCast_65m_m1_282	Ignavibacteria	Ignavibacteria	Bacteria	2541165	92%	1.85E-05	1	0	8	0	10	28	0
+M_surface_10_mx_236	Ignavibacteria	Ignavibacteria	Bacteria	2671855	95%	2.17E-05	2	2	7	0	17	30	0
+K_DeepCast_250m_m1_364	Ignavibacteria	Ignavibacteria	Bacteria	2701102	91%	2.74E-05	1	1	7	0	9	56	0
+K_DeepCast_100m_m2_176	Ignavibacteria	Ignavibacteria	Bacteria	2745004	93%	3.46E-05	1	6	12	0	35	41	0
+K_DeepCast_100m_m2_118	Ignavibacteria	Ignavibacteria	Bacteria	2984218	92%	2.98E-05	3	4	14	0	20	47	1
+K_DeepCast_100m_m2_316	Ignavibacteria	Ignavibacteria	Bacteria	3206051	90%	3.12E-05	2	6	14	0	30	42	6
+M_DeepCast_400m_m2_062	Ignavibacteria	Ignavibacteria	Bacteria	3970196	90%	3.60E-05	2	12	17	0	60	50	2
+K_DeepCast_100m_m2_241	Kirimatiellacea	Kirimatiellacea	Bacteria	1492328	90%	2.95E-05	0	2	3	0	26	13	0
+M_DeepCast_200m_m2_127	Lentisphaerae	Lentisphaerae	Bacteria	845305	93%	4.38E-05	0	1	2	0	13	20	1
+K_DeepCast_250m_m2_056	Lentisphaerae	Lentisphaerae	Bacteria	3075852	92%	4.52E-05	0	8	6	0	66	57	2
+M_DeepCast_200m_m2_085	Lentisphaerae	Lentisphaerae	Bacteria	3169171	92%	3.72E-05	0	5	6	0	66	39	2
+M_DeepCast_400m_m2_230	Lentisphaerae	Lentisphaerae	Bacteria	3237298	91%	4.05E-05	0	5	3	0	77	45	1
+K_DeepCast_100m_m2_028	Lentisphaerae	Lentisphaerae	Bacteria	5126434	90%	7.90E-05	2	45	34	0	265	48	11
+K_DeepCast_300m_m2_067	Nitrospirae	Nitrospirae	Bacteria	802606	92%	1.37E-05	0	1	0	0	3	7	0
+K_Offshore_80m_m2_040	Nitrospirae	Nitrospirae	Bacteria	1719115	90%	1.40E-05	1	1	3	0	11	8	0
+M_DeepCast_50m_m2_151	Nitrospirae	Nitrospirae	Bacteria	1979228	87%	1.31E-05	1	0	2	0	5	18	0
+K_DeepCast_250m_m1_045	Nitrospirae	Nitrospirae	Bacteria	2011147	88%	2.34E-05	1	1	4	0	11	30	0
+M_DeepCast_65m_m2_186	Nitrospirae	Nitrospirae	Bacteria	2290438	88%	1.70E-05	1	1	4	0	11	22	0
+K_Offshore_80m_m2_121	Nitrospirae	Nitrospirae	Bacteria	2337642	87%	1.58E-05	1	1	4	0	12	19	0
+M_DeepCast_200m_m2_046	Nitrospirae	Nitrospirae	Bacteria	2603465	88%	1.81E-05	0	1	5	0	10	31	0
+M_DeepCast_65m_mx_150	Nitrospirae	Nitrospirae	Bacteria	2726204	88%	2.09E-05	1	1	4	0	13	37	1
+K_DeepCast_150m_m2_200	Nitrospirae	Nitrospirae	Bacteria	2895502	89%	3.52E-05	0	1	4	0	12	85	0
+M_DeepCast_65m_m2_155	Nitrospirae	Nitrospirae	Bacteria	3193853	90%	2.72E-05	1	1	8	0	14	63	0
+K_DeepCast_35m_m1_102	Phycisphaerae	Phycisphaerae	Bacteria	737578	95%	1.08E-05	0	1	0	0	2	5	0
+K_Offshore_surface_m2_216	Phycisphaerae	Phycisphaerae	Bacteria	929742	94%	2.04E-05	0	1	4	0	5	8	1
+M_DeepCast_65m_mx_236	Phycisphaerae	Phycisphaerae	Bacteria	1996029	94%	1.90E-05	1	1	5	0	10	21	0
+K_Offshore_surface_m1_005	Phycisphaerae	Phycisphaerae	Bacteria	2028370	90%	2.07E-05	1	2	3	0	14	21	1
+M_surface_10_m1_294	Phycisphaerae	Phycisphaerae	Bacteria	2079747	93%	2.31E-05	1	3	9	0	17	18	0
+K_DeepCast_35m_m2_037	Phycisphaerae	Phycisphaerae	Bacteria	2086306	95%	1.73E-05	0	1	3	0	10	22	0
+K_Offshore_120m_m2_148	Phycisphaerae	Phycisphaerae	Bacteria	2355203	94%	1.70E-05	0	2	8	0	14	15	1
+M_DeepCast_200m_m1_014	Phycisphaerae	Phycisphaerae	Bacteria	2358604	90%	4.54E-05	0	10	11	0	68	17	1
+K_Offshore_40m_m2_104	Phycisphaerae	Phycisphaerae	Bacteria	2385313	94%	2.05E-05	0	4	5	0	14	26	0
+M_DeepCast_65m_m2_009	Phycisphaerae	Phycisphaerae	Bacteria	2422312	94%	1.86E-05	2	3	5	0	15	19	1
+M_surface_10_m2_213	Phycisphaerae	Phycisphaerae	Bacteria	2775919	93%	1.69E-05	2	3	6	0	13	22	1
+K_Offshore_120m_m2_041	Phycisphaerae	Phycisphaerae	Bacteria	2858327	92%	1.61E-05	1	2	7	0	12	24	0
+M_DeepCast_65m_mx_077	Phycisphaerae	Phycisphaerae	Bacteria	3144079	89%	1.78E-05	0	2	9	0	14	31	0
+K_Offshore_80m_m2_006	Phycisphaerae	Phycisphaerae	Bacteria	3233085	89%	2.63E-05	4	5	9	0	17	49	1
+K_DeepCast_100m_m1_029	Planctomycetes	Planctomycetes	Bacteria	1831718	88%	3.00E-05	1	4	5	0	21	22	2
+M_surface_7_m1_301	Planctomycetes	Planctomycetes	Bacteria	1857156	88%	2.32E-05	0	3	15	0	13	11	1
+M_DeepCast_65m_m1_287	Planctomycetes	Planctomycetes	Bacteria	2453851	92%	1.83E-05	1	2	8	0	7	27	0
+M_surface_8_m1_183	Planctomycetes	Planctomycetes	Bacteria	2596402	91%	1.96E-05	1	4	7	0	13	26	0
+K_DeepCast_100m_m1_307	Planctomycetes	Planctomycetes	Bacteria	2693995	88%	3.93E-05	1	10	4	0	52	38	1
+M_DeepCast_100m_m2_158	Planctomycetes	Planctomycetes	Bacteria	2739487	89%	1.90E-05	0	5	3	0	14	29	1
+M_DeepCast_200m_m1_344	Planctomycetes	Planctomycetes	Bacteria	2987133	91%	2.18E-05	1	6	12	0	18	28	0
+M_DeepCast_100m_m2_243	Planctomycetes	Planctomycetes	Bacteria	3457560	87%	2.34E-05	2	2	2	0	11	64	0
+K_DeepCast_35m_m1_264	Planctomycetes	Planctomycetes	Bacteria	3520727	90%	1.73E-05	0	4	8	0	15	34	0
+K_Offshore_surface_m1_204	Planctomycetes	Planctomycetes	Bacteria	3538417	91%	2.18E-05	1	2	13	0	7	54	0
+K_Offshore_80m_m1_186	Planctomycetes	Planctomycetes	Bacteria	3576554	93%	2.63E-05	2	4	14	0	11	63	0
+M_DeepCast_200m_m1_287	Planctomycetes	Planctomycetes	Bacteria	3748875	88%	3.63E-05	1	17	12	0	68	36	2
+M_DeepCast_50m_m2_137	Planctomycetes	Planctomycetes	Bacteria	3781464	92%	2.91E-05	4	7	14	0	12	72	1
+K_DeepCast_300m_mx_075	Planctomycetes	Planctomycetes	Bacteria	3944492	90%	3.52E-05	1	20	11	0	65	41	1
+M_DeepCast_65m_m2_181	Planctomycetes	Planctomycetes	Bacteria	3976122	93%	2.69E-05	3	5	14	0	12	73	0
+M_DeepCast_65m_m2_061	Planctomycetes	Planctomycetes	Bacteria	3987901	93%	2.96E-05	2	4	17	0	19	75	1
+K_DeepCast_100m_m2_328	Planctomycetes	Planctomycetes	Bacteria	4045328	86%	2.35E-05	1	3	4	0	12	74	1
+M_DeepCast_100m_mx_241	Planctomycetes	Planctomycetes	Bacteria	4205805	86%	1.66E-05	1	4	18	0	20	27	0
+M_DeepCast_50m_m2_133	Planctomycetes	Planctomycetes	Bacteria	4213644	92%	2.49E-05	2	7	24	0	17	55	0
+K_Offshore_0m_mx_037	Planctomycetes	Planctomycetes	Bacteria	4248582	92%	2.61E-05	2	8	30	0	27	44	0
+K_Offshore_surface_mx_256	Planctomycetes	Planctomycetes	Bacteria	4466139	90%	2.19E-05	2	6	24	0	29	37	0
+K_DeepCast_35m_m2_150	Planctomycetes	Planctomycetes	Bacteria	4515034	89%	2.50E-05	3	9	20	0	41	38	2
+K_DeepCast_1200m_m1_044	Planctomycetes	Planctomycetes	Bacteria	4670081	86%	2.72E-05	3	4	3	0	24	91	2
+M_DeepCast_400m_m2_048	Planctomycetes	Planctomycetes	Bacteria	5070402	89%	4.58E-05	2	10	21	0	143	43	13
+M_DeepCast_65m_m2_011	Planctomycetes	Planctomycetes	Bacteria	5244649	89%	2.76E-05	1	19	29	0	57	35	4
+K_Offshore_80m_m1_160	Planctomycetes	Planctomycetes	Bacteria	5259199	87%	3.10E-05	1	18	18	0	49	76	1
+K_DeepCast_150m_m2_127	Planctomycetes	Planctomycetes	Bacteria	5471229	88%	5.06E-05	1	46	21	0	135	47	27
+K_DeepCast_100m_mx_218	Planctomycetes	Planctomycetes	Bacteria	5514807	92%	2.76E-05	1	13	27	0	45	66	0
+M_DeepCast_200m_mx_231	Planctomycetes	Planctomycetes	Bacteria	5670098	87%	4.94E-05	3	40	22	0	139	56	20
+K_Offshore_80m_m2_029	Planctomycetes	Planctomycetes	Bacteria	5763428	90%	2.33E-05	2	14	44	0	47	27	0
+K_DeepCast_65m_m1_055	Planctomycetes	Planctomycetes	Bacteria	5850178	90%	1.98E-05	2	11	30	0	40	33	0
+K_Offshore_surface_mx_130	Planctomycetes	Planctomycetes	Bacteria	6077677	90%	2.27E-05	2	14	40	0	33	49	0
+M_DeepCast_10m_m2_123	Planctomycetes	Planctomycetes	Bacteria	6112090	92%	1.73E-05	0	8	17	0	25	55	1
+K_Offshore_80m_m2_128	Planctomycetes	Planctomycetes	Bacteria	6697954	88%	2.06E-05	1	12	49	0	26	50	0
+K_Offshore_80m_m2_185	Planctomycetes	Planctomycetes	Bacteria	6812147	89%	2.08E-05	1	10	54	0	25	51	1
+M_DeepCast_200m_m2_285	Planctomycetes	Planctomycetes	Bacteria	7118444	87%	3.88E-05	3	38	30	0	152	50	3
+K_DeepCast_250m_m1_352	Planctomycetes	Planctomycetes	Bacteria	8088564	83%	4.39E-05	3	27	28	0	227	57	13
+K_Offshore_120m_mx_222	Planctomycetes	Planctomycetes	Bacteria	8355748	88%	2.14E-05	3	15	54	0	54	53	0
+M_DeepCast_400m_m2_014	Planctomycetes	Planctomycetes	Bacteria	8502621	88%	5.32E-05	3	72	39	0	211	89	38
+M_DeepCast_400m_m2_165	Planctomycetes	Planctomycetes	Bacteria	8530584	92%	4.86E-05	2	81	23	0	246	52	11
+M_DeepCast_400m_m2_195	Planctomycetes	Planctomycetes	Bacteria	8884912	87%	4.54E-05	1	46	35	0	235	74	12
+M_DeepCast_400m_m2_341	Planctomycetes	Planctomycetes	Bacteria	9051830	86%	4.10E-05	3	54	28	0	209	70	7
+K_DeepCast_250m_m1_330	Planctomycetes	Planctomycetes	Bacteria	9437661	88%	4.79E-05	4	75	33	0	212	86	42
+M_DeepCast_200m_m2_025	Planctomycetes	Planctomycetes	Bacteria	9783130	84%	3.79E-05	1	43	43	0	237	41	6
+K_DeepCast_300m_m2_173	Planctomycetes	Planctomycetes	Bacteria	13745144	87%	4.34E-05	4	76	51	0	358	90	17
+K_Offshore_80m_m2_203	Thaumarchaeota	Thaumarchaeota	Archaea	660113	92%	4.54E-06	0	0	0	0	0	3	0
+K_Offshore_80m_m1_039	Thaumarchaeota	Thaumarchaeota	Archaea	1087139	92%	2.76E-06	0	0	0	0	0	3	0
+M_DeepCast_50m_m1_060	Thaumarchaeota	Thaumarchaeota	Archaea	1154514	92%	9.53E-06	1	0	1	0	0	9	0
+K_Offshore_120m_mx_126	Thaumarchaeota	Thaumarchaeota	Archaea	1196260	83%	1.67E-05	2	0	2	0	8	8	0
+K_DeepCast_100m_mx_034	Thaumarchaeota	Thaumarchaeota	Archaea	1235755	90%	4.05E-06	0	0	0	0	0	5	0
+M_surface_9_mx_028	Thaumarchaeota	Thaumarchaeota	Archaea	1259105	90%	2.78E-05	0	1	4	0	10	20	0
+M_DeepCast_65m_m1_070	Thaumarchaeota	Thaumarchaeota	Archaea	1306115	92%	5.36E-06	0	0	0	0	0	7	0
+K_DeepCast_65m_m2_187	Thaumarchaeota	Thaumarchaeota	Archaea	1546437	91%	1.23E-05	1	1	0	0	0	17	0
+K_DeepCast_35m_m2_045	Unclassified	Unclassified	Bacteria	2718489	94%	2.21E-05	12	1	12	0	10	25	0
+M_surface_10_m2_023	Verrucomicrobia V1	Verrucomicrobia	Bacteria	2273383	91%	2.42E-05	1	2	7	0	18	27	0
+K_DeepCast_35m_m1_007	Verrucomicrobia V2	Verrucomicrobia	Bacteria	1797839	89%	3.28E-05	1	1	3	0	14	40	0
+M_DeepCast_400m_m2_201	Verrucomicrobia V3	Verrucomicrobia	Bacteria	2744541	86%	3.24E-05	1	4	9	0	58	16	1
+K_DeepCast_35m_m2_191	Verrucomicrobia V3	Verrucomicrobia	Bacteria	3405761	91%	3.08E-05	4	14	34	0	27	26	0
+K_Offshore_80m_m2_222	Verrucomicrobia V3	Verrucomicrobia	Bacteria	3485016	91%	2.96E-05	3	13	33	0	27	27	0
+K_Offshore_120m_m2_058	Verrucomicrobia V3	Verrucomicrobia	Bacteria	3610658	92%	2.66E-05	3	5	26	0	26	34	2
+K_Offshore_40m_m1_220	Verrucomicrobia V3	Verrucomicrobia	Bacteria	3825547	90%	2.33E-05	3	14	20	0	27	25	0
+K_DeepCast_0m_m1_144	Verrucomicrobia V3	Verrucomicrobia	Bacteria	3923443	90%	2.98E-05	4	13	19	0	34	47	0
+K_Offshore_80m_m2_019	Verrucomicrobia V3	Verrucomicrobia	Bacteria	4883340	91%	2.44E-05	4	19	24	0	37	32	3
+K_Offshore_80m_m1_165	Verrucomicrobia V3	Verrucomicrobia	Bacteria	5055027	89%	2.89E-05	3	15	35	0	44	46	3
+M_DeepCast_65m_m2_010	Verrucomicrobia V3	Verrucomicrobia	Bacteria	5477827	88%	4.60E-05	2	9	42	0	133	49	17
+K_Offshore_80m_m1_157	Verrucomicrobia V3	Verrucomicrobia	Bacteria	5732063	88%	2.23E-05	4	14	33	0	42	35	0
+M_DeepCast_200m_mx_295	Verrucomicrobia V3	Verrucomicrobia	Bacteria	6093942	88%	5.92E-05	1	25	37	0	217	59	22
+M_DeepCast_65m_m2_001	Verrucomicrobia V3	Verrucomicrobia	Bacteria	6672056	85%	2.25E-05	4	10	31	0	58	45	2
+M_DeepCast_400m_m1_380	Verrucomicrobia V3	Verrucomicrobia	Bacteria	6820493	87%	5.69E-05	1	35	40	0	223	70	19
+K_DeepCast_250m_mx_148	Verrucomicrobia V3	Verrucomicrobia	Bacteria	7117043	87%	5.68E-05	1	35	45	0	235	66	22
+K_DeepCast_150m_m2_164	Verrucomicrobia V3	Verrucomicrobia	Bacteria	8578532	88%	3.71E-05	7	25	34	0	194	48	10
+M_surface_9_m1_052	Verrucomicrobia V4	Verrucomicrobia	Bacteria	901154	93%	3.33E-05	0	4	6	0	8	11	1
+M_surface_9_m2_112	Verrucomicrobia V4	Verrucomicrobia	Bacteria	2211368	94%	3.62E-05	4	7	23	0	25	20	1
+M_surface_10_m1_278	Verrucomicrobia V4	Verrucomicrobia	Bacteria	2374465	93%	3.41E-05	3	8	25	0	25	16	4
+K_Offshore_40m_m2_239	Verrucomicrobia V4	Verrucomicrobia	Bacteria	3600646	92%	3.22E-05	4	7	29	0	42	30	4
+M_DeepCast_100m_m1_323	Verrucomicrobia V4	Verrucomicrobia	Bacteria	3667085	90%	3.33E-05	6	4	19	0	54	33	6
+M_DeepCast_100m_m1_317	Verrucomicrobia V4	Verrucomicrobia	Bacteria	3780382	92%	3.15E-05	4	5	35	0	38	36	1
+M_DeepCast_400m_m2_235	Verrucomicrobia V4	Verrucomicrobia	Bacteria	5193540	94%	7.53E-05	1	23	47	0	228	74	18
+M_surface_7_m2_085	Verrucomicrobia V6	Verrucomicrobia	Bacteria	397316	93%	4.53E-05	2	0	0	0	6	10	0
+M_DeepCast_65m_mx_257	Verrucomicrobia V6	Verrucomicrobia	Bacteria	740247	93%	3.38E-05	2	0	1	0	12	10	0
+M_surface_9_m1_041	Verrucomicrobia V6	Verrucomicrobia	Bacteria	1088973	92%	3.95E-05	2	2	4	0	14	21	0
+K_Offshore_surface_mx_264	Verrucomicrobia V6	Verrucomicrobia	Bacteria	1195651	92%	4.27E-05	1	3	2	0	19	26	0
+M_DeepCast_10m_m2_104	Verrucomicrobia V6	Verrucomicrobia	Bacteria	1220695	93%	3.36E-05	2	4	2	0	16	17	0
+K_Offshore_surface_mx_210	Verrucomicrobia V6	Verrucomicrobia	Bacteria	1365689	94%	2.56E-05	2	0	4	0	13	16	0
+M_surface_8_m1_238	Verrucomicrobia V6	Verrucomicrobia	Bacteria	1516546	93%	2.90E-05	0	0	6	0	9	29	0
+K_DeepCast_0m_m2_002	Verrucomicrobia V6	Verrucomicrobia	Bacteria	1778019	92%	2.98E-05	2	1	2	0	15	33	0
+K_DeepCast_35m_m1_325	Verrucomicrobia V6	Verrucomicrobia	Bacteria	2081239	93%	3.36E-05	2	2	2	0	23	41	0
+M_surface_6_mx_194	Verrucomicrobia V6	Verrucomicrobia	Bacteria	2500009	92%	3.60E-05	1	4	8	0	19	58	0
+K_DeepCast_100m_m1_175	Woesearchaeota	Woesearchaeota	Archaea	519626	93%	5.77E-06	0	0	1	0	0	2	0
+M_DeepCast_65m_m1_115	Woesearchaeota	Woesearchaeota	Archaea	809407	92%	2.22E-05	0	0	0	0	1	17	0
+M_DeepCast_400m_m2_277	Woesearchaeota	Woesearchaeota	Archaea	1365478	92%	8.79E-06	1	0	0	0	7	4	0
+M_DeepCast_65m_m2_091	Woesearchaeota	Woesearchaeota	Archaea	2075133	92%	2.51E-05	2	1	1	0	17	31	0
+K_DeepCast_300m_m2_023	Woesearchaeota	Woesearchaeota	Archaea	2293484	91%	2.31E-05	0	0	3	0	4	46	0
