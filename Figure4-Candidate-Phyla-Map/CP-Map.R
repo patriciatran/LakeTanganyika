@@ -10,7 +10,18 @@ library(ggmap)
 library(maps)
 library(mapdata)
 
+## Lookup the simplified categories to plot:
+categories <- read.csv("~/Documents/Github/LakeTanganyika/Figure4-Candidate-Phyla-Map/Ecosystem.Plot.Categories.csv", header=TRUE)
 
+data <- data %>% mutate(matching.column = paste0(Ecosystem, Ecosystem.Category,Ecosystem.Subtype, Ecosystem.Type))
+
+
+library(dplyr)
+
+data2 <- left_join(data, categories, by="matching.column")
+summary(data2)
+
+str(data2)
 mp <- NULL
 mapWorld <- borders("world", colour="gray50", fill="gray50") # create a layer of borders
 mp <- ggplot() +   mapWorld
@@ -20,7 +31,7 @@ mp
 
 #Now Layer the coordinates on top:
 
-mpworld <- mp+ geom_point(aes(data$Longitude,data$Latitude, colour = factor(data$Ecosystem.Category), shape=data$MAG), 
+mpworld <- mp+ geom_point(aes(data2$Longitude,data2$Latitude, colour = factor(data2$Ecosystem.Plot), shape=data2$MAG), 
                      size=3)+
  # scale_shape_manual(name="Group", values=c(0,1, 2, 15, 16, 17, 18))+
   #ggtitle("Distribution of CP Tanganyikabacteria & CP Ziwabacteria")+
@@ -34,7 +45,7 @@ mpworld
 
 library(dplyr)
 
-count.data <- data %>% group_by(MAG) %>% count(Ecosystem.Type)
+count.data <- data2 %>% group_by(MAG) %>% count(Ecosystem.Plot)
 for (i in 1:nrow(count.data)){
   if(count.data$MAG[i] == "M_DeepCastt_65m_m2_071"){
     count.data$n[i] <- -(count.data$n[i])
@@ -42,7 +53,9 @@ for (i in 1:nrow(count.data)){
 }
 
 
-bar.count <- ggplot(count.data, aes(x=Ecosystem.Type, y=n, fill=MAG))+
+count.data
+
+bar.count <- ggplot(count.data, aes(x=Ecosystem.Plot, y=n, fill=MAG))+
          geom_bar(stat="identity", position="identity")+
   theme_bw()+
   theme(axis.text.x = element_text(angle = 90, hjust = 1))+
