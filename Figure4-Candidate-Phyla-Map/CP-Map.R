@@ -78,6 +78,7 @@ count.data
 bar.count <- ggplot(count.data, aes(x=Ecosystem.Plot, y=n, fill=MAG))+
          geom_bar(stat="identity", position="identity")+
   theme_bw()+
+  scale_fill_grey()+
   theme(axis.text.x = element_text(angle = 90, hjust = 1))+
   xlab("Ecosystem Types")+
   ylab("Count")+
