@@ -13,6 +13,12 @@ Engineered,Wastewater,Petrochemical,Industrial wastewater,EngineeredWastewaterPe
 Engineered,Wastewater,Unclassified,Anaerobic digestor,EngineeredWastewaterUnclassifiedAnaerobic digestor,Engineered
 Engineered,Lab enrichment,Unclassified,Defined media,EngineeredLab enrichmentUnclassifiedDefined media,Engineered
 Engineered,Lab enrichment,Unclassified,Unclassified,EngineeredLab enrichmentUnclassifiedUnclassified,Engineered
+Engineered,Wastewater,Mine water,Industrial wastewater,EngineeredWastewaterMine waterIndustrial wastewater,Engineered
+Engineered,Wastewater,None,Activated Sludge,EngineeredWastewaterNoneActivated Sludge,Engineered
+Engineered,Bioreactor,Unclassified,Unclassified,EngineeredBioreactorUnclassifiedUnclassified,Engineered
+Engineered,Bioreactor,Unclassified,Anaerobic,EngineeredBioreactorUnclassifiedAnaerobic,Engineered
+Engineered,Solid waste,None,Landfill,EngineeredSolid wasteNoneLandfill,Engineered
+Engineered,Bioremediation,Wastewater,Terephthalate,EngineeredBioremediationWastewaterTerephthalate,Engineered
 Environmental,Aquatic,Lake,Freshwater,EnvironmentalAquaticLakeFreshwater,Aquatic Freshwater Lake
 Environmental,Aquatic,Drinking water,Freshwater,EnvironmentalAquaticDrinking waterFreshwater,Aquatic Freshwater Other
 Environmental,Aquatic,Groundwater,Freshwater,EnvironmentalAquaticGroundwaterFreshwater,Aquatic Freshwater Other
@@ -53,6 +59,10 @@ Environmental,Terrestrial,None,Rock-dwelling (subaerial biofilms),EnvironmentalT
 Environmental,Terrestrial,Fracking water,Deep subsurface,EnvironmentalTerrestrialFracking waterDeep subsurface,Terrestrial
 Environmental,Terrestrial,Aquifer,Deep subsurface,EnvironmentalTerrestrialAquiferDeep subsurface,Terrestrial
 Environmental,Terrestrial,Crop,Soil,EnvironmentalTerrestrialCropSoil,Terrestrial
+Environmental,Aquatic,Wetlands,Marine,EnvironmentalAquaticWetlandsMarine,Aquatic Freshwater Other
+Environmental,Aquatic,Creek,Freshwater,EnvironmentalAquaticCreekFreshwater,Aquatic Freshwater Other
+Environmental,Aquatic,Hot (42-90C),Sediment,EnvironmentalAquaticHot (42-90C)Sediment,Aquatic Freshwater Other
+Environmental,Terrestrial,Hot (42-90C),Soil,EnvironmentalTerrestrialHot (42-90C)Soil,Terrestrial
 Host-associated,Plants,Unclassified,Rhizoplane,Host-associatedPlantsUnclassifiedRhizoplane,Host-Associated
 Host-associated,Plants,Epiphytes,Phylloplane,Host-associatedPlantsEpiphytesPhylloplane,Host-Associated
 Host-associated,Plants,Unclassified,Endosphere,Host-associatedPlantsUnclassifiedEndosphere,Host-Associated
@@ -67,3 +77,7 @@ Host-associated,Plants,Unclassified,Rhizosphere,Host-associatedPlantsUnclassifie
 Host-associated,Fungi,None,Mycelium,Host-associatedFungiNoneMycelium,Host-Associated
 Host-associated,Mammals,Fecal,Digestive system,Host-associatedMammalsFecalDigestive system,Host-Associated
 Host-associated,Plants,Soil,Rhizoplane,Host-associatedPlantsSoilRhizoplane,Host-Associated
+Host-associated,Plants,None,Rhizoplane,Host-associatedPlantsNoneRhizoplane,Host-Associated
+Host-associated,Porifera,Unclassified,Unclassified,Host-associatedPoriferaUnclassifiedUnclassified,Host-Associated
+Host-associated,Arthropoda,Gut,Digestive system,Host-associatedArthropodaGutDigestive system,Host-Associated
+Host-associated,Plants,Unclassified,Phylloplane,Host-associatedPlantsUnclassifiedPhylloplane,Host-Associated
