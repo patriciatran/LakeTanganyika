@@ -3,6 +3,7 @@
 # October 24, 2019
 
 metabolism <- read.csv("~/Documents/Github/LakeTanganyika/FigureS7-Metabolism-Summary/metabolism.tsv", header=T, sep="\t")
+metabolism <- metabolism %>% filter(Completeness_checkm >= 70) %>% filter(Contamination_checkm <= 10)
 
 lookup.metabolism <- read.csv("~/Documents/Github/LakeTanganyika/FigureS7-Metabolism-Summary/lookup_metabolism.tsv", header=T, sep="\t")
 
@@ -50,7 +51,7 @@ metabolism.m <- metabolism.m %>% filter(!Genes %in% c("cysC","cysN"))
 #metabolism.m <- metabolism.m %>% filter(Completeness_checkm > 50)
 #Open a PDF file to save plots we will make:
 
-pdf("~/Documents/Github/LakeTanganyika/FigureS7-Metabolism-Summary/Metabolism-plots-by-category-LT.pdf", width = 16 , height = 10, title = "Lake Tanganyika MAGs and Metabolism")
+pdf("~/Documents/Github/LakeTanganyika/FigureS7-Metabolism-Summary/Metabolism-plots-by-category-LT-2020-01-14.pdf", width = 16 , height = 10, title = "Lake Tanganyika MAGs and Metabolism")
 
 # NITROGEN
 
@@ -59,7 +60,7 @@ nitrogen.mags <- metabolism.m %>% filter(!is.na(rescale) & Category %in% c("NITR
 
 ggplot(metabolism.m %>% filter(!is.na(rescale) & Category %in% c("NITROGEN","UREASE")), aes(x=Genes,y=Taxonomy))+
   geom_tile(aes(fill = Nb.of.genes),colour = "white") + 
-  scale_fill_gradient(low = "light blue", high="steelblue")+
+  #scale_fill_gradient(low = "light blue", high="steelblue")+
   ggtitle("Nitrogen", subtitle=paste0(nitrogen.taxa," taxonomic groups and ", nitrogen.mags, " distinct MAGs"))+
   theme_bw()+
   theme(axis.text.x = element_text(angle = 90, hjust = 1))+
@@ -77,7 +78,7 @@ s.table$short_reaction_name_f = factor(s.table$short_reaction_name, levels=c("su
                                                                              "ancillary\ngenes","core\ngenes"))
 ggplot(s.table, aes(x=Genes,y=Taxonomy))+
   geom_tile(aes(fill = Nb.of.genes),colour = "white") + 
-  scale_fill_gradient(low = "light blue", high="steelblue")+
+  #scale_fill_gradient(low = "light blue", high="steelblue")+
   theme_bw()+
   facet_grid(Domain~short_reaction_name_f, scales="free",space = "free_y")+
   ggtitle("Sulfur",subtitle=paste0(s.taxa," taxonomic groups and ", s.mags, " distinct MAGs"))+
@@ -89,7 +90,7 @@ H.mags <- metabolism.m %>% filter(!is.na(rescale) & Category %in% c("HYDROGEN"))
 
 ggplot(metabolism.m %>% filter(!is.na(rescale) & Category %in% c("HYDROGEN")), aes(x=Genes,y=Taxonomy))+
   geom_tile(aes(fill = Nb.of.genes),colour = "white") + 
-  scale_fill_gradient(low = "light blue", high="steelblue")+
+  #scale_fill_gradient(low = "light blue", high="steelblue")+
   ggtitle("Hydrogen",subtitle=paste0(H.taxa," taxonomic groups and ", H.mags, " distinct MAGs"))+
   theme_bw()+
   theme(axis.text.x = element_text(angle = 90, hjust = 1))+
@@ -101,7 +102,7 @@ O.mags <- metabolism.m %>% filter(!is.na(rescale) & Category %in% c("OXYGEN")) %
 
 ggplot(metabolism.m %>% filter(!is.na(rescale) & Category %in% c("OXYGEN")), aes(x=Genes,y=Taxonomy))+
   geom_tile(aes(fill =Nb.of.genes),colour = "white") + 
-  scale_fill_gradient(low = "light blue", high="steelblue")+
+  #scale_fill_gradient(low = "light blue", high="steelblue")+
   ggtitle("Oxygen",subtitle=paste0(O.taxa," taxonomic groups and ", O.mags, " distinct MAGs"))+
   theme_bw()+
   facet_grid(Domain~short_reaction_name, scales="free",space = "free_y")+
@@ -113,7 +114,7 @@ C.mags <- metabolism.m %>% filter(!is.na(rescale) & Category %in% c("METHANE","C
 
 ggplot(metabolism.m %>% filter(!is.na(rescale) & Category %in% c("METHANE","C1 METABOLISM","C MONOXIDE","CARBON FIXATION")), aes(x=Genes,y=Taxonomy))+
   geom_tile(aes(fill =Nb.of.genes),colour = "white") + 
-  scale_fill_gradient(low = "light blue", high="steelblue")+
+  #scale_fill_gradient(low = "light blue", high="steelblue")+
   theme_bw()+
   facet_grid(Domain~short_reaction_name, scales="free",space = "free_y")+
   theme(axis.text.x = element_text(angle = 90, hjust = 1))+
@@ -126,7 +127,7 @@ other.mags <- metabolism.m %>% filter(!is.na(rescale) & Category %in% c("HALOGEN
 
 ggplot(metabolism.m %>% filter(!is.na(rescale) & Category %in% c("HALOGENATED COMPOUNDS","ARSENIC","SELENIUM","NITRILES","METALS")), aes(x=Genes,y=Taxonomy))+
   geom_tile(aes(fill =  Nb.of.genes),colour = "white") + 
-  scale_fill_gradient(low = "light blue", high="steelblue")+
+  #scale_fill_gradient(low = "light blue", high="steelblue")+
   theme_bw()+
   facet_grid(Domain~short_reaction_name, scales="free",space = "free_y")+
   theme(axis.text.x = element_text(angle = 90, hjust = 1))+
@@ -162,7 +163,7 @@ ggplot(metabolism.m %>% filter(!is.na(rescale) &
                                  Taxonomy %in% c("CP Tanganyikabacteria", "CP Ziwabacteria")), 
        aes(x=Genes,y=MAG))+
   geom_tile(aes(fill = Nb.of.genes),colour = "white") + 
-  scale_fill_gradient(low = "light blue", high="steelblue")+
+  #scale_fill_gradient(low = "light blue", high="steelblue")+
   theme_bw()+
   facet_grid(Taxonomy ~ Category,scales = "free", space="free_y")+
   theme(axis.text.x = element_text(angle = 90, hjust = 1))+
@@ -259,7 +260,7 @@ abline(h=-70,col="red",lty=2)
 dev.off()
 
 ## now plot the abundance by Biogeochem cycle:
-pdf("~/Documents/Github/LakeTanganyika/FigureS7-Metabolism-Summary/Distribution-organisms-by-reactions.pdf", width = 16 , height = 10, title = "Lake Tanganyika MAGs and Metabolism")
+pdf("~/Documents/Github/LakeTanganyika/FigureS7-Metabolism-Summary/Distribution-organisms-by-reactions-2020-01-14.pdf", width = 16 , height = 10, title = "Lake Tanganyika MAGs and Metabolism")
 
 ## ggplot version coloured by reaction:
 abund.N.rxn <- left_join(abund.N, metabolism.m, by="MAG")
