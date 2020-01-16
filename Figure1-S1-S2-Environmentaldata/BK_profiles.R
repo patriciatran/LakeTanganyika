@@ -172,11 +172,93 @@ title("Temperature (degrees celcius) in Lake Tanganyika in 2013")
 # Add a line for the thermocline
 thermocline.2013<- subset(average_temp_depth, average_temp_depth$Year == "13")
 
-points(x=thermocline.2013$Date2, y=-(thermocline.2013$thermocline))
 
-library(rLakeAnalyzer)
-wtr.heat.map(average_temp_depth[,-1],x=average_temp_depth$Date2, y=average_temp_depth$Depth)
+points(x=thermocline.2013$Date2, y=-(thermocline.2013$thermocline))
 
 # Mean secchi depth per month:
 secchi.tang %>% group_by(Month) %>% summarize(mean(Secchi.Depth))
 
+## After reviewer comments I'm attempting to convert prevous Figure S1 into a contour plot.
+## 2010
+cast.tang.2010 <- subset(cast.tang, cast.tang$Year == "2010")
+thermocline.2010<- subset(average_temp_depth, average_temp_depth$Year == 10)
+
+heatmap.data <- interp(x = cast.tang.2010$Date2, y = -(cast.tang.2010$Depth), z = cast.tang.2010$DO, duplicate = "strip")
+
+par(mar = c(4.5,3,2,0.5))
+
+unique.dates <- unique(cast.tang.2010$Date2)
+
+image.plot(heatmap.data, axes = F, col = viridis(20),zlim=c(0,100))
+axis(side = 1, at= unique.dates, col = "black", labels=unique.dates, las=0.5)
+axis(side = 2, at = seq(from = -200, to = 0, by = 5), labels = T)
+title("Dissolved oxygen (% saturation) in Lake Tanganyika in 2010")
+points(x=thermocline.2010$Date2, y=-(thermocline.2010$thermocline))
+
+## Thermocline contour plot:
+heatmap.data.temp <- interp(x = as.Date(cast.tang.2010$Date2), y = -(cast.tang.2010$Depth), z = cast.tang.2010$Temp, duplicate = "strip")
+par(mar = c(4.5,3,2,0.5))
+unique.dates.temp <- unique(cast.tang.2010$Date2)
+
+image.plot(heatmap.data.temp, axes = F, col = viridis(20),zlim=c(24,28))
+axis(side = 1, at= unique.dates, col = "black", labels=unique.dates, las=0.5)
+axis(side = 2, at = seq(from = -200, to = 0, by = 5), labels = T)
+title("Temperature (degrees celcius) in Lake Tanganyika in 2010")
+# Add a line for the thermocline
+points(x=thermocline.2010$Date2, y=-(thermocline.2010$thermocline))
+
+## 2011
+cast.tang.2011 <- subset(cast.tang, cast.tang$Year == "2011")
+thermocline.2011<- subset(average_temp_depth, average_temp_depth$Year == 11)
+
+heatmap.data <- interp(x = cast.tang.2011$Date2, y = -(cast.tang.2011$Depth), z = cast.tang.2011$DO, duplicate = "strip")
+
+par(mar = c(4.5,3,2,0.5))
+
+unique.dates <- unique(cast.tang.2011$Date2)
+
+image.plot(heatmap.data, axes = F, col = viridis(20),zlim=c(0,100))
+axis(side = 1, at= unique.dates, col = "black", labels=unique.dates, las=0.5)
+axis(side = 2, at = seq(from = -200, to = 0, by = 5), labels = T)
+title("Dissolved oxygen (% saturation) in Lake Tanganyika in 2011")
+points(x=thermocline.2011$Date2, y=-(thermocline.2011$thermocline))
+
+## Thermocline contour plot:
+heatmap.data.temp <- interp(x = as.Date(cast.tang.2011$Date2), y = -(cast.tang.2011$Depth), z = cast.tang.2011$Temp, duplicate = "strip")
+par(mar = c(4.5,3,2,0.5))
+unique.dates.temp <- unique(cast.tang.2011$Date2)
+
+image.plot(heatmap.data.temp, axes = F, col = viridis(20),zlim=c(24,28))
+axis(side = 1, at= unique.dates, col = "black", labels=unique.dates, las=0.5)
+axis(side = 2, at = seq(from = -200, to = 0, by = 5), labels = T)
+title("Temperature (degrees celcius) in Lake Tanganyika in 2011")
+# Add a line for the thermocline
+points(x=thermocline.2011$Date2, y=-(thermocline.2011$thermocline))
+
+## 2012
+cast.tang.2012 <- subset(cast.tang, cast.tang$Year == "2012")
+thermocline.2012<- subset(average_temp_depth, average_temp_depth$Year == 12)
+
+heatmap.data <- interp(x = cast.tang.2012$Date2, y = -(cast.tang.2012$Depth), z = cast.tang.2012$DO, duplicate = "strip")
+
+par(mar = c(4.5,3,2,0.5))
+
+unique.dates <- unique(cast.tang.2012$Date2)
+
+image.plot(heatmap.data, axes = F, col = viridis(20),zlim=c(0,100))
+axis(side = 1, at= unique.dates, col = "black", labels=unique.dates, las=0.5)
+axis(side = 2, at = seq(from = -200, to = 0, by = 5), labels = T)
+title("Dissolved oxygen (% saturation) in Lake Tanganyika in 2012")
+points(x=thermocline.2012$Date2, y=-(thermocline.2012$thermocline))
+
+## Thermocline contour plot:
+heatmap.data.temp <- interp(x = as.Date(cast.tang.2012$Date2), y = -(cast.tang.2012$Depth), z = cast.tang.2012$Temp, duplicate = "strip")
+par(mar = c(4.5,3,2,0.5))
+unique.dates.temp <- unique(cast.tang.2012$Date2)
+
+image.plot(heatmap.data.temp, axes = F, col = viridis(20),zlim=c(24,28))
+axis(side = 1, at= unique.dates, col = "black", labels=unique.dates, las=0.5)
+axis(side = 2, at = seq(from = -200, to = 0, by = 5), labels = T)
+title("Temperature (degrees celcius) in Lake Tanganyika in 2012")
+# Add a line for the thermocline
+points(x=thermocline.2012$Date2, y=-(thermocline.2012$thermocline))
