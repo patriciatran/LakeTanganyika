@@ -51,7 +51,7 @@ metabolism.m <- metabolism.m %>% filter(!Genes %in% c("cysC","cysN"))
 #metabolism.m <- metabolism.m %>% filter(Completeness_checkm > 50)
 #Open a PDF file to save plots we will make:
 
-pdf("~/Documents/Github/LakeTanganyika/FigureS7-Metabolism-Summary/Metabolism-plots-by-category-LT-2020-01-14.pdf", width = 16 , height = 10, title = "Lake Tanganyika MAGs and Metabolism")
+pdf("~/Documents/Github/LakeTanganyika/FigureS7-Metabolism-Summary/Metabolism-plots-by-category-LT-2020-01-16.pdf", width = 16 , height = 10, title = "Lake Tanganyika MAGs and Metabolism")
 
 # NITROGEN
 
@@ -179,7 +179,7 @@ list.O <- metabolism.m %>% filter(!is.na(rescale) & Category %in% c("OXYGEN")) %
 list.C <- metabolism.m %>% filter(!is.na(rescale) & Category %in% c("METHANE","C1 METABOLISM","C MONOXIDE","CARBON FIXATION")) %>% distinct(MAG)
 list.other <- metabolism.m %>% filter(!is.na(rescale) & Category %in% c("HALOGENATED COMPOUNDS","ARSENIC","SELENIUM","NITRILES","METALS")) %>% distinct(MAG)
 
-pdf("~/Documents/Github/LakeTanganyika/FigureS7-Metabolism-Summary/Distribution-of-organisms.pdf", width = 16 , height = 10, title = "Lake Tanganyika MAGs and Metabolism")
+pdf("~/Documents/Github/LakeTanganyika/FigureS7-Metabolism-Summary/Distribution-of-organisms-2020-01-16.pdf", width = 16 , height = 10, title = "Lake Tanganyika MAGs and Metabolism")
 
 
 # Load abundance table:

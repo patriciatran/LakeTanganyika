@@ -2,6 +2,13 @@
 abundance.mags <- read.table("~/Documents/Github/LakeTanganyika/Figure3-RankAbundanceCurve/Abundance-MAGS.tsv", sep="\t", header=TRUE)
 library(tidyverse)
 
+metabolism <- read.csv("~/Documents/Github/LakeTanganyika/FigureS7-Metabolism-Summary/metabolism.tsv", header=T, sep="\t")
+metabolism <- metabolism %>% filter(Completeness_checkm >= 70) %>% filter(Contamination_checkm <= 10)
+
+select.mags <- as.character(metabolism$MAG)
+
+abundance.mags <- abundance.mags[abundance.mags$MAG %in% select.mags,]
+
 small.abundance.mags <- abundance.mags %>% select(MAG, Taxonomy, Domain, Epi, Oxy, Hypo)
 # Ok all good but we want simpler names
 lookup <- read.table("~/Documents/Github/LakeTanganyika/Figure3-RankAbundanceCurve/Simple_taxo_lookup.tsv", header=TRUE, sep="\t")
@@ -18,6 +25,25 @@ below.abund <- sum(small.abundance.mags$Hypo)
 summary.abundance.mags <- small.abundance.mags %>% group_by(Simplified.Taxonomy) %>% summarize(sumAbove = sum(Epi), meanAbove=mean(Epi), maxAbove=max(Epi), minAbove=min(Epi),
                                                                                     sumOxy = sum(Oxy), meanOxy=mean(Oxy), maxOxy=max(Oxy), minOxy=min(Oxy),
                                                                                     sumBelow = sum(Hypo), meanBelow=mean(Hypo), maxBelow=max(Hypo), minBelow=min(Hypo))
+
+abundance.mags2 <- abundance.mags %>% select(-MAG,-Domain, -Epi,-Oxy,-Hypo, -Completeness, -Nb.of.Scaffolds) %>% 
+  group_by(Taxonomy)
+
+summary(abundance.mags2)
+abundance.mags2 <- abundance.mags2 %>% group_by(Taxonomy) %>% summarise_all(funs(mean))
+
+rownames.abundance <- as.character(abundance.mags2$Taxonomy)
+abundance.mags2 <- abundance.mags2[,-1]
+rownames(abundance.mags2) <- rownames.abundance
+
+abundance_df = melt(as.matrix(abundance.mags2))
+names(abundance_df) = c('Taxonomy', 'Sample', 'NormalizedCoverage')
+
+ggplot(abundance_df, aes(x = Taxonomy, y = Sample, size = NormalizedCoverage)) + 
+  geom_point()+
+  theme_bw()+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
 
 summary.abundance.mags$TotalSum <- 0
 for (i in 1:nrow(summary.abundance.mags)){
