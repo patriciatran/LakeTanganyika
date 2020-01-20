@@ -49,10 +49,11 @@ metabolism.m <- metabolism.m %>% filter(!Genes %in% c("cysC","cysN"))
 ## Apply the filter you want here! :) 
 ## Can also choose contam level but caveats
 
-#metabolism.m <- metabolism.m %>% filter(Completeness_checkm > 50)
+# MIMAGS standards:
+metabolism.m <- metabolism.m %>% filter(Completeness_checkm >= 50 & Contamination_checkm <10)
 #Open a PDF file to save plots we will make:
 
-pdf("~/Documents/Github/LakeTanganyika/FigureS7-Metabolism-Summary/Metabolism-plots-by-category-LT-2020-01-16.pdf", width = 16 , height = 10, title = "Lake Tanganyika MAGs and Metabolism")
+pdf("~/Documents/Github/LakeTanganyika/FigureS7-Metabolism-Summary/Metabolism-plots-by-category-LT-2020-01-20-Mimags.pdf", width = 16 , height = 10, title = "Lake Tanganyika MAGs and Metabolism")
 
 # NITROGEN
 
@@ -156,7 +157,9 @@ bar.plot <- ggplot(to.plot.summary, aes(x=factor(Category),y=ToPlot,fill=factor(
 
 bar.plot
 
-#savePlot(bar.plot, "~/Box/PhD/Research/Lake-Tanganyika/1_Code/Metabolism-Summary/barplot.pdf", type = "png")
+pdf("~/Documents/Github/LakeTanganyika/FigureS7-Metabolism-Summary/BarPlot-2020-01-20.pdf")
+bar.plot
+dev.off()
 
 # plot the metabolism of just the two new CP:
 
@@ -180,7 +183,7 @@ list.O <- metabolism.m %>% filter(!is.na(rescale) & Category %in% c("OXYGEN")) %
 list.C <- metabolism.m %>% filter(!is.na(rescale) & Category %in% c("METHANE","C1 METABOLISM","C MONOXIDE","CARBON FIXATION")) %>% distinct(MAG)
 list.other <- metabolism.m %>% filter(!is.na(rescale) & Category %in% c("HALOGENATED COMPOUNDS","ARSENIC","SELENIUM","NITRILES","METALS")) %>% distinct(MAG)
 
-pdf("~/Documents/Github/LakeTanganyika/FigureS7-Metabolism-Summary/Distribution-of-organisms-2020-01-16.pdf", width = 16 , height = 10, title = "Lake Tanganyika MAGs and Metabolism")
+pdf("~/Documents/Github/LakeTanganyika/FigureS7-Metabolism-Summary/Distribution-of-organisms-2020-01-20-mimags.pdf", width = 16 , height = 10, title = "Lake Tanganyika MAGs and Metabolism")
 
 
 # Load abundance table:
@@ -261,16 +264,16 @@ abline(h=-70,col="red",lty=2)
 dev.off()
 
 ## now plot the abundance by Biogeochem cycle:
-pdf("~/Documents/Github/LakeTanganyika/FigureS7-Metabolism-Summary/Distribution-organisms-by-reactions-2020-01-14.pdf", width = 16 , height = 10, title = "Lake Tanganyika MAGs and Metabolism")
+pdf("~/Documents/Github/LakeTanganyika/FigureS7-Metabolism-Summary/Distribution-organisms-by-reactions-2020-01-20-mimags.pdf", width = 16 , height = 10, title = "Lake Tanganyika MAGs and Metabolism")
 
 ## ggplot version coloured by reaction:
 abund.N.rxn <- left_join(abund.N, metabolism.m, by="MAG")
 ggplot(abund.N.rxn %>% filter(!is.na(Nb.of.genes) & Category %in% c("NITROGEN","UREASE")), aes(x=Coverage, y=Depth, col=Reaction))+
-  geom_point()+
+  geom_point(aes(col=short_reaction_name,alpha=.5))+
   geom_line(y=-50, col="black")+
   geom_line(y=-100, col="black")+
   geom_line(y=-70, col="red")+
-  facet_grid(~short_reaction_name)+
+  #facet_grid(~short_reaction_name)+
   scale_y_reverse(lim=c(1250,0))+
   theme_bw()+
   theme(legend.position = "bottom",axis.text.x = element_text(angle = 90, hjust = 1))+
@@ -278,11 +281,11 @@ ggplot(abund.N.rxn %>% filter(!is.na(Nb.of.genes) & Category %in% c("NITROGEN","
 
 abund.S.rxn <- left_join(abund.S, metabolism.m, by="MAG")
 ggplot(abund.S.rxn %>% filter(!is.na(Nb.of.genes) & Category %in% c("SULFUR","DSR","Thiosulfate oxidation")), aes(x=Coverage, y=Depth, col=Reaction))+
-  geom_point()+
+  geom_point(aes(col=short_reaction_name,alpha=.5))+
   geom_line(y=-50, col="black")+
   geom_line(y=-100, col="black")+
   geom_line(y=-70, col="red")+
-  facet_grid(~short_reaction_name)+
+  #facet_grid(~short_reaction_name)+
   scale_y_reverse(lim=c(1250,0))+
   theme_bw()+
   theme(legend.position = "bottom",axis.text.x = element_text(angle = 90, hjust = 1))+
@@ -295,11 +298,11 @@ C.rxn
                        
 
 ggplot(abund.C.rxn %>% filter(!is.na(Nb.of.genes) & Category %in% c("METHANE","C1 METABOLISM","C MONOXIDE","CARBON FIXATION")), aes(x=Coverage, y=Depth, col=Reaction))+
-  geom_point()+
+  geom_point(aes(col=short_reaction_name,alpha=.5))+
   geom_line(y=-50, col="black")+
   geom_line(y=-100, col="black")+
   geom_line(y=-70, col="red")+
-  facet_grid(~short_reaction_name)+
+ # facet_grid(~short_reaction_name)+
   scale_y_reverse(lim=c(1250,0))+
   theme_bw()+
   theme(legend.position = "bottom",axis.text.x = element_text(angle = 90, hjust = 1))+

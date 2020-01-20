@@ -1,6 +1,19 @@
 # Rank Abundance curve
 abundance.mags <- read.table("~/Documents/Github/LakeTanganyika/Figure3-RankAbundanceCurve/Abundance-MAGS.tsv", sep="\t", header=TRUE)
+
+#filter MIMAGS quals:
+library(dplyr)
+
+metabolism <- read.csv("~/Documents/Github/LakeTanganyika/FigureS7-Metabolism-Summary/metabolism.tsv", header=T, sep="\t")
+library(dplyr)
+metabolism <- metabolism %>% filter(Completeness_checkm >= 50) %>% filter(Contamination_checkm < 10)
+
+list.Mimags <- as.character(metabolism$MAG)
+list.Mimags
+
 library(tidyverse)
+
+abundance.mags <- abundance.mags %>% filter(MAG %in% list.Mimags)
 
 small.abundance.mags <- abundance.mags %>% select(MAG, Taxonomy, Domain, Epi, Oxy, Hypo)
 # Ok all good but we want simpler names
@@ -11,13 +24,50 @@ small.abundance.mags <- left_join(small.abundance.mags, lookup, by="Taxonomy")
 
 small.abundance.mags %>% filter(is.na(Simplified.Taxonomy))
 
+
+## Bubble plot:
+abundance.mags2 <- abundance.mags %>% select(-MAG,-Domain, -Epi,-Oxy,-Hypo, -Completeness, -Nb.of.Scaffolds) %>% 
+  group_by(Taxonomy)
+
+summary(abundance.mags2)
+
+abundance.mags2 <- abundance.mags2 %>% group_by(Taxonomy) %>% summarise_all(funs(mean))
+
+rownames.abundance <- as.character(abundance.mags2$Taxonomy)
+abundance.mags2 <- abundance.mags2[,-1]
+rownames(abundance.mags2) <- rownames.abundance
+
+library(reshape)
+abundance_df = melt(as.matrix(abundance.mags2))
+names(abundance_df) = c('Taxonomy', 'Sample', 'NormalizedCoverage')
+
+ggplot(abundance_df, aes(x = Taxonomy, y = Sample, size = NormalizedCoverage)) + 
+  geom_point()+
+  theme_bw()+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+ 
+levels(abundance_df$Sample)
+abundance_df$Sample_f <- factor(abundance_df$Sample, levels(abundance_df$Sample)[c(16, 15, 14, 19, 18, 17, 20, 24, 23, 22, 21, 2, 5, 4, 3, 10, 1, 12, 7, 11, 6, 13, 9, 8)])
+
+
+abundance_df$Sample_f
+
+ggplot(abundance_df, aes(x = Taxonomy, y = Sample_f, size = NormalizedCoverage)) + 
+  geom_point()+
+  theme_bw()+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+
+###
+
 above.abund <- sum(small.abundance.mags$Epi)
 oxy.abund <- sum(small.abundance.mags$Oxy)
 below.abund <- sum(small.abundance.mags$Hypo)
 
 summary.abundance.mags <- small.abundance.mags %>% group_by(Simplified.Taxonomy) %>% summarize(sumAbove = sum(Epi), meanAbove=mean(Epi), maxAbove=max(Epi), minAbove=min(Epi),
-                                                                                    sumOxy = sum(Oxy), meanOxy=mean(Oxy), maxOxy=max(Oxy), minOxy=min(Oxy),
-                                                                                    sumBelow = sum(Hypo), meanBelow=mean(Hypo), maxBelow=max(Hypo), minBelow=min(Hypo))
+                                                                                               sumOxy = sum(Oxy), meanOxy=mean(Oxy), maxOxy=max(Oxy), minOxy=min(Oxy),
+                                                                                               sumBelow = sum(Hypo), meanBelow=mean(Hypo), maxBelow=max(Hypo), minBelow=min(Hypo))
 
 summary.abundance.mags$TotalSum <- 0
 for (i in 1:nrow(summary.abundance.mags)){
@@ -55,8 +105,6 @@ ggplot(top_20) +
                                                                          fill = "white", size = 0.2, linetype = "solid"))+
   xlab("Taxonomic Group (ranked by coverage above the oxycline)")+
   ylab("Relative abundance \n of that group per layer (%)")
- 
-#ggplot(top_20) + geom_bar(stat = "identity")
 
 top_20.filter <- top_20 %>% select(Simplified.Taxonomy, sumAbove, sumOxy, sumBelow)
 
@@ -106,10 +154,9 @@ ggplot(top_20.filter, aes(x=factor(Simplified.Taxonomy, levels=order.I.want), y=
         legend.position = c(0.85, 0.85),
         legend.background = element_rect(color = "black", fill = "white", size = 0.2, linetype = "solid"))+
   scale_fill_manual(name = ('Layer'), 
-                      values =c('sumAbove'='#5384E0','sumOxy'="#255957", 'sumBelow'="#F7C548"), 
-                      labels = c('Oxic Layer (0-50m)','Sub-oxic Layer (50-100m)','Anoxic Layer (100-1200m)'))+
+                    values =c('sumAbove'='#5384E0','sumOxy'="#255957", 'sumBelow'="#F7C548"), 
+                    labels = c('Oxic Layer (0-50m)','Sub-oxic Layer (50-100m)','Anoxic Layer (100-1200m)'))+
   xlab("Taxonomic Group, ranked by total abundance across all layers")+
   ylab("Relative Abundance (%)")
-
 
   

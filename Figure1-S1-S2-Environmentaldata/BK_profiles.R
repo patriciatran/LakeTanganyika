@@ -149,6 +149,7 @@ cast.tang.2013 <- subset(cast.tang, cast.tang$Year == "2013")
 
 heatmap.data <- interp(x = cast.tang.2013$Date2, y = -(cast.tang.2013$Depth), z = cast.tang.2013$DO, duplicate = "strip")
 
+par(las=2)
 par(mar = c(4.5,3,2,0.5))
 library(fields)
 #install.packages("viridis")
@@ -156,8 +157,8 @@ library(viridis)
 
 unique.dates <- unique(cast.tang.2013$Date2)
 
-image.plot(heatmap.data, axes = F, col = viridis(20),zlim=c(0,100))
-axis(side = 1, at= unique.dates, col = "black", labels=unique.dates, las=0.5)
+image.plot(heatmap.data, axes = F, col = viridis(20),zlim=c(0,100), las=2)
+axis(side = 1, at= unique.dates, col = "black", labels=unique.dates, las=2)
 axis(side = 2, at = seq(from = -200, to = 0, by = 5), labels = T)
 title("Dissolved oxygen (% saturation) in Lake Tanganyika in 2013")
 points(x=thermocline.2013$Date2, y=-(thermocline.2013$thermocline))
@@ -168,7 +169,7 @@ par(mar = c(4.5,3,2,0.5))
 unique.dates.temp <- unique(cast.tang.2013$Date2)
 
 image.plot(heatmap.data.temp, axes = F, col = viridis(20),zlim=c(24,28))
-axis(side = 1, at= unique.dates, col = "black", labels=unique.dates, las=0.5)
+axis(side = 1, at= unique.dates, col = "black", labels=unique.dates, las=2
 axis(side = 2, at = seq(from = -200, to = 0, by = 5), labels = T)
 title("Temperature (degrees celcius) in Lake Tanganyika in 2013")
 # Add a line for the thermocline
@@ -192,7 +193,7 @@ par(mar = c(4.5,3,2,0.5))
 unique.dates <- unique(cast.tang.2010$Date2)
 
 image.plot(heatmap.data, axes = F, col = viridis(20),zlim=c(0,100))
-axis(side = 1, at= unique.dates, col = "black", labels=unique.dates, las=0.5)
+axis(side = 1, at= unique.dates, col = "black", labels=unique.dates, las=2
 axis(side = 2, at = seq(from = -200, to = 0, by = 5), labels = T)
 title("Dissolved oxygen (% saturation) in Lake Tanganyika in 2010")
 points(x=thermocline.2010$Date2, y=-(thermocline.2010$thermocline))
@@ -203,7 +204,7 @@ par(mar = c(4.5,3,2,0.5))
 unique.dates.temp <- unique(cast.tang.2010$Date2)
 
 image.plot(heatmap.data.temp, axes = F, col = viridis(20),zlim=c(24,28))
-axis(side = 1, at= unique.dates, col = "black", labels=unique.dates, las=0.5)
+axis(side = 1, at= unique.dates, col = "black", labels=unique.dates, las=2
 axis(side = 2, at = seq(from = -200, to = 0, by = 5), labels = T)
 title("Temperature (degrees celcius) in Lake Tanganyika in 2010")
 # Add a line for the thermocline
@@ -220,7 +221,7 @@ par(mar = c(4.5,3,2,0.5))
 unique.dates <- unique(cast.tang.2011$Date2)
 
 image.plot(heatmap.data, axes = F, col = viridis(20),zlim=c(0,100))
-axis(side = 1, at= unique.dates, col = "black", labels=unique.dates, las=0.5)
+axis(side = 1, at= unique.dates, col = "black", labels=unique.dates, las=2
 axis(side = 2, at = seq(from = -200, to = 0, by = 5), labels = T)
 title("Dissolved oxygen (% saturation) in Lake Tanganyika in 2011")
 points(x=thermocline.2011$Date2, y=-(thermocline.2011$thermocline))
@@ -231,7 +232,7 @@ par(mar = c(4.5,3,2,0.5))
 unique.dates.temp <- unique(cast.tang.2011$Date2)
 
 image.plot(heatmap.data.temp, axes = F, col = viridis(20),zlim=c(24,28))
-axis(side = 1, at= unique.dates, col = "black", labels=unique.dates, las=0.5)
+axis(side = 1, at= unique.dates, col = "black", labels=unique.dates, las=2
 axis(side = 2, at = seq(from = -200, to = 0, by = 5), labels = T)
 title("Temperature (degrees celcius) in Lake Tanganyika in 2011")
 # Add a line for the thermocline
@@ -248,7 +249,7 @@ par(mar = c(4.5,3,2,0.5))
 unique.dates <- unique(cast.tang.2012$Date2)
 
 image.plot(heatmap.data, axes = F, col = viridis(20),zlim=c(0,100))
-axis(side = 1, at= unique.dates, col = "black", labels=unique.dates, las=0.5)
+axis(side = 1, at= unique.dates, col = "black", labels=unique.dates, las=2
 axis(side = 2, at = seq(from = -200, to = 0, by = 5), labels = T)
 title("Dissolved oxygen (% saturation) in Lake Tanganyika in 2012")
 points(x=thermocline.2012$Date2, y=-(thermocline.2012$thermocline))
@@ -259,7 +260,7 @@ par(mar = c(4.5,3,2,0.5))
 unique.dates.temp <- unique(cast.tang.2012$Date2)
 
 image.plot(heatmap.data.temp, axes = F, col = viridis(20),zlim=c(24,28))
-axis(side = 1, at= unique.dates, col = "black", labels=unique.dates, las=0.5)
+axis(side = 1, at= unique.dates, col = "black", labels=unique.dates, las=2
 axis(side = 2, at = seq(from = -200, to = 0, by = 5), labels = T)
 title("Temperature (degrees celcius) in Lake Tanganyika in 2012")
 # Add a line for the thermocline
@@ -274,7 +275,7 @@ par(mar = c(4.5,3,2,0.5))
 unique.dates.temp <- unique(cast.tang.2013$Date2)
 
 image.plot(heatmap.data.chla, axes = F, col = viridis(20))
-axis(side = 1, at= unique.dates, col = "black", labels=unique.dates, las=0.5)
+axis(side = 1, at= unique.dates, col = "black", labels=unique.dates, las=2
 axis(side = 2, at = seq(from = -200, to = 0, by = 5), labels = T)
 title("Chlorophyll a in Lake Tanganyika in 2013")
 # Add a line for the thermocline
