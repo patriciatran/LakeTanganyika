@@ -11,3 +11,6 @@ However, the genomes have been uploaded to NCBI Genbank and will be officially r
 
 Link: https://osf.io/pmhae/
 
+# Note
+January 20, 2020: I am currently editing figures and content as per reviewer's comments. the contents of this directory might change.
+
