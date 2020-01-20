@@ -31,6 +31,8 @@ Chla <- ggplot(cast.tang) + geom_point(aes(x = Chla, y = Depth, colour = juliand
   ggtitle("Chl a")+
   theme_classic()
 
+Chla
+
 Conductivity <- ggplot(cast.tang) + geom_point(aes(x = Conductivity, y = Depth, colour = julianday)) + 
   scale_y_reverse()+
   facet_grid(cols = vars(Year))+
@@ -74,7 +76,7 @@ library(dplyr)
 average_temp_depth <- cast.tang %>% group_by(Date, Depth) %>% summarise(average=mean(Temp))
 average_temp_depth <- average_temp_depth %>% mutate(thermocline = thermo.depth(average, Depth))
 plot(average_temp_depth$Date, average_temp_depth$thermocline)
-
+ 
 library(ggplot2)
 #Plot Thermocline Depth
 library(tidyr)
@@ -262,3 +264,18 @@ axis(side = 2, at = seq(from = -200, to = 0, by = 5), labels = T)
 title("Temperature (degrees celcius) in Lake Tanganyika in 2012")
 # Add a line for the thermocline
 points(x=thermocline.2012$Date2, y=-(thermocline.2012$thermocline))
+
+## Chl a contour plots: 2013
+# Remove NA:
+cast.tang.2013 <- cast.tang.2013 %>% filter(!is.na(Chla))
+
+heatmap.data.chla <- interp(x = as.Date(cast.tang.2013$Date2), y = -(cast.tang.2013$Depth), z = cast.tang.2013$Chla, duplicate = "strip")
+par(mar = c(4.5,3,2,0.5))
+unique.dates.temp <- unique(cast.tang.2013$Date2)
+
+image.plot(heatmap.data.chla, axes = F, col = viridis(20))
+axis(side = 1, at= unique.dates, col = "black", labels=unique.dates, las=0.5)
+axis(side = 2, at = seq(from = -200, to = 0, by = 5), labels = T)
+title("Chlorophyll a in Lake Tanganyika in 2013")
+# Add a line for the thermocline
+points(x=thermocline.2013$Date2, y=-(thermocline.2013$thermocline))

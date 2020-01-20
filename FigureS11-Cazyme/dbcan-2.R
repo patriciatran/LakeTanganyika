@@ -4,6 +4,13 @@ dbcan$Taxonomy <- as.character(dbcan$Taxonomy)
 dbcan$Cazyme.density..nb.of.CAZYME.bp.<- as.numeric(dbcan$Cazyme.density..nb.of.CAZYME.bp.)
 str(dbcan)
 
+metabolism <- read.csv("~/Documents/Github/LakeTanganyika/FigureS7-Metabolism-Summary/metabolism.tsv", header=T, sep="\t")
+library(dplyr)
+metabolism <- metabolism %>% filter(Completeness_checkm >= 70) %>% filter(Contamination_checkm <= 10)
+
+list.mag <- as.character(metabolism$MAG)
+
+dbcan <- dbcan %>% filter(MAG_ID %in% list.mag)
 # boxplot(dbcan$Cazyme.density..nb.of.CAZYME.bp.~ dbcan$Taxonomy,
 #   xlab="Taxonomic group",
 #   ylab="CAZYME density per genome size (Hits/bp)")
@@ -48,10 +55,13 @@ str(m.dbcan[which(m.dbcan$value>0),])
 new.m.dbcan <- m.dbcan %>% left_join(nb.of.MAG.each.taxa)
 
 bp <- ggplot(new.m.dbcan[which(new.m.dbcan$value>0),], aes(x=newMAGname, y=value)) + 
-  geom_boxplot()+
+  geom_boxplot(lwd=0.4)+
   facet_grid(Domain ~ variable,scales="free",space = "free_y")+
   theme_base()+
   theme(axis.text.x = element_text(angle = 90, hjust = 1))+
-  coord_flip()
+  coord_flip()+
+  ggtitle("CAZyme distribution in 431 MAGs in Lake Tanganyika",subtitle = "January 20, 2020")+
+  ylab("Taxonomy")+
+  xlab("Number of Hits")
 
 bp

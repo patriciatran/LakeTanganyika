@@ -3,13 +3,14 @@
 # October 24, 2019
 
 metabolism <- read.csv("~/Documents/Github/LakeTanganyika/FigureS7-Metabolism-Summary/metabolism.tsv", header=T, sep="\t")
+library(dplyr)
 metabolism <- metabolism %>% filter(Completeness_checkm >= 70) %>% filter(Contamination_checkm <= 10)
 
 lookup.metabolism <- read.csv("~/Documents/Github/LakeTanganyika/FigureS7-Metabolism-Summary/lookup_metabolism.tsv", header=T, sep="\t")
 
 #lookup.metabolism2<- aggregate(lookup.metabolism$Genes, list(lookup.metabolism$Category, lookup.metabolism$Reaction), paste, collapse=", ")
 
-library(dplyr)
+
 
 colnames(metabolism)
 str(metabolism)
