@@ -153,7 +153,8 @@ bar.plot <- ggplot(to.plot.summary, aes(x=factor(Category),y=ToPlot,fill=factor(
   theme_minimal()+
   theme(text = element_text(size=20))+
   xlab("Biogeochemical category")+
-  ylab("Count")
+  ylab("Count")+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
 
 bar.plot
 
@@ -268,7 +269,7 @@ pdf("~/Documents/Github/LakeTanganyika/FigureS7-Metabolism-Summary/Distribution-
 
 ## ggplot version coloured by reaction:
 abund.N.rxn <- left_join(abund.N, metabolism.m, by="MAG")
-ggplot(abund.N.rxn %>% filter(!is.na(Nb.of.genes) & Category %in% c("NITROGEN","UREASE")), aes(x=Coverage, y=Depth, col=Reaction))+
+abund.N.plot <- ggplot(abund.N.rxn %>% filter(!is.na(Nb.of.genes) & Category %in% c("NITROGEN","UREASE")), aes(x=Coverage, y=Depth, col=Reaction))+
   geom_point(aes(col=short_reaction_name,alpha=.5))+
   geom_line(y=-50, col="black")+
   geom_line(y=-100, col="black")+
@@ -276,11 +277,11 @@ ggplot(abund.N.rxn %>% filter(!is.na(Nb.of.genes) & Category %in% c("NITROGEN","
   #facet_grid(~short_reaction_name)+
   scale_y_reverse(lim=c(1250,0))+
   theme_bw()+
-  theme(legend.position = "bottom",axis.text.x = element_text(angle = 90, hjust = 1))+
+  theme(legend.position = "left",axis.text.x = element_text(angle = 90, hjust = 1))+
   ggtitle("Distribution of MAGs involved in nitrogen cycling reactions")
 
 abund.S.rxn <- left_join(abund.S, metabolism.m, by="MAG")
-ggplot(abund.S.rxn %>% filter(!is.na(Nb.of.genes) & Category %in% c("SULFUR","DSR","Thiosulfate oxidation")), aes(x=Coverage, y=Depth, col=Reaction))+
+abund.S.plot <- ggplot(abund.S.rxn %>% filter(!is.na(Nb.of.genes) & Category %in% c("SULFUR","DSR","Thiosulfate oxidation")), aes(x=Coverage, y=Depth, col=Reaction))+
   geom_point(aes(col=short_reaction_name,alpha=.5))+
   geom_line(y=-50, col="black")+
   geom_line(y=-100, col="black")+
@@ -288,7 +289,7 @@ ggplot(abund.S.rxn %>% filter(!is.na(Nb.of.genes) & Category %in% c("SULFUR","DS
   #facet_grid(~short_reaction_name)+
   scale_y_reverse(lim=c(1250,0))+
   theme_bw()+
-  theme(legend.position = "bottom",axis.text.x = element_text(angle = 90, hjust = 1))+
+  theme(legend.position = "left",axis.text.x = element_text(angle = 90, hjust = 1))+
   ggtitle("Distribution of MAGs involved in sulfur cycling reactions")
 
 abund.C.rxn <- left_join(abund.C, metabolism.m, by="MAG")
@@ -297,7 +298,7 @@ C.rxn <- abund.C.rxn %>% filter(!is.na(Nb.of.genes) & Category %in% c("METHANE",
 C.rxn
                        
 
-ggplot(abund.C.rxn %>% filter(!is.na(Nb.of.genes) & Category %in% c("METHANE","C1 METABOLISM","C MONOXIDE","CARBON FIXATION")), aes(x=Coverage, y=Depth, col=Reaction))+
+Abund.C.plot <- ggplot(abund.C.rxn %>% filter(!is.na(Nb.of.genes) & Category %in% c("METHANE","C1 METABOLISM","C MONOXIDE","CARBON FIXATION")), aes(x=Coverage, y=Depth, col=Reaction))+
   geom_point(aes(col=short_reaction_name,alpha=.5))+
   geom_line(y=-50, col="black")+
   geom_line(y=-100, col="black")+
@@ -305,8 +306,12 @@ ggplot(abund.C.rxn %>% filter(!is.na(Nb.of.genes) & Category %in% c("METHANE","C
  # facet_grid(~short_reaction_name)+
   scale_y_reverse(lim=c(1250,0))+
   theme_bw()+
-  theme(legend.position = "bottom",axis.text.x = element_text(angle = 90, hjust = 1))+
+  theme(legend.position = "left",axis.text.x = element_text(angle = 90, hjust = 1))+
   ggtitle("Distribution of MAGs involved in carbon cycling reactions")
+
+library(ggpubr)
+
+ggarrange(Abund.C.plot, abund.N.plot, abund.S.plot, ncol=2, nrow=2, labels=c("A","B","C"))
 
 dev.off()
 
@@ -358,3 +363,18 @@ ggplot(abund.nfix, aes(x=Coverage,y=-Depth, col=Name_Tqxonomy, shape=Location))+
   geom_line(y=-100, col="black")+
   geom_line(y=-50, col="black")+
   geom_line(y=-70, col="red")
+
+##Plotting metabolisms of CP only
+subset.metabolism.m<- metabolism.m[grep("CP ", metabolism.m$Taxonomy), ]
+
+ggplot(subset.metabolism.m %>% filter(!is.na(rescale)),
+       aes(x=Reaction,y=MAG))+
+  geom_tile(aes(fill = Nb.of.genes),colour = "white") + 
+  #scale_fill_gradient(low = "light blue", high="steelblue")+
+  theme_bw()+
+  facet_grid(Taxonomy ~ Category,scales = "free", space="free_y", switch = "both")+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        strip.text.y = element_text(angle = 180))+
+  ggtitle("Candidate Phyla")
+
+
