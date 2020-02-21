@@ -47,6 +47,7 @@ ggarrange(DO, Temp, Chla, Conductivity, ncol = 1, nrow = 4)
 
 
 cast.tang$Date
+class(cast.tang$Date)
 
 ## SECCHI DEPTH:
 secchi.tang <- read.csv("~/Downloads/LT_Secchi_v1.csv")
