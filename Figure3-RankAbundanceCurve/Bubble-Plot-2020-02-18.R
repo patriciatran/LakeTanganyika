@@ -59,9 +59,9 @@ levels(abundance_df$Sample)
 #abundance_df$Sample_f
 
 #ggplot(abundance_df, aes(x = Taxonomy, y = Sample_f, size = NormalizedCoverage, colour=NormalizedCoverage)) + 
-  geom_point()+
-  theme_bw()+
-  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+#  geom_point()+
+#  theme_bw()+
+#  theme(axis.text.x = element_text(angle = 90, hjust = 1))
 
 
 # Great I would like to make an animation where this changes as a function of date.
@@ -71,9 +71,10 @@ abundance_df_info <- left_join(abundance_df,sample.lookup.date)
 library(lubridate)
 abundance_df_info$Date <- ymd(paste(abundance_df_info$Date_year, abundance_df_info$Date_month, abundance_df_info$Date_day, sep="-"))
 
-ggplot(abundance_df_info, aes(x=Taxonomy, y=-Depth, size=NormalizedCoverage, colour=NormalizedCoverage ))+
+abundance_df_info %>% filter(Date=="2015-07-25") %>%
+ggplot(aes(x=Taxonomy, y=-Depth, size=NormalizedCoverage, colour=NormalizedCoverage ))+
   geom_point()+
-  facet_grid(abundance_df_info$Date, scales="free")+
+  #facet_grid(abundance_df_info$Date, scales="free")+
   theme_bw()+
   theme(axis.text.x = element_text(angle = 90, hjust = 1),
         strip.text.y = element_text(angle = 0),

@@ -6,7 +6,7 @@ str(dbcan)
 
 metabolism <- read.csv("~/Documents/Github/LakeTanganyika/FigureS7-Metabolism-Summary/metabolism.tsv", header=T, sep="\t")
 library(dplyr)
-metabolism <- metabolism %>% filter(Completeness_checkm >= 70) %>% filter(Contamination_checkm <= 10)
+metabolism <- metabolism %>% filter(Completeness_checkm >= 50) %>% filter(Contamination_checkm <= 10)
 
 list.mag <- as.character(metabolism$MAG)
 
@@ -60,8 +60,8 @@ bp <- ggplot(new.m.dbcan[which(new.m.dbcan$value>0),], aes(x=newMAGname, y=value
   theme_base()+
   theme(axis.text.x = element_text(angle = 90, hjust = 1))+
   coord_flip()+
-  ggtitle("CAZyme distribution in 431 MAGs in Lake Tanganyika",subtitle = "January 20, 2020")+
-  ylab("Taxonomy")+
-  xlab("Number of Hits")
+  ggtitle("CAZyme distribution in 523 MAGs in Lake Tanganyika",subtitle = "April 3, 2020")+
+  xlab("Taxonomy")+
+  ylab("Number of Hits")
 
 bp
