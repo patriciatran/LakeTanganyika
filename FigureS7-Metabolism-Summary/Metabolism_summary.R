@@ -269,16 +269,19 @@ pdf("~/Documents/Github/LakeTanganyika/FigureS7-Metabolism-Summary/Distribution-
 
 ## ggplot version coloured by reaction:
 abund.N.rxn <- left_join(abund.N, metabolism.m, by="MAG")
+
 abund.N.plot <- ggplot(abund.N.rxn %>% filter(!is.na(Nb.of.genes) & Category %in% c("NITROGEN","UREASE")), aes(x=Coverage, y=Depth, col=Reaction))+
   geom_point(aes(col=short_reaction_name,alpha=.5))+
   geom_line(y=-50, col="black")+
   geom_line(y=-100, col="black")+
   geom_line(y=-70, col="red")+
-  #facet_grid(~short_reaction_name)+
+  facet_grid(~short_reaction_name)+
   scale_y_reverse(lim=c(1250,0))+
   theme_bw()+
-  theme(legend.position = "left",axis.text.x = element_text(angle = 90, hjust = 1))+
+  theme(legend.position = "bottom",axis.text.x = element_text(angle = 90, hjust = 1),
+        panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
   ggtitle("Distribution of MAGs involved in nitrogen cycling reactions")
+abund.N.plot
 
 abund.S.rxn <- left_join(abund.S, metabolism.m, by="MAG")
 abund.S.plot <- ggplot(abund.S.rxn %>% filter(!is.na(Nb.of.genes) & Category %in% c("SULFUR","DSR","Thiosulfate oxidation")), aes(x=Coverage, y=Depth, col=Reaction))+
@@ -286,13 +289,16 @@ abund.S.plot <- ggplot(abund.S.rxn %>% filter(!is.na(Nb.of.genes) & Category %in
   geom_line(y=-50, col="black")+
   geom_line(y=-100, col="black")+
   geom_line(y=-70, col="red")+
-  #facet_grid(~short_reaction_name)+
+  facet_grid(~short_reaction_name)+
   scale_y_reverse(lim=c(1250,0))+
   theme_bw()+
-  theme(legend.position = "left",axis.text.x = element_text(angle = 90, hjust = 1))+
+  theme(legend.position = "bottom",axis.text.x = element_text(angle = 90, hjust = 1),
+        panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
   ggtitle("Distribution of MAGs involved in sulfur cycling reactions")
+abund.S.plot
 
 abund.C.rxn <- left_join(abund.C, metabolism.m, by="MAG")
+
 C.rxn <- abund.C.rxn %>% filter(!is.na(Nb.of.genes) & Category %in% c("METHANE","C1 METABOLISM","C MONOXIDE","CARBON FIXATION"))
 #combine the soluble and partculate methane oxidation into one category:
 C.rxn
@@ -303,15 +309,21 @@ Abund.C.plot <- ggplot(abund.C.rxn %>% filter(!is.na(Nb.of.genes) & Category %in
   geom_line(y=-50, col="black")+
   geom_line(y=-100, col="black")+
   geom_line(y=-70, col="red")+
- # facet_grid(~short_reaction_name)+
+  facet_grid(~short_reaction_name)+
   scale_y_reverse(lim=c(1250,0))+
   theme_bw()+
-  theme(legend.position = "left",axis.text.x = element_text(angle = 90, hjust = 1))+
+  theme(legend.position = "bottom",axis.text.x = element_text(angle = 90, hjust = 1),
+        panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
   ggtitle("Distribution of MAGs involved in carbon cycling reactions")
+Abund.C.plot
 
 library(ggpubr)
+library(patchwork)
+
+Abund.C.plot + abund.N.plot + abund.S.plot
 
 ggarrange(Abund.C.plot, abund.N.plot, abund.S.plot, ncol=2, nrow=2, labels=c("A","B","C"))
+
 
 dev.off()
 

@@ -18,10 +18,14 @@ ggplot(data, aes(fill=condition, y=value, x=specie)) +
 ggplot(data, aes(fill=condition, y=value, x=specie)) + 
   geom_bar(position="stack", stat="identity")
 
+str(mag.data)
+
 library(tidyverse)
 data.to.plot <- mag.data %>% select(Domain,Manual.Taxonomy, Comparison.of.Manual.Taxonomy..16RP..and.GTDB.tk) %>%
   group_by(Domain,Manual.Taxonomy, Comparison.of.Manual.Taxonomy..16RP..and.GTDB.tk) %>%
   summarise(count=n())
+
+data.to.plot
 
 str(data.to.plot$Manual.Taxonomy)
 

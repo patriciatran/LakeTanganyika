@@ -51,7 +51,15 @@ ggplot(abundance_df, aes(x = Taxonomy, y = Sample, size = NormalizedCoverage, co
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
 
 
- 
+write.csv(abundance.mags2, "~/Documents/Github/LakeTanganyika/Figure3-RankAbundanceCurve/Abundance-Groups.csv",row.names=TRUE)
+
+data2 <- sweep(abundance.mags2,MARGIN=2,FUN="/",STATS=colSums(abundance.mags2))
+data3 <- round(data2*100, digits=2)
+
+#abundance.relative <- round((abundance.mags2/colSums(abundance.mags2))*100, digit=2)
+write.csv(data3, "~/Documents/Github/LakeTanganyika/Figure3-RankAbundanceCurve/Abundance-Groups-relative.csv",row.names=TRUE)
+
+
 levels(abundance_df$Sample)
 #abundance_df$Sample_f <- factor(abundance_df$Sample, levels(abundance_df$Sample)[c(16, 15, 14, 19, 18, 17, 20, 24, 23, 22, 21, 2, 5, 4, 3, 10, 1, 12, 7, 11, 6, 13, 9, 8)])
 
