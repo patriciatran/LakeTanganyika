@@ -1,10 +1,10 @@
-dbcan <- read.delim("~/Documents/Github/LakeTanganyika/FigureS11-Cazyme/dbcan-2019-10-11.tsv")
+dbcan <- read.delim("~/Documents/Github/LakeTanganyika/Figures/Paper/Cazyme/dbcan-2019-10-11.tsv")
 
 dbcan$Taxonomy <- as.character(dbcan$Taxonomy)
 dbcan$Cazyme.density..nb.of.CAZYME.bp.<- as.numeric(dbcan$Cazyme.density..nb.of.CAZYME.bp.)
 str(dbcan)
 
-metabolism <- read.csv("~/Documents/Github/LakeTanganyika/FigureS7-Metabolism-Summary/metabolism.tsv", header=T, sep="\t")
+metabolism <- read.csv("~/Documents/Github/LakeTanganyika/Figures/Paper/Metabolism-Summary/metabolism.tsv", header=T, sep="\t")
 library(dplyr)
 metabolism <- metabolism %>% filter(Completeness_checkm >= 50) %>% filter(Contamination_checkm <= 10)
 
@@ -68,7 +68,7 @@ bp
 
 
 ## Read data:
-cazyme <- read.csv("~/Documents/Github/LakeTanganyika/FigureS11-Cazyme/cazyme.csv")
+cazyme <- read.csv("~/Documents/Github/LakeTanganyika/Figures/Paper/Cazyme/cazyme.csv")
 # Just take the GH:
 colnames(cazyme)
 cazyme.GH <- cazyme %>% select(MAG_ID, GH1:GH99)
@@ -102,7 +102,7 @@ ggplot(summary, aes(x=SimplifiedTaxonomy, y=GH, fill=Value)) +
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
 
 
-taxo2 <- read.delim("~/Documents/Github/LakeTanganyika/Figure3-RankAbundanceCurve/Simple_taxo_lookup.tsv")
+taxo2 <- read.delim("~/Documents/Github/LakeTanganyika/Figures/Paper/Abundance-Plot/Simple_taxo_lookup.tsv")
 
 summary2 <- left_join(summary, taxo2, by=c("SimplifiedTaxonomy"="Taxonomy"))
 summary2$Simplified.Taxonomy <- as.character(summary2$Simplified.Taxonomy)
@@ -122,13 +122,6 @@ summary2 %>% group_by(Simplified.Taxonomy2, GH) %>%
         panel.grid.major= element_line("light grey"),
         panel.grid.minor= element_line("black"))
 
-# Select the top 30:
-  
-summary2 %>% group_by(GH) %>%
-  summarise(sumValue = sum(Value)) %>%
-  arrange(-sumValue) %>%
-  top_n(30)%>%
-  ggplot(aes(x=GH))+
-  geom_bar(aes(y=sumValue))
+# The plot looks ok but there are way too many rows.
 
 
