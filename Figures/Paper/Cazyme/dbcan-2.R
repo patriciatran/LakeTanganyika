@@ -65,3 +65,70 @@ bp <- ggplot(new.m.dbcan[which(new.m.dbcan$value>0),], aes(x=newMAGname, y=value
   ylab("Number of Hits")
 
 bp
+
+
+## Read data:
+cazyme <- read.csv("~/Documents/Github/LakeTanganyika/FigureS11-Cazyme/cazyme.csv")
+# Just take the GH:
+colnames(cazyme)
+cazyme.GH <- cazyme %>% select(MAG_ID, GH1:GH99)
+#rownames(cazyme.GH) <- cazyme.GH$MAG_ID
+#cazyme.GH <- cazyme.GH[,-1]
+unique(cazyme.GH$MAG_ID)
+
+# Add taxonomic info and summarize by GH
+library(d3heatmap)
+library(tidyverse)
+cazyme.GH <- cazyme.GH %>% gather("GH","Value",GH1:GH99)
+cazyme.GH <- cazyme.GH %>% filter(!is.na(Value))
+
+
+ggplot(cazyme.GH, aes(x=MAG_ID, y=GH, fill=Value)) +
+  geom_tile()+
+  theme_bw()
+
+# Taxonomy
+taxo <- m.dbcan[,1:3]
+cazyme.GH <- left_join(cazyme.GH, taxo)
+
+summary <- cazyme.GH %>% group_by(SimplifiedTaxonomy, GH, Value) %>%
+  summarise()
+
+summary <- summary %>% arrange(-Value)
+
+ggplot(summary, aes(x=SimplifiedTaxonomy, y=GH, fill=Value)) +
+  geom_tile()+
+  theme_bw()+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+
+taxo2 <- read.delim("~/Documents/Github/LakeTanganyika/Figure3-RankAbundanceCurve/Simple_taxo_lookup.tsv")
+
+summary2 <- left_join(summary, taxo2, by=c("SimplifiedTaxonomy"="Taxonomy"))
+summary2$Simplified.Taxonomy <- as.character(summary2$Simplified.Taxonomy)
+
+summary2$Simplified.Taxonomy2 <- ifelse(is.na(summary2$Simplified.Taxonomy), yes = summary2$SimplifiedTaxonomy, no=summary2$Simplified.Taxonomy)
+
+#Remove the underscore after the subgroup:
+summary2$GH <- str_replace(summary2$GH, "_.*","")
+
+summary2 %>% group_by(Simplified.Taxonomy2, GH) %>%
+  summarise(sum=sum(Value)) %>%
+  ggplot(aes(x=Simplified.Taxonomy2, y=GH, fill=sum))+
+  geom_tile()+
+  theme_bw()+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        text = element_text(size=8),
+        panel.grid.major= element_line("light grey"),
+        panel.grid.minor= element_line("black"))
+
+# Select the top 30:
+  
+summary2 %>% group_by(GH) %>%
+  summarise(sumValue = sum(Value)) %>%
+  arrange(-sumValue) %>%
+  top_n(30)%>%
+  ggplot(aes(x=GH))+
+  geom_bar(aes(y=sumValue))
+
+

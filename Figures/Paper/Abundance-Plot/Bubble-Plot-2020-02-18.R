@@ -51,13 +51,13 @@ ggplot(abundance_df, aes(x = Taxonomy, y = Sample, size = NormalizedCoverage, co
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
 
 
-write.csv(abundance.mags2, "~/Documents/Github/LakeTanganyika/Figure3-RankAbundanceCurve/Abundance-Groups.csv",row.names=TRUE)
+#write.csv(abundance.mags2, "~/Documents/Github/LakeTanganyika/Figure3-RankAbundanceCurve/Abundance-Groups.csv",row.names=TRUE)
 
 data2 <- sweep(abundance.mags2,MARGIN=2,FUN="/",STATS=colSums(abundance.mags2))
 data3 <- round(data2*100, digits=2)
 
 #abundance.relative <- round((abundance.mags2/colSums(abundance.mags2))*100, digit=2)
-write.csv(data3, "~/Documents/Github/LakeTanganyika/Figure3-RankAbundanceCurve/Abundance-Groups-relative.csv",row.names=TRUE)
+#write.csv(data3, "~/Documents/Github/LakeTanganyika/Figure3-RankAbundanceCurve/Abundance-Groups-relative.csv",row.names=TRUE)
 
 
 levels(abundance_df$Sample)
@@ -79,15 +79,18 @@ abundance_df_info <- left_join(abundance_df,sample.lookup.date)
 library(lubridate)
 abundance_df_info$Date <- ymd(paste(abundance_df_info$Date_year, abundance_df_info$Date_month, abundance_df_info$Date_day, sep="-"))
 
-abundance_df_info %>% filter(Date=="2015-07-25") %>%
-ggplot(aes(x=Taxonomy, y=-Depth, size=NormalizedCoverage, colour=NormalizedCoverage ))+
+ggplot(abundance_df_info,aes(x=Taxonomy, y=-Depth, size=NormalizedCoverage, colour=NormalizedCoverage ))+
   geom_point()+
-  #facet_grid(abundance_df_info$Date, scales="free")+
+  facet_grid(abundance_df_info$Date, scales="free")+
   theme_bw()+
   theme(axis.text.x = element_text(angle = 90, hjust = 1),
         strip.text.y = element_text(angle = 0),
         legend.position = "top")+
-  guides(colour=guide_legend(nrow=1))
+  guides(colour=guide_legend(nrow=1))+
+  coord_cartesian(clip = "off")+
+  scale_y_continuous(
+    labels = scales::number_format(accuracy =  1))
+
 
 # ###
 # 
@@ -204,3 +207,4 @@ abundance.mags.GC <- left_join(abundance.mags, GC)
 # Select the 100 most abundant MAGS from 1200m to compare to the 100 most abundant MAGS in Baikal:
 top100 <- abundance.mags.GC %>% top_n(100, KigC1200)
 top100.group <-top100 %>% count(Taxonomy)
+
