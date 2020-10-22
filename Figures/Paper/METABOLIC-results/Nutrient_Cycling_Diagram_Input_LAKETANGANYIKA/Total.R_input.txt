@@ -1,0 +1,31 @@
+C-S-01:Organic carbon oxidation	511	0.995042721982428
+C-S-02:Carbon fixation	186	0.489319169234733
+C-S-03:Ethanol oxidation	0	0
+C-S-04:Acetate oxidation	345	0.779440829156147
+C-S-05:Hydrogen generation	86	0.0933090900652107
+C-S-06:Fermentation	455	0.914235703281686
+C-S-07:Methanogenesis	3	0.00627365120502158
+C-S-08:Methanotrophy	43	0.0329967782130788
+C-S-09:Hydrogen oxidation	71	0.112075253787639
+N-S-01:Nitrogen fixation	14	0.0245162324579997
+N-S-02:Ammonia oxidation	4	0.00411946124628032
+N-S-03:Nitrite oxidation	60	0.0419621215313184
+N-S-04:Nitrate reduction	72	0.06539954420983
+N-S-05:Nitrite reduction	49	0.0498279137495301
+N-S-06:Nitric oxide reduction	38	0.0453420081942107
+N-S-07:Nitrous oxide reduction	30	0.0293530858362226
+N-S-08:Nitrite ammonification	122	0.125939216486162
+N-S-09:Anammox	2	0.00163883437907534
+O-S-01:Metal reduction	17	0.0102867168613953
+O-S-02:Arsenate reduction	263	0.560110288077082
+O-S-03:Arsenite oxidation	6	0.00238088796416942
+O-S-04:Selenate reduction	41	0.0936341643854275
+S-S-01:Sulfide oxidation	10	0.0198513636476688
+S-S-02:Sulfur reduction	0	0
+S-S-03:Sulfur oxidation	263	0.486761530478533
+S-S-04:Sulfite oxidation	122	0.379580179788775
+S-S-05:Sulfate reduction	122	0.379580179788775
+S-S-06:Sulfite reduction	1	0.00133858681646836
+S-S-07:Thiosulfate oxidation	37	0.0434258175588874
+S-S-08:Thiosulfate disproportionation 1	16	0.033817218423147
+S-S-09:Thiosulfate disproportionation 2	101	0.126464210481554

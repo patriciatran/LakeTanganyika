@@ -5,7 +5,7 @@
 library(tidyverse)
 
 #Load data
-compare.data <- read.csv("~/Documents/Github/LakeTanganyika/Compare-Baikal/Compare-Baikal.csv", header=TRUE)[,-1]
+compare.data <- read.csv("~/Documents/Github/LakeTanganyika/Figures/Paper/Compare-Baikal/Compare-Baikal.csv", header=TRUE)[,-1]
 
 str(compare.data)
 library(dplyr)
@@ -28,11 +28,17 @@ Domain.plot <- compare.data %>% select(Domain, Category) %>%
 Domain.plot
 
 # Phylum:
-Phylum.plot <- compare.data %>% select(Domain, Phylum, Category) %>%
+
+data1 <- compare.data %>% select(Domain, Phylum, Category) %>%
   group_by(Phylum, Category) %>%
-  tally() %>%
-  # Add a column with the phylum:
-  left_join(compare.data) %>% 
+  tally() 
+
+compare.data1 <- compare.data %>% select(Domain, Phylum) %>% unique()
+
+data1 <- left_join(data1, compare.data1)
+
+
+Phylum.plot <- data1%>% 
   ggplot(aes(x=Phylum, y=n, fill=Category)) +
   geom_bar(position="stack", stat="identity")+
   facet_grid(.~Domain, scales="free") +
@@ -45,6 +51,11 @@ Phylum.plot <- compare.data %>% select(Domain, Phylum, Category) %>%
   ylab("Number of MAGs")
 
 Phylum.plot
+
+
+library(ggpubr)
+
+ggarrange(Domain.plot, Phylum.plot, common.legend = TRUE, widths=c(1,2), labels = c("A","B"))
 
 # Class
 Class.plot <- compare.data %>% select(Domain, Phylum, Class, Category) %>%

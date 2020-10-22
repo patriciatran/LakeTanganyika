@@ -2,11 +2,11 @@
 # Analysis of metabolism table
 # October 24, 2019
 
-metabolism <- read.csv("~/Documents/Github/LakeTanganyika/FigureS7-Metabolism-Summary/metabolism.tsv", header=T, sep="\t")
+metabolism <- read.csv("~/Documents/Github/LakeTanganyika/Figures/Paper/Metabolism-Summary/metabolism.tsv", header=T, sep="\t")
 library(dplyr)
-metabolism <- metabolism %>% filter(Completeness_checkm >= 70) %>% filter(Contamination_checkm <= 10)
+metabolism <- metabolism %>% filter(Completeness_checkm >= 50) %>% filter(Contamination_checkm <= 10)
 
-lookup.metabolism <- read.csv("~/Documents/Github/LakeTanganyika/FigureS7-Metabolism-Summary/lookup_metabolism.tsv", header=T, sep="\t")
+lookup.metabolism <- read.csv("~/Documents/Github/LakeTanganyika/Figures/Paper/Metabolism-Summary/lookup_metabolism.tsv", header=T, sep="\t")
 
 #lookup.metabolism2<- aggregate(lookup.metabolism$Genes, list(lookup.metabolism$Category, lookup.metabolism$Reaction), paste, collapse=", ")
 
@@ -174,6 +174,18 @@ ggplot(metabolism.m %>% filter(!is.na(rescale) &
   theme(axis.text.x = element_text(angle = 90, hjust = 1))+
   ggtitle("Candidate Phyla")
 
+ggplot(metabolism.m %>% filter(!is.na(rescale) & 
+                                 Taxonomy %in% c("CP Aenigmarchaeota","Diapherotrites","CP Parvarchaeota","Woesearchaeota","CP Pacearchaeota")), 
+       aes(x=Genes,y=MAG))+
+  geom_tile(aes(fill = Nb.of.genes),colour = "white") + 
+  #scale_fill_gradient(low = "light blue", high="steelblue")+
+  theme_bw()+
+  facet_grid(Taxonomy ~ Category+Reaction,scales = "free", space="free_y")+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        strip.text.x.top = element_text(angle = 90),
+        strip.text.y.right = element_text(angle = 0))+
+  ggtitle("DPANN in Lake Tanganyika")
+
 ## Now Let's try a cool thing -- extract the abundance information for all the MAGs in these category and plot their abundance through depths:
 # Let's try with Nitrogen first
 
@@ -188,11 +200,11 @@ pdf("~/Documents/Github/LakeTanganyika/FigureS7-Metabolism-Summary/Distribution-
 
 
 # Load abundance table:
-abund <- read.table("~/Documents/Github/LakeTanganyika/Figure3-RankAbundanceCurve/Abundance-MAGS.tsv", sep="\t", header=T)
-lookup.samples <- read.table("~/Documents/Github/LakeTanganyika/FigureS4-Cyano-vs-SQR-genomes/sample_look_up.tsv", sep="\t", header=T)
+abund <- read.table("~/Documents/Github/LakeTanganyika/Figures/Paper/Abundance-Plot/Abundance-MAGS.tsv", sep="\t", header=T)
+lookup.samples <- read.table("~/Documents/Github/LakeTanganyika/Figures/Other/Cyano-vs-SQR-genomes/sample_look_up.tsv", sep="\t", header=T)
 
 
-abund.N <- abund %>% filter(MAG %in% list.N_cycling.MAGS$MAG)
+abund.N <- abund %>% filter(Taxonomy %in% c("Aenigmarchaeota","Diapherotrites","Parvarchaeota","Woesearchaeota","Pacearchaeota"))
 colnames(abund.N)
 abund.N <- abund.N %>% gather("Sample","Coverage",c(4:27))
 
@@ -200,7 +212,11 @@ abund.N <- left_join(abund.N,lookup.samples,by="Sample")
 
 sum(abund.N$Coverage)
 
-plot(x=abund.N$Coverage, y=-(abund.N$Depth), main="Nitrogen", xlab="Coverage", ylab="Depth",xlim=c(0,400))
+ggplot(abund.N, aes(Coverage,-Depth, color=Taxonomy, shape=Taxonomy))+geom_point()+
+  theme_bw()+
+  geom_hline(yintercept = -100)
+
+plot(x=abund.N$Coverage, y=-(abund.N$Depth), main="Nitrogen", xlab="Coverage", ylab="Depth", )
 abline(h=-100,col="grey",lty=2)
 abline(h=-50,col="grey",lty=2)
 abline(h=-70,col="red",lty=2)

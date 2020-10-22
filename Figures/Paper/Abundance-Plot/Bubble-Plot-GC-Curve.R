@@ -35,28 +35,19 @@ abundance.mags2 <- left_join(abundance.mags2, lookup, by="Taxonomy")
 summary(abundance.mags2)
 abundance.mags2 <- abundance.mags2[,-1]
 
-abundance.mags2 <- abundance.mags2 %>% group_by(Simplified.Taxonomy) %>% summarise_all(funs(mean))
+# Get the maximum value
+abundance.mags2[, "max"] <- apply(abundance.mags2[, 1:24], 1, max)
 
-rownames.abundance <- as.character(abundance.mags2$Simplified.Taxonomy)
-abundance.mags2 <- abundance.mags2[,-1]
-rownames(abundance.mags2) <- rownames.abundance
+#write.csv(abundance.mags2, "abundance.mags.to.normalize", row.names=FALSE)
 
-library(reshape)
-abundance_df = melt(as.matrix(abundance.mags2))
-names(abundance_df) = c('Taxonomy', 'Sample', 'NormalizedCoverage')
+# Load the data again:
+abundance_df <- read.table("~/Documents/Github/LakeTanganyika/Figures/Paper/Abundance-Plot/abundance.relative.by.taxa.2020-10-21.txt", 
+                           sep="\t",
+                           header=TRUE)
 
-ggplot(abundance_df, aes(x = Taxonomy, y = Sample, size = NormalizedCoverage, colour=NormalizedCoverage)) + 
-  geom_point()+
-  theme_bw()+
-  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+abundance_df <- abundance_df %>% gather("Sample","Percent_Abundance", KigC250:Mahsurface_9)
 
 
-data2 <- sweep(abundance.mags2,MARGIN=2,FUN="/",STATS=colSums(abundance.mags2))
-data3 <- round(data2*100, digits=2)
-
-#abundance.relative <- round((abundance.mags2/colSums(abundance.mags2))*100, digit=2)
-
-levels(abundance_df$Sample)
 
 # Great I would like to make an animation where this changes as a function of date.
 sample.lookup.date <- read.table("~/Documents/Github/LakeTanganyika/Figures/Other/Cyano-vs-SQR-genomes/sample_look_up.tsv", sep="\t", header=T)
@@ -65,9 +56,10 @@ abundance_df_info <- left_join(abundance_df,sample.lookup.date)
 library(lubridate)
 abundance_df_info$Date <- ymd(paste(abundance_df_info$Date_year, abundance_df_info$Date_month, abundance_df_info$Date_day, sep="-"))
 
-ggplot(abundance_df_info,aes(x=Taxonomy, y=-Depth, size=NormalizedCoverage, colour=NormalizedCoverage ))+
-  geom_point()+
-  facet_grid(abundance_df_info$Date, scales="free")+
+abundance_df_info %>%
+ggplot(aes(x=Taxonomy, y=-Depth))+
+  geom_point(aes(fill=Percent_Abundance), colour="black", size=3, pch=21)+
+  facet_grid(Location+Date~., scales="free")+
   theme_bw()+
   theme(axis.text.x = element_text(angle = 90, hjust = 1),
         strip.text.y = element_text(angle = 0),
@@ -75,8 +67,47 @@ ggplot(abundance_df_info,aes(x=Taxonomy, y=-Depth, size=NormalizedCoverage, colo
   guides(colour=guide_legend(nrow=1))+
   coord_cartesian(clip = "off")+
   scale_y_continuous(
-    labels = scales::number_format(accuracy =  1))
+    labels = scales::number_format(accuracy =  1))+
+  scale_fill_gradient(low = "white", high="black")
 
+abundance_df_info %>% 
+  filter(Date != "2015-07-11") %>%
+  filter(Date != "2015-07-14") %>%
+  filter(Date != "2015-07-16") %>%
+  filter(Date != "2015-07-18") %>%
+  filter(Date != "2015-07-22") %>%
+  ggplot(aes(x=Taxonomy, y=-Depth))+
+  geom_point(aes(fill=Percent_Abundance), colour="black", size=3, pch=21)+
+  facet_grid(Location+Date~., scales="free")+
+  theme_bw()+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        strip.text.y = element_text(angle = 0),
+        legend.position = "top")+
+  guides(colour=guide_legend(nrow=1))+
+  coord_cartesian(clip = "off")+
+  scale_y_continuous(
+    labels = scales::number_format(accuracy =  1))+
+  scale_fill_gradient(low = "white", high="black")
+
+ggsave("Paper/Abundance-Plot/Abundance.bubble.portrait.pdf", height = 11, width = 8.5, units = "in")
+
+abundance_df_info %>% filter(Location == "Mahale") %>%
+  filter(Date != "2015-07-21") %>%
+  ggplot(aes(x=Taxonomy, y=-Depth))+
+  geom_point(aes(fill=Percent_Abundance), colour="black", size=3, pch=21)+
+  facet_grid(Date~., scales="free")+
+  theme_bw()+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        strip.text.y = element_text(angle = 0),
+        legend.position = "top")+
+  guides(colour=guide_legend(nrow=1))+
+  coord_cartesian(clip = "off")+
+  scale_y_continuous(
+    labels = scales::number_format(accuracy =  1))+
+  scale_fill_gradient(low = "white", high="black")+
+  ggtitle("Mahale, surface samples")
+
+ggsave("Paper/Abundance-Plot/Abundance.bubble.Mahale.pdf", height = 8.5, width = 11, units = "in")
 
 # Comparison of GC contents:
 GC <- read.table("~/Documents/Github/LakeTanganyika/Figures/Paper/Abundance-Plot/GC-Content-LT.csv", sep="\t", header=T)

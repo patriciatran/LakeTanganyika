@@ -10,7 +10,7 @@
 #devtools::install_github("dkahle/ggmap")
 
 
-#install.packages("maps")
+install.packages("maps")
 library(maps)
 library(ggplot2)
 library(ggmap)
@@ -36,6 +36,7 @@ Tanganyika.map <- map_data("lakes", region="Lake Tanganyika", exact=TRUE)
 Tanganyika.map$group <- 11
 
 # Combine Countries + Lakes
+library(tidyverse)
 combined.map <- bind_rows(countries.map, Tanganyika.map)
 factor(combined.map$group)
 
@@ -65,7 +66,7 @@ max.long.lake
 
 
 # Load the samples lat and long:
-samples <- read.csv("~/Box/PhD/Research/Lake-Tanganyika/1_Code/Samples-Tanganyika-PT.csv")
+samples <- read.csv("~/Box Sync/PhD/Research/Lake-Tanganyika/1_Code/Samples-Tanganyika-PT.csv")
 
 #bc_bbox <- make_bbox(lat = lat, lon = long, data = Tanganyika.map)
 
@@ -86,3 +87,4 @@ ggplot(combined.map, aes(x = long, y = lat)) +
 #bc_bbox
 #?register_google
 #bc_big <- get_map(location = bc_bbox, source = "google", maptype = "terrain")
+

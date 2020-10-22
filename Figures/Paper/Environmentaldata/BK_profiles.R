@@ -3,7 +3,7 @@
 # Data from Benjamin Kraemer
 # October 1, 2019
 
-cast.tang <- read.csv("~/Documents/Github/LakeTanganyika/Figure1-S1-S2-Environmentaldata/LT_CASTS_v4.csv")
+cast.tang <- read.csv("~/Documents/Github/LakeTanganyika/Figures/Paper/Environmentaldata/LT_CASTS_v4.csv")
 library(lubridate)
 library(ggplot2)
 cast.tang$Date2 <- dmy(cast.tang$Date)
@@ -15,7 +15,7 @@ DO <- ggplot(cast.tang) + geom_point(aes(x = DO, y = Depth, colour = julianday))
   scale_y_reverse()+
   facet_grid(cols = vars(Year))+
   ggtitle("DO")+
-  theme_classic()
+  theme_bw()
 
 DO
 
@@ -23,13 +23,20 @@ Temp <- ggplot(cast.tang) + geom_point(aes(x = Temp, y = Depth, colour = juliand
   scale_y_reverse()+
   facet_grid(cols = vars(Year))+
   ggtitle("Temperature")+
-  theme_classic()
+  theme_bw()
+
+Temp
+
+library(ggpubr)
+
+ggarrange(DO,Temp, nrow=2, labels=c("C","D"))
 
 Chla <- ggplot(cast.tang) + geom_point(aes(x = Chla, y = Depth, colour = julianday)) + 
   scale_y_reverse()+
-  facet_grid(cols = vars(Year))+
+  facet_grid(.~Year)+
   ggtitle("Chl a")+
-  theme_classic()
+  theme_bw()+
+  geom_hline(yintercept = 120)
 
 Chla
 
@@ -38,6 +45,8 @@ Conductivity <- ggplot(cast.tang) + geom_point(aes(x = Conductivity, y = Depth, 
   facet_grid(cols = vars(Year))+
   ggtitle("Conductivity")+
   theme_classic()
+
+Conductivity
 
 str(cast.tang)
 summary(cast.tang)
@@ -50,25 +59,34 @@ cast.tang$Date
 class(cast.tang$Date)
 
 ## SECCHI DEPTH:
-secchi.tang <- read.csv("~/Downloads/LT_Secchi_v1.csv")
+secchi.tang <- read.csv("~/Documents/Github/LakeTanganyika/Figures/Paper/Environmentaldata/LT_Secchi_v1.csv")
+
 secchi.tang$LatLong <- paste(secchi.tang$Latitude,secchi.tang$Longitude,sep=",")
-ggplot(secchi.tang) + geom_point(aes(x = Date, y = Secchi.Depth)) + 
-  scale_y_reverse()+
+
+secchi.plot <- ggplot(secchi.tang) + 
+  geom_point(aes(x = ymd(Date), y = -Secchi.Depth),
+             pch=21, color="black", fill="black", alpha=0.5, size=4) + 
   #facet_grid(cols = vars(secchi.tang$LatLong))+
-  ggtitle("Secchi Depths in Lake Tanganyika")+
-  theme_classic()+
+  ggtitle("Secchi Depths in Lake Tanganyika (Lat -4.89, Long 29.59)")+
+  theme_bw()+
   theme(axis.text.x = element_text(angle = 90, hjust = 1))+
-  ylab("Secchi Depth in meters")
+  ylab("Secchi Depth in meters")+
+  ylim(c(-20,0))
   
 secchi.tang$kd <- 1.7/secchi.tang$Secchi.Depth
 
 boxplot(secchi.tang$kd)
 
-str(secchi.tang)
+kd.plot <- ggplot(secchi.tang, aes(x=ymd(Date), y=kd))+
+  geom_point(pch=21, color="black", fill="black", alpha=0.5, size=4)+
+  ggtitle("Kd coefficient in Lake Tanganyika (Lat -4.89, Long 29.59)")+
+  theme_bw()+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))+
+  ylab("kd")
 
-ggplot(secchi.tang) + geom_boxplot(aes(x=as.factor(Month), y=c(Secchi.Depth)))
+library(ggpubr)
 
-ggplot(secchi.tang) + geom_boxplot(aes(x=as.factor(Month), y=kd))
+ggarrange(secchi.plot, kd.plot, nrow=2, labels=c("A","B"))
 
 library(rLakeAnalyzer)
 thermo.depth(cast.tang$Temp, cast.tang$Depth)
@@ -164,13 +182,15 @@ axis(side = 2, at = seq(from = -200, to = 0, by = 5), labels = T)
 title("Dissolved oxygen (% saturation) in Lake Tanganyika in 2013")
 points(x=thermocline.2013$Date2, y=-(thermocline.2013$thermocline))
 
+
+
 ## Thermocline contour plot:
 heatmap.data.temp <- interp(x = as.Date(cast.tang.2013$Date2), y = -(cast.tang.2013$Depth), z = cast.tang.2013$Temp, duplicate = "strip")
 par(mar = c(4.5,3,2,0.5))
 unique.dates.temp <- unique(cast.tang.2013$Date2)
 
 image.plot(heatmap.data.temp, axes = F, col = viridis(20),zlim=c(24,28))
-axis(side = 1, at= unique.dates, col = "black", labels=unique.dates, las=2
+axis(side = 1, at= unique.dates, col = "black", labels=unique.dates, las=2)
 axis(side = 2, at = seq(from = -200, to = 0, by = 5), labels = T)
 title("Temperature (degrees celcius) in Lake Tanganyika in 2013")
 # Add a line for the thermocline

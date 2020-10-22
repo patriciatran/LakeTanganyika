@@ -1,0 +1,30 @@
+"Category","n"
+"C-S-01:Organic carbon oxidation",63
+"C-S-02:Carbon fixation",34
+"C-S-04:Acetate oxidation",44
+"C-S-05:Hydrogen generation",26
+"C-S-06:Fermentation",55
+"C-S-07:Methanogenesis",2
+"C-S-08:Methanotrophy",18
+"C-S-09:Hydrogen oxidation",23
+"N-S-01:Nitrogen fixation",7
+"N-S-02:Ammonia oxidation",3
+"N-S-03:Nitrite oxidation",20
+"N-S-04:Nitrate reduction",21
+"N-S-05:Nitrite reduction",15
+"N-S-06:Nitric oxide reduction",14
+"N-S-07:Nitrous oxide reduction",14
+"N-S-08:Nitrite ammonification",30
+"N-S-09:Anammox",1
+"O-S-01:Metal reduction",8
+"O-S-02:Arsenate reduction",37
+"O-S-03:Arsenite oxidation",3
+"O-S-04:Selenate reduction",10
+"S-S-01:Sulfide oxidation",5
+"S-S-03:Sulfur oxidation",33
+"S-S-04:Sulfite oxidation",27
+"S-S-05:Sulfate reduction",27
+"S-S-06:Sulfite reduction",1
+"S-S-07:Thiosulfate oxidation",6
+"S-S-08:Thiosulfate disproportionation 1",6
+"S-S-09:Thiosulfate disproportionation 2",16
