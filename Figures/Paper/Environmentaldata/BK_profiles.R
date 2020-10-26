@@ -31,12 +31,17 @@ library(ggpubr)
 
 ggarrange(DO,Temp, nrow=2, labels=c("C","D"))
 
-Chla <- ggplot(cast.tang) + geom_point(aes(x = Chla, y = Depth, colour = julianday)) + 
+Chla <- ggplot(cast.tang) + 
+  geom_point(aes(x = Chla, y = Depth, fill = julianday), alpha=0.5, pch=21) + 
   scale_y_reverse()+
-  facet_grid(.~Year)+
+  facet_wrap(.~Year)+
   ggtitle("Chl a")+
   theme_bw()+
-  geom_hline(yintercept = 120)
+  geom_hline(yintercept = 120)+
+  ggtitle("Chlorophyll a (ug/L)")+
+  ylab("Depth(m)")
+  
+
 
 Chla
 
@@ -44,7 +49,7 @@ Conductivity <- ggplot(cast.tang) + geom_point(aes(x = Conductivity, y = Depth, 
   scale_y_reverse()+
   facet_grid(cols = vars(Year))+
   ggtitle("Conductivity")+
-  theme_classic()
+  theme_bw()
 
 Conductivity
 
@@ -94,7 +99,8 @@ thermo.depth(cast.tang$Temp, cast.tang$Depth)
 library(dplyr)
 average_temp_depth <- cast.tang %>% group_by(Date, Depth) %>% summarise(average=mean(Temp))
 average_temp_depth <- average_temp_depth %>% mutate(thermocline = thermo.depth(average, Depth))
-plot(average_temp_depth$Date, average_temp_depth$thermocline)
+
+plot(average_temp_depth$Date  ~average_temp_depth$thermocline)
  
 library(ggplot2)
 #Plot Thermocline Depth
@@ -107,11 +113,11 @@ average_temp_depth$Date2 <- dmy(average_temp_depth$Date)
 average_temp_depth
 
 
-ggplot(average_temp_depth) + geom_line(aes(Date2, thermocline))+
+ggplot(average_temp_depth) + geom_point(aes(Date2, thermocline))+
   #facet_grid(cols = vars(Year))+
   theme_classic()+
   theme(axis.text.x = element_text(angle = 90, hjust = 1))+
-  ylim(0,-150)+
+  #ylim(0,-150)+
   scale_y_reverse()+
   xlab("Year")+
   ylab("Thermocline Depth (m)")+
@@ -126,7 +132,8 @@ average_o_depth <- average_o_depth %>% mutate(oxycline = thermo.depth(average, D
 average_o_depth <- average_o_depth %>% separate(Date, c("Day","Month","Year"), remove=FALSE)
 average_o_depth$Date2 <- dmy(average_o_depth$Date)
 
-ggplot(average_o_depth) + geom_line(aes(Date2, oxycline))+
+ggplot(average_o_depth) + 
+  geom_point(aes(Date2, oxycline))+
   #facet_grid(cols = vars(Year))+
   theme_classic()+
   theme(axis.text.x = element_text(angle = 90, hjust = 1))+
@@ -176,6 +183,24 @@ library(viridis)
 
 unique.dates <- unique(cast.tang.2013$Date2)
 
+image.plot(heatmap.data, axes = F, col = viridis(20), las=2)
+axis(side = 1, at= unique.dates, col = "black", labels=unique.dates, las=2)
+#axis(side = 2, at = seq(from = -200, to = 0, by = 5), labels = T)
+title("Chlorophyll a")
+#points(x=thermocline.2013.chla$Date2, y=-(thermocline.2013.chla$thermocline))
+
+## Chl a map:
+cast.tang.2013.chla <- cast.tang.2013 %>% filter(!is.na(Chla))
+heatmap.data <- interp(x = cast.tang.2013.chla$Date2, y = -(cast.tang.2013.chla$Depth), z = cast.tang.2013.chla$Chla, duplicate = "strip")
+
+par(las=2)
+par(mar = c(4.5,3,2,0.5))
+library(fields)
+#install.packages("viridis")
+library(viridis)
+
+unique.dates <- unique(cast.tang.2013.chla$Date2)
+
 image.plot(heatmap.data, axes = F, col = viridis(20),zlim=c(0,100), las=2)
 axis(side = 1, at= unique.dates, col = "black", labels=unique.dates, las=2)
 axis(side = 2, at = seq(from = -200, to = 0, by = 5), labels = T)
@@ -214,7 +239,7 @@ par(mar = c(4.5,3,2,0.5))
 unique.dates <- unique(cast.tang.2010$Date2)
 
 image.plot(heatmap.data, axes = F, col = viridis(20),zlim=c(0,100))
-axis(side = 1, at= unique.dates, col = "black", labels=unique.dates, las=2
+axis(side = 1, at= unique.dates, col = "black", labels=unique.dates, las=2)
 axis(side = 2, at = seq(from = -200, to = 0, by = 5), labels = T)
 title("Dissolved oxygen (% saturation) in Lake Tanganyika in 2010")
 points(x=thermocline.2010$Date2, y=-(thermocline.2010$thermocline))

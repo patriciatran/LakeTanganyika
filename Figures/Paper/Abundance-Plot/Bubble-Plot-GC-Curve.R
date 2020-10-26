@@ -45,7 +45,7 @@ abundance_df <- read.table("~/Documents/Github/LakeTanganyika/Figures/Paper/Abun
                            sep="\t",
                            header=TRUE)
 
-abundance_df <- abundance_df %>% gather("Sample","Percent_Abundance", KigC250:Mahsurface_9)
+abundance_df <- abundance_df %>% gather("Sample","Percent_Abundance", KigC100:Mahsurface_9)
 
 
 
@@ -56,10 +56,22 @@ abundance_df_info <- left_join(abundance_df,sample.lookup.date)
 library(lubridate)
 abundance_df_info$Date <- ymd(paste(abundance_df_info$Date_year, abundance_df_info$Date_month, abundance_df_info$Date_day, sep="-"))
 
+order.taxon.table <- read.csv("Paper/Abundance-Plot/OrderTaxon.csv", header=TRUE)
+#order.taxon.table$Manual.Taxonomy <- as.factor(order.taxon.table$Manual.Taxonomy, levels=order.taxon.table$Manual.Taxonomy)
+
+order.I.want <- factor(order.taxon.table$Manual.Taxonomy, levels=order.taxon.table$Manual.Taxonomy)
+
+# Order that I want:
+
+abundance_df_info$Taxonomy <- factor(abundance_df_info$Taxonomy, levels=order.I.want)
+abundance_df_info$Taxonomy.copy <- as.character(abundance_df_info$Taxonomy)
+
+abundance_df_info <- left_join(abundance_df_info, order.taxon.table, by=c("Taxonomy.copy" = "Manual.Taxonomy"))
+
 abundance_df_info %>%
 ggplot(aes(x=Taxonomy, y=-Depth))+
   geom_point(aes(fill=Percent_Abundance), colour="black", size=3, pch=21)+
-  facet_grid(Location+Date~., scales="free")+
+  facet_grid(Location+Date~Domain+CPR, scales="free")+
   theme_bw()+
   theme(axis.text.x = element_text(angle = 90, hjust = 1),
         strip.text.y = element_text(angle = 0),
@@ -78,7 +90,7 @@ abundance_df_info %>%
   filter(Date != "2015-07-22") %>%
   ggplot(aes(x=Taxonomy, y=-Depth))+
   geom_point(aes(fill=Percent_Abundance), colour="black", size=3, pch=21)+
-  facet_grid(Location+Date~., scales="free")+
+  facet_grid(Location+Date~Domain+CPR, scales="free")+
   theme_bw()+
   theme(axis.text.x = element_text(angle = 90, hjust = 1),
         strip.text.y = element_text(angle = 0),
@@ -89,13 +101,17 @@ abundance_df_info %>%
     labels = scales::number_format(accuracy =  1))+
   scale_fill_gradient(low = "white", high="black")
 
-ggsave("Paper/Abundance-Plot/Abundance.bubble.portrait.pdf", height = 11, width = 8.5, units = "in")
+ggsave("Paper/Abundance-Plot/Abundance.bubble.portrait.reordered.pdf", height = 8.5, width = 11, units = "in")
+
+levels(factor(abundance_df_info$Taxonomy))
+
+abundance_df_info$Taxonomy
 
 abundance_df_info %>% filter(Location == "Mahale") %>%
   filter(Date != "2015-07-21") %>%
-  ggplot(aes(x=Taxonomy, y=-Depth))+
+  ggplot(aes(x=Taxonomy, y=Depth))+
   geom_point(aes(fill=Percent_Abundance), colour="black", size=3, pch=21)+
-  facet_grid(Date~., scales="free")+
+  facet_grid(Date~Domain+CPR, scales="free")+
   theme_bw()+
   theme(axis.text.x = element_text(angle = 90, hjust = 1),
         strip.text.y = element_text(angle = 0),
@@ -107,7 +123,7 @@ abundance_df_info %>% filter(Location == "Mahale") %>%
   scale_fill_gradient(low = "white", high="black")+
   ggtitle("Mahale, surface samples")
 
-ggsave("Paper/Abundance-Plot/Abundance.bubble.Mahale.pdf", height = 8.5, width = 11, units = "in")
+ggsave("Paper/Abundance-Plot/Abundance.bubble.Mahale.reordered.pdf", height = 8.5, width = 11, units = "in")
 
 # Comparison of GC contents:
 GC <- read.table("~/Documents/Github/LakeTanganyika/Figures/Paper/Abundance-Plot/GC-Content-LT.csv", sep="\t", header=T)

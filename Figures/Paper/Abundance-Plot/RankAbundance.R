@@ -17,8 +17,8 @@ matrix.env$Depth <- as.factor(matrix.env$Depth)
 
 dim(sp.matrix)
 rankabuncomp(sp.matrix, y=matrix.env, factor='Location', 
-             scale='proportion', legend=TRUE)
+             scale='proportion', legend=FALSE)
 
 rankabuncomp(sp.matrix, y=matrix.env, factor='Depth', 
-            scale='proportion', legend=TRUE)
+            scale='proportion', legend=FALSE)
 

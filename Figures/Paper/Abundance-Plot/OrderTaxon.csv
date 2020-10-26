@@ -1,0 +1,63 @@
+﻿Manual Taxonomy,Candidate phyla,DPANN,Domain,Name,CPR,Order
+CP Pacearchaeota,X,X,Archaea,,,1
+Woesearchaeota,,X,Archaea,,,2
+CP Aenigmarchaeota,X,X,Archaea,,,3
+CP Altiarchaeota,X,X,Archaea,,,4
+CP Parvarchaeota,X,X,Archaea,,,5
+Diapherotrites,,X,Archaea,,,6
+Euryarchaeota,,,Archaea,,,7
+CP Verstraetaerchaeota,X,,Archaea,,,8
+CP Bathyarchaeota,X,,Archaea,,,9
+Thaumarchaeota,,,Archaea,,,10
+Gammaproteobacteria,,,Bacteria,,,11
+Betaproteobacteria,,,Bacteria,,,12
+Alphaproteobacteria LD12,,,Bacteria,,,13
+Alphaproteobacteria non LD12,,,Bacteria,,,14
+CP Hydrogenedentes,X,,Bacteria,Hydrogenedentes,,15
+Deltaproteobacteria,,,Bacteria,,,16
+Nitrospirae,,,Bacteria,,,17
+Acidobacteria,,,Bacteria,,,18
+Lentisphaerae,,,Bacteria,,,19
+Planctomycetes (Phycisphaerae),,,Bacteria,PVC,,20
+Planctomycetes,,,Bacteria,PVC,,21
+Verrucomicrobia,,,Bacteria,PVC,,22
+Chlamydiae,,,Bacteria,PVC,,27
+Kirimatiellacea,,,Bacteria,PVC,,28
+Bacteroidetes,,,Bacteria,,,29
+CP Eisenbacteria,X,,Bacteria,Eisenbacteria,,30
+Chlorobi,,,Bacteria,,,31
+Calditrichaeota,,,Bacteria,,,32
+Ignavibacteria,,,Bacteria,,,33
+CP Zixibacteria,X,,Bacteria,Zixibacteria,,34
+CP WOR-3,X,,Bacteria,WOR-3,,35
+CP BRC1,X,,Bacteria,BRC1,,36
+Gemmatimonadetes,,,Bacteria,,,37
+Actinobacteria,,,Bacteria,,,38
+Armatimonadetes,,,Bacteria,,,39
+Chloroflexi,,,Bacteria,,,40
+Firmicutes,,,Bacteria,,,41
+Cyanobacteria,,,Bacteria,,,42
+"Sericytochromatia, Tanganyikabacteria",X,,Bacteria,"Sericytochromatia, Tanganyikabacteria",,43
+CP Aminicemantes (OP8),X,,Bacteria,Aminicemantes (OP8),,44
+CP Gottesmanbacteria,X,,Bacteria,Gottesmanbacteria,CPR,45
+CP Gribaldobacteria,X,,Bacteria,Gribaldobacteria,CPR,46
+CP Handelsmanbacteria,X,,Bacteria,Handelsmanbacteria,,47
+CP Harrisonbacteria,X,,Bacteria,Harrisonbacteria,CPR,48
+CP Kaiserbacteria,X,,Bacteria,Kaiserbacteria,CPR,49
+CP Liptonbacteria,X,,Bacteria,Liptonbacteria,CPR,50
+CP Moranbacteria,X,,Bacteria,Moranbacteria,CPR,51
+CP Nealsonbacteria,X,,Bacteria,Nealsonbacteria,CPR,52
+CP Peribacteria,X,,Bacteria,Peribacteria,CPR,53
+CP Perigrinibacteria,X,,Bacteria,Perigrinibacteria,CPR,54
+CP Poribacteria,X,,Bacteria,Poribacteria,,55
+CP Rokubacteria,X,,Bacteria,Rokubacteria,,56
+CP Saccharibacteria,X,,Bacteria,Saccharibacteria,CPR,57
+CP Shapirobacteria,X,,Bacteria,Shapirobacteria,CPR,58
+CP Staskawiczbacteria,X,,Bacteria,Staskawiczbacteria,CPR,59
+CP Tectomicrobia,X,,Bacteria,Tectomicrobia,,60
+CP TM6,X,,Bacteria,TM6,CPR,61
+CP Urhbacteria,X,,Bacteria,Urhbacteria,CPR,62
+CP WOR-2 Omnitrophica,X,,Bacteria,WOR-2 Omnitrophica,,63
+CP WWE1,X,,Bacteria,WWE1,CPR,64
+CP WWE3,X,,Bacteria,WWE3,CPR,65
+CP Ziwabacteria,X,,Bacteria,Ziwabacteria,CPR,66

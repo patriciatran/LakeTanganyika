@@ -57,7 +57,7 @@ new.m.dbcan <- m.dbcan %>% left_join(nb.of.MAG.each.taxa)
 bp <- ggplot(new.m.dbcan[which(new.m.dbcan$value>0),], aes(x=newMAGname, y=value)) + 
   geom_boxplot(lwd=0.4)+
   facet_grid(Domain ~ variable,scales="free",space = "free_y")+
-  theme_base()+
+  theme_bw()+
   theme(axis.text.x = element_text(angle = 90, hjust = 1))+
   coord_flip()+
   ggtitle("CAZyme distribution in 523 MAGs in Lake Tanganyika",subtitle = "April 3, 2020")+
@@ -66,62 +66,88 @@ bp <- ggplot(new.m.dbcan[which(new.m.dbcan$value>0),], aes(x=newMAGname, y=value
 
 bp
 
+order.taxo <- read.table("Paper/Cazyme/order.taxonomy.tsv", header=TRUE, sep="\t")
+order.I.want <- order.taxo$Taxonomy
 
-## Read data:
-cazyme <- read.csv("~/Documents/Github/LakeTanganyika/Figures/Paper/Cazyme/cazyme.csv")
-# Just take the GH:
-colnames(cazyme)
-cazyme.GH <- cazyme %>% select(MAG_ID, GH1:GH99)
-#rownames(cazyme.GH) <- cazyme.GH$MAG_ID
-#cazyme.GH <- cazyme.GH[,-1]
-unique(cazyme.GH$MAG_ID)
+new.m.dbcan$Taxonomy_f2 <- factor(new.m.dbcan$Taxonomy_f, levels=order.I.want)
 
-# Add taxonomic info and summarize by GH
-library(d3heatmap)
-library(tidyverse)
-cazyme.GH <- cazyme.GH %>% gather("GH","Value",GH1:GH99)
-cazyme.GH <- cazyme.GH %>% filter(!is.na(Value))
+new.m.dbcan <- left_join(new.m.dbcan, order.taxo, by=c("Taxonomy_f2"="Taxonomy"))
 
+new.m.dbcan$Taxonomy_f
 
-ggplot(cazyme.GH, aes(x=MAG_ID, y=GH, fill=Value)) +
-  geom_tile()+
-  theme_bw()
+str(new.m.dbcan)
 
-# Taxonomy
-taxo <- m.dbcan[,1:3]
-cazyme.GH <- left_join(cazyme.GH, taxo)
+levels(new.m.dbcan$Taxonomy_f2)
 
-summary <- cazyme.GH %>% group_by(SimplifiedTaxonomy, GH, Value) %>%
-  summarise()
-
-summary <- summary %>% arrange(-Value)
-
-ggplot(summary, aes(x=SimplifiedTaxonomy, y=GH, fill=Value)) +
-  geom_tile()+
+# Replot:
+ggplot(new.m.dbcan[which(new.m.dbcan$value>0),], aes(x=reorder(Taxonomy_f2, desc(Taxonomy_f2)), y=value)) + 
+  geom_boxplot(lwd=0.4)+
+  facet_grid(Domain.y+CPR ~ variable,scales="free",space = "free_y")+
   theme_bw()+
-  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))+
+  coord_flip()+
+  ggtitle("CAZyme distribution in 523 MAGs in Lake Tanganyika",subtitle = "October 26, 2020")+
+  xlab("Taxonomy")+
+  ylab("Number of Hits")
 
+ggsave("cazyme.2020.10.26.pdf", height = 11, width = 8.5, units = "in")
 
-taxo2 <- read.delim("~/Documents/Github/LakeTanganyika/Figures/Paper/Abundance-Plot/Simple_taxo_lookup.tsv")
-
-summary2 <- left_join(summary, taxo2, by=c("SimplifiedTaxonomy"="Taxonomy"))
-summary2$Simplified.Taxonomy <- as.character(summary2$Simplified.Taxonomy)
-
-summary2$Simplified.Taxonomy2 <- ifelse(is.na(summary2$Simplified.Taxonomy), yes = summary2$SimplifiedTaxonomy, no=summary2$Simplified.Taxonomy)
-
-#Remove the underscore after the subgroup:
-summary2$GH <- str_replace(summary2$GH, "_.*","")
-
-summary2 %>% group_by(Simplified.Taxonomy2, GH) %>%
-  summarise(sum=sum(Value)) %>%
-  ggplot(aes(x=Simplified.Taxonomy2, y=GH, fill=sum))+
-  geom_tile()+
-  theme_bw()+
-  theme(axis.text.x = element_text(angle = 90, hjust = 1),
-        text = element_text(size=8),
-        panel.grid.major= element_line("light grey"),
-        panel.grid.minor= element_line("black"))
-
-# The plot looks ok but there are way too many rows.
+# 
+# ## Read data:
+# cazyme <- read.csv("~/Documents/Github/LakeTanganyika/Figures/Paper/Cazyme/cazyme.csv")
+# # Just take the GH:
+# colnames(cazyme)
+# cazyme.GH <- cazyme %>% select(MAG_ID, GH1:GH99)
+# #rownames(cazyme.GH) <- cazyme.GH$MAG_ID
+# #cazyme.GH <- cazyme.GH[,-1]
+# unique(cazyme.GH$MAG_ID)
+# 
+# # Add taxonomic info and summarize by GH
+# library(d3heatmap)
+# library(tidyverse)
+# cazyme.GH <- cazyme.GH %>% gather("GH","Value",GH1:GH99)
+# cazyme.GH <- cazyme.GH %>% filter(!is.na(Value))
+# 
+# 
+# ggplot(cazyme.GH, aes(x=MAG_ID, y=GH, fill=Value)) +
+#   geom_tile()+
+#   theme_bw()
+# 
+# # Taxonomy
+# taxo <- m.dbcan[,1:3]
+# cazyme.GH <- left_join(cazyme.GH, taxo)
+# 
+# summary <- cazyme.GH %>% group_by(SimplifiedTaxonomy, GH, Value) %>%
+#   summarise()
+# 
+# summary <- summary %>% arrange(-Value)
+# 
+# ggplot(summary, aes(x=SimplifiedTaxonomy, y=GH, fill=Value)) +
+#   geom_tile()+
+#   theme_bw()+
+#   theme(axis.text.x = element_text(angle = 90, hjust = 1))
+# 
+# 
+# taxo2 <- read.delim("~/Documents/Github/LakeTanganyika/Figures/Paper/Abundance-Plot/Simple_taxo_lookup.tsv")
+# 
+# summary2 <- left_join(summary, taxo2, by=c("SimplifiedTaxonomy"="Taxonomy"))
+# summary2$Simplified.Taxonomy <- as.character(summary2$Simplified.Taxonomy)
+# 
+# summary2$Simplified.Taxonomy2 <- ifelse(is.na(summary2$Simplified.Taxonomy), yes = summary2$SimplifiedTaxonomy, no=summary2$Simplified.Taxonomy)
+# 
+# #Remove the underscore after the subgroup:
+# summary2$GH <- str_replace(summary2$GH, "_.*","")
+# 
+# summary2 %>% group_by(Simplified.Taxonomy2, GH) %>%
+#   summarise(sum=sum(Value)) %>%
+#   ggplot(aes(x=Simplified.Taxonomy2, y=GH, fill=sum))+
+#   geom_tile()+
+#   theme_bw()+
+#   theme(axis.text.x = element_text(angle = 90, hjust = 1),
+#         text = element_text(size=8),
+#         panel.grid.major= element_line("light grey"),
+#         panel.grid.minor= element_line("black"))
+# 
+# # The plot looks ok but there are way too many rows.
 
 
