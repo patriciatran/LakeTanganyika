@@ -45,6 +45,22 @@ metabolism.m <- mutate(metabolism.m, short_reaction_name = str_wrap(Reaction, wi
 # Remove cysC and cysN
 metabolism.m <- metabolism.m %>% filter(!Genes %in% c("cysC","cysN"))
 
+order.taxo <- read.table("Paper/Cazyme/order.taxonomy.tsv", header=TRUE, sep="\t")
+order.I.want <- unique(order.taxo$Taxon.order)
+
+metabolism.m$Taxonomy_f <- factor(metabolism.m$Taxonomy, levels=order.I.want)
+
+metabolism.m <- left_join(metabolism.m, order.taxo, by=c("Taxonomy_f"="Taxon.order"))
+
+
+str(metabolism.m)
+metabolism.m$Taxonomy_f <- factor(metabolism.m$Taxonomy_f, levels=order.I.want)
+
+str(metabolism.m)
+
+metabolism.m.na <- metabolism.m %>% filter(is.na(metabolism.m))
+
+
 # Select just MAGS > 50% complete:
 ## Apply the filter you want here! :) 
 ## Can also choose contam level but caveats
@@ -53,24 +69,29 @@ metabolism.m <- metabolism.m %>% filter(!Genes %in% c("cysC","cysN"))
 metabolism.m <- metabolism.m %>% filter(Completeness_checkm >= 50 & Contamination_checkm <10)
 #Open a PDF file to save plots we will make:
 
-pdf("~/Documents/Github/LakeTanganyika/FigureS7-Metabolism-Summary/Metabolism-plots-by-category-LT-2020-01-20-Mimags.pdf", width = 16 , height = 10, title = "Lake Tanganyika MAGs and Metabolism")
+#pdf("~/Documents/Github/LakeTanganyika/FigureS7-Metabolism-Summary/Metabolism-plots-by-category-LT-2020-01-20-Mimags.pdf", width = 16 , height = 10, title = "Lake Tanganyika MAGs and Metabolism")
+
+metabolism.m[metabolism.m == "NA"] <- NA
 
 # NITROGEN
 
-nitrogen.taxa <- metabolism.m %>% filter(!is.na(rescale) & Category %in% c("NITROGEN","UREASE")) %>% summarise(NG = n_distinct(Taxonomy))
+nitrogen.taxa <- metabolism.m %>% filter(!is.na(rescale) & Category %in% c("NITROGEN","UREASE")) %>% summarise(NG = n_distinct(Taxonomy_f))
 nitrogen.mags <- metabolism.m %>% filter(!is.na(rescale) & Category %in% c("NITROGEN","UREASE")) %>% summarise(NG = n_distinct(MAG))
 
-ggplot(metabolism.m %>% filter(!is.na(rescale) & Category %in% c("NITROGEN","UREASE")), aes(x=Genes,y=Taxonomy))+
+ggplot(metabolism.m %>% filter(!is.na(rescale) & Category %in% c("NITROGEN","UREASE")), 
+       aes(x=Genes,y=Taxonomy_f))+
   geom_tile(aes(fill = Nb.of.genes),colour = "white") + 
   #scale_fill_gradient(low = "light blue", high="steelblue")+
   ggtitle("Nitrogen", subtitle=paste0(nitrogen.taxa," taxonomic groups and ", nitrogen.mags, " distinct MAGs"))+
   theme_bw()+
   theme(axis.text.x = element_text(angle = 90, hjust = 1))+
-  facet_grid(Domain ~ short_reaction_name, scales="free",space = "free_y")
+  facet_grid(Domain.y+CPR ~ short_reaction_name, scales="free",space = "free_y")
+
+ggsave("Paper/Metabolism-Summary/nitrogen.mags.pdf", width = 8.5, height = 11, units = "in")
 
 
 # SULFUR:
-s.taxa <- metabolism.m %>% filter(!is.na(rescale) & Category %in% c("SULFUR","DSR","Thiosulfate oxidation")) %>% summarise(NG = n_distinct(Taxonomy))
+s.taxa <- metabolism.m %>% filter(!is.na(rescale) & Category %in% c("SULFUR","DSR","Thiosulfate oxidation")) %>% summarise(NG = n_distinct(Taxonomy_f))
 s.mags <- metabolism.m %>% filter(!is.na(rescale) & Category %in% c("SULFUR","DSR","Thiosulfate oxidation")) %>% summarise(NG = n_distinct(MAG))
 
 s.table <- metabolism.m %>% filter(!is.na(rescale) & Category %in% c("SULFUR","DSR","Thiosulfate oxidation"))
@@ -78,64 +99,75 @@ s.table <- metabolism.m %>% filter(!is.na(rescale) & Category %in% c("SULFUR","D
 s.table$short_reaction_name_f = factor(s.table$short_reaction_name, levels=c("sulfide\noxidation","strongly\nassociated\nwith\nsulfur\noxidation","sulfur\noxidation",
                                                                              "sulfate\nreduction","sulfite\nreduction","associated\nwith\nthe\nelectron\ntransport\nchain",
                                                                              "ancillary\ngenes","core\ngenes"))
-ggplot(s.table, aes(x=Genes,y=Taxonomy))+
+ggplot(s.table, aes(x=Genes,y=Taxonomy_f))+
   geom_tile(aes(fill = Nb.of.genes),colour = "white") + 
   #scale_fill_gradient(low = "light blue", high="steelblue")+
   theme_bw()+
-  facet_grid(Domain~short_reaction_name_f, scales="free",space = "free_y")+
+  facet_grid(Domain.y+CPR~short_reaction_name_f, scales="free",space = "free_y")+
   ggtitle("Sulfur",subtitle=paste0(s.taxa," taxonomic groups and ", s.mags, " distinct MAGs"))+
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
 
+ggsave("Paper/Metabolism-Summary/sulfur.mags.pdf", width = 8.5, height = 11, units = "in")
+
+
 # Hydrogen:
-H.taxa <- metabolism.m %>% filter(!is.na(rescale) & Category %in% c("HYDROGEN")) %>% summarise(NG = n_distinct(Taxonomy))
+H.taxa <- metabolism.m %>% filter(!is.na(rescale) & Category %in% c("HYDROGEN")) %>% summarise(NG = n_distinct(Taxonomy_f))
 H.mags <- metabolism.m %>% filter(!is.na(rescale) & Category %in% c("HYDROGEN")) %>% summarise(NG = n_distinct(MAG))
 
-ggplot(metabolism.m %>% filter(!is.na(rescale) & Category %in% c("HYDROGEN")), aes(x=Genes,y=Taxonomy))+
+ggplot(metabolism.m %>% filter(!is.na(rescale) & Category %in% c("HYDROGEN")), aes(x=Genes,y=Taxonomy_f))+
   geom_tile(aes(fill = Nb.of.genes),colour = "white") + 
   #scale_fill_gradient(low = "light blue", high="steelblue")+
   ggtitle("Hydrogen",subtitle=paste0(H.taxa," taxonomic groups and ", H.mags, " distinct MAGs"))+
   theme_bw()+
   theme(axis.text.x = element_text(angle = 90, hjust = 1))+
-  facet_grid(Domain~short_reaction_name, scales="free",space = "free_y")
+  facet_grid(Domain.y+CPR~short_reaction_name, scales="free",space = "free_y")
+
+ggsave("Paper/Metabolism-Summary/sulfur.mags.pdf", width = 8.5, height = 11, units = "in")
 
 # Oxygen
-O.taxa <- metabolism.m %>% filter(!is.na(rescale) & Category %in% c("OXYGEN")) %>% summarise(NG = n_distinct(Taxonomy))
+O.taxa <- metabolism.m %>% filter(!is.na(rescale) & Category %in% c("OXYGEN")) %>% summarise(NG = n_distinct(Taxonomy_f))
 O.mags <- metabolism.m %>% filter(!is.na(rescale) & Category %in% c("OXYGEN")) %>% summarise(NG = n_distinct(MAG))
 
-ggplot(metabolism.m %>% filter(!is.na(rescale) & Category %in% c("OXYGEN")), aes(x=Genes,y=Taxonomy))+
+ggplot(metabolism.m %>% filter(!is.na(rescale) & Category %in% c("OXYGEN")), aes(x=Genes,y=Taxonomy_f))+
   geom_tile(aes(fill =Nb.of.genes),colour = "white") + 
   #scale_fill_gradient(low = "light blue", high="steelblue")+
   ggtitle("Oxygen",subtitle=paste0(O.taxa," taxonomic groups and ", O.mags, " distinct MAGs"))+
   theme_bw()+
-  facet_grid(Domain~short_reaction_name, scales="free",space = "free_y")+
+  facet_grid(Domain.y+CPR~short_reaction_name, scales="free",space = "free_y")+
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
 
+ggsave("Paper/Metabolism-Summary/oxygen.mags.pdf", width = 8.5, height = 11, units = "in")
+
 #Carbon:
-C.taxa <- metabolism.m %>% filter(!is.na(rescale) & Category %in% c("METHANE","C1 METABOLISM","C MONOXIDE","CARBON FIXATION")) %>% summarise(NG = n_distinct(Taxonomy))
+C.taxa <- metabolism.m %>% filter(!is.na(rescale) & Category %in% c("METHANE","C1 METABOLISM","C MONOXIDE","CARBON FIXATION")) %>% summarise(NG = n_distinct(Taxonomy_f))
 C.mags <- metabolism.m %>% filter(!is.na(rescale) & Category %in% c("METHANE","C1 METABOLISM","C MONOXIDE","CARBON FIXATION")) %>% summarise(NG = n_distinct(MAG))
 
-ggplot(metabolism.m %>% filter(!is.na(rescale) & Category %in% c("METHANE","C1 METABOLISM","C MONOXIDE","CARBON FIXATION")), aes(x=Genes,y=Taxonomy))+
+ggplot(metabolism.m %>% filter(!is.na(rescale) & Category %in% c("METHANE","C1 METABOLISM","C MONOXIDE","CARBON FIXATION")), 
+       aes(x=Genes,y=Taxonomy_f))+
   geom_tile(aes(fill =Nb.of.genes),colour = "white") + 
   #scale_fill_gradient(low = "light blue", high="steelblue")+
   theme_bw()+
-  facet_grid(Domain~short_reaction_name, scales="free",space = "free_y")+
+  facet_grid(Domain.y+CPR~short_reaction_name, scales="free",space = "free_y")+
   theme(axis.text.x = element_text(angle = 90, hjust = 1))+
   ggtitle("Carbon",subtitle=paste0(C.taxa," taxonomic groups and ", C.mags, " distinct MAGs"))
 
+ggsave("Paper/Metabolism-Summary/carbon.mags.pdf", width = 8.5, height = 11, units = "in")
+
 #Other metabolism:
-other.taxa <- metabolism.m %>% filter(!is.na(rescale) & Category %in% c("HALOGENATED COMPOUNDS","ARSENIC","SELENIUM","NITRILES","METALS")) %>% summarise(NG = n_distinct(Taxonomy))
+other.taxa <- metabolism.m %>% filter(!is.na(rescale) & Category %in% c("HALOGENATED COMPOUNDS","ARSENIC","SELENIUM","NITRILES","METALS")) %>% summarise(NG = n_distinct(Taxonomy_f))
 other.mags <- metabolism.m %>% filter(!is.na(rescale) & Category %in% c("HALOGENATED COMPOUNDS","ARSENIC","SELENIUM","NITRILES","METALS")) %>% summarise(NG = n_distinct(MAG))
 
 
-ggplot(metabolism.m %>% filter(!is.na(rescale) & Category %in% c("HALOGENATED COMPOUNDS","ARSENIC","SELENIUM","NITRILES","METALS")), aes(x=Genes,y=Taxonomy))+
+ggplot(metabolism.m %>% filter(!is.na(rescale) & Category %in% c("HALOGENATED COMPOUNDS","ARSENIC","SELENIUM","NITRILES","METALS")), 
+       aes(x=Genes,y=Taxonomy_f))+
   geom_tile(aes(fill =  Nb.of.genes),colour = "white") + 
   #scale_fill_gradient(low = "light blue", high="steelblue")+
   theme_bw()+
-  facet_grid(Domain~short_reaction_name, scales="free",space = "free_y")+
+  facet_grid(Domain.y+CPR~short_reaction_name, scales="free",space = "free_y")+
   theme(axis.text.x = element_text(angle = 90, hjust = 1))+
   ggtitle("Other",subtitle=paste0(other.taxa," taxonomic groups and ", other.mags, " distinct MAGs"))
 
-dev.off()
+ggsave("Paper/Metabolism-Summary/other.mags.pdf", width = 8.5, height = 11, units = "in")
 
 # Make a bar plot comparing taxonomic groups vs. number of genomes involved in each category
 summary.stats <- as.data.frame(matrix(nrow=6, ncol=3))
@@ -158,9 +190,6 @@ bar.plot <- ggplot(to.plot.summary, aes(x=factor(Category),y=ToPlot,fill=factor(
 
 bar.plot
 
-pdf("~/Documents/Github/LakeTanganyika/FigureS7-Metabolism-Summary/BarPlot-2020-01-20.pdf")
-bar.plot
-dev.off()
 
 # plot the metabolism of just the two new CP:
 
