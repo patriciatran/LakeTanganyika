@@ -33,18 +33,22 @@ setwd("~/Documents/JGI-LakeTanganyika-Globus-Data/")
 list.of.folders <- list.files()
 list.of.folders <- setdiff(list.of.folders,"list.of.headers.Tang.523MAGS.txt")
 
-# Start a timer:
+
 
 for (i in 1:length(list.of.folders)){
+  # Start a timer to see how long it takes to process each folder:
   ptm <- proc.time()
+  
+  # Set working directory:
   setwd(paste0("~/Documents/JGI-LakeTanganyika-Globus-Data/",list.of.folders[i],"/"))
   print(paste0("Now in the folder: ",list.of.folders[i]))
   
-  # Make subfolder:
+  # Make subfolders for outputs:
   dir.create("Figures")
   dir.create("Tables")
   print("created folders for outputs")
   
+  # Load the necessary files downloaded using GLOBUS:
   files.cog <- list.files(pattern = "\\.COG$")
   files.ec <- list.files(pattern = "\\.EC$")
   files.ko <- list.files(pattern = "\\.KO$")
@@ -56,7 +60,7 @@ for (i in 1:length(list.of.folders)){
   #class(files.cog)
   filename <- str_split(files.cog, pattern="[.]")[[1]][1]
   
-  
+  # Read the files using fread which is useful for very large tables
   cog <- fread(files.cog, sep="\t")
   ec <- fread(files.ec, sep="\t",)
   KO <- fread(files.ko, sep="\t",)
@@ -84,9 +88,10 @@ for (i in 1:length(list.of.folders)){
   hist(ec$V4, xlab="Percent ID")
   hist(KO$V4,xlab="Percent ID")
   hist(Pfam$V3, xlab="Percent ID")
-  
   dev.off()
-  
+  print("Finished printing the distribution of % ID figure")
+
+  # Combining the tables:
   combined <- left_join(product_names, Pfam, by = "V1")
   nrow(combined)
   combined <- left_join(combined, KO, by="V1")
@@ -99,7 +104,8 @@ for (i in 1:length(list.of.folders)){
   
   # Now an useful thing would be to have a column with information about whether it was binned or not.
   # Before we start splitting this table let's ensure that the scaffold ID have at least 18 characters.
-  unique(nchar(combined$V1))
+  print(unique(nchar(combined$V1)))
+  
   # They either have 19, 20 or 21 characters...good :)
   
   combined <- combined %>% mutate(Scaffold_ID_Loci = V1) %>% 
@@ -115,13 +121,18 @@ for (i in 1:length(list.of.folders)){
   # To ensure we are good calculate the number of scaffolds in MAGS vs not:
   combined.count <- combined %>% select(Scaffold_ID, MAG) %>% group_by(MAG) %>% tally()
   
-  combined.count %>% ggplot(aes(x=MAG, y=n)) +
+  # Make the plot
+  combined.count %>% ggplot(aes(x=MAG, y=combined.count[2])) +
     geom_bar(stat="identity")+
     theme_bw()+
     theme(axis.text.x = element_text(angle = 90))+
     ggtitle(filename)
   
   ggsave(paste0("Figures/",filename,".binned.bar.plot.pdf"))
+  print("Finished printing the bar plot of scaffolds binned vs. not binned in this metagenome")
+  
+  # Now change the name of the n column before saving:
+  colnames(combined.count) <- c("MAG",paste0("n_",filename))
   
   # Now let's attend to combine name_map and cov:
   coverage.mapped <- left_join(name_map, cov, by=c("V1"="#ID"))
