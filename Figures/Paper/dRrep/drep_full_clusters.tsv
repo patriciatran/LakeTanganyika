@@ -1,0 +1,3440 @@
+MAG	Depth	Cluster.ID	Representative.cluster	Representative.sequence
+1	K_DeepCast_0m_m2_029	0	594_1	No
+2	K_Offshore_0m_mx_001	0	594_1	No
+3	K_DeepCast_0m_m2_237	0	590_1	No
+4	K_Offshore_0m_mx_101	0	590_1	No
+5	K_Offshore_0m_mx_059	0	587_1	No
+6	K_DeepCast_0m_m2_227	0	585_1	No
+7	K_Offshore_0m_m2_019	0	585_1	No
+8	K_DeepCast_0m_m2_115	0	582_1	Representative sequence
+9	K_DeepCast_0m_m2_222	0	579_1	Representative sequence
+10	K_Offshore_0m_m2_171	0	579_1	No
+11	K_DeepCast_0m_m2_005	0	578_1	No
+12	K_Offshore_0m_m2_080	0	578_1	No
+13	K_Offshore_0m_m2_187	0	577_2	No
+14	K_DeepCast_0m_mx_182	0	577_1	No
+15	K_DeepCast_0m_m2_156	0	577_2	No
+16	K_DeepCast_0m_m2_165	0	574_1	No
+17	K_Offshore_0m_m2_029	0	574_1	No
+18	K_DeepCast_0m_mx_226	0	572_1	No
+19	K_DeepCast_0m_m2_014	0	571_1	No
+20	K_Offshore_0m_m1_167	0	571_1	No
+21	K_DeepCast_0m_m1_238	0	570_1	No
+22	K_DeepCast_0m_m2_133	0	569_1	No
+23	K_Offshore_0m_m1_157	0	569_1	No
+24	K_DeepCast_0m_m1_214	0	566_1	No
+25	K_Offshore_0m_m1_170	0	566_1	No
+26	K_Offshore_0m_mx_104	0	564_1	No
+27	K_Offshore_0m_m1_183	0	563_1	No
+28	K_Offshore_0m_m2_133	0	559_1	No
+29	K_DeepCast_0m_m2_231	0	559_1	No
+30	K_Offshore_0m_mx_139	0	557_2	Representative sequence
+31	K_DeepCast_0m_mx_034	0	557_2	No
+32	K_Offshore_0m_mx_046	0	556_3	Representative sequence
+33	K_DeepCast_0m_m2_007	0	551_1	No
+34	K_Offshore_0m_mx_086	0	551_1	No
+35	K_DeepCast_0m_m2_132	0	548_1	No
+36	K_Offshore_0m_m1_190	0	548_1	No
+37	K_Offshore_0m_mx_175	0	542_1	No
+38	K_DeepCast_0m_m1_084	0	542_1	No
+39	K_Offshore_0m_m2_039	0	541_1	No
+40	K_DeepCast_0m_m2_134	0	540_1	No
+41	K_Offshore_0m_m2_165	0	540_1	No
+42	K_DeepCast_0m_mx_099	0	537_1	No
+43	K_Offshore_0m_m1_015	0	518_1	No
+44	K_DeepCast_0m_m1_019	0	518_1	No
+45	K_Offshore_0m_m1_008	0	513_1	No
+46	K_DeepCast_0m_mx_237	0	513_1	No
+47	K_DeepCast_0m_m2_068	0	512_1	No
+48	K_DeepCast_0m_mx_128	0	511_1	No
+49	K_Offshore_0m_m2_127	0	502_2	No
+50	K_DeepCast_0m_m2_220	0	502_2	No
+51	K_Offshore_0m_m1_040	0	501_3	No
+52	K_DeepCast_0m_m2_116	0	501_3	No
+53	K_DeepCast_0m_m1_025	0	500_1	No
+54	K_DeepCast_0m_mx_168	0	499_1	No
+55	K_Offshore_0m_mx_118	0	499_1	No
+56	K_DeepCast_0m_m2_143	0	498_1	No
+57	K_Offshore_0m_m2_075	0	497_1	No
+58	K_DeepCast_0m_m2_117	0	497_1	No
+59	K_DeepCast_0m_m2_174	0	496_1	No
+60	K_Offshore_0m_m2_092	0	496_1	No
+61	K_Offshore_0m_m1_007	0	494_1	Representative sequence
+62	K_DeepCast_0m_m2_087	0	494_1	No
+63	K_DeepCast_0m_m1_250	0	493_1	No
+64	K_Offshore_0m_m2_096	0	493_1	No
+65	K_DeepCast_0m_m2_078	0	492_1	No
+66	K_Offshore_0m_m1_019	0	492_1	No
+67	K_DeepCast_0m_m2_219	0	485_1	No
+68	K_Offshore_0m_m1_160	0	485_1	No
+69	K_Offshore_0m_m2_010	0	478_1	No
+70	K_DeepCast_0m_m1_203	0	478_1	No
+71	K_Offshore_0m_m1_188	0	477_1	No
+72	K_Offshore_0m_m2_065	0	473_1	No
+73	K_DeepCast_0m_m1_088	0	473_3	Representative sequence
+74	K_Offshore_0m_m2_169	0	472_1	No
+75	K_DeepCast_0m_mx_179	0	472_1	No
+76	K_Offshore_0m_m2_136	0	471_1	No
+77	K_DeepCast_0m_m1_240	0	471_1	No
+78	K_Offshore_0m_m2_098	0	470_1	No
+79	K_DeepCast_0m_mx_001	0	470_1	No
+80	K_Offshore_0m_m2_072	0	468_7	Representative sequence
+81	K_DeepCast_0m_m2_204	0	467_1	No
+82	K_Offshore_0m_mx_194	0	467_1	No
+83	K_DeepCast_0m_m1_236	0	457_1	No
+84	K_Offshore_0m_m2_008	0	456_1	No
+85	K_DeepCast_0m_m1_195	0	456_1	No
+86	K_DeepCast_0m_mx_173	0	451_1	No
+87	K_Offshore_0m_m1_184	0	451_1	No
+88	K_Offshore_0m_m2_183	0	449_1	No
+89	K_DeepCast_0m_mx_204	0	443_1	No
+90	K_Offshore_0m_m1_142	0	443_1	No
+91	K_DeepCast_0m_m2_020	0	439_1	No
+92	K_Offshore_0m_m1_163	0	439_1	No
+93	K_Offshore_0m_m1_055	0	414_1	Representative sequence
+94	K_Offshore_0m_m1_179	0	404_1	No
+95	K_DeepCast_0m_m1_218	0	401_1	No
+96	K_Offshore_0m_m1_029	0	401_1	No
+97	K_DeepCast_0m_mx_045	0	400_2	No
+98	K_DeepCast_0m_m1_110	0	370_1	No
+99	K_Offshore_0m_m1_141	0	370_1	No
+100	K_Offshore_0m_m2_175	0	356_1	No
+101	K_DeepCast_0m_m2_089	0	356_1	No
+102	K_DeepCast_0m_m1_254	0	355_1	No
+103	K_Offshore_0m_m2_091	0	355_1	No
+104	K_DeepCast_0m_m1_044	0	352_2	No
+105	K_Offshore_0m_m2_021	0	352_1	No
+106	K_Offshore_0m_m2_142	0	340_1	No
+107	K_Offshore_0m_mx_016	0	335_1	No
+108	K_DeepCast_0m_m1_178	0	325_2	No
+109	K_Offshore_0m_m1_118	0	325_2	No
+110	K_DeepCast_0m_m1_252	0	322_1	No
+111	K_Offshore_0m_m2_003	0	322_1	No
+112	K_Offshore_0m_m1_127	0	308_1	No
+113	K_DeepCast_0m_m1_183	0	308_1	No
+114	K_DeepCast_0m_m2_136	0	305_2	No
+115	K_Offshore_0m_m1_088	0	305_2	No
+116	K_Offshore_0m_m1_077	0	305_1	No
+117	K_Offshore_0m_m2_189	0	304_1	No
+118	K_DeepCast_0m_m2_129	0	304_1	No
+119	K_Offshore_0m_m2_129	0	303_1	No
+120	K_DeepCast_0m_m1_175	0	303_1	No
+121	K_DeepCast_0m_m1_144	0	302_1	Representative sequence
+122	K_Offshore_0m_m2_007	0	302_1	No
+123	K_Offshore_0m_m2_087	0	301_1	No
+124	K_DeepCast_0m_m2_113	0	301_1	No
+125	K_Offshore_0m_mx_009	0	300_1	No
+126	K_DeepCast_0m_m2_181	0	300_1	No
+127	K_DeepCast_0m_m2_242	0	299_1	No
+128	K_DeepCast_0m_mx_018	0	295_1	No
+129	K_Offshore_0m_mx_067	0	295_1	No
+130	K_Offshore_0m_m2_156	0	286_1	No
+131	K_DeepCast_0m_mx_246	0	286_1	No
+132	K_Offshore_0m_mx_117	0	283_10	Representative sequence
+133	K_DeepCast_0m_m1_241	0	282_1	No
+134	K_Offshore_0m_m1_189	0	280_1	No
+135	K_DeepCast_0m_m2_216	0	280_1	No
+136	K_DeepCast_0m_m2_081	0	276_1	No
+137	K_Offshore_0m_mx_137	0	276_1	No
+138	K_Offshore_0m_m1_158	0	270_1	No
+139	K_DeepCast_0m_m2_091	0	269_2	No
+140	K_Offshore_0m_mx_145	0	269_2	No
+141	K_DeepCast_0m_m2_149	0	234_1	No
+142	K_DeepCast_0m_m2_058	0	233_1	No
+143	K_DeepCast_0m_m1_187	0	227_1	No
+144	K_Offshore_0m_mx_037	0	226_1	Representative sequence
+145	K_DeepCast_0m_m1_197	0	226_1	No
+146	K_DeepCast_0m_m2_180	0	208_1	No
+147	K_Offshore_0m_m1_154	0	208_1	No
+148	K_Offshore_0m_m1_150	0	205_1	No
+149	K_DeepCast_0m_m1_211	0	205_1	No
+150	K_Offshore_0m_m1_151	0	204_1	No
+151	K_DeepCast_0m_m2_145	0	203_1	No
+152	K_Offshore_0m_m1_193	0	203_1	No
+153	K_Offshore_0m_m1_037	0	201_1	No
+154	K_DeepCast_0m_m1_046	0	201_1	No
+155	K_Offshore_0m_m2_120	0	200_1	No
+156	K_DeepCast_0m_m2_056	0	199_1	No
+157	K_Offshore_0m_mx_109	0	199_1	No
+158	K_DeepCast_0m_m2_122	0	198_1	No
+159	K_Offshore_0m_m2_089	0	198_1	No
+160	K_Offshore_0m_m2_173	0	197_1	No
+161	K_DeepCast_0m_m1_217	0	197_1	No
+162	K_Offshore_0m_m2_135	0	196_1	No
+163	K_DeepCast_0m_m2_128	0	196_1	No
+164	K_DeepCast_0m_m2_135	0	195_1	No
+165	K_Offshore_0m_m2_014	0	195_1	No
+166	K_Offshore_0m_m2_067	0	194_1	No
+167	K_DeepCast_0m_m2_085	0	194_1	No
+168	K_DeepCast_0m_m1_227	0	193_1	Representative sequence
+169	K_Offshore_0m_m2_154	0	193_1	No
+170	K_DeepCast_0m_m1_207	0	190_1	No
+171	K_DeepCast_0m_m1_248	0	187_1	No
+172	K_Offshore_0m_m1_131	0	184_1	No
+173	K_DeepCast_0m_m1_194	0	184_1	No
+174	K_DeepCast_0m_m2_079	0	181_1	No
+175	K_Offshore_0m_m1_125	0	181_1	No
+176	K_Offshore_0m_m2_119	0	177_1	No
+177	K_DeepCast_0m_m1_239	0	177_1	No
+178	K_DeepCast_0m_m2_197	0	175_1	No
+179	K_Offshore_0m_m2_035	0	175_1	No
+180	K_Offshore_0m_m1_196	0	173_1	No
+181	K_DeepCast_0m_m2_008	0	173_1	No
+182	K_DeepCast_0m_m2_137	0	170_1	No
+183	K_Offshore_0m_m2_182	0	170_1	No
+184	K_DeepCast_0m_m1_206	0	169_1	No
+185	K_Offshore_0m_m2_004	0	169_1	No
+186	K_DeepCast_0m_m2_050	0	168_1	No
+187	K_Offshore_0m_mx_071	0	168_1	No
+188	K_DeepCast_0m_m1_196	0	161_1	No
+189	K_Offshore_0m_mx_007	0	161_1	No
+190	K_Offshore_0m_mx_093	0	158_1	No
+191	K_Offshore_0m_m1_130	0	156_1	No
+192	K_Offshore_0m_m2_157	0	155_1	No
+193	K_DeepCast_0m_mx_208	0	155_1	No
+194	K_DeepCast_0m_m1_186	0	153_1	No
+195	K_Offshore_0m_mx_064	0	153_1	No
+196	K_Offshore_0m_m2_001	0	150_1	No
+197	K_DeepCast_0m_m1_055	0	150_1	No
+198	K_DeepCast_0m_mx_086	0	144_1	No
+199	K_Offshore_0m_m1_031	0	138_1	No
+200	K_Offshore_0m_mx_083	0	137_1	No
+201	K_Offshore_0m_m1_005	0	134_1	No
+202	K_Offshore_0m_m1_155	0	130_1	No
+203	K_Offshore_0m_m2_077	0	130_3	No
+204	K_DeepCast_0m_m2_077	0	126_1	No
+205	K_DeepCast_0m_m1_010	0	125_1	No
+206	K_DeepCast_0m_m2_176	0	124_1	No
+207	K_DeepCast_0m_m2_147	0	6_1	No
+208	K_Offshore_surface_m2_174	0	1_1	No
+209	M_surface_6_m1_001	6	572_1	No
+210	M_surface_7_m1_001	7	514_1	Representative sequence
+211	M_surface_8_mx_001	8	470_1	No
+212	M_surface_9_m2_001	9	304_1	No
+213	M_surface_8_m2_002	8	439_1	No
+214	M_surface_6_mx_002	6	276_1	No
+215	K_Offshore_surface_m2_002	0	269_2	No
+216	M_surface_8_m1_003	8	496_1	No
+217	M_surface_7_m2_003	7	161_1	No
+218	M_surface_10_m1_004	10	514_1	No
+219	M_surface_7_m1_004	7	513_1	No
+220	M_surface_9_m1_004	9	493_1	No
+221	K_Offshore_surface_m1_004	0	404_1	No
+222	M_surface_10_m2_004	10	304_1	No
+223	K_Offshore_surface_m2_005	0	577_2	Representative sequence
+224	M_surface_7_m1_005	7	553_1	No
+225	M_surface_8_m1_005	8	512_1	No
+226	M_surface_8_m2_006	8	356_1	No
+227	M_surface_9_m1_006	9	199_1	No
+228	M_surface_10_m2_006	10	196_1	No
+229	M_surface_9_m2_006	9	161_1	No
+230	M_surface_10_m1_007	10	513_1	No
+231	M_surface_7_m2_008	7	551_1	No
+232	M_surface_6_m1_008	6	501_3	No
+233	M_surface_8_m1_008	8	492_1	No
+234	M_surface_10_m1_008	10	470_1	No
+235	M_surface_9_m1_008	9	322_1	No
+236	M_surface_6_m2_009	6	499_1	No
+237	M_surface_9_m1_009	9	497_1	Representative sequence
+238	M_surface_7_m2_009	7	208_1	No
+239	M_surface_9_mx_009	9	168_1	No
+240	M_DeepCast_10m_mx_023	10	597_1	No
+241	M_DeepCast_10m_mx_208	10	594_1	No
+242	M_DeepCast_10m_m1_191	10	590_1	No
+243	M_DeepCast_10m_m2_106	10	585_1	No
+244	M_DeepCast_10m_m1_211	10	579_1	No
+245	M_DeepCast_10m_m2_057	10	578_1	No
+246	M_DeepCast_10m_m1_178	10	577_2	No
+247	M_DeepCast_10m_mx_030	10	572_1	No
+248	M_DeepCast_10m_m1_214	10	571_1	No
+249	M_DeepCast_10m_m2_137	10	569_1	No
+250	M_DeepCast_10m_m2_089	10	566_1	No
+251	M_DeepCast_10m_m2_189	10	559_1	No
+252	M_DeepCast_10m_m2_075	10	557_2	No
+253	M_DeepCast_10m_m2_209	10	551_1	No
+254	M_DeepCast_10m_mx_094	10	548_1	No
+255	M_DeepCast_10m_m1_112	10	542_1	No
+256	M_DeepCast_10m_m2_198	10	540_1	No
+257	M_DeepCast_10m_m2_204	10	518_1	No
+258	M_DeepCast_10m_m1_004	10	513_1	No
+259	M_DeepCast_10m_m1_018	10	512_1	No
+260	M_DeepCast_10m_m2_045	10	500_1	No
+261	M_DeepCast_10m_m2_145	10	499_1	No
+262	M_DeepCast_10m_m2_092	10	497_1	No
+263	M_DeepCast_10m_m2_132	10	496_1	No
+264	M_DeepCast_10m_mx_152	10	495_1	No
+265	M_DeepCast_10m_m1_005	10	494_1	No
+266	M_DeepCast_10m_m1_225	10	493_1	No
+267	M_DeepCast_10m_m1_009	10	492_1	No
+268	M_DeepCast_10m_m2_201	10	485_1	No
+269	M_DeepCast_10m_m2_202	10	478_1	No
+270	M_DeepCast_10m_m2_014	10	477_1	No
+271	M_DeepCast_10m_m2_175	10	476_1	No
+272	M_DeepCast_10m_m2_107	10	473_1	No
+273	M_DeepCast_10m_mx_141	10	472_1	No
+274	M_DeepCast_10m_m2_094	10	471_1	No
+275	M_DeepCast_10m_m2_070	10	470_1	No
+276	M_DeepCast_10m_m2_203	10	467_1	No
+277	M_DeepCast_10m_m1_213	10	457_1	No
+278	M_DeepCast_10m_m2_093	10	456_1	No
+279	M_DeepCast_10m_m2_114	10	451_1	No
+280	M_DeepCast_10m_m1_168	10	447_1	No
+281	M_DeepCast_10m_mx_063	10	445_1	No
+282	M_DeepCast_10m_mx_191	10	443_1	No
+283	M_DeepCast_10m_m2_088	10	439_1	No
+284	M_surface_9_m2_010	9	439_1	No
+285	M_DeepCast_10m_mx_107	10	403_1	No
+286	M_DeepCast_10m_mx_102	10	401_1	No
+287	M_DeepCast_10m_m2_121	10	400_2	No
+288	M_DeepCast_10m_m2_042	10	370_1	No
+289	M_DeepCast_10m_m2_192	10	356_1	No
+290	M_DeepCast_10m_mx_192	10	355_1	No
+291	M_DeepCast_10m_m2_050	10	352_2	No
+292	M_DeepCast_10m_m2_082	10	325_2	No
+293	M_DeepCast_10m_m2_004	10	322_1	No
+294	M_DeepCast_10m_mx_196	10	309_1	No
+295	M_DeepCast_10m_m1_161	10	308_1	No
+296	M_DeepCast_10m_m1_149	10	305_2	No
+297	M_DeepCast_10m_m2_074	10	304_1	No
+298	M_DeepCast_10m_m1_151	10	303_1	No
+299	M_DeepCast_10m_m2_167	10	302_1	No
+300	M_DeepCast_10m_m1_148	10	299_1	No
+301	M_DeepCast_10m_m1_174	10	295_1	No
+302	M_DeepCast_10m_m1_222	10	292_1	No
+303	M_DeepCast_10m_m2_054	10	286_1	No
+304	M_DeepCast_10m_m2_067	10	283_1	No
+305	M_DeepCast_10m_m1_218	10	280_1	No
+306	M_DeepCast_10m_m2_186	10	276_1	No
+307	M_surface_7_m1_010	7	270_1	No
+308	M_DeepCast_10m_m1_195	10	269_2	No
+309	M_DeepCast_10m_m2_046	10	242_1	No
+310	M_DeepCast_10m_m1_022	10	227_1	No
+311	M_DeepCast_10m_m2_156	10	208_1	No
+312	M_DeepCast_10m_m1_173	10	205_1	No
+313	M_DeepCast_10m_m2_005	10	203_1	No
+314	M_DeepCast_10m_m2_006	10	201_1	No
+315	M_DeepCast_10m_m1_051	10	200_1	No
+316	M_DeepCast_10m_mx_147	10	199_1	No
+317	M_DeepCast_10m_m2_033	10	198_1	No
+318	K_Offshore_surface_m2_010	0	197_1	Representative sequence
+319	M_DeepCast_10m_mx_120	10	197_1	No
+320	M_DeepCast_10m_m2_183	10	196_1	No
+321	M_DeepCast_10m_m2_134	10	195_1	No
+322	M_DeepCast_10m_m2_182	10	194_1	No
+323	M_DeepCast_10m_m1_206	10	193_1	No
+324	M_DeepCast_10m_m1_193	10	190_1	No
+325	M_DeepCast_10m_mx_098	10	187_1	No
+326	M_DeepCast_10m_m2_039	10	184_1	No
+327	M_DeepCast_10m_m2_207	10	181_1	No
+328	M_DeepCast_10m_m1_209	10	177_1	No
+329	M_DeepCast_10m_m1_165	10	175_1	No
+330	M_DeepCast_10m_m1_220	10	173_1	No
+331	M_DeepCast_10m_m1_162	10	170_1	No
+332	M_DeepCast_10m_m1_183	10	169_1	No
+333	M_surface_10_mx_010	10	168_1	No
+334	M_DeepCast_10m_m2_066	10	168_1	No
+335	M_DeepCast_10m_m1_164	10	161_1	No
+336	M_DeepCast_10m_mx_008	10	155_1	No
+337	M_DeepCast_10m_m1_144	10	154_1	No
+338	M_DeepCast_10m_m2_017	10	153_1	No
+339	M_DeepCast_10m_m2_064	10	147_1	No
+340	M_DeepCast_10m_mx_072	10	146_2	No
+341	M_DeepCast_10m_m2_190	10	144_1	No
+342	K_Offshore_surface_m1_010	0	138_1	Representative sequence
+343	M_surface_6_mx_010	6	130_3	No
+344	M_DeepCast_10m_m1_205	10	126_1	No
+345	M_DeepCast_10m_m1_201	10	125_1	No
+346	M_surface_9_m1_011	9	582_1	No
+347	K_Offshore_surface_m2_011	0	478_1	Representative sequence
+348	M_surface_6_m1_011	6	352_1	No
+349	M_surface_9_m2_011	9	203_1	No
+350	M_surface_8_m2_011	8	190_1	No
+351	M_surface_9_m1_012	9	513_1	No
+352	M_surface_7_m1_012	7	173_1	No
+353	M_surface_9_m1_013	9	578_1	Representative sequence
+354	M_surface_6_m1_013	6	496_1	No
+355	M_surface_7_m2_013	7	442_0	Representative sequence
+356	M_surface_9_m2_013	9	195_1	No
+357	M_surface_10_m1_014	10	497_1	No
+358	K_Offshore_surface_m2_014	0	280_1	Representative sequence
+359	M_surface_6_mx_014	6	170_1	No
+360	M_surface_7_m1_014	7	156_1	No
+361	M_surface_6_m2_015	6	439_1	No
+362	M_surface_7_m2_015	7	302_1	No
+363	M_surface_10_m1_016	10	492_1	No
+364	M_surface_7_m1_016	7	322_1	No
+365	M_surface_9_m1_016	9	286_1	No
+366	M_surface_10_m2_016	10	126_1	No
+367	M_surface_9_m1_017	9	498_1	Representative sequence
+368	M_surface_7_m1_018	7	492_1	No
+369	K_Offshore_surface_mx_018	0	308_1	No
+370	K_Offshore_surface_mx_019	0	578_1	No
+371	M_surface_10_m1_019	10	512_1	No
+372	M_surface_7_m1_019	7	370_1	No
+373	K_Offshore_surface_m2_019	0	305_2	No
+374	M_surface_6_m2_020	6	578_1	No
+375	K_Offshore_surface_m2_020	0	537_1	Representative sequence
+376	M_surface_7_m1_021	7	498_1	No
+377	M_surface_10_m1_021	10	498_1	No
+378	M_surface_9_m2_021	9	473_1	No
+379	M_surface_8_m1_021	8	295_1	No
+380	M_surface_6_m2_021	6	269_2	No
+381	M_surface_8_mx_021	8	155_1	No
+382	K_Offshore_surface_m2_021	0	150_1	No
+383	M_surface_10_m2_022	10	494_1	No
+384	K_Offshore_surface_m2_022	0	449_1	No
+385	M_surface_6_m1_022	6	302_1	No
+386	M_surface_10_m1_023	10	500_1	No
+387	K_Offshore_surface_m2_023	0	496_1	No
+388	M_surface_6_m1_023	6	492_1	No
+389	M_surface_10_m2_023	10	242_1	Representative sequence
+390	M_surface_9_m1_024	9	500_1	No
+391	K_Offshore_surface_mx_024	0	161_1	No
+392	M_surface_7_m2_025	7	594_1	No
+393	M_surface_7_m1_025	7	579_1	No
+394	K_Offshore_surface_m2_025	0	456_1	No
+395	M_surface_9_m2_025	9	201_1	No
+396	M_surface_7_m1_026	7	500_1	No
+397	K_Offshore_surface_m2_026	0	485_1	No
+398	M_surface_10_m2_026	10	197_1	No
+399	M_surface_7_m2_026	7	197_1	No
+400	M_surface_8_m2_026	8	196_1	Representative sequence
+401	K_Offshore_surface_m2_027	0	270_1	No
+402	M_surface_7_m2_027	7	169_1	No
+403	M_surface_10_m1_028	10	518_1	No
+404	M_surface_10_m1_029	10	541_1	No
+405	K_Offshore_surface_m1_029	0	497_1	No
+406	M_surface_10_m2_029	10	190_1	No
+407	M_surface_9_m2_030	9	193_1	No
+408	M_surface_10_m1_030	10	138_1	No
+409	M_surface_9_mx_031	9	447_1	No
+410	M_surface_9_m2_031	9	205_1	No
+411	M_surface_7_m2_032	7	501_3	Representative sequence
+412	K_Offshore_surface_m1_032	0	283_12	Representative sequence
+413	K_Offshore_surface_m2_032	0	169_1	No
+414	M_surface_6_mx_032	6	155_1	No
+415	K_Offshore_surface_m1_033	0	305_1	No
+416	M_surface_9_m2_034	9	472_1	No
+417	K_DeepCast_35m_m1_130	35	597_1	No
+418	K_DeepCast_35m_m2_213	35	594_1	No
+419	K_DeepCast_35m_m2_136	35	590_1	No
+420	K_DeepCast_35m_m2_072	35	585_1	No
+421	K_DeepCast_35m_m2_203	35	579_1	No
+422	K_DeepCast_35m_m2_331	35	578_1	No
+423	K_DeepCast_35m_m1_080	35	577_2	No
+424	K_DeepCast_35m_m2_307	35	574_1	No
+425	K_DeepCast_35m_m2_065	35	572_1	Representative sequence
+426	K_DeepCast_35m_m1_313	35	571_1	No
+427	K_DeepCast_35m_m1_012	35	570_1	Representative sequence
+428	K_DeepCast_35m_m2_001	35	569_1	No
+429	K_DeepCast_35m_m2_181	35	566_1	No
+430	K_DeepCast_35m_m1_008	35	564_1	No
+431	K_DeepCast_35m_m2_208	35	559_1	No
+432	K_DeepCast_35m_m2_049	35	557_2	No
+433	K_DeepCast_35m_m1_052	35	556_1	Representative sequence
+434	K_DeepCast_35m_m2_325	35	555_1	No
+435	K_DeepCast_35m_m1_299	35	551_1	No
+436	K_DeepCast_35m_m2_130	35	548_1	Representative sequence
+437	K_DeepCast_35m_m1_157	35	542_1	No
+438	K_DeepCast_35m_m1_042	35	541_1	No
+439	K_DeepCast_35m_m2_031	35	540_1	No
+440	M_surface_9_m1_035	9	518_1	No
+441	K_DeepCast_35m_m2_169	35	518_1	No
+442	K_DeepCast_35m_m2_296	35	515_1	No
+443	K_DeepCast_35m_m2_096	35	513_1	Representative sequence
+444	K_DeepCast_35m_m2_204	35	512_1	Representative sequence
+445	K_DeepCast_35m_m1_073	35	511_1	Representative sequence
+446	K_DeepCast_35m_m1_047	35	500_1	Representative sequence
+447	K_DeepCast_35m_m2_272	35	499_1	No
+448	K_DeepCast_35m_m1_021	35	498_1	No
+449	K_DeepCast_35m_m2_223	35	497_1	No
+450	K_DeepCast_35m_m2_091	35	496_1	No
+451	K_DeepCast_35m_m2_185	35	494_1	No
+452	K_DeepCast_35m_m2_209	35	493_1	No
+453	K_DeepCast_35m_m1_034	35	492_1	No
+454	K_DeepCast_35m_m2_180	35	485_1	No
+455	K_DeepCast_35m_m2_321	35	478_1	No
+456	K_DeepCast_35m_m2_309	35	473_1	No
+457	K_DeepCast_35m_m1_288	35	474_0	Representative sequence
+458	K_DeepCast_35m_m2_145	35	471_1	No
+459	K_DeepCast_35m_m1_028	35	470_1	No
+460	K_DeepCast_35m_m2_023	35	469_0	Representative sequence
+461	K_DeepCast_35m_m2_155	35	467_1	Representative sequence
+462	K_DeepCast_35m_m2_152	35	465_1	No
+463	K_DeepCast_35m_m1_010	35	457_1	No
+464	K_DeepCast_35m_m2_200	35	456_1	No
+465	K_DeepCast_35m_m1_330	35	451_1	No
+466	K_DeepCast_35m_m1_307	35	445_1	No
+467	K_DeepCast_35m_m2_140	35	443_1	No
+468	K_DeepCast_35m_m2_037	35	439_1	Representative sequence
+469	K_DeepCast_35m_m1_327	35	401_1	No
+470	K_DeepCast_35m_m2_259	35	400_2	Representative sequence
+471	K_DeepCast_35m_m1_177	35	370_1	Representative sequence
+472	K_DeepCast_35m_m2_302	35	356_1	No
+473	K_DeepCast_35m_m2_067	35	355_1	Representative sequence
+474	K_DeepCast_35m_m2_271	35	352_2	Representative sequence
+475	K_DeepCast_35m_m1_317	35	334_1	Representative sequence
+476	K_DeepCast_35m_m2_191	35	325_2	Representative sequence
+477	K_DeepCast_35m_m2_087	35	322_1	No
+478	K_DeepCast_35m_m1_280	35	308_1	No
+479	K_DeepCast_35m_m2_224	35	305_2	No
+480	K_DeepCast_35m_m2_003	35	304_1	No
+481	K_DeepCast_35m_m1_263	35	303_1	No
+482	K_DeepCast_35m_m2_016	35	302_1	No
+483	K_DeepCast_35m_m2_132	35	301_1	No
+484	K_DeepCast_35m_m2_150	35	300_1	Representative sequence
+485	K_DeepCast_35m_m1_264	35	299_1	Representative sequence
+486	K_DeepCast_35m_m1_310	35	295_1	No
+487	K_DeepCast_35m_m2_074	35	286_1	No
+488	K_DeepCast_35m_m1_077	35	283_13	Representative sequence
+489	K_DeepCast_35m_m1_007	35	282_1	Representative sequence
+490	K_DeepCast_35m_m2_316	35	280_1	No
+491	K_DeepCast_35m_m2_131	35	276_1	No
+492	K_DeepCast_35m_m1_013	35	269_2	No
+493	K_DeepCast_35m_m2_327	35	258_0	Representative sequence
+494	K_DeepCast_35m_m2_009	35	234_1	Representative sequence
+495	K_DeepCast_35m_m2_046	35	236_0	Representative sequence
+496	K_DeepCast_35m_m1_088	35	233_1	Representative sequence
+497	K_DeepCast_35m_m1_110	35	227_1	No
+498	K_DeepCast_35m_m2_298	35	226_1	No
+499	K_DeepCast_35m_m1_315	35	208_1	No
+500	K_DeepCast_35m_m1_311	35	205_1	No
+501	K_DeepCast_35m_m2_233	35	203_1	No
+502	K_DeepCast_35m_m2_055	35	201_1	No
+503	K_DeepCast_35m_m1_019	35	200_1	No
+504	K_DeepCast_35m_m2_268	35	199_1	No
+505	K_DeepCast_35m_m2_034	35	198_1	No
+506	K_DeepCast_35m_m2_147	35	197_1	No
+507	K_DeepCast_35m_m2_109	35	196_1	No
+508	K_DeepCast_35m_m2_244	35	195_1	No
+509	K_DeepCast_35m_m1_308	35	194_1	No
+510	K_DeepCast_35m_m2_295	35	193_1	No
+511	K_DeepCast_35m_m1_297	35	190_1	Representative sequence
+512	K_DeepCast_35m_m1_281	35	187_1	No
+513	K_DeepCast_35m_m1_287	35	184_1	No
+514	K_DeepCast_35m_m2_201	35	181_1	No
+515	K_DeepCast_35m_m2_019	35	177_1	No
+516	K_DeepCast_35m_m2_148	35	175_1	No
+517	K_DeepCast_35m_m1_018	35	173_1	Representative sequence
+518	K_DeepCast_35m_m1_286	35	170_1	Representative sequence
+519	K_DeepCast_35m_m2_058	35	169_1	No
+520	K_DeepCast_35m_m1_144	35	168_1	No
+521	K_DeepCast_35m_m2_314	35	161_1	No
+522	K_DeepCast_35m_m2_305	35	156_1	No
+523	K_DeepCast_35m_m1_266	35	155_1	No
+524	K_DeepCast_35m_m2_175	35	153_1	No
+525	K_DeepCast_35m_m2_319	35	150_1	No
+526	K_DeepCast_35m_m1_304	35	148_1	No
+527	K_DeepCast_35m_m1_027	35	124_1	Representative sequence
+528	K_DeepCast_35m_m1_029	35	107_1	No
+529	K_DeepCast_35m_m1_037	35	6_1	Representative sequence
+530	K_Offshore_surface_m1_036	0	513_1	No
+531	M_surface_10_m2_037	10	587_1	No
+532	M_surface_7_m2_037	7	473_1	Representative sequence
+533	M_surface_6_m2_037	6	175_1	No
+534	K_Offshore_surface_m1_038	0	572_1	No
+535	M_surface_7_m1_038	7	518_1	No
+536	M_surface_10_m2_038	10	300_1	No
+537	M_surface_10_m2_039	10	553_2	Representative sequence
+538	K_Offshore_surface_m1_039	0	544_1	No
+539	M_surface_6_m1_039	6	447_1	No
+540	K_Offshore_40m_mx_001	40	597_1	No
+541	K_Offshore_40m_mx_112	40	594_1	No
+542	K_Offshore_40m_m1_289	40	590_1	No
+543	K_Offshore_40m_m1_037	40	587_1	No
+544	K_Offshore_40m_m1_261	40	585_1	No
+545	K_Offshore_40m_m2_029	40	579_1	No
+546	K_Offshore_40m_mx_029	40	578_1	No
+547	K_Offshore_40m_m1_269	40	577_2	No
+548	K_Offshore_40m_m2_268	40	574_1	No
+549	K_Offshore_40m_m2_032	40	572_1	No
+550	K_Offshore_40m_mx_157	40	571_1	No
+551	K_Offshore_40m_mx_176	40	569_1	No
+552	K_Offshore_40m_m2_015	40	566_1	No
+553	K_Offshore_40m_m2_047	40	564_1	No
+554	K_Offshore_40m_m1_004	40	563_1	Representative sequence
+555	K_Offshore_40m_m2_028	40	559_1	No
+556	K_Offshore_40m_m2_118	40	557_2	No
+557	K_Offshore_40m_m1_251	40	551_1	Representative sequence
+558	K_Offshore_40m_m1_267	40	548_1	No
+559	K_Offshore_40m_m2_131	40	544_1	Representative sequence
+560	K_Offshore_40m_m2_044	40	542_1	No
+561	K_Offshore_40m_m1_069	40	541_1	Representative sequence
+562	K_Offshore_40m_mx_056	40	540_1	No
+563	K_Offshore_40m_m2_139	40	519_0	Representative sequence
+564	K_Offshore_40m_m1_049	40	518_1	Representative sequence
+565	K_Offshore_40m_m1_034	40	513_1	No
+566	M_surface_6_m1_040	6	510_0	Representative sequence
+567	K_Offshore_40m_m2_034	40	502_2	Representative sequence
+568	K_Offshore_40m_m1_091	40	501_3	No
+569	K_Offshore_40m_m1_076	40	500_1	No
+570	K_Offshore_40m_m2_228	40	499_1	No
+571	K_Offshore_40m_mx_030	40	497_1	No
+572	K_Offshore_40m_m1_059	40	496_1	No
+573	K_Offshore_40m_m2_004	40	494_1	No
+574	K_Offshore_40m_mx_058	40	493_1	No
+575	K_Offshore_40m_m1_025	40	492_1	No
+576	K_Offshore_40m_m2_061	40	485_1	No
+577	K_Offshore_40m_m2_173	40	478_1	No
+578	K_Offshore_40m_m2_094	40	477_1	No
+579	K_Offshore_40m_m2_110	40	473_1	No
+580	K_Offshore_40m_m2_174	40	472_1	No
+581	K_Offshore_40m_m2_279	40	471_1	No
+582	K_Offshore_40m_mx_224	40	470_1	No
+583	M_surface_7_m2_040	7	468_5	Representative sequence
+584	K_Offshore_40m_m1_295	40	467_1	No
+585	K_Offshore_40m_m2_287	40	456_1	Representative sequence
+586	K_Offshore_40m_m1_009	40	451_1	No
+587	K_Offshore_40m_m2_104	40	449_1	Representative sequence
+588	K_Offshore_40m_mx_216	40	445_1	No
+589	K_Offshore_40m_m1_264	40	443_1	No
+590	K_Offshore_40m_m1_282	40	439_1	No
+591	K_Offshore_40m_m2_282	40	414_1	No
+592	K_Offshore_40m_m1_292	40	404_1	Representative sequence
+593	K_Offshore_40m_m1_259	40	401_1	Representative sequence
+594	K_Offshore_40m_m2_212	40	400_3	Representative sequence
+595	K_Offshore_40m_m1_223	40	370_1	No
+596	K_Offshore_40m_m2_158	40	356_1	No
+597	K_Offshore_40m_mx_234	40	355_1	No
+598	K_Offshore_40m_m2_186	40	352_1	No
+599	K_Offshore_40m_m1_238	40	340_1	Representative sequence
+600	K_Offshore_40m_m2_283	40	335_1	Representative sequence
+601	K_Offshore_40m_m2_097	40	325_2	No
+602	K_Offshore_40m_m1_057	40	322_1	No
+603	K_Offshore_40m_m1_239	40	308_1	No
+604	K_Offshore_40m_mx_111	40	307_1	No
+605	K_Offshore_40m_m1_222	40	305_2	No
+606	K_Offshore_40m_m2_239	40	305_1	Representative sequence
+607	K_Offshore_40m_m2_020	40	304_1	No
+608	K_Offshore_40m_m1_220	40	303_1	Representative sequence
+609	K_Offshore_40m_mx_096	40	302_1	No
+610	K_Offshore_40m_m1_166	40	301_1	No
+611	K_Offshore_40m_m1_218	40	300_1	No
+612	K_Offshore_40m_mx_247	40	292_1	No
+613	K_Offshore_40m_m1_278	40	286_1	No
+614	K_Offshore_40m_mx_227	40	283_11	Representative sequence
+615	K_Offshore_40m_mx_251	40	283_1	No
+616	K_Offshore_40m_mx_158	40	281_1	No
+617	K_Offshore_40m_m1_010	40	280_1	No
+618	K_Offshore_40m_m2_012	40	276_1	Representative sequence
+619	K_Offshore_40m_mx_046	40	270_1	Representative sequence
+620	K_Offshore_40m_m2_281	40	269_2	No
+621	K_Offshore_40m_mx_067	40	227_1	No
+622	K_Offshore_40m_m1_221	40	226_1	No
+623	K_Offshore_40m_m1_279	40	208_1	No
+624	K_Offshore_40m_m1_268	40	205_1	Representative sequence
+625	K_Offshore_40m_m2_150	40	204_1	Representative sequence
+626	K_Offshore_40m_m1_287	40	203_1	No
+627	K_Offshore_40m_mx_291	40	201_1	No
+628	K_Offshore_40m_m2_105	40	200_1	Representative sequence
+629	K_Offshore_40m_m2_081	40	199_1	No
+630	K_Offshore_40m_m2_138	40	198_1	No
+631	K_Offshore_40m_m2_026	40	197_1	No
+632	K_Offshore_40m_m2_177	40	196_1	No
+633	K_Offshore_40m_m2_052	40	195_1	No
+634	K_Offshore_40m_m2_124	40	194_1	Representative sequence
+635	K_Offshore_40m_m1_271	40	193_1	No
+636	K_Offshore_40m_m1_270	40	190_1	No
+637	K_Offshore_40m_m1_250	40	187_1	No
+638	K_Offshore_40m_m2_103	40	184_1	Representative sequence
+639	K_Offshore_40m_m2_126	40	181_1	No
+640	K_Offshore_40m_m1_237	40	177_1	Representative sequence
+641	K_Offshore_40m_m2_107	40	175_1	No
+642	K_Offshore_40m_m2_168	40	173_1	No
+643	K_Offshore_40m_m2_083	40	170_1	No
+644	K_Offshore_40m_m2_234	40	169_1	No
+645	K_Offshore_40m_m1_077	40	168_1	No
+646	K_Offshore_40m_mx_035	40	161_1	Representative sequence
+647	K_Offshore_40m_mx_182	40	158_1	No
+648	K_Offshore_40m_m2_265	40	156_1	No
+649	K_Offshore_40m_m2_080	40	155_1	Representative sequence
+650	K_Offshore_40m_m1_228	40	153_1	No
+651	K_Offshore_40m_m2_176	40	150_1	Representative sequence
+652	K_Offshore_40m_m2_271	40	138_1	No
+653	K_Offshore_40m_m1_054	40	140_0	Representative sequence
+654	K_Offshore_40m_mx_190	40	137_1	No
+655	K_Offshore_40m_m1_243	40	134_1	Representative sequence
+656	K_Offshore_40m_mx_120	40	130_1	Representative sequence
+657	K_Offshore_40m_mx_105	40	130_3	Representative sequence
+658	K_Offshore_40m_m1_063	40	1_1	Representative sequence
+659	K_Offshore_surface_m2_041	0	585_1	No
+660	M_surface_8_mx_041	8	513_1	No
+661	M_surface_7_m1_041	7	509_1	No
+662	M_surface_9_m2_041	9	325_2	No
+663	M_surface_10_m2_041	10	283_1	No
+664	M_surface_10_m2_042	10	155_1	No
+665	M_surface_9_m1_043	9	496_1	No
+666	M_surface_7_m2_043	7	477_1	No
+667	M_surface_9_m2_043	9	470_1	No
+668	M_surface_8_m1_044	8	325_2	No
+669	M_surface_6_m1_045	6	542_1	No
+670	M_surface_10_m2_045	10	540_1	No
+671	M_surface_8_mx_045	8	473_1	No
+672	M_surface_6_mx_045	6	473_1	No
+673	K_Offshore_surface_m2_045	0	451_1	No
+674	K_Offshore_surface_m1_046	0	492_1	No
+675	M_surface_9_m2_046	9	451_1	No
+676	M_surface_9_mx_046	9	130_1	No
+677	K_Offshore_surface_mx_047	0	493_1	No
+678	M_surface_9_m2_047	9	280_1	No
+679	M_surface_7_m2_047	7	177_1	No
+680	M_surface_8_mx_048	8	587_1	No
+681	M_surface_9_m2_048	9	355_1	No
+682	M_surface_7_m1_048	7	269_1	Representative sequence
+683	M_DeepCast_50m_m2_169	50	605_1	Representative sequence
+684	M_DeepCast_50m_m2_049	50	604_1	Representative sequence
+685	M_DeepCast_50m_m2_184	50	601_1	No
+686	M_DeepCast_50m_m1_034	50	599_1	No
+687	M_DeepCast_50m_m2_016	50	598_1	No
+688	M_DeepCast_50m_m1_078	50	597_1	No
+689	M_DeepCast_50m_m1_060	50	596_1	Representative sequence
+690	M_DeepCast_50m_m2_063	50	594_1	No
+691	M_DeepCast_50m_m1_010	50	590_1	No
+692	M_DeepCast_50m_m1_274	50	587_11	Representative sequence
+693	M_DeepCast_50m_m1_166	50	585_1	No
+694	M_DeepCast_50m_m1_018	50	580_1	Representative sequence
+695	M_DeepCast_50m_m1_013	50	579_1	No
+696	M_DeepCast_50m_m2_091	50	578_1	No
+697	M_DeepCast_50m_m2_093	50	577_2	No
+698	M_DeepCast_50m_m1_279	50	572_1	No
+699	M_DeepCast_50m_m1_063	50	568_0	Representative sequence
+700	M_DeepCast_50m_m1_027	50	566_1	No
+701	M_DeepCast_50m_m2_031	50	565_1	No
+702	M_DeepCast_50m_m1_250	50	559_1	No
+703	M_DeepCast_50m_m2_017	50	557_2	No
+704	M_DeepCast_50m_m2_146	50	555_1	Representative sequence
+705	M_DeepCast_50m_m2_238	50	551_1	No
+706	M_DeepCast_50m_m1_285	50	550_1	Representative sequence
+707	M_DeepCast_50m_m2_245	50	549_1	Representative sequence
+708	M_DeepCast_50m_m1_085	50	542_1	No
+709	M_DeepCast_50m_m1_037	50	540_1	No
+710	M_DeepCast_50m_m1_057	50	518_1	No
+711	M_DeepCast_50m_m2_029	50	505_1	Representative sequence
+712	M_DeepCast_50m_m2_114	50	499_1	No
+713	M_DeepCast_50m_m1_157	50	496_1	No
+714	M_DeepCast_50m_m1_058	50	495_1	No
+715	M_DeepCast_50m_m2_044	50	494_1	No
+716	M_DeepCast_50m_m2_145	50	493_1	No
+717	M_DeepCast_50m_m2_042	50	492_1	No
+718	M_DeepCast_50m_m2_179	50	485_1	No
+719	M_DeepCast_50m_m2_194	50	484_0	Representative sequence
+720	M_DeepCast_50m_m2_188	50	478_1	No
+721	K_Offshore_surface_m2_050	0	473_1	No
+722	M_DeepCast_50m_m2_259	50	473_1	No
+723	M_DeepCast_50m_m2_055	50	472_1	No
+724	M_DeepCast_50m_m2_258	50	471_1	No
+725	M_DeepCast_50m_m2_034	50	470_1	No
+726	M_DeepCast_50m_m1_002	50	467_1	No
+727	M_DeepCast_50m_m1_025	50	457_1	No
+728	M_DeepCast_50m_m1_278	50	451_1	No
+729	M_DeepCast_50m_m2_220	50	450_1	No
+730	M_DeepCast_50m_m2_208	50	447_1	No
+731	M_DeepCast_50m_m1_241	50	445_1	No
+732	M_DeepCast_50m_m1_284	50	443_1	No
+733	M_DeepCast_50m_m2_219	50	440_1	No
+734	M_DeepCast_50m_m2_073	50	439_1	No
+735	M_DeepCast_50m_m2_087	50	434_1	No
+736	M_DeepCast_50m_m2_148	50	400_1	No
+737	M_DeepCast_50m_m2_090	50	399_2	No
+738	M_DeepCast_50m_m2_256	50	397_1	No
+739	M_DeepCast_50m_m2_133	50	387_1	Representative sequence
+740	M_DeepCast_50m_m2_176	50	385_1	No
+741	M_DeepCast_50m_m1_233	50	383_1	No
+742	M_DeepCast_50m_m2_265	50	382_1	No
+743	M_DeepCast_50m_m2_137	50	380_1	Representative sequence
+744	M_DeepCast_50m_m2_203	50	379_1	No
+745	M_DeepCast_50m_m2_175	50	378_1	No
+746	M_DeepCast_50m_m1_244	50	377_1	Representative sequence
+747	M_DeepCast_50m_m1_133	50	376_1	Representative sequence
+748	M_DeepCast_50m_m2_061	50	375_1	No
+749	M_DeepCast_50m_m1_238	50	372_1	No
+750	M_DeepCast_50m_m1_225	50	371_1	No
+751	M_DeepCast_50m_m2_076	50	369_1	No
+752	M_DeepCast_50m_m2_054	50	368_1	Representative sequence
+753	M_DeepCast_50m_m2_221	50	364_1	Representative sequence
+754	M_DeepCast_50m_m1_210	50	361_1	No
+755	M_DeepCast_50m_m2_244	50	360_1	No
+756	M_DeepCast_50m_m2_248	50	356_1	No
+757	M_DeepCast_50m_m1_177	50	355_1	No
+758	M_DeepCast_50m_m2_008	50	354_1	No
+759	M_DeepCast_50m_m1_008	50	352_2	No
+760	M_DeepCast_50m_m2_111	50	351_1	Representative sequence
+761	M_DeepCast_50m_m2_051	50	350_1	No
+762	M_DeepCast_50m_m2_129	50	349_1	No
+763	M_DeepCast_50m_m1_222	50	348_1	No
+764	M_DeepCast_50m_m2_122	50	346_1	No
+765	M_DeepCast_50m_m2_147	50	345_1	No
+766	M_DeepCast_50m_m2_141	50	344_1	No
+767	M_DeepCast_50m_m1_212	50	341_1	No
+768	M_DeepCast_50m_m2_154	50	328_1	No
+769	M_DeepCast_50m_m1_218	50	325_1	No
+770	M_DeepCast_50m_m2_180	50	324_1	No
+771	M_DeepCast_50m_m2_002	50	322_1	No
+772	M_DeepCast_50m_m2_086	50	316_1	Representative sequence
+773	M_DeepCast_50m_m2_079	50	315_1	No
+774	M_DeepCast_50m_m2_207	50	317_0	Representative sequence
+775	M_DeepCast_50m_m2_036	50	309_1	No
+776	M_DeepCast_50m_m1_239	50	308_1	No
+777	M_DeepCast_50m_m1_234	50	307_1	No
+778	M_DeepCast_50m_m1_230	50	305_2	No
+779	M_DeepCast_50m_m1_217	50	304_1	No
+780	M_DeepCast_50m_m1_226	50	303_1	No
+781	M_DeepCast_50m_m2_048	50	302_1	No
+782	M_DeepCast_50m_m2_106	50	295_2	No
+783	M_DeepCast_50m_m2_151	50	293_1	Representative sequence
+784	M_DeepCast_50m_m1_021	50	292_1	No
+785	M_DeepCast_50m_m2_131	50	290_1	No
+786	M_DeepCast_50m_m2_240	50	289_1	No
+787	M_DeepCast_50m_m2_200	50	286_1	No
+788	M_DeepCast_50m_m1_268	50	285_1	No
+789	M_DeepCast_50m_m2_074	50	279_1	No
+790	M_DeepCast_50m_m1_019	50	276_1	No
+791	M_DeepCast_50m_m1_004	50	275_1	No
+792	M_DeepCast_50m_m2_254	50	274_1	No
+793	M_DeepCast_50m_m2_218	50	269_2	Representative sequence
+794	M_DeepCast_50m_m2_108	50	253_1	No
+795	M_DeepCast_50m_m1_221	50	241_1	No
+796	M_DeepCast_50m_m2_224	50	240_1	No
+797	M_DeepCast_50m_m1_099	50	237_1	No
+798	M_DeepCast_50m_m2_006	50	229_1	No
+799	M_DeepCast_50m_m2_134	50	227_1	No
+800	M_DeepCast_50m_m2_056	50	224_1	No
+801	M_DeepCast_50m_m2_159	50	223_1	No
+802	M_DeepCast_50m_m2_028	50	222_1	No
+803	M_DeepCast_50m_m2_118	50	221_1	No
+804	M_DeepCast_50m_m2_011	50	214_1	No
+805	M_DeepCast_50m_m2_229	50	208_1	No
+806	M_DeepCast_50m_m2_075	50	205_1	No
+807	M_DeepCast_50m_m1_053	50	203_1	No
+808	M_DeepCast_50m_m2_026	50	201_1	No
+809	M_DeepCast_50m_m2_117	50	199_1	Representative sequence
+810	M_DeepCast_50m_m2_109	50	198_1	No
+811	M_DeepCast_50m_m2_250	50	196_1	No
+812	M_DeepCast_50m_m2_135	50	195_1	No
+813	M_DeepCast_50m_m1_039	50	194_1	No
+814	M_DeepCast_50m_m1_260	50	193_1	No
+815	M_DeepCast_50m_m2_027	50	192_1	No
+816	M_DeepCast_50m_m2_189	50	191_1	Representative sequence
+817	M_DeepCast_50m_m2_104	50	189_1	No
+818	M_DeepCast_50m_m1_240	50	187_1	No
+819	M_DeepCast_50m_m2_185	50	181_1	No
+820	M_DeepCast_50m_m1_254	50	175_1	No
+821	M_DeepCast_50m_m2_089	50	173_1	No
+822	M_DeepCast_50m_m2_165	50	170_1	No
+823	M_DeepCast_50m_m2_080	50	169_1	No
+824	M_DeepCast_50m_m1_224	50	168_1	No
+825	M_DeepCast_50m_m1_257	50	166_1	No
+826	M_DeepCast_50m_m1_024	50	161_1	No
+827	M_DeepCast_50m_m2_023	50	146_1	No
+828	M_DeepCast_50m_m2_084	50	142_1	No
+829	M_DeepCast_50m_m2_162	50	143_0	Representative sequence
+830	M_DeepCast_50m_m1_090	50	133_0	Representative sequence
+831	M_DeepCast_50m_m2_233	50	131_1	Representative sequence
+832	M_DeepCast_50m_m2_041	50	125_1	No
+833	M_DeepCast_50m_m2_202	50	122_1	No
+834	M_DeepCast_50m_m2_257	50	119_1	No
+835	M_DeepCast_50m_m2_196	50	117_1	No
+836	M_DeepCast_50m_m2_018	50	107_1	Representative sequence
+837	M_DeepCast_50m_m2_069	50	106_1	No
+838	M_DeepCast_50m_m2_116	50	91_1	No
+839	M_DeepCast_50m_m2_174	50	68_1	No
+840	M_DeepCast_50m_m2_187	50	67_1	Representative sequence
+841	M_DeepCast_50m_m2_156	50	61_1	Representative sequence
+842	M_DeepCast_50m_m2_166	50	50_1	No
+843	M_DeepCast_50m_m1_068	50	48_1	No
+844	M_surface_6_mx_051	6	586_3	Representative sequence
+845	M_surface_7_m2_053	7	203_1	No
+846	M_surface_10_m2_054	10	457_1	No
+847	M_surface_10_mx_054	10	130_1	No
+848	M_surface_7_m2_055	7	470_1	No
+849	M_surface_7_m1_055	7	325_2	No
+850	M_surface_6_m1_055	6	304_1	No
+851	M_surface_8_m1_055	8	303_1	No
+852	M_surface_10_m2_055	10	169_1	No
+853	M_surface_8_mx_056	8	579_1	No
+854	M_surface_6_mx_056	6	579_1	No
+855	K_Offshore_surface_mx_056	0	542_1	No
+856	M_surface_9_m2_056	9	292_1	No
+857	M_surface_6_m2_057	6	559_1	No
+858	M_surface_8_m2_058	8	577_1	No
+859	M_surface_7_m2_058	7	153_1	No
+860	M_surface_9_m2_059	9	587_1	Representative sequence
+861	M_surface_7_m2_059	7	305_2	No
+862	M_surface_7_m1_060	7	494_1	No
+863	M_surface_9_m2_061	9	303_1	No
+864	M_surface_8_m2_063	8	556_1	No
+865	M_surface_7_m1_063	7	201_1	No
+866	M_surface_8_mx_063	8	199_1	No
+867	K_Offshore_surface_m2_063	0	198_1	No
+868	M_surface_9_m2_064	9	584_0	Representative sequence
+869	M_surface_6_mx_064	6	199_1	No
+870	M_surface_10_m2_064	10	181_1	Representative sequence
+871	M_DeepCast_65m_m1_019	65	606_1	Representative sequence
+872	K_DeepCast_65m_m1_109	65	605_1	No
+873	M_DeepCast_65m_m2_045	65	605_1	No
+874	K_DeepCast_65m_m2_187	65	599_1	Representative sequence
+875	M_DeepCast_65m_m1_054	65	599_1	No
+876	K_DeepCast_65m_m2_140	65	597_1	No
+877	M_DeepCast_65m_m1_121	65	597_1	No
+878	K_DeepCast_65m_m1_119	65	596_1	No
+879	M_DeepCast_65m_m1_070	65	595_1	Representative sequence
+880	K_DeepCast_65m_m2_013	65	594_1	No
+881	M_DeepCast_65m_mx_023	65	594_1	No
+882	K_DeepCast_65m_m2_199	65	590_1	No
+883	M_DeepCast_65m_mx_263	65	590_1	No
+884	K_DeepCast_65m_m1_270	65	585_1	No
+885	M_DeepCast_65m_mx_068	65	581_1	Representative sequence
+886	K_DeepCast_65m_m2_123	65	580_1	No
+887	M_DeepCast_65m_mx_247	65	580_1	No
+888	K_DeepCast_65m_m2_235	65	579_1	No
+889	M_DeepCast_65m_m2_213	65	579_1	No
+890	K_DeepCast_65m_m2_007	65	578_1	No
+891	M_DeepCast_65m_m1_015	65	578_1	No
+892	K_DeepCast_65m_m2_027	65	577_2	No
+893	M_DeepCast_65m_m2_134	65	577_1	No
+894	M_DeepCast_65m_m1_031	65	572_1	No
+895	K_DeepCast_65m_m1_269	65	572_1	No
+896	K_DeepCast_65m_m1_271	65	571_1	No
+897	K_DeepCast_65m_m2_257	65	569_1	No
+898	K_DeepCast_65m_m2_076	65	566_1	No
+899	K_DeepCast_65m_m2_184	65	565_1	No
+900	M_DeepCast_65m_m1_280	65	565_1	No
+901	M_DeepCast_65m_m2_091	65	562_0	Representative sequence
+902	K_DeepCast_65m_m1_229	65	559_1	No
+903	M_DeepCast_65m_m1_024	65	559_1	No
+904	K_DeepCast_65m_m2_113	65	557_2	No
+905	M_DeepCast_65m_m2_130	65	557_2	No
+906	K_DeepCast_65m_m2_046	65	556_9	No
+907	K_DeepCast_65m_m2_119	65	556_1	No
+908	K_DeepCast_65m_m2_258	65	555_1	No
+909	M_DeepCast_65m_m2_038	65	555_1	No
+910	K_DeepCast_65m_m2_247	65	551_1	No
+911	M_surface_8_m2_065	8	551_1	No
+912	M_DeepCast_65m_m1_013	65	551_1	No
+913	K_DeepCast_65m_m1_072	65	550_1	No
+914	M_DeepCast_65m_m1_017	65	549_1	No
+915	K_DeepCast_65m_m1_268	65	549_1	No
+916	K_DeepCast_65m_m1_035	65	548_1	No
+917	M_DeepCast_65m_m2_075	65	542_1	No
+918	K_DeepCast_65m_m2_042	65	542_1	No
+919	K_DeepCast_65m_m1_083	65	541_1	No
+920	K_DeepCast_65m_m2_167	65	540_1	No
+921	M_DeepCast_65m_mx_213	65	540_1	No
+922	M_DeepCast_65m_m2_126	65	524_1	Representative sequence
+923	K_DeepCast_65m_m2_066	65	523_0	Representative sequence
+924	K_DeepCast_65m_m2_174	65	518_1	No
+925	M_DeepCast_65m_mx_228	65	518_1	No
+926	K_DeepCast_65m_m2_219	65	513_1	No
+927	M_DeepCast_65m_m1_270	65	507_1	Representative sequence
+928	K_DeepCast_65m_m2_047	65	505_1	No
+929	M_DeepCast_65m_m1_108	65	502_2	No
+930	M_DeepCast_65m_mx_156	65	501_3	No
+931	K_DeepCast_65m_m1_045	65	499_1	No
+932	M_DeepCast_65m_m1_112	65	499_1	No
+933	M_DeepCast_65m_m2_172	65	496_1	No
+934	K_DeepCast_65m_m2_004	65	496_1	No
+935	K_DeepCast_65m_m2_221	65	495_1	Representative sequence
+936	M_DeepCast_65m_m2_005	65	495_1	No
+937	M_DeepCast_65m_m2_265	65	494_1	No
+938	K_DeepCast_65m_m1_039	65	494_1	No
+939	K_DeepCast_65m_m2_226	65	493_1	No
+940	M_DeepCast_65m_mx_274	65	493_1	No
+941	K_DeepCast_65m_m2_049	65	492_1	No
+942	M_DeepCast_65m_mx_215	65	487_1	No
+943	M_DeepCast_65m_m2_268	65	486_1	Representative sequence
+944	K_DeepCast_65m_m2_169	65	485_1	No
+945	M_DeepCast_65m_m2_063	65	485_1	No
+946	M_DeepCast_65m_m1_265	65	483_1	Representative sequence
+947	M_DeepCast_65m_m2_015	65	473_1	No
+948	M_DeepCast_65m_m1_029	65	472_1	No
+949	K_DeepCast_65m_m2_157	65	471_1	No
+950	M_DeepCast_65m_m2_249	65	471_1	No
+951	M_DeepCast_65m_m1_037	65	470_1	No
+952	K_DeepCast_65m_m2_059	65	470_1	No
+953	M_DeepCast_65m_m2_046	65	467_1	No
+954	K_DeepCast_65m_m1_006	65	467_1	No
+955	M_DeepCast_65m_mx_140	65	459_1	Representative sequence
+956	K_DeepCast_65m_m1_014	65	457_1	No
+957	M_DeepCast_65m_m2_233	65	457_1	No
+958	K_DeepCast_65m_m2_040	65	456_1	No
+959	M_DeepCast_65m_mx_252	65	453_1	No
+960	K_DeepCast_65m_m2_026	65	451_1	No
+961	M_DeepCast_65m_mx_241	65	451_1	No
+962	M_DeepCast_65m_m1_006	65	450_1	No
+963	K_DeepCast_65m_m1_007	65	450_1	No
+964	M_DeepCast_65m_m2_009	65	452_0	Representative sequence
+965	K_DeepCast_65m_m1_240	65	445_1	No
+966	M_DeepCast_65m_mx_052	65	445_1	No
+967	M_DeepCast_65m_mx_260	65	443_1	No
+968	K_DeepCast_65m_m1_019	65	440_1	No
+969	M_DeepCast_65m_mx_236	65	440_1	Representative sequence
+970	K_DeepCast_65m_m2_152	65	439_1	No
+971	M_DeepCast_65m_m2_255	65	439_1	No
+972	M_DeepCast_65m_m1_282	65	438_1	Representative sequence
+973	M_DeepCast_65m_m2_248	65	434_1	No
+974	K_DeepCast_65m_m1_022	65	434_1	Representative sequence
+975	M_DeepCast_65m_m2_204	65	413_0	Representative sequence
+976	M_DeepCast_65m_m2_076	65	400_1	No
+977	K_DeepCast_65m_m2_129	65	400_1	Representative sequence
+978	K_DeepCast_65m_m1_133	65	399_2	Representative sequence
+979	M_DeepCast_65m_m2_151	65	399_2	No
+980	M_DeepCast_65m_m2_016	65	397_1	Representative sequence
+981	K_DeepCast_65m_m2_031	65	397_1	No
+982	K_DeepCast_65m_m2_056	65	387_1	No
+983	M_DeepCast_65m_m2_212	65	387_1	No
+984	M_DeepCast_65m_m1_287	65	389_0	Representative sequence
+985	M_DeepCast_65m_m1_248	65	385_1	No
+986	K_DeepCast_65m_m2_091	65	385_1	No
+987	M_DeepCast_65m_m2_207	65	384_1	No
+988	K_DeepCast_65m_m2_035	65	383_1	Representative sequence
+989	M_DeepCast_65m_m2_053	65	383_1	No
+990	K_DeepCast_65m_m1_210	65	382_1	No
+991	M_DeepCast_65m_m2_261	65	382_1	No
+992	M_DeepCast_65m_mx_091	65	381_1	No
+993	K_DeepCast_65m_m1_088	65	380_1	No
+994	M_DeepCast_65m_m2_061	65	380_2	Representative sequence
+995	M_DeepCast_65m_m2_181	65	379_1	Representative sequence
+996	K_DeepCast_65m_m2_154	65	379_1	No
+997	K_DeepCast_65m_m2_141	65	378_1	No
+998	M_DeepCast_65m_m2_170	65	378_1	No
+999	M_DeepCast_65m_m2_111	65	377_1	No
+1000	K_DeepCast_65m_m2_211	65	377_1	No
+1001	K_DeepCast_65m_m2_229	65	376_1	No
+1002	M_DeepCast_65m_mx_060	65	376_1	No
+1003	K_DeepCast_65m_m2_016	65	375_1	No
+1004	M_DeepCast_65m_m2_238	65	375_1	No
+1005	M_DeepCast_65m_m2_104	65	374_2	Representative sequence
+1006	M_DeepCast_65m_m2_266	65	372_2	Representative sequence
+1007	K_DeepCast_65m_m1_262	65	372_3	Representative sequence
+1008	K_DeepCast_65m_m2_124	65	371_1	No
+1009	M_DeepCast_65m_mx_080	65	371_1	No
+1010	K_DeepCast_65m_m1_092	65	370_1	No
+1011	M_DeepCast_65m_m2_056	65	368_1	No
+1012	K_DeepCast_65m_m2_220	65	368_1	No
+1013	K_DeepCast_65m_m2_019	65	365_1	No
+1014	M_DeepCast_65m_m1_243	65	364_1	No
+1015	K_DeepCast_65m_m2_067	65	364_1	No
+1016	K_DeepCast_65m_m1_217	65	361_2	Representative sequence
+1017	K_DeepCast_65m_m2_216	65	360_1	No
+1018	M_DeepCast_65m_m2_240	65	360_1	No
+1019	M_DeepCast_65m_m2_243	65	358_0	Representative sequence
+1020	M_DeepCast_65m_m2_129	65	359_0	Representative sequence
+1021	M_DeepCast_65m_m1_240	65	356_1	No
+1022	K_DeepCast_65m_m1_260	65	356_1	No
+1023	M_DeepCast_65m_m2_257	65	355_1	No
+1024	K_DeepCast_65m_m2_175	65	355_1	No
+1025	K_DeepCast_65m_m2_227	65	354_1	No
+1026	M_DeepCast_65m_m2_254	65	352_2	No
+1027	K_DeepCast_65m_m2_163	65	352_2	No
+1028	M_DeepCast_65m_m2_105	65	351_1	No
+1029	K_DeepCast_65m_m2_103	65	351_1	No
+1030	M_DeepCast_65m_m2_055	65	350_1	No
+1031	K_DeepCast_65m_m2_055	65	350_1	No
+1032	K_DeepCast_65m_m2_242	65	349_1	No
+1033	M_DeepCast_65m_mx_070	65	349_1	No
+1034	M_DeepCast_65m_m2_119	65	348_1	No
+1035	K_DeepCast_65m_m2_112	65	346_1	No
+1036	M_DeepCast_65m_m2_062	65	346_1	No
+1037	K_DeepCast_65m_m2_241	65	345_1	No
+1038	M_DeepCast_65m_m2_148	65	345_1	No
+1039	K_DeepCast_65m_m1_219	65	344_1	No
+1040	M_DeepCast_65m_m2_043	65	344_1	No
+1041	K_DeepCast_65m_m2_173	65	341_1	No
+1042	M_DeepCast_65m_mx_096	65	341_1	No
+1043	M_DeepCast_65m_m2_014	65	339_1	Representative sequence
+1044	M_DeepCast_65m_m2_019	65	330_1	No
+1045	M_DeepCast_65m_m1_242	65	325_2	No
+1046	K_DeepCast_65m_m1_206	65	325_2	No
+1047	K_DeepCast_65m_m1_204	65	324_1	No
+1048	M_DeepCast_65m_m1_222	65	324_1	No
+1049	K_DeepCast_65m_m2_244	65	322_1	No
+1050	M_DeepCast_65m_mx_214	65	322_1	No
+1051	K_DeepCast_65m_m2_074	65	316_1	No
+1052	K_DeepCast_65m_m2_193	65	315_1	Representative sequence
+1053	M_DeepCast_65m_m1_232	65	312_1	No
+1054	M_DeepCast_65m_m2_052	65	311_1	No
+1055	M_DeepCast_65m_m2_224	65	309_1	Representative sequence
+1056	K_DeepCast_65m_m2_014	65	309_1	No
+1057	M_DeepCast_65m_m2_117	65	308_1	No
+1058	K_DeepCast_65m_m2_065	65	308_1	No
+1059	K_DeepCast_65m_m1_223	65	307_1	Representative sequence
+1060	M_DeepCast_65m_m2_078	65	307_1	No
+1061	K_DeepCast_65m_m2_081	65	305_2	No
+1062	M_DeepCast_65m_m2_110	65	305_2	No
+1063	M_DeepCast_65m_m2_010	65	306_0	Representative sequence
+1064	K_DeepCast_65m_m2_190	65	304_1	No
+1065	M_DeepCast_65m_m2_035	65	304_1	No
+1066	M_DeepCast_65m_m2_084	65	303_1	No
+1067	K_DeepCast_65m_m2_259	65	303_1	No
+1068	K_DeepCast_65m_m1_198	65	302_1	No
+1069	M_DeepCast_65m_m2_188	65	302_1	No
+1070	K_DeepCast_65m_m1_220	65	301_1	No
+1071	K_DeepCast_65m_m1_252	65	295_2	No
+1072	M_DeepCast_65m_mx_014	65	295_2	No
+1073	K_DeepCast_65m_m1_272	65	293_1	No
+1074	M_DeepCast_65m_m2_060	65	293_1	No
+1075	M_DeepCast_65m_mx_150	65	293_2	Representative sequence
+1076	K_DeepCast_65m_m2_149	65	292_1	No
+1077	M_DeepCast_65m_m2_121	65	292_1	No
+1078	K_DeepCast_65m_m2_136	65	290_1	No
+1079	M_DeepCast_65m_m1_001	65	290_1	No
+1080	M_DeepCast_65m_m2_186	65	291_0	Representative sequence
+1081	M_DeepCast_65m_m2_155	65	289_1	Representative sequence
+1082	K_DeepCast_65m_m2_098	65	289_1	No
+1083	M_DeepCast_65m_mx_099	65	288_0	Representative sequence
+1084	K_DeepCast_65m_m2_255	65	286_1	No
+1085	M_DeepCast_65m_m2_251	65	286_1	No
+1086	K_DeepCast_65m_m2_037	65	285_1	No
+1087	M_DeepCast_65m_m2_006	65	285_1	No
+1088	M_DeepCast_65m_m2_256	65	279_1	Representative sequence
+1089	M_DeepCast_65m_m2_163	65	276_1	No
+1090	K_DeepCast_65m_m2_182	65	276_1	No
+1091	M_DeepCast_65m_m2_102	65	275_1	No
+1092	K_DeepCast_65m_m2_213	65	275_1	Representative sequence
+1093	M_DeepCast_65m_m1_262	65	272_1	Representative sequence
+1094	M_DeepCast_65m_m1_023	65	269_2	No
+1095	K_DeepCast_65m_m2_001	65	269_2	No
+1096	M_DeepCast_65m_m2_071	65	262_0	Representative sequence
+1097	K_DeepCast_65m_m2_236	65	261_0	Representative sequence
+1098	M_DeepCast_65m_m2_011	65	257_1	Representative sequence
+1099	M_DeepCast_65m_m1_226	65	246_1	Representative sequence
+1100	K_DeepCast_65m_m1_201	65	241_1	No
+1101	M_DeepCast_65m_m1_251	65	241_1	No
+1102	M_DeepCast_65m_m2_001	65	240_1	Representative sequence
+1103	K_DeepCast_65m_m2_139	65	240_1	No
+1104	M_DeepCast_65m_m2_131	65	237_1	No
+1105	K_DeepCast_65m_m2_023	65	237_1	No
+1106	M_DeepCast_65m_m2_190	65	229_1	No
+1107	K_DeepCast_65m_m1_055	65	229_1	Representative sequence
+1108	M_DeepCast_65m_m2_144	65	227_1	No
+1109	K_DeepCast_65m_m1_044	65	227_1	No
+1110	K_DeepCast_65m_m2_114	65	224_1	No
+1111	K_DeepCast_65m_m2_025	65	223_1	No
+1112	K_DeepCast_65m_m2_064	65	222_1	No
+1113	K_DeepCast_65m_m2_146	65	221_1	No
+1114	M_DeepCast_65m_mx_126	65	221_1	No
+1115	M_DeepCast_65m_mx_077	65	215_1	Representative sequence
+1116	K_DeepCast_65m_m2_021	65	214_1	No
+1117	K_DeepCast_65m_m1_074	65	211_1	No
+1118	M_DeepCast_65m_m2_241	65	208_1	No
+1119	K_DeepCast_65m_m2_084	65	208_1	No
+1120	M_DeepCast_65m_m1_095	65	207_0	Representative sequence
+1121	K_DeepCast_65m_m2_058	65	205_1	No
+1122	M_DeepCast_65m_mx_041	65	205_1	No
+1123	M_DeepCast_65m_m2_206	65	201_1	No
+1124	K_DeepCast_65m_m2_162	65	201_1	No
+1125	M_DeepCast_65m_m2_175	65	199_1	No
+1126	K_DeepCast_65m_m2_111	65	199_1	No
+1127	M_DeepCast_65m_m2_033	65	198_1	No
+1128	K_DeepCast_65m_m2_080	65	198_1	No
+1129	M_surface_6_m2_065	6	196_1	No
+1130	M_DeepCast_65m_m2_079	65	196_1	No
+1131	K_DeepCast_65m_m2_250	65	196_1	No
+1132	M_DeepCast_65m_m2_260	65	195_1	No
+1133	K_DeepCast_65m_m1_001	65	195_1	No
+1134	M_DeepCast_65m_mx_029	65	194_1	No
+1135	M_DeepCast_65m_m2_258	65	193_1	No
+1136	K_DeepCast_65m_m2_205	65	193_1	No
+1137	M_DeepCast_65m_m2_002	65	192_1	No
+1138	K_DeepCast_65m_m2_097	65	192_1	Representative sequence
+1139	K_DeepCast_65m_m2_222	65	191_1	No
+1140	M_DeepCast_65m_m2_145	65	191_1	No
+1141	M_DeepCast_65m_m2_250	65	189_1	No
+1142	K_DeepCast_65m_m2_212	65	189_1	No
+1143	K_DeepCast_65m_m1_228	65	187_1	No
+1144	M_DeepCast_65m_mx_073	65	187_1	No
+1145	M_DeepCast_65m_m1_011	65	185_0	Representative sequence
+1146	K_DeepCast_65m_m1_005	65	184_1	No
+1147	M_DeepCast_65m_m2_089	65	183_1	No
+1148	K_DeepCast_65m_m2_109	65	183_1	No
+1149	M_DeepCast_65m_m1_257	65	181_1	No
+1150	K_DeepCast_65m_m1_231	65	181_1	No
+1151	K_DeepCast_65m_m2_156	65	175_1	No
+1152	M_DeepCast_65m_m2_108	65	175_1	No
+1153	M_DeepCast_65m_m1_050	65	173_1	No
+1154	K_DeepCast_65m_m2_099	65	173_1	No
+1155	K_DeepCast_65m_m2_116	65	170_1	No
+1156	M_DeepCast_65m_m1_009	65	170_1	No
+1157	K_DeepCast_65m_m1_261	65	169_1	No
+1158	M_DeepCast_65m_m1_008	65	169_1	No
+1159	K_DeepCast_65m_m1_235	65	168_1	No
+1160	M_DeepCast_65m_m2_226	65	168_1	No
+1161	M_DeepCast_65m_m2_173	65	166_1	No
+1162	K_DeepCast_65m_m2_201	65	166_1	No
+1163	M_DeepCast_65m_mx_133	65	165_1	Representative sequence
+1164	M_DeepCast_65m_m2_216	65	164_1	No
+1165	M_DeepCast_65m_m2_020	65	163_1	No
+1166	K_DeepCast_65m_m1_004	65	163_1	No
+1167	K_DeepCast_65m_m1_010	65	161_1	No
+1168	K_DeepCast_65m_m2_008	65	155_1	No
+1169	M_DeepCast_65m_mx_058	65	154_1	No
+1170	K_DeepCast_65m_m2_251	65	146_1	Representative sequence
+1171	K_DeepCast_65m_m1_225	65	142_1	No
+1172	M_DeepCast_65m_m1_275	65	136_0	Representative sequence
+1173	K_DeepCast_65m_m1_117	65	131_1	No
+1174	M_DeepCast_65m_mx_165	65	131_1	No
+1175	M_DeepCast_65m_mx_036	65	128_3	Representative sequence
+1176	M_DeepCast_65m_m1_022	65	128_1	Representative sequence
+1177	M_DeepCast_65m_m2_041	65	127_1	Representative sequence
+1178	K_DeepCast_65m_m2_214	65	124_1	No
+1179	K_DeepCast_65m_m1_275	65	122_1	No
+1180	K_DeepCast_65m_m1_255	65	119_1	No
+1181	M_DeepCast_65m_m1_069	65	119_1	No
+1182	K_DeepCast_65m_m2_033	65	117_1	Representative sequence
+1183	M_DeepCast_65m_m2_031	65	107_1	No
+1184	K_DeepCast_65m_m1_264	65	107_1	No
+1185	K_DeepCast_65m_m1_015	65	106_1	Representative sequence
+1186	M_DeepCast_65m_m2_083	65	103_1	No
+1187	M_DeepCast_65m_m1_234	65	101_1	No
+1188	M_DeepCast_65m_mx_079	65	99_1	No
+1189	M_DeepCast_65m_m2_156	65	97_1	Representative sequence
+1190	K_DeepCast_65m_m1_086	65	91_1	No
+1191	M_DeepCast_65m_mx_104	65	91_1	No
+1192	K_DeepCast_65m_m1_251	65	85_1	No
+1193	M_DeepCast_65m_m1_284	65	85_1	Representative sequence
+1194	K_DeepCast_65m_m2_122	65	68_1	No
+1195	M_DeepCast_65m_mx_106	65	68_1	No
+1196	K_DeepCast_65m_m2_002	65	67_1	No
+1197	M_DeepCast_65m_mx_110	65	67_1	No
+1198	M_DeepCast_65m_mx_160	65	61_1	No
+1199	M_DeepCast_65m_m2_237	65	50_1	No
+1200	K_DeepCast_65m_m1_065	65	50_1	No
+1201	K_DeepCast_65m_m2_238	65	48_1	Representative sequence
+1202	M_DeepCast_65m_mx_161	65	48_1	No
+1203	M_DeepCast_65m_m2_221	65	37_1	No
+1204	M_DeepCast_65m_mx_003	65	36_1	No
+1205	M_DeepCast_65m_m2_177	65	11_1	No
+1206	M_DeepCast_65m_m1_255	65	10_1	No
+1207	M_surface_9_m2_066	9	181_1	No
+1208	M_surface_6_m2_067	6	594_1	No
+1209	K_Offshore_surface_mx_067	0	325_2	No
+1210	M_surface_6_m2_068	6	564_1	No
+1211	M_surface_9_m2_068	9	283_1	Representative sequence
+1212	M_surface_10_m2_069	10	439_1	No
+1213	M_surface_6_m2_069	6	193_1	No
+1214	M_surface_8_m2_070	8	457_1	No
+1215	M_surface_8_m2_071	8	193_1	No
+1216	M_surface_7_m2_072	7	537_1	No
+1217	M_surface_7_m2_073	7	590_1	No
+1218	M_surface_6_m2_073	6	356_1	No
+1219	M_surface_7_m2_074	7	478_1	No
+1220	M_surface_10_mx_075	10	199_1	No
+1221	M_surface_7_m2_075	7	155_1	No
+1222	M_surface_10_m2_076	10	493_1	Representative sequence
+1223	M_surface_9_m2_076	9	130_3	No
+1224	M_surface_10_m2_077	10	276_1	No
+1225	M_surface_9_m1_077	9	153_1	No
+1226	K_Offshore_surface_mx_078	0	540_1	No
+1227	M_surface_10_m2_079	10	200_1	No
+1228	K_Offshore_80m_m2_030	80	605_1	No
+1229	K_Offshore_80m_m2_097	80	601_1	Representative sequence
+1230	K_Offshore_80m_m2_203	80	598_1	Representative sequence
+1231	K_Offshore_80m_m1_039	80	597_1	Representative sequence
+1232	K_Offshore_80m_m2_103	80	594_1	No
+1233	K_Offshore_80m_m2_004	80	580_1	No
+1234	K_Offshore_80m_m2_095	80	579_1	No
+1235	K_Offshore_80m_m1_233	80	572_1	No
+1236	K_Offshore_80m_m1_206	80	565_1	Representative sequence
+1237	K_Offshore_80m_m2_224	80	557_1	Representative sequence
+1238	M_surface_10_m2_080	10	556_1	No
+1239	K_Offshore_80m_m1_038	80	555_1	No
+1240	K_Offshore_80m_m2_091	80	549_1	No
+1241	K_Offshore_80m_m2_180	80	542_1	No
+1242	K_Offshore_80m_m2_087	80	540_1	No
+1243	K_Offshore_80m_m2_132	80	518_1	No
+1244	K_Offshore_80m_m2_205	80	502_2	No
+1245	K_Offshore_80m_m1_060	80	501_3	No
+1246	K_Offshore_80m_m1_029	80	499_1	No
+1247	M_surface_9_m2_080	9	499_1	Representative sequence
+1248	K_Offshore_80m_m1_118	80	496_1	No
+1249	K_Offshore_80m_m2_109	80	495_1	No
+1250	K_Offshore_80m_m2_200	80	494_1	No
+1251	K_Offshore_80m_m1_061	80	492_1	No
+1252	K_Offshore_80m_m2_084	80	490_1	Representative sequence
+1253	K_Offshore_80m_m2_216	80	478_1	No
+1254	K_Offshore_80m_m2_005	80	477_1	No
+1255	K_Offshore_80m_m2_136	80	471_1	No
+1256	K_Offshore_80m_m2_130	80	470_1	No
+1257	K_Offshore_80m_m1_210	80	450_1	No
+1258	K_Offshore_80m_m2_006	80	445_1	Representative sequence
+1259	K_Offshore_80m_m2_101	80	441_0	Representative sequence
+1260	K_Offshore_80m_m1_015	80	440_1	No
+1261	K_Offshore_80m_m2_065	80	439_1	No
+1262	K_Offshore_80m_m2_233	80	434_1	No
+1263	K_Offshore_80m_m2_185	80	405_0	Representative sequence
+1264	K_Offshore_80m_m2_113	80	403_1	Representative sequence
+1265	K_Offshore_80m_m2_062	80	400_1	No
+1266	K_Offshore_80m_m2_110	80	399_2	No
+1267	K_Offshore_80m_m1_235	80	397_1	No
+1268	K_Offshore_80m_m1_186	80	385_1	Representative sequence
+1269	K_Offshore_80m_m2_175	80	383_1	No
+1270	K_Offshore_80m_m2_211	80	382_1	Representative sequence
+1271	K_Offshore_80m_m2_188	80	380_1	No
+1272	K_Offshore_80m_m2_131	80	379_1	No
+1273	K_Offshore_80m_m1_170	80	378_1	No
+1274	K_Offshore_80m_m2_133	80	377_1	No
+1275	K_Offshore_80m_m2_156	80	376_1	No
+1276	K_Offshore_80m_m2_221	80	375_1	No
+1277	K_Offshore_80m_m2_035	80	372_1	Representative sequence
+1278	K_Offshore_80m_m2_187	80	371_1	Representative sequence
+1279	K_Offshore_80m_m2_191	80	369_1	Representative sequence
+1280	K_Offshore_80m_m2_165	80	368_1	No
+1281	K_Offshore_80m_m2_183	80	367_0	Representative sequence
+1282	K_Offshore_80m_m1_220	80	366_0	Representative sequence
+1283	K_Offshore_80m_m2_162	80	365_1	Representative sequence
+1284	K_Offshore_80m_m2_037	80	364_1	No
+1285	K_Offshore_80m_m2_061	80	363_0	Representative sequence
+1286	K_Offshore_80m_m1_159	80	361_1	Representative sequence
+1287	K_Offshore_80m_m2_228	80	360_1	Representative sequence
+1288	K_Offshore_80m_m1_166	80	355_1	No
+1289	K_Offshore_80m_m2_202	80	354_1	No
+1290	K_Offshore_80m_m2_081	80	353_0	Representative sequence
+1291	K_Offshore_80m_m2_099	80	351_1	No
+1292	K_Offshore_80m_m2_053	80	350_1	Representative sequence
+1293	K_Offshore_80m_m2_107	80	349_1	Representative sequence
+1294	K_Offshore_80m_m2_051	80	348_1	Representative sequence
+1295	K_Offshore_80m_m2_186	80	346_1	Representative sequence
+1296	K_Offshore_80m_m2_049	80	347_0	Representative sequence
+1297	K_Offshore_80m_m2_123	80	345_1	Representative sequence
+1298	K_Offshore_80m_m2_115	80	344_1	Representative sequence
+1299	K_Offshore_80m_m2_197	80	343_0	Representative sequence
+1300	K_Offshore_80m_m1_178	80	341_1	Representative sequence
+1301	K_Offshore_80m_m2_019	80	333_0	Representative sequence
+1302	K_Offshore_80m_m2_119	80	331_1	Representative sequence
+1303	K_Offshore_80m_m2_194	80	328_1	Representative sequence
+1304	K_Offshore_80m_m2_222	80	325_1	Representative sequence
+1305	K_Offshore_80m_m2_126	80	324_1	No
+1306	K_Offshore_80m_m2_122	80	322_1	No
+1307	K_Offshore_80m_m1_169	80	316_1	No
+1308	K_Offshore_80m_m2_047	80	309_1	No
+1309	K_Offshore_80m_m2_078	80	307_1	No
+1310	K_Offshore_80m_m2_088	80	304_1	No
+1311	K_Offshore_80m_m2_204	80	295_2	No
+1312	K_Offshore_80m_m2_125	80	293_1	No
+1313	K_Offshore_80m_m2_040	80	292_1	Representative sequence
+1314	K_Offshore_80m_m2_121	80	290_1	Representative sequence
+1315	K_Offshore_80m_m1_211	80	286_2	No
+1316	K_Offshore_80m_m2_057	80	285_1	Representative sequence
+1317	K_Offshore_80m_m1_002	80	283_1	No
+1318	K_Offshore_80m_m1_028	80	280_1	No
+1319	K_Offshore_80m_m2_058	80	278_1	Representative sequence
+1320	K_Offshore_80m_m1_042	80	276_1	No
+1321	K_Offshore_80m_m2_168	80	275_1	No
+1322	K_Offshore_80m_m2_094	80	274_1	Representative sequence
+1323	K_Offshore_80m_m2_009	80	269_2	No
+1324	K_Offshore_80m_m2_041	80	268_1	Representative sequence
+1325	K_Offshore_80m_m2_020	80	265_1	Representative sequence
+1326	K_Offshore_80m_m2_033	80	254_1	No
+1327	K_Offshore_80m_m2_198	80	253_1	No
+1328	K_Offshore_80m_m2_117	80	251_1	Representative sequence
+1329	K_Offshore_80m_m2_157	80	249_0	Representative sequence
+1330	K_Offshore_80m_m2_170	80	247_1	Representative sequence
+1331	K_Offshore_80m_m2_039	80	250_0	Representative sequence
+1332	K_Offshore_80m_m1_189	80	241_1	Representative sequence
+1333	K_Offshore_80m_m2_023	80	240_1	No
+1334	K_Offshore_80m_m1_157	80	237_1	Representative sequence
+1335	K_Offshore_80m_m1_158	80	229_1	No
+1336	K_Offshore_80m_m2_029	80	227_1	Representative sequence
+1337	K_Offshore_80m_m2_043	80	225_0	Representative sequence
+1338	K_Offshore_80m_m2_092	80	223_1	Representative sequence
+1339	K_Offshore_80m_m2_128	80	222_1	Representative sequence
+1340	K_Offshore_80m_m2_028	80	221_1	No
+1341	K_Offshore_80m_m2_176	80	214_1	Representative sequence
+1342	K_Offshore_80m_m2_079	80	213_1	Representative sequence
+1343	K_Offshore_80m_m1_214	80	205_1	No
+1344	K_Offshore_80m_m2_226	80	203_1	Representative sequence
+1345	K_Offshore_80m_m1_031	80	201_1	Representative sequence
+1346	K_Offshore_80m_m2_213	80	199_1	No
+1347	K_Offshore_80m_m2_220	80	198_1	No
+1348	K_Offshore_80m_m2_074	80	196_1	No
+1349	K_Offshore_80m_m2_063	80	195_1	No
+1350	K_Offshore_80m_m2_026	80	194_1	No
+1351	K_Offshore_80m_m2_116	80	193_1	No
+1352	K_Offshore_80m_m2_184	80	192_1	No
+1353	K_Offshore_80m_m2_206	80	191_1	No
+1354	K_Offshore_80m_m2_056	80	189_1	Representative sequence
+1355	K_Offshore_80m_m1_195	80	187_1	Representative sequence
+1356	K_Offshore_80m_m2_015	80	169_1	No
+1357	K_Offshore_80m_m2_118	80	166_1	No
+1358	K_Offshore_80m_m1_177	80	154_1	Representative sequence
+1359	K_Offshore_80m_m1_165	80	148_1	Representative sequence
+1360	K_Offshore_80m_m1_022	80	146_2	No
+1361	K_Offshore_80m_m2_229	80	146_1	No
+1362	K_Offshore_80m_m2_003	80	142_1	Representative sequence
+1363	K_Offshore_80m_m2_102	80	141_1	Representative sequence
+1364	K_Offshore_80m_m2_146	80	129_1	Representative sequence
+1365	K_Offshore_surface_mx_080	0	126_1	Representative sequence
+1366	K_Offshore_80m_m2_218	80	122_1	Representative sequence
+1367	K_Offshore_80m_m1_224	80	119_1	No
+1368	K_Offshore_80m_m1_004	80	120_0	Representative sequence
+1369	K_Offshore_80m_m2_034	80	121_0	Representative sequence
+1370	K_Offshore_80m_m1_225	80	118_1	Representative sequence
+1371	K_Offshore_80m_m2_104	80	117_1	No
+1372	K_Offshore_80m_m1_181	80	114_1	Representative sequence
+1373	K_Offshore_80m_m2_048	80	108_1	Representative sequence
+1374	K_Offshore_80m_m2_225	80	107_1	No
+1375	K_Offshore_80m_m2_199	80	68_1	No
+1376	K_Offshore_80m_m1_086	80	67_1	No
+1377	K_Offshore_80m_m2_105	80	50_1	No
+1378	K_Offshore_surface_mx_081	0	587_1	No
+1379	M_surface_6_m2_082	6	585_1	No
+1380	M_surface_9_mx_082	9	197_1	No
+1381	M_surface_8_m2_083	8	447_1	No
+1382	M_surface_6_m2_083	6	355_1	No
+1383	M_surface_9_m2_084	9	572_1	No
+1384	M_surface_8_m2_084	8	569_1	No
+1385	M_surface_6_mx_084	6	292_1	No
+1386	M_surface_7_m2_084	7	200_1	No
+1387	M_surface_6_m2_085	6	284_6	Representative sequence
+1388	M_surface_9_m2_086	9	400_2	No
+1389	K_Offshore_surface_m2_086	0	302_1	No
+1390	K_Offshore_surface_mx_086	0	130_3	No
+1391	K_Offshore_surface_m2_088	0	556_2	Representative sequence
+1392	M_surface_7_m2_088	7	467_1	No
+1393	M_surface_9_m2_088	9	457_1	Representative sequence
+1394	M_surface_8_m1_088	8	130_1	No
+1395	M_surface_7_m2_089	7	556_9	No
+1396	K_Offshore_surface_mx_089	0	227_1	No
+1397	M_surface_9_m2_089	9	200_1	No
+1398	M_surface_7_m1_090	7	199_1	No
+1399	M_surface_10_m2_090	10	175_1	No
+1400	M_surface_6_mx_092	6	573_1	No
+1401	M_surface_8_m2_092	8	557_2	No
+1402	K_Offshore_surface_m2_092	0	156_1	Representative sequence
+1403	M_surface_10_m2_093	10	478_1	No
+1404	M_surface_10_m1_094	10	542_1	No
+1405	M_surface_7_m2_094	7	456_1	No
+1406	M_surface_7_m1_095	7	196_1	No
+1407	K_Offshore_surface_m2_096	0	551_1	No
+1408	M_surface_8_mx_097	8	564_1	No
+1409	M_surface_8_m2_097	8	467_1	No
+1410	M_surface_7_m2_097	7	195_1	No
+1411	M_surface_10_mx_098	10	445_1	No
+1412	M_surface_8_m2_099	8	494_1	No
+1413	M_surface_10_m1_099	10	305_2	No
+1414	M_surface_6_m1_099	6	303_1	No
+1415	K_DeepCast_100m_m1_019	100	606_1	No
+1416	M_DeepCast_100m_m1_184	100	605_1	No
+1417	K_DeepCast_100m_m1_149	100	602_1	Representative sequence
+1418	K_DeepCast_100m_m2_130	100	599_1	No
+1419	M_DeepCast_100m_mx_329	100	598_1	No
+1420	K_DeepCast_100m_mx_330	100	598_1	No
+1421	K_DeepCast_100m_m1_125	100	597_1	No
+1422	M_DeepCast_100m_mx_023	100	597_1	No
+1423	K_DeepCast_100m_m2_046	100	595_1	No
+1424	M_DeepCast_100m_mx_149	100	595_1	No
+1425	M_DeepCast_100m_mx_012	100	594_1	No
+1426	K_DeepCast_100m_mx_034	100	594_1	Representative sequence
+1427	M_DeepCast_100m_m1_032	100	590_1	No
+1428	K_DeepCast_100m_mx_309	100	590_1	No
+1429	K_DeepCast_100m_m2_127	100	585_1	No
+1430	M_DeepCast_100m_m2_025	100	585_1	No
+1431	K_DeepCast_100m_mx_215	100	581_1	No
+1432	M_DeepCast_100m_m2_054	100	580_1	No
+1433	K_DeepCast_100m_m1_049	100	580_1	No
+1434	K_DeepCast_100m_m2_125	100	579_1	No
+1435	M_DeepCast_100m_m2_342	100	579_1	No
+1436	K_DeepCast_100m_m2_102	100	578_1	No
+1437	M_DeepCast_100m_m1_036	100	578_1	No
+1438	M_DeepCast_100m_m2_239	100	577_2	No
+1439	K_DeepCast_100m_m2_150	100	577_1	Representative sequence
+1440	M_DeepCast_100m_m1_023	100	574_1	No
+1441	M_DeepCast_100m_m1_056	100	572_1	No
+1442	K_DeepCast_100m_m2_179	100	572_1	No
+1443	M_DeepCast_100m_m2_331	100	571_1	No
+1444	K_DeepCast_100m_mx_098	100	571_1	No
+1445	K_DeepCast_100m_m2_128	100	570_1	No
+1446	M_DeepCast_100m_m2_013	100	569_1	No
+1447	K_DeepCast_100m_mx_073	100	569_1	No
+1448	K_DeepCast_100m_m1_017	100	566_1	No
+1449	M_DeepCast_100m_m1_039	100	566_1	No
+1450	K_DeepCast_100m_m2_006	100	565_1	No
+1451	M_DeepCast_100m_mx_007	100	565_1	No
+1452	M_DeepCast_100m_mx_241	100	561_1	Representative sequence
+1453	M_DeepCast_100m_m2_324	100	559_1	No
+1454	K_DeepCast_100m_m2_100	100	559_1	No
+1455	M_DeepCast_100m_m2_121	100	557_2	No
+1456	K_DeepCast_100m_mx_156	100	557_2	No
+1457	K_DeepCast_100m_m2_077	100	556_9	No
+1458	K_DeepCast_100m_mx_288	100	556_1	No
+1459	M_DeepCast_100m_m1_123	100	555_1	No
+1460	K_DeepCast_100m_m1_324	100	551_1	No
+1461	M_DeepCast_100m_mx_330	100	551_1	No
+1462	M_DeepCast_100m_m2_006	100	549_1	No
+1463	M_DeepCast_100m_m2_257	100	548_1	No
+1464	K_DeepCast_100m_m2_155	100	548_1	No
+1465	M_DeepCast_100m_m1_174	100	542_1	No
+1466	K_DeepCast_100m_mx_328	100	542_1	No
+1467	M_DeepCast_100m_m2_296	100	540_1	No
+1468	K_DeepCast_100m_m2_224	100	540_1	No
+1469	M_DeepCast_100m_m1_107	100	524_1	No
+1470	K_DeepCast_100m_mx_180	100	524_1	No
+1471	K_DeepCast_100m_m1_108	100	518_1	No
+1472	M_DeepCast_100m_m1_115	100	518_1	No
+1473	M_DeepCast_100m_m1_087	100	513_1	No
+1474	K_DeepCast_100m_m1_084	100	513_1	No
+1475	M_DeepCast_100m_m1_078	100	512_1	No
+1476	M_DeepCast_100m_m2_100	100	507_1	No
+1477	K_DeepCast_100m_m2_154	100	501_3	No
+1478	M_surface_10_mx_100	10	501_3	No
+1479	M_DeepCast_100m_m2_224	100	500_1	No
+1480	M_DeepCast_100m_m2_337	100	499_1	No
+1481	K_DeepCast_100m_m1_113	100	499_1	No
+1482	M_DeepCast_100m_m2_027	100	498_1	No
+1483	M_DeepCast_100m_mx_062	100	497_1	No
+1484	K_DeepCast_100m_m2_067	100	496_1	No
+1485	M_DeepCast_100m_m2_187	100	496_1	No
+1486	K_DeepCast_100m_m2_052	100	495_1	No
+1487	M_DeepCast_100m_mx_275	100	495_1	No
+1488	M_DeepCast_100m_m1_103	100	494_1	No
+1489	K_DeepCast_100m_m1_068	100	494_1	No
+1490	M_DeepCast_100m_m1_073	100	493_1	No
+1491	K_DeepCast_100m_m2_058	100	493_1	No
+1492	M_DeepCast_100m_m2_304	100	492_1	No
+1493	K_DeepCast_100m_mx_020	100	492_1	No
+1494	K_DeepCast_100m_m1_317	100	487_1	No
+1495	M_DeepCast_100m_m1_029	100	487_1	No
+1496	M_DeepCast_100m_m1_031	100	486_1	No
+1497	K_DeepCast_100m_m1_008	100	486_1	No
+1498	M_DeepCast_100m_m2_208	100	485_1	No
+1499	K_DeepCast_100m_m1_015	100	485_1	No
+1500	K_DeepCast_100m_mx_226	100	483_1	No
+1501	M_DeepCast_100m_m1_336	100	478_1	No
+1502	K_DeepCast_100m_m1_333	100	478_1	No
+1503	M_DeepCast_100m_m2_203	100	477_1	No
+1504	M_DeepCast_100m_m2_216	100	473_1	No
+1505	M_DeepCast_100m_m1_067	100	471_1	Representative sequence
+1506	K_DeepCast_100m_m1_040	100	471_1	No
+1507	K_DeepCast_100m_m2_182	100	470_1	No
+1508	M_DeepCast_100m_m2_244	100	470_1	No
+1509	K_DeepCast_100m_m2_212	100	467_1	No
+1510	M_DeepCast_100m_m1_074	100	467_1	No
+1511	K_DeepCast_100m_m1_024	100	462_1	No
+1512	K_DeepCast_100m_mx_246	100	459_1	No
+1513	M_DeepCast_100m_m2_321	100	457_1	No
+1514	K_DeepCast_100m_mx_044	100	457_1	No
+1515	M_DeepCast_100m_m1_362	100	456_1	No
+1516	K_DeepCast_100m_m1_328	100	456_1	No
+1517	K_DeepCast_100m_m2_313	100	453_1	No
+1518	M_DeepCast_100m_mx_312	100	453_1	Representative sequence
+1519	K_DeepCast_100m_m2_185	100	451_1	No
+1520	M_DeepCast_100m_m1_367	100	451_1	No
+1521	M_DeepCast_100m_m2_236	100	450_1	No
+1522	M_DeepCast_100m_m2_145	100	447_1	No
+1523	M_DeepCast_100m_m1_355	100	445_1	No
+1524	M_DeepCast_100m_m2_227	100	443_1	No
+1525	K_DeepCast_100m_mx_010	100	443_1	No
+1526	M_DeepCast_100m_m1_071	100	440_1	No
+1527	K_DeepCast_100m_m1_076	100	440_1	No
+1528	K_DeepCast_100m_m2_282	100	439_1	No
+1529	M_DeepCast_100m_m1_028	100	439_1	No
+1530	K_DeepCast_100m_m2_080	100	438_1	No
+1531	M_DeepCast_100m_mx_213	100	438_1	No
+1532	K_DeepCast_100m_m2_239	100	434_1	No
+1533	K_DeepCast_100m_m2_279	100	432_1	No
+1534	M_DeepCast_100m_mx_210	100	432_1	No
+1535	K_DeepCast_100m_m2_289	100	423_0	Representative sequence
+1536	K_DeepCast_100m_m1_326	100	415_1	Representative sequence
+1537	K_DeepCast_100m_m2_315	100	412_0	Representative sequence
+1538	K_DeepCast_100m_m2_014	100	411_1	No
+1539	K_DeepCast_100m_m1_330	100	410_1	No
+1540	K_DeepCast_100m_m1_279	100	406_1	No
+1541	M_DeepCast_100m_m2_015	100	406_1	No
+1542	M_DeepCast_100m_mx_202	100	403_1	No
+1543	K_DeepCast_100m_m2_007	100	400_1	No
+1544	M_DeepCast_100m_m1_054	100	400_1	No
+1545	M_DeepCast_100m_mx_253	100	399_2	No
+1546	K_DeepCast_100m_m1_037	100	397_1	No
+1547	M_DeepCast_100m_mx_238	100	397_1	No
+1548	K_DeepCast_100m_mx_099	100	391_1	No
+1549	M_DeepCast_100m_m1_344	100	391_1	No
+1550	M_DeepCast_100m_m1_330	100	385_1	No
+1551	K_DeepCast_100m_m1_302	100	385_1	No
+1552	M_DeepCast_100m_m1_314	100	384_1	No
+1553	K_DeepCast_100m_mx_218	100	384_1	Representative sequence
+1554	K_DeepCast_100m_m2_268	100	381_1	Representative sequence
+1555	M_DeepCast_100m_m2_034	100	378_1	No
+1556	K_DeepCast_100m_mx_054	100	378_1	No
+1557	M_DeepCast_100m_mx_224	100	377_1	No
+1558	M_DeepCast_100m_m2_125	100	376_1	No
+1559	K_DeepCast_100m_m2_278	100	376_1	No
+1560	K_DeepCast_100m_mx_132	100	372_2	No
+1561	M_DeepCast_100m_m2_031	100	372_2	No
+1562	M_DeepCast_100m_mx_194	100	371_1	No
+1563	M_DeepCast_100m_m2_124	100	370_1	No
+1564	M_DeepCast_100m_m2_105	100	364_1	No
+1565	K_DeepCast_100m_m1_009	100	364_1	No
+1566	M_DeepCast_100m_m1_332	100	356_1	No
+1567	M_DeepCast_100m_mx_317	100	355_1	No
+1568	K_DeepCast_100m_m1_188	100	355_1	No
+1569	M_DeepCast_100m_m2_139	100	352_2	No
+1570	M_DeepCast_100m_m1_099	100	351_1	No
+1571	M_DeepCast_100m_m2_198	100	349_1	No
+1572	M_DeepCast_100m_m1_151	100	341_1	No
+1573	K_DeepCast_100m_m1_296	100	339_1	No
+1574	K_DeepCast_100m_m2_316	100	330_1	Representative sequence
+1575	M_DeepCast_100m_m1_363	100	330_1	No
+1576	K_DeepCast_100m_mx_030	100	327_1	No
+1577	K_DeepCast_100m_mx_279	100	325_2	No
+1578	M_DeepCast_100m_mx_270	100	325_2	No
+1579	M_DeepCast_100m_m1_095	100	322_1	No
+1580	K_DeepCast_100m_m1_071	100	322_1	No
+1581	M_DeepCast_100m_m2_243	100	312_1	Representative sequence
+1582	K_DeepCast_100m_mx_007	100	312_1	No
+1583	K_DeepCast_100m_m2_328	100	311_1	Representative sequence
+1584	M_DeepCast_100m_m2_089	100	311_1	No
+1585	M_DeepCast_100m_m2_353	100	309_1	No
+1586	K_DeepCast_100m_m2_326	100	309_1	No
+1587	M_DeepCast_100m_m1_347	100	308_1	No
+1588	K_DeepCast_100m_m1_313	100	308_1	No
+1589	M_DeepCast_100m_m1_340	100	307_1	No
+1590	K_DeepCast_100m_m2_016	100	307_1	No
+1591	M_DeepCast_100m_m1_317	100	305_2	Representative sequence
+1592	K_DeepCast_100m_m1_266	100	305_2	No
+1593	K_DeepCast_100m_m2_025	100	304_1	No
+1594	M_DeepCast_100m_m1_323	100	304_1	Representative sequence
+1595	M_DeepCast_100m_m1_320	100	303_1	No
+1596	K_DeepCast_100m_m2_133	100	303_1	No
+1597	M_DeepCast_100m_m1_288	100	302_1	No
+1598	K_DeepCast_100m_m1_264	100	302_1	No
+1599	M_DeepCast_100m_m2_210	100	301_1	No
+1600	K_DeepCast_100m_m2_028	100	297_1	Representative sequence
+1601	M_DeepCast_100m_m2_280	100	297_1	No
+1602	M_DeepCast_100m_m2_010	100	295_1	Representative sequence
+1603	K_DeepCast_100m_m1_022	100	294_1	No
+1604	M_DeepCast_100m_m1_110	100	294_1	No
+1605	K_DeepCast_100m_mx_304	100	293_1	No
+1606	M_DeepCast_100m_m1_050	100	293_1	No
+1607	M_DeepCast_100m_m1_068	100	292_1	No
+1608	K_DeepCast_100m_mx_325	100	292_1	No
+1609	K_DeepCast_100m_m1_325	100	290_1	No
+1610	M_DeepCast_100m_m1_012	100	290_1	No
+1611	M_DeepCast_100m_m2_072	100	286_1	Representative sequence
+1612	K_DeepCast_100m_m2_264	100	286_1	No
+1613	M_DeepCast_100m_mx_094	100	285_1	No
+1614	K_DeepCast_100m_mx_033	100	285_1	No
+1615	M_DeepCast_100m_m2_338	100	280_1	No
+1616	M_DeepCast_100m_m2_238	100	276_1	No
+1617	K_DeepCast_100m_m1_058	100	276_1	No
+1618	K_DeepCast_100m_m2_307	100	273_1	Representative sequence
+1619	M_DeepCast_100m_m1_352	100	272_1	No
+1620	K_DeepCast_100m_m1_300	100	272_1	No
+1621	M_DeepCast_100m_m2_292	100	269_2	No
+1622	K_DeepCast_100m_m2_276	100	269_2	No
+1623	K_DeepCast_100m_mx_315	100	267_1	No
+1624	K_DeepCast_100m_m2_321	100	263_1	Representative sequence
+1625	M_DeepCast_100m_m2_018	100	263_1	No
+1626	K_DeepCast_100m_mx_220	100	257_1	No
+1627	K_DeepCast_100m_m2_116	100	246_1	No
+1628	M_DeepCast_100m_m1_324	100	246_1	No
+1629	K_DeepCast_100m_m1_044	100	243_1	No
+1630	M_DeepCast_100m_m1_210	100	243_1	No
+1631	M_DeepCast_100m_m1_047	100	242_1	No
+1632	M_DeepCast_100m_m2_097	100	240_1	No
+1633	K_DeepCast_100m_m2_085	100	240_1	No
+1634	K_DeepCast_100m_m2_095	100	239_1	No
+1635	M_DeepCast_100m_m1_011	100	237_1	No
+1636	K_DeepCast_100m_mx_019	100	237_1	No
+1637	K_DeepCast_100m_m1_109	100	234_1	No
+1638	M_DeepCast_100m_m2_115	100	233_1	No
+1639	K_DeepCast_100m_m2_226	100	231_1	No
+1640	K_DeepCast_100m_m2_324	100	230_1	Representative sequence
+1641	M_DeepCast_100m_mx_252	100	230_1	No
+1642	M_DeepCast_100m_mx_116	100	229_1	No
+1643	M_DeepCast_100m_m2_310	100	227_1	No
+1644	K_DeepCast_100m_mx_307	100	227_1	No
+1645	K_DeepCast_100m_m2_205	100	215_1	No
+1646	M_DeepCast_100m_mx_174	100	215_1	No
+1647	K_DeepCast_100m_m2_263	100	208_1	No
+1648	M_DeepCast_100m_m2_065	100	208_1	No
+1649	K_DeepCast_100m_m1_289	100	206_1	No
+1650	M_DeepCast_100m_mx_215	100	206_1	No
+1651	M_DeepCast_100m_m1_002	100	205_1	No
+1652	M_DeepCast_100m_m2_230	100	203_1	No
+1653	K_DeepCast_100m_m2_157	100	201_1	No
+1654	M_DeepCast_100m_m1_147	100	201_1	No
+1655	K_DeepCast_100m_m2_213	100	199_1	No
+1656	M_DeepCast_100m_m2_256	100	199_1	No
+1657	K_DeepCast_100m_m2_255	100	198_1	No
+1658	M_DeepCast_100m_m2_108	100	198_1	No
+1659	K_DeepCast_100m_m2_115	100	196_1	No
+1660	M_DeepCast_100m_mx_266	100	196_1	No
+1661	M_DeepCast_100m_m2_063	100	195_1	No
+1662	K_DeepCast_100m_m2_143	100	195_1	No
+1663	M_DeepCast_100m_m2_246	100	194_1	No
+1664	K_DeepCast_100m_m1_329	100	193_1	No
+1665	M_DeepCast_100m_m1_016	100	193_1	No
+1666	K_DeepCast_100m_m2_131	100	192_1	No
+1667	M_DeepCast_100m_m1_024	100	190_1	No
+1668	M_DeepCast_100m_mx_168	100	187_1	No
+1669	K_DeepCast_100m_m1_043	100	187_1	No
+1670	M_DeepCast_100m_m2_191	100	184_1	No
+1671	M_DeepCast_100m_mx_123	100	183_1	No
+1672	K_DeepCast_100m_m2_233	100	183_1	No
+1673	K_DeepCast_100m_mx_095	100	182_1	No
+1674	M_DeepCast_100m_m2_107	100	181_1	No
+1675	K_DeepCast_100m_m2_238	100	181_1	No
+1676	M_DeepCast_100m_m2_282	100	177_1	No
+1677	K_DeepCast_100m_m2_129	100	176_1	No
+1678	M_DeepCast_100m_m2_288	100	176_1	No
+1679	M_DeepCast_100m_m1_374	100	175_1	No
+1680	K_DeepCast_100m_m2_013	100	175_1	No
+1681	M_DeepCast_100m_m2_069	100	174_1	No
+1682	K_DeepCast_100m_m2_049	100	174_1	No
+1683	M_DeepCast_100m_m2_045	100	173_1	No
+1684	K_DeepCast_100m_m2_207	100	173_1	No
+1685	M_DeepCast_100m_m1_349	100	170_1	No
+1686	K_DeepCast_100m_m1_311	100	170_1	No
+1687	K_DeepCast_100m_m1_002	100	169_1	No
+1688	M_DeepCast_100m_m2_214	100	169_1	Representative sequence
+1689	M_DeepCast_100m_m2_096	100	168_1	No
+1690	K_DeepCast_100m_mx_077	100	168_1	No
+1691	K_DeepCast_100m_m2_107	100	166_1	No
+1692	M_DeepCast_100m_m1_014	100	166_1	Representative sequence
+1693	K_DeepCast_100m_m2_295	100	165_1	No
+1694	K_DeepCast_100m_m2_090	100	164_1	No
+1695	M_DeepCast_100m_m1_372	100	164_1	No
+1696	M_DeepCast_100m_m1_373	100	163_1	Representative sequence
+1697	K_DeepCast_100m_m1_319	100	163_1	No
+1698	M_DeepCast_100m_m2_217	100	161_1	No
+1699	K_DeepCast_100m_m1_087	100	161_1	No
+1700	M_DeepCast_100m_m2_052	100	155_1	No
+1701	K_DeepCast_100m_mx_014	100	155_1	No
+1702	M_DeepCast_100m_m1_133	100	154_1	No
+1703	M_DeepCast_100m_m1_339	100	153_1	No
+1704	M_DeepCast_100m_m1_354	100	150_1	No
+1705	M_DeepCast_100m_mx_232	100	148_1	No
+1706	M_DeepCast_100m_m2_066	100	147_1	Representative sequence
+1707	M_DeepCast_100m_mx_118	100	146_2	Representative sequence
+1708	M_DeepCast_100m_m2_149	100	144_1	Representative sequence
+1709	M_DeepCast_100m_mx_069	100	128_3	No
+1710	K_DeepCast_100m_mx_063	100	128_3	No
+1711	K_DeepCast_100m_m1_293	100	128_1	No
+1712	M_DeepCast_100m_m2_128	100	128_1	No
+1713	K_DeepCast_100m_mx_141	100	127_2	Representative sequence
+1714	M_DeepCast_100m_m1_327	100	127_1	No
+1715	M_surface_10_m2_100	10	125_1	Representative sequence
+1716	M_DeepCast_100m_mx_162	100	125_1	No
+1717	K_DeepCast_100m_mx_195	100	123_1	No
+1718	K_DeepCast_100m_mx_336	100	112_1	No
+1719	M_DeepCast_100m_mx_184	100	112_1	No
+1720	K_DeepCast_100m_m1_167	100	111_1	No
+1721	K_DeepCast_100m_m1_005	100	107_1	No
+1722	M_DeepCast_100m_m1_018	100	107_1	No
+1723	K_DeepCast_100m_m2_178	100	104_1	No
+1724	M_DeepCast_100m_m2_143	100	104_1	No
+1725	K_DeepCast_100m_m2_117	100	103_1	No
+1726	M_DeepCast_100m_m1_378	100	103_1	No
+1727	K_DeepCast_100m_m2_203	100	101_1	Representative sequence
+1728	M_DeepCast_100m_m1_318	100	101_1	No
+1729	K_DeepCast_100m_m2_266	100	100_1	No
+1730	M_DeepCast_100m_mx_231	100	100_1	No
+1731	K_DeepCast_100m_m2_305	100	99_1	Representative sequence
+1732	M_DeepCast_100m_m1_353	100	99_1	No
+1733	K_DeepCast_100m_m2_017	100	98_1	No
+1734	M_DeepCast_100m_m2_177	100	98_1	No
+1735	K_DeepCast_100m_m2_048	100	97_1	No
+1736	K_DeepCast_100m_m2_241	100	95_0	Representative sequence
+1737	M_DeepCast_100m_m1_003	100	92_1	No
+1738	K_DeepCast_100m_m1_307	100	92_1	Representative sequence
+1739	M_DeepCast_100m_m2_169	100	85_1	No
+1740	K_DeepCast_100m_m1_334	100	85_1	No
+1741	K_DeepCast_100m_mx_210	100	60_0	Representative sequence
+1742	K_DeepCast_100m_mx_333	100	55_1	No
+1743	K_DeepCast_100m_mx_204	100	49_1	No
+1744	K_DeepCast_100m_m1_095	100	46_1	No
+1745	K_DeepCast_100m_mx_037	100	39_1	No
+1746	M_DeepCast_100m_m2_188	100	39_1	No
+1747	K_DeepCast_100m_m2_189	100	38_1	Representative sequence
+1748	M_DeepCast_100m_mx_328	100	37_1	No
+1749	K_DeepCast_100m_mx_276	100	37_1	Representative sequence
+1750	K_DeepCast_100m_m1_199	100	36_1	Representative sequence
+1751	K_DeepCast_100m_m1_277	100	35_1	No
+1752	M_DeepCast_100m_m2_344	100	35_1	No
+1753	K_DeepCast_100m_m1_112	100	24_1	Representative sequence
+1754	M_DeepCast_100m_mx_130	100	24_1	No
+1755	K_DeepCast_100m_m2_152	100	24_7	Representative sequence
+1756	M_DeepCast_100m_mx_191	100	24_12	Representative sequence
+1757	K_DeepCast_100m_m2_074	100	22_1	No
+1758	K_DeepCast_100m_m2_162	100	18_1	Representative sequence
+1759	K_DeepCast_100m_mx_184	100	17_1	No
+1760	M_DeepCast_100m_m2_046	100	17_1	No
+1761	K_DeepCast_100m_m2_073	100	15_1	No
+1762	M_DeepCast_100m_m2_152	100	15_1	No
+1763	K_DeepCast_100m_m1_290	100	14_1	No
+1764	K_DeepCast_100m_m1_278	100	12_1	Representative sequence
+1765	K_DeepCast_100m_m2_176	100	11_1	Representative sequence
+1766	M_DeepCast_100m_m2_146	100	11_1	No
+1767	M_DeepCast_100m_m2_241	100	10_1	No
+1768	K_DeepCast_100m_m2_118	100	10_1	Representative sequence
+1769	K_DeepCast_100m_m1_082	100	9_1	No
+1770	M_DeepCast_100m_m1_169	100	9_1	No
+1771	K_DeepCast_100m_m1_137	100	8_1	No
+1772	M_surface_9_m2_101	9	492_1	Representative sequence
+1773	M_surface_8_m2_101	8	451_1	No
+1774	M_surface_8_mx_101	8	200_1	No
+1775	M_surface_6_mx_102	6	282_1	No
+1776	M_surface_10_m2_104	10	356_1	No
+1777	K_Offshore_surface_m2_104	0	203_1	No
+1778	M_surface_7_m2_105	7	512_1	No
+1779	M_surface_7_m2_106	7	170_1	No
+1780	M_surface_10_m2_107	10	203_1	No
+1781	M_surface_10_m2_108	10	579_1	No
+1782	M_surface_10_mx_108	10	537_1	No
+1783	M_surface_9_m2_109	9	356_1	Representative sequence
+1784	M_surface_8_m2_109	8	161_1	No
+1785	M_surface_8_m2_110	8	556_9	Representative sequence
+1786	M_surface_9_m1_110	9	302_1	No
+1787	M_surface_6_m1_110	6	168_1	No
+1788	M_surface_10_m2_111	10	404_1	No
+1789	M_surface_7_m2_111	7	352_2	No
+1790	K_Offshore_surface_mx_112	0	594_1	No
+1791	M_surface_10_m2_112	10	355_1	No
+1792	M_surface_9_m2_112	9	208_1	Representative sequence
+1793	M_surface_10_m2_113	10	471_1	No
+1794	K_Offshore_surface_m2_113	0	414_1	No
+1795	K_Offshore_surface_m2_115	0	286_1	No
+1796	M_surface_10_mx_116	10	564_1	No
+1797	M_surface_9_m2_117	9	276_1	No
+1798	K_Offshore_surface_mx_118	0	130_1	No
+1799	M_surface_10_m2_119	10	477_1	Representative sequence
+1800	K_Offshore_120m_m2_149	120	605_1	No
+1801	K_Offshore_120m_m2_180	120	604_1	No
+1802	K_Offshore_120m_m1_047	120	601_1	No
+1803	K_Offshore_120m_m2_094	120	599_1	No
+1804	K_Offshore_120m_m2_124	120	598_1	No
+1805	K_Offshore_120m_m2_061	120	597_1	No
+1806	K_Offshore_120m_mx_112	120	594_1	No
+1807	K_Offshore_120m_m1_197	120	580_1	No
+1808	K_Offshore_120m_m1_186	120	572_1	No
+1809	K_Offshore_120m_m2_083	120	565_1	No
+1810	M_surface_7_m2_120	7	564_1	No
+1811	K_Offshore_120m_m2_132	120	557_1	No
+1812	K_Offshore_120m_mx_094	120	556_20	Representative sequence
+1813	K_Offshore_120m_mx_059	120	555_1	No
+1814	K_Offshore_120m_m2_193	120	550_1	No
+1815	K_Offshore_120m_m2_117	120	549_1	No
+1816	K_Offshore_120m_m2_070	120	542_1	No
+1817	K_Offshore_120m_m2_103	120	540_1	No
+1818	K_Offshore_120m_m2_055	120	506_0	Representative sequence
+1819	K_Offshore_120m_m2_181	120	502_2	No
+1820	K_Offshore_120m_mx_189	120	501_3	No
+1821	K_Offshore_120m_m2_017	120	499_1	No
+1822	K_Offshore_120m_m2_011	120	496_1	No
+1823	K_Offshore_120m_mx_012	120	495_1	No
+1824	K_Offshore_120m_mx_086	120	494_1	No
+1825	K_Offshore_120m_mx_035	120	492_1	No
+1826	K_Offshore_120m_mx_102	120	490_1	No
+1827	K_Offshore_120m_m2_123	120	470_1	No
+1828	K_Offshore_120m_m2_148	120	450_1	Representative sequence
+1829	K_Offshore_120m_m2_156	120	445_1	No
+1830	K_Offshore_120m_m1_192	120	440_1	No
+1831	K_Offshore_120m_m2_203	120	434_1	No
+1832	K_Offshore_120m_mx_128	120	403_1	No
+1833	K_Offshore_120m_m2_077	120	400_1	No
+1834	K_Offshore_120m_m2_081	120	399_2	No
+1835	K_Offshore_120m_m1_185	120	397_1	No
+1836	K_Offshore_120m_m2_085	120	387_1	No
+1837	K_Offshore_120m_m2_002	120	385_1	No
+1838	K_Offshore_120m_m2_036	120	383_1	No
+1839	K_Offshore_120m_m2_111	120	382_1	No
+1840	K_Offshore_120m_m2_012	120	380_1	No
+1841	K_Offshore_120m_mx_162	120	378_1	Representative sequence
+1842	K_Offshore_120m_m2_142	120	377_1	No
+1843	K_Offshore_120m_m2_040	120	376_1	No
+1844	K_Offshore_120m_m2_037	120	375_1	Representative sequence
+1845	K_Offshore_120m_m2_200	120	374_1	Representative sequence
+1846	K_Offshore_120m_m2_087	120	372_1	No
+1847	K_Offshore_120m_mx_013	120	371_1	No
+1848	K_Offshore_120m_m1_149	120	369_1	No
+1849	K_Offshore_120m_m2_120	120	368_1	No
+1850	K_Offshore_120m_m2_042	120	365_1	No
+1851	K_Offshore_120m_m2_007	120	364_1	No
+1852	K_Offshore_120m_m2_044	120	361_1	No
+1853	K_Offshore_120m_m2_046	120	360_1	No
+1854	K_Offshore_120m_m1_131	120	355_1	No
+1855	K_Offshore_120m_m2_043	120	354_1	Representative sequence
+1856	K_Offshore_120m_mx_195	120	351_1	No
+1857	K_Offshore_120m_m2_053	120	350_1	No
+1858	K_Offshore_120m_mx_193	120	349_1	No
+1859	K_Offshore_120m_m2_153	120	348_1	No
+1860	K_Offshore_120m_m2_182	120	346_1	No
+1861	K_Offshore_120m_m2_005	120	345_1	No
+1862	K_Offshore_120m_m2_097	120	344_1	No
+1863	K_Offshore_120m_m2_169	120	341_1	No
+1864	K_Offshore_120m_mx_084	120	331_1	No
+1865	K_Offshore_120m_m2_138	120	328_1	No
+1866	K_Offshore_120m_m2_105	120	325_1	No
+1867	K_Offshore_120m_m2_058	120	324_1	Representative sequence
+1868	K_Offshore_120m_mx_011	120	322_1	No
+1869	K_Offshore_120m_m2_157	120	316_1	No
+1870	K_Offshore_120m_m1_135	120	309_1	No
+1871	K_Offshore_120m_m2_091	120	307_1	No
+1872	K_Offshore_120m_m2_196	120	295_2	Representative sequence
+1873	K_Offshore_120m_m1_183	120	293_1	No
+1874	K_Offshore_120m_m2_074	120	292_1	No
+1875	K_Offshore_120m_m2_080	120	290_1	No
+1876	K_Offshore_120m_m2_172	120	289_1	No
+1877	K_Offshore_120m_m1_194	120	286_2	Representative sequence
+1878	K_Offshore_120m_mx_149	120	285_1	No
+1879	K_Offshore_120m_m2_034	120	283_8	Representative sequence
+1880	K_Offshore_120m_mx_038	120	279_1	No
+1881	K_Offshore_120m_mx_080	120	278_1	No
+1882	K_Offshore_120m_m2_178	120	275_1	No
+1883	K_Offshore_120m_m2_125	120	274_1	No
+1884	K_Offshore_120m_mx_077	120	268_1	No
+1885	K_Offshore_120m_m2_174	120	265_1	No
+1886	K_Offshore_120m_m2_006	120	254_1	Representative sequence
+1887	K_Offshore_120m_m2_038	120	253_1	Representative sequence
+1888	K_Offshore_120m_m2_001	120	251_1	No
+1889	K_Offshore_120m_m2_022	120	247_1	No
+1890	K_Offshore_120m_m1_148	120	241_1	No
+1891	K_Offshore_120m_m2_073	120	240_1	No
+1892	K_Offshore_120m_m1_127	120	237_1	No
+1893	K_Offshore_120m_m1_124	120	229_1	No
+1894	K_Offshore_120m_m2_187	120	227_1	No
+1895	K_Offshore_120m_m2_141	120	224_1	Representative sequence
+1896	K_Offshore_120m_mx_008	120	223_1	No
+1897	K_Offshore_120m_m2_118	120	222_1	No
+1898	K_Offshore_120m_mx_222	120	221_1	Representative sequence
+1899	K_Offshore_120m_m2_096	120	214_1	No
+1900	K_Offshore_120m_mx_088	120	213_1	No
+1901	K_Offshore_120m_m2_041	120	211_1	Representative sequence
+1902	K_Offshore_120m_m1_170	120	205_1	No
+1903	K_Offshore_120m_m2_147	120	203_1	No
+1904	K_Offshore_120m_m1_195	120	201_2	Representative sequence
+1905	K_Offshore_120m_m1_205	120	199_1	No
+1906	K_Offshore_120m_m2_004	120	198_1	No
+1907	K_Offshore_120m_m2_170	120	196_1	No
+1908	K_Offshore_120m_m2_194	120	193_1	No
+1909	K_Offshore_120m_m2_199	120	192_1	No
+1910	K_Offshore_120m_m2_130	120	191_1	No
+1911	K_Offshore_120m_m2_190	120	189_1	No
+1912	K_Offshore_120m_m1_157	120	187_1	No
+1913	K_Offshore_120m_m1_013	120	183_1	No
+1914	K_Offshore_120m_m1_203	120	178_0	Representative sequence
+1915	K_Offshore_120m_m2_129	120	166_1	No
+1916	K_Offshore_120m_m1_182	120	163_1	No
+1917	K_Offshore_120m_m2_089	120	154_1	No
+1918	K_Offshore_120m_m2_060	120	148_1	No
+1919	K_Offshore_120m_m2_195	120	146_1	No
+1920	K_Offshore_120m_m1_165	120	142_1	No
+1921	K_Offshore_120m_m2_144	120	141_1	No
+1922	K_Offshore_120m_mx_131	120	129_1	No
+1923	K_Offshore_120m_m2_159	120	122_1	No
+1924	K_Offshore_120m_m2_146	120	119_1	Representative sequence
+1925	K_Offshore_120m_m2_116	120	118_1	No
+1926	K_Offshore_120m_m2_143	120	117_1	No
+1927	K_Offshore_120m_m2_133	120	114_1	No
+1928	K_Offshore_120m_m2_068	120	108_1	No
+1929	K_Offshore_120m_mx_056	120	107_1	No
+1930	K_Offshore_120m_m2_023	120	91_1	Representative sequence
+1931	K_Offshore_120m_m1_174	120	85_1	No
+1932	K_Offshore_120m_m1_041	120	68_1	Representative sequence
+1933	K_Offshore_120m_mx_204	120	67_1	No
+1934	K_Offshore_120m_m1_009	120	50_1	Representative sequence
+1935	K_Offshore_120m_m1_014	120	48_1	No
+1936	K_Offshore_120m_m2_035	120	7_0	Representative sequence
+1937	M_surface_6_m2_121	6	545_0	Representative sequence
+1938	M_surface_8_m1_121	8	499_1	No
+1939	M_surface_8_m2_121	8	201_1	No
+1940	M_surface_7_m2_122	7	578_1	No
+1941	M_surface_8_m2_122	8	169_1	No
+1942	M_surface_9_mx_123	9	579_1	No
+1943	M_surface_9_m2_124	9	594_1	No
+1944	M_surface_7_m1_124	7	542_1	No
+1945	M_surface_10_m2_125	10	585_1	No
+1946	M_surface_7_m2_125	7	472_1	No
+1947	K_Offshore_surface_m2_125	0	304_1	No
+1948	M_surface_10_m2_127	10	502_2	No
+1949	M_surface_8_m2_127	8	468_5	No
+1950	K_Offshore_surface_m2_128	0	300_1	No
+1951	M_surface_7_m2_128	7	181_1	No
+1952	K_Offshore_surface_m2_129	0	467_1	No
+1953	M_surface_8_mx_129	8	292_1	No
+1954	M_surface_7_m2_129	7	130_1	No
+1955	M_surface_9_mx_130	9	573_1	Representative sequence
+1956	K_Offshore_surface_mx_130	0	281_1	Representative sequence
+1957	K_Offshore_surface_m2_130	0	208_1	No
+1958	M_surface_6_m2_131	6	587_1	No
+1959	M_surface_9_m2_131	9	471_1	No
+1960	K_Offshore_surface_m2_131	0	356_1	No
+1961	M_surface_10_m2_131	10	198_1	No
+1962	M_surface_7_m2_132	7	304_1	No
+1963	M_surface_6_mx_134	6	518_1	No
+1964	K_Offshore_surface_mx_134	0	295_1	No
+1965	M_surface_7_m2_134	7	286_1	No
+1966	M_surface_6_m1_135	6	557_2	No
+1967	M_surface_6_mx_135	6	540_1	No
+1968	M_surface_10_m2_136	10	496_1	Representative sequence
+1969	M_surface_8_m2_136	8	126_1	No
+1970	M_surface_9_m2_137	9	515_1	Representative sequence
+1971	M_surface_7_m1_137	7	499_1	No
+1972	M_surface_9_m2_138	9	477_1	No
+1973	K_Offshore_surface_m2_138	0	173_1	No
+1974	M_surface_9_m2_140	9	198_1	No
+1975	M_surface_10_m2_141	10	153_1	Representative sequence
+1976	M_surface_9_m1_142	9	542_1	No
+1977	K_Offshore_surface_mx_142	0	500_1	No
+1978	M_surface_9_m2_142	9	352_1	No
+1979	M_surface_6_m2_142	6	325_2	No
+1980	M_surface_9_m1_143	9	557_2	No
+1981	M_surface_9_mx_143	9	147_1	No
+1982	M_surface_6_m1_144	6	130_1	No
+1983	M_surface_7_m2_146	7	540_1	No
+1984	M_surface_6_m2_146	6	471_1	No
+1985	M_surface_9_m2_146	9	467_1	No
+1986	M_surface_7_m2_147	7	439_1	No
+1987	M_surface_8_mx_147	8	173_1	No
+1988	K_Offshore_surface_m2_147	0	170_1	No
+1989	M_surface_10_mx_148	10	548_1	No
+1990	M_surface_9_m2_148	9	173_1	No
+1991	M_surface_10_mx_149	10	574_1	No
+1992	K_DeepCast_150m_m2_107	150	605_1	No
+1993	K_DeepCast_150m_m2_130	150	602_1	No
+1994	K_DeepCast_150m_m2_029	150	598_1	No
+1995	K_DeepCast_150m_m1_134	150	597_1	No
+1996	K_DeepCast_150m_m1_178	150	595_1	No
+1997	K_DeepCast_150m_m2_125	150	594_1	No
+1998	K_DeepCast_150m_m2_338	150	590_1	No
+1999	K_DeepCast_150m_m2_042	150	585_1	No
+2000	K_DeepCast_150m_m1_071	150	580_1	No
+2001	K_DeepCast_150m_m2_047	150	579_1	No
+2002	K_DeepCast_150m_m2_145	150	578_1	No
+2003	K_DeepCast_150m_m2_152	150	577_2	No
+2004	K_DeepCast_150m_m1_069	150	572_1	No
+2005	K_DeepCast_150m_m2_158	150	571_1	No
+2006	K_DeepCast_150m_m2_131	150	570_1	No
+2007	K_DeepCast_150m_m2_227	150	569_1	No
+2008	K_DeepCast_150m_m2_013	150	566_1	No
+2009	K_DeepCast_150m_m2_062	150	565_1	No
+2010	K_DeepCast_150m_m1_373	150	559_1	No
+2011	K_DeepCast_150m_m2_144	150	557_2	No
+2012	K_DeepCast_150m_m2_046	150	556_9	No
+2013	K_DeepCast_150m_m2_028	150	556_1	No
+2014	K_DeepCast_150m_m1_115	150	555_1	No
+2015	K_DeepCast_150m_m2_209	150	551_1	No
+2016	K_DeepCast_150m_m1_142	150	549_1	No
+2017	K_DeepCast_150m_m2_020	150	548_1	No
+2018	K_DeepCast_150m_m1_182	150	542_1	No
+2019	K_DeepCast_150m_m2_093	150	540_1	No
+2020	K_DeepCast_150m_m2_232	150	518_1	No
+2021	K_DeepCast_150m_m1_097	150	513_1	No
+2022	K_DeepCast_150m_m1_358	150	507_1	No
+2023	K_DeepCast_150m_m2_230	150	499_1	No
+2024	K_DeepCast_150m_m2_189	150	497_1	No
+2025	K_DeepCast_150m_m2_043	150	496_1	No
+2026	K_DeepCast_150m_m2_226	150	495_1	No
+2027	K_DeepCast_150m_m2_309	150	494_1	No
+2028	K_DeepCast_150m_m2_055	150	493_1	No
+2029	K_DeepCast_150m_m1_151	150	492_1	No
+2030	K_DeepCast_150m_m2_241	150	487_1	No
+2031	K_DeepCast_150m_m1_025	150	486_1	No
+2032	K_DeepCast_150m_m2_054	150	485_1	No
+2033	K_DeepCast_150m_m1_393	150	482_1	No
+2034	K_DeepCast_150m_m1_319	150	481_1	No
+2035	K_DeepCast_150m_m1_374	150	478_1	No
+2036	K_DeepCast_150m_m2_101	150	473_2	Representative sequence
+2037	K_DeepCast_150m_m2_068	150	471_1	No
+2038	K_DeepCast_150m_m1_079	150	470_1	No
+2039	K_DeepCast_150m_m1_083	150	467_1	No
+2040	K_DeepCast_150m_m2_219	150	464_1	No
+2041	K_DeepCast_150m_m1_388	150	462_1	Representative sequence
+2042	K_DeepCast_150m_m1_067	150	457_1	No
+2043	K_DeepCast_150m_m2_248	150	456_1	No
+2044	K_DeepCast_150m_m2_050	150	453_1	No
+2045	K_DeepCast_150m_m2_082	150	451_1	No
+2046	K_DeepCast_150m_m2_215	150	450_1	No
+2047	K_DeepCast_150m_m1_049	150	445_1	No
+2048	M_surface_7_m2_150	7	443_1	No
+2049	K_DeepCast_150m_m1_029	150	443_1	No
+2050	K_DeepCast_150m_m1_074	150	440_1	No
+2051	K_DeepCast_150m_m2_236	150	439_1	No
+2052	K_DeepCast_150m_m2_051	150	435_1	No
+2053	K_DeepCast_150m_m2_040	150	432_1	Representative sequence
+2054	K_DeepCast_150m_m2_307	150	431_1	Representative sequence
+2055	K_DeepCast_150m_m2_147	150	422_1	Representative sequence
+2056	K_DeepCast_150m_m2_322	150	418_1	No
+2057	K_DeepCast_150m_m2_282	150	417_1	No
+2058	K_DeepCast_150m_m2_079	150	415_1	No
+2059	K_DeepCast_150m_m2_254	150	411_1	No
+2060	K_DeepCast_150m_m2_295	150	410_1	No
+2061	K_DeepCast_150m_m1_344	150	406_1	Representative sequence
+2062	K_DeepCast_150m_m2_348	150	400_1	No
+2063	K_DeepCast_150m_m1_017	150	397_1	No
+2064	K_DeepCast_150m_m2_355	150	393_1	No
+2065	K_DeepCast_150m_m2_339	150	392_1	No
+2066	K_DeepCast_150m_m2_098	150	391_1	Representative sequence
+2067	K_DeepCast_150m_m1_353	150	385_1	No
+2068	K_DeepCast_150m_m2_279	150	384_1	No
+2069	K_DeepCast_150m_m2_135	150	383_1	No
+2070	K_DeepCast_150m_m1_375	150	381_1	No
+2071	K_DeepCast_150m_m1_329	150	378_1	No
+2072	K_DeepCast_150m_m2_075	150	376_1	No
+2073	K_DeepCast_150m_m1_027	150	372_2	No
+2074	K_DeepCast_150m_m1_045	150	370_1	No
+2075	K_DeepCast_150m_m1_351	150	364_1	No
+2076	K_DeepCast_150m_m2_063	150	356_1	No
+2077	K_DeepCast_150m_m1_155	150	355_1	No
+2078	K_DeepCast_150m_m2_148	150	352_2	No
+2079	K_DeepCast_150m_m1_364	150	330_1	No
+2080	K_DeepCast_150m_m2_023	150	327_1	No
+2081	K_DeepCast_150m_m1_331	150	325_2	No
+2082	K_DeepCast_150m_m2_212	150	322_1	No
+2083	K_DeepCast_150m_m2_171	150	320_1	No
+2084	K_DeepCast_150m_m1_223	150	318_1	No
+2085	K_DeepCast_150m_m1_349	150	312_1	No
+2086	K_DeepCast_150m_m2_034	150	311_1	No
+2087	K_DeepCast_150m_m2_161	150	309_1	No
+2088	K_DeepCast_150m_m1_369	150	308_1	No
+2089	K_DeepCast_150m_m2_117	150	307_1	No
+2090	K_DeepCast_150m_m1_345	150	305_2	No
+2091	K_DeepCast_150m_m2_239	150	304_1	No
+2092	K_DeepCast_150m_m2_016	150	303_1	No
+2093	K_DeepCast_150m_m1_327	150	302_1	No
+2094	K_DeepCast_150m_m2_249	150	301_1	No
+2095	K_DeepCast_150m_m2_193	150	300_1	No
+2096	K_DeepCast_150m_m2_052	150	297_1	No
+2097	K_DeepCast_150m_m2_127	150	296_4	Representative sequence
+2098	K_DeepCast_150m_m2_187	150	295_2	No
+2099	K_DeepCast_150m_m1_110	150	294_1	Representative sequence
+2100	K_DeepCast_150m_m1_057	150	293_1	No
+2101	K_DeepCast_150m_m1_080	150	292_1	No
+2102	K_DeepCast_150m_m1_008	150	290_1	No
+2103	K_DeepCast_150m_m2_151	150	286_1	No
+2104	K_DeepCast_150m_m2_124	150	285_1	No
+2105	K_DeepCast_150m_m1_107	150	280_1	No
+2106	K_DeepCast_150m_m1_050	150	276_1	No
+2107	K_DeepCast_150m_m2_103	150	273_1	No
+2108	K_DeepCast_150m_m1_030	150	272_1	No
+2109	K_DeepCast_150m_m2_205	150	269_2	No
+2110	K_DeepCast_150m_m2_238	150	267_1	No
+2111	K_DeepCast_150m_m2_246	150	263_1	No
+2112	K_DeepCast_150m_m2_035	150	246_1	No
+2113	K_DeepCast_150m_m2_240	150	243_1	No
+2114	K_DeepCast_150m_m2_114	150	240_1	No
+2115	K_DeepCast_150m_m1_233	150	239_1	No
+2116	K_DeepCast_150m_m2_344	150	238_1	No
+2117	K_DeepCast_150m_m2_058	150	237_1	No
+2118	K_DeepCast_150m_m1_073	150	233_1	No
+2119	K_DeepCast_150m_m2_164	150	231_1	Representative sequence
+2120	K_DeepCast_150m_m2_095	150	230_1	No
+2121	K_DeepCast_150m_m2_153	150	228_1	No
+2122	K_DeepCast_150m_m2_183	150	227_1	No
+2123	K_DeepCast_150m_m2_182	150	219_1	No
+2124	K_DeepCast_150m_m2_271	150	215_1	No
+2125	K_DeepCast_150m_m2_099	150	208_1	No
+2126	K_DeepCast_150m_m1_356	150	206_1	Representative sequence
+2127	K_DeepCast_150m_m1_061	150	205_1	No
+2128	K_DeepCast_150m_m1_141	150	203_1	No
+2129	K_DeepCast_150m_m1_193	150	201_1	No
+2130	K_DeepCast_150m_m2_243	150	199_1	No
+2131	K_DeepCast_150m_m2_064	150	198_1	No
+2132	K_DeepCast_150m_m2_142	150	196_1	No
+2133	K_DeepCast_150m_m2_057	150	195_1	No
+2134	K_DeepCast_150m_m1_098	150	194_1	No
+2135	K_DeepCast_150m_m2_218	150	193_1	No
+2136	K_DeepCast_150m_m1_113	150	191_1	No
+2137	K_DeepCast_150m_m1_168	150	190_1	No
+2138	K_DeepCast_150m_m1_376	150	187_1	No
+2139	K_DeepCast_150m_m1_002	150	184_1	No
+2140	K_DeepCast_150m_m2_250	150	183_1	Representative sequence
+2141	K_DeepCast_150m_m1_366	150	182_1	No
+2142	K_DeepCast_150m_m2_022	150	181_1	No
+2143	K_DeepCast_150m_m2_280	150	177_1	No
+2144	K_DeepCast_150m_m1_199	150	176_1	Representative sequence
+2145	K_DeepCast_150m_m1_379	150	175_1	No
+2146	K_DeepCast_150m_m2_056	150	174_1	Representative sequence
+2147	K_DeepCast_150m_m1_075	150	173_1	No
+2148	K_DeepCast_150m_m1_363	150	170_1	No
+2149	K_DeepCast_150m_m1_021	150	169_1	No
+2150	K_DeepCast_150m_m2_070	150	168_1	No
+2151	K_DeepCast_150m_m2_204	150	166_1	No
+2152	K_DeepCast_150m_m1_387	150	164_1	Representative sequence
+2153	K_DeepCast_150m_m2_109	150	163_1	No
+2154	K_DeepCast_150m_m2_347	150	161_1	No
+2155	K_DeepCast_150m_m1_039	150	155_1	No
+2156	K_DeepCast_150m_m2_296	150	127_1	No
+2157	K_DeepCast_150m_m1_140	150	124_1	No
+2158	K_DeepCast_150m_m2_167	150	123_1	Representative sequence
+2159	K_DeepCast_150m_m2_272	150	115_1	Representative sequence
+2160	K_DeepCast_150m_m2_126	150	116_0	Representative sequence
+2161	K_DeepCast_150m_m1_132	150	113_1	No
+2162	K_DeepCast_150m_m1_372	150	112_1	No
+2163	K_DeepCast_150m_m2_324	150	111_1	No
+2164	K_DeepCast_150m_m1_018	150	107_1	No
+2165	K_DeepCast_150m_m2_110	150	104_1	No
+2166	K_DeepCast_150m_m1_001	150	103_1	No
+2167	K_DeepCast_150m_m2_283	150	102_1	No
+2168	K_DeepCast_150m_m1_342	150	101_1	No
+2169	K_DeepCast_150m_m2_113	150	100_1	Representative sequence
+2170	K_DeepCast_150m_m1_340	150	99_1	No
+2171	K_DeepCast_150m_m2_071	150	98_1	Representative sequence
+2172	K_DeepCast_150m_m1_006	150	92_1	No
+2173	K_DeepCast_150m_m1_020	150	85_1	No
+2174	K_DeepCast_150m_m2_168	150	75_1	No
+2175	K_DeepCast_150m_m2_048	150	56_1	Representative sequence
+2176	K_DeepCast_150m_m1_139	150	55_1	Representative sequence
+2177	K_DeepCast_150m_m2_305	150	49_1	Representative sequence
+2178	K_DeepCast_150m_m2_105	150	46_1	Representative sequence
+2179	K_DeepCast_150m_m2_351	150	43_1	No
+2180	K_DeepCast_150m_m1_330	150	40_1	No
+2181	K_DeepCast_150m_m1_355	150	39_1	No
+2182	K_DeepCast_150m_m2_257	150	38_5	Representative sequence
+2183	K_DeepCast_150m_m1_266	150	37_1	No
+2184	K_DeepCast_150m_m2_268	150	36_1	No
+2185	K_DeepCast_150m_m1_334	150	35_1	No
+2186	K_DeepCast_150m_m2_221	150	29_1	No
+2187	K_DeepCast_150m_m1_048	150	27_1	No
+2188	K_DeepCast_150m_m2_066	150	26_1	No
+2189	K_DeepCast_150m_m1_063	150	24_3	Representative sequence
+2190	K_DeepCast_150m_m1_015	150	24_8	Representative sequence
+2191	K_DeepCast_150m_m2_259	150	23_1	Representative sequence
+2192	K_DeepCast_150m_m2_200	150	22_1	Representative sequence
+2193	K_DeepCast_150m_m2_325	150	21_1	No
+2194	K_DeepCast_150m_m2_172	150	18_1	No
+2195	K_DeepCast_150m_m2_049	150	17_1	Representative sequence
+2196	K_DeepCast_150m_m2_097	150	15_1	Representative sequence
+2197	K_DeepCast_150m_m1_051	150	14_1	Representative sequence
+2198	K_DeepCast_150m_m2_294	150	12_2	Representative sequence
+2199	K_DeepCast_150m_m2_157	150	11_1	No
+2200	K_DeepCast_150m_m2_303	150	10_1	No
+2201	K_DeepCast_150m_m1_084	150	9_1	Representative sequence
+2202	K_DeepCast_150m_m2_086	150	8_1	Representative sequence
+2203	M_surface_8_m2_151	8	594_1	No
+2204	M_surface_10_m1_151	10	499_1	No
+2205	M_surface_9_mx_152	9	558_0	Representative sequence
+2206	K_Offshore_surface_m2_152	0	477_1	No
+2207	M_surface_6_mx_153	6	590_1	No
+2208	M_surface_6_m2_153	6	195_1	No
+2209	M_surface_6_m2_154	6	494_1	No
+2210	M_surface_8_m1_155	8	308_1	No
+2211	M_surface_10_mx_156	10	557_2	No
+2212	M_surface_7_m2_157	7	471_1	No
+2213	M_surface_8_mx_158	8	518_1	No
+2214	M_surface_6_m2_158	6	322_1	No
+2215	M_surface_8_m2_158	8	181_1	No
+2216	M_surface_7_m2_159	7	242_1	No
+2217	M_surface_6_m2_160	6	181_1	No
+2218	M_surface_10_m2_162	10	184_1	No
+2219	M_surface_6_m2_163	6	305_2	No
+2220	M_surface_9_m2_163	9	190_1	No
+2221	M_surface_8_m1_166	8	445_1	No
+2222	K_Offshore_surface_m2_168	0	472_1	No
+2223	M_surface_8_m2_168	8	352_2	No
+2224	M_surface_8_m2_169	8	286_1	No
+2225	M_surface_10_m2_170	10	301_1	No
+2226	K_Offshore_surface_m2_170	0	194_1	No
+2227	M_surface_8_mx_171	8	590_1	No
+2228	M_surface_10_mx_171	10	578_1	No
+2229	M_surface_7_m2_171	7	138_1	No
+2230	M_surface_8_m2_172	8	304_1	No
+2231	M_surface_7_m2_172	7	233_1	No
+2232	K_Offshore_surface_m2_172	0	201_1	No
+2233	M_surface_7_m2_173	7	496_1	No
+2234	M_surface_7_m2_176	7	303_1	No
+2235	M_surface_9_m2_177	9	509_1	Representative sequence
+2236	M_surface_6_m2_178	6	571_1	No
+2237	K_Offshore_surface_mx_178	0	501_3	No
+2238	M_surface_10_m2_178	10	269_2	No
+2239	M_surface_10_mx_178	10	193_1	No
+2240	M_surface_6_m2_179	6	556_1	No
+2241	M_surface_10_m2_179	10	476_1	Representative sequence
+2242	M_surface_8_mx_179	8	269_2	No
+2243	M_surface_7_m2_179	7	184_1	No
+2244	M_surface_6_m2_180	6	577_1	No
+2245	M_surface_10_m2_180	10	443_1	Representative sequence
+2246	M_surface_10_m2_181	10	205_1	No
+2247	M_surface_8_m2_181	8	198_1	No
+2248	M_surface_9_mx_182	9	540_1	No
+2249	M_surface_8_m2_183	8	501_3	No
+2250	M_surface_7_m2_183	7	175_1	No
+2251	K_Offshore_surface_m2_184	0	494_1	No
+2252	M_surface_8_m1_184	8	456_1	No
+2253	M_surface_7_m2_184	7	276_1	No
+2254	M_surface_8_m2_185	8	540_1	Representative sequence
+2255	M_surface_9_m2_185	9	305_2	No
+2256	M_surface_6_m2_185	6	194_1	No
+2257	M_surface_10_m2_186	10	594_1	No
+2258	K_Offshore_surface_m2_186	0	499_1	No
+2259	M_surface_6_mx_186	6	493_1	No
+2260	M_surface_10_mx_187	10	322_1	No
+2261	M_surface_6_m2_187	6	173_1	No
+2262	M_surface_6_m1_188	6	308_1	No
+2263	M_surface_10_m2_188	10	195_1	Representative sequence
+2264	M_surface_8_m2_189	8	355_1	No
+2265	M_surface_8_m1_190	8	170_1	No
+2266	M_surface_7_m2_191	7	569_1	Representative sequence
+2267	K_Offshore_surface_m2_191	0	303_1	No
+2268	M_surface_10_m2_191	10	302_1	No
+2269	M_surface_6_m2_191	6	198_1	No
+2270	M_surface_8_mx_192	8	585_1	No
+2271	M_surface_6_mx_192	6	443_1	No
+2272	K_Offshore_surface_m2_192	0	193_1	No
+2273	M_surface_10_m2_193	10	572_1	No
+2274	M_surface_8_mx_193	8	493_1	No
+2275	M_surface_6_m2_193	6	201_1	No
+2276	M_surface_8_m1_193	8	197_1	No
+2277	K_Offshore_surface_m2_194	0	470_1	No
+2278	K_Offshore_surface_mx_194	0	445_1	No
+2279	M_surface_7_m2_194	7	355_1	No
+2280	K_Offshore_surface_m1_194	0	352_1	Representative sequence
+2281	M_surface_8_m2_194	8	195_1	No
+2282	M_surface_7_m2_195	7	566_1	No
+2283	K_Offshore_surface_m2_195	0	177_1	No
+2284	K_Offshore_surface_m1_195	0	125_1	No
+2285	M_surface_10_m2_196	10	552_0	Representative sequence
+2286	M_surface_10_mx_198	10	590_1	No
+2287	M_surface_8_m2_198	8	175_1	No
+2288	M_surface_9_mx_199	9	590_1	Representative sequence
+2289	M_surface_8_m1_199	8	571_1	No
+2290	M_surface_7_m2_199	7	445_1	No
+2291	M_DeepCast_200m_m1_187	200	605_1	No
+2292	M_DeepCast_200m_m1_153	200	598_1	No
+2293	M_DeepCast_200m_m2_214	200	597_1	No
+2294	M_DeepCast_200m_mx_378	200	594_1	No
+2295	M_DeepCast_200m_m2_102	200	590_1	No
+2296	M_DeepCast_200m_m2_196	200	585_1	No
+2297	M_DeepCast_200m_m2_147	200	580_1	No
+2298	M_DeepCast_200m_m2_192	200	579_1	No
+2299	M_DeepCast_200m_m1_064	200	578_1	No
+2300	M_DeepCast_200m_m2_168	200	577_2	No
+2301	M_DeepCast_200m_mx_042	200	572_1	No
+2302	M_DeepCast_200m_m1_054	200	566_1	No
+2303	M_DeepCast_200m_m1_007	200	565_1	No
+2304	M_DeepCast_200m_mx_132	200	561_1	No
+2305	M_DeepCast_200m_mx_025	200	559_1	No
+2306	M_DeepCast_200m_m2_204	200	557_2	No
+2307	M_DeepCast_200m_mx_365	200	551_1	No
+2308	M_DeepCast_200m_m2_041	200	542_1	Representative sequence
+2309	M_DeepCast_200m_mx_245	200	540_1	No
+2310	M_DeepCast_200m_m2_077	200	518_1	No
+2311	M_DeepCast_200m_mx_031	200	513_1	No
+2312	M_DeepCast_200m_mx_189	200	499_1	No
+2313	M_DeepCast_200m_m2_302	200	496_1	No
+2314	M_DeepCast_200m_m2_093	200	495_1	No
+2315	M_DeepCast_200m_m2_190	200	494_1	No
+2316	M_DeepCast_200m_mx_366	200	493_1	No
+2317	M_DeepCast_200m_mx_217	200	489_1	No
+2318	M_DeepCast_200m_mx_291	200	488_1	No
+2319	M_DeepCast_200m_m2_015	200	487_1	No
+2320	M_DeepCast_200m_mx_056	200	486_1	No
+2321	M_DeepCast_200m_m1_036	200	485_1	No
+2322	M_DeepCast_200m_mx_209	200	482_1	No
+2323	M_DeepCast_200m_m2_047	200	481_1	No
+2324	M_DeepCast_200m_m2_324	200	478_1	No
+2325	M_DeepCast_200m_m2_050	200	477_1	No
+2326	M_DeepCast_200m_mx_111	200	473_1	No
+2327	M_DeepCast_200m_mx_211	200	472_1	No
+2328	M_DeepCast_200m_m1_062	200	471_1	No
+2329	M_DeepCast_200m_mx_001	200	470_1	Representative sequence
+2330	M_DeepCast_200m_m2_114	200	467_1	No
+2331	M_DeepCast_200m_m2_078	200	464_1	No
+2332	M_DeepCast_200m_m2_074	200	463_1	No
+2333	M_DeepCast_200m_m1_013	200	462_1	No
+2334	M_DeepCast_200m_m1_052	200	458_1	No
+2335	M_DeepCast_200m_mx_009	200	457_1	No
+2336	M_DeepCast_200m_m2_217	200	453_1	No
+2337	M_DeepCast_200m_m1_040	200	451_1	No
+2338	M_DeepCast_200m_m1_061	200	450_1	No
+2339	M_DeepCast_200m_m2_003	200	447_1	No
+2340	M_DeepCast_200m_m1_337	200	445_1	No
+2341	M_DeepCast_200m_mx_350	200	443_1	No
+2342	M_DeepCast_200m_m2_112	200	440_1	No
+2343	M_DeepCast_200m_m1_045	200	439_1	No
+2344	M_DeepCast_200m_mx_203	200	435_1	No
+2345	M_DeepCast_200m_m2_048	200	432_1	No
+2346	M_DeepCast_200m_m1_012	200	431_1	No
+2347	M_DeepCast_200m_m2_169	200	426_1	No
+2348	M_DeepCast_200m_m2_073	200	424_1	No
+2349	M_DeepCast_200m_m2_318	200	422_1	No
+2350	M_DeepCast_200m_mx_296	200	421_1	No
+2351	M_DeepCast_200m_m2_133	200	420_0	Representative sequence
+2352	M_DeepCast_200m_m1_311	200	418_1	No
+2353	M_DeepCast_200m_m2_171	200	417_1	No
+2354	M_DeepCast_200m_m2_040	200	411_1	No
+2355	M_DeepCast_200m_m1_306	200	410_1	No
+2356	M_DeepCast_200m_m2_280	200	406_1	No
+2357	M_DeepCast_200m_m2_099	200	400_1	No
+2358	M_DeepCast_200m_m1_076	200	397_1	No
+2359	M_DeepCast_200m_m1_310	200	392_1	No
+2360	M_DeepCast_200m_m2_091	200	391_1	No
+2361	M_DeepCast_200m_m2_082	200	390_1	No
+2362	M_DeepCast_200m_m1_296	200	385_1	No
+2363	M_DeepCast_200m_m2_141	200	384_1	No
+2364	M_DeepCast_200m_m2_243	200	378_1	No
+2365	M_DeepCast_200m_mx_090	200	376_1	No
+2366	M_DeepCast_200m_m2_203	200	364_1	No
+2367	M_DeepCast_200m_m2_032	200	356_1	No
+2368	M_DeepCast_200m_m1_244	200	355_1	No
+2369	M_DeepCast_200m_mx_097	200	349_1	No
+2370	M_DeepCast_200m_m1_312	200	330_1	No
+2371	M_DeepCast_200m_m2_189	200	329_1	Representative sequence
+2372	M_DeepCast_200m_m1_303	200	327_1	No
+2373	M_DeepCast_200m_m2_085	200	326_1	Representative sequence
+2374	M_DeepCast_200m_m2_031	200	325_2	No
+2375	M_DeepCast_200m_m1_118	200	322_1	No
+2376	M_DeepCast_200m_mx_299	200	321_1	No
+2377	M_DeepCast_200m_m2_044	200	320_1	No
+2378	M_DeepCast_200m_m1_026	200	319_1	No
+2379	M_DeepCast_200m_m1_163	200	318_1	No
+2380	M_DeepCast_200m_m2_103	200	312_1	No
+2381	M_DeepCast_200m_m2_071	200	311_1	No
+2382	M_DeepCast_200m_m1_283	200	309_1	No
+2383	M_DeepCast_200m_m2_259	200	308_1	No
+2384	M_DeepCast_200m_mx_083	200	307_1	No
+2385	M_surface_8_m2_200	8	305_2	No
+2386	M_DeepCast_200m_m2_124	200	305_2	No
+2387	M_DeepCast_200m_m2_132	200	304_1	No
+2388	M_DeepCast_200m_m1_288	200	303_1	No
+2389	M_DeepCast_200m_m1_285	200	302_1	No
+2390	M_DeepCast_200m_m2_100	200	301_1	No
+2391	M_DeepCast_200m_m1_344	200	301_2	Representative sequence
+2392	M_DeepCast_200m_m2_024	200	300_1	No
+2393	M_DeepCast_200m_mx_295	200	298_2	Representative sequence
+2394	M_DeepCast_200m_m2_153	200	297_1	No
+2395	M_DeepCast_200m_mx_231	200	296_3	Representative sequence
+2396	M_DeepCast_200m_mx_004	200	295_1	No
+2397	M_DeepCast_200m_m2_061	200	294_1	No
+2398	M_DeepCast_200m_mx_344	200	293_1	No
+2399	M_DeepCast_200m_mx_333	200	292_1	No
+2400	M_DeepCast_200m_m2_244	200	290_1	No
+2401	M_DeepCast_200m_m2_056	200	286_1	No
+2402	M_DeepCast_200m_m2_225	200	285_1	No
+2403	M_DeepCast_200m_mx_015	200	276_1	No
+2404	M_DeepCast_200m_mx_066	200	272_1	No
+2405	M_DeepCast_200m_m2_055	200	269_2	No
+2406	M_DeepCast_200m_m2_325	200	267_1	No
+2407	M_DeepCast_200m_m2_319	200	263_1	No
+2408	M_DeepCast_200m_m2_274	200	260_1	No
+2409	M_DeepCast_200m_mx_099	200	246_1	No
+2410	M_DeepCast_200m_m1_277	200	243_1	No
+2411	M_DeepCast_200m_m2_269	200	240_1	No
+2412	M_DeepCast_200m_m2_129	200	239_1	No
+2413	M_DeepCast_200m_m2_025	200	238_1	Representative sequence
+2414	M_DeepCast_200m_m1_122	200	237_1	No
+2415	M_DeepCast_200m_m2_212	200	231_1	No
+2416	M_DeepCast_200m_mx_080	200	229_1	No
+2417	M_DeepCast_200m_m2_256	200	228_1	No
+2418	M_DeepCast_200m_mx_362	200	227_1	No
+2419	M_DeepCast_200m_m1_294	200	219_1	No
+2420	M_DeepCast_200m_mx_254	200	218_1	No
+2421	M_surface_8_m1_200	8	208_1	No
+2422	M_DeepCast_200m_m2_300	200	208_1	No
+2423	M_DeepCast_200m_m2_090	200	201_1	No
+2424	M_DeepCast_200m_m2_069	200	199_1	No
+2425	M_DeepCast_200m_m2_201	200	198_1	No
+2426	M_DeepCast_200m_m2_035	200	196_1	No
+2427	M_DeepCast_200m_m1_058	200	195_1	No
+2428	M_DeepCast_200m_m1_147	200	194_1	No
+2429	M_DeepCast_200m_m2_062	200	193_1	No
+2430	M_DeepCast_200m_m1_341	200	187_1	No
+2431	M_DeepCast_200m_mx_100	200	183_1	No
+2432	M_DeepCast_200m_m1_298	200	182_1	Representative sequence
+2433	M_DeepCast_200m_m2_106	200	181_1	No
+2434	M_DeepCast_200m_mx_305	200	180_1	No
+2435	M_DeepCast_200m_m2_043	200	176_1	No
+2436	M_DeepCast_200m_m2_312	200	175_1	No
+2437	M_DeepCast_200m_m1_020	200	174_1	No
+2438	M_DeepCast_200m_m1_081	200	173_1	No
+2439	M_DeepCast_200m_mx_221	200	172_1	No
+2440	M_DeepCast_200m_m1_030	200	170_1	No
+2441	M_DeepCast_200m_m1_035	200	169_1	No
+2442	M_DeepCast_200m_mx_014	200	168_1	No
+2443	M_DeepCast_200m_m1_017	200	166_1	No
+2444	M_DeepCast_200m_m2_191	200	164_1	No
+2445	M_DeepCast_200m_m2_080	200	163_1	No
+2446	M_DeepCast_200m_mx_024	200	161_1	No
+2447	M_DeepCast_200m_mx_018	200	155_1	No
+2448	M_DeepCast_200m_m2_022	200	147_1	No
+2449	M_DeepCast_200m_mx_060	200	128_2	Representative sequence
+2450	M_DeepCast_200m_m2_051	200	127_1	No
+2451	M_DeepCast_200m_mx_187	200	115_1	No
+2452	M_DeepCast_200m_mx_242	200	113_1	No
+2453	M_DeepCast_200m_mx_119	200	112_1	No
+2454	M_DeepCast_200m_m2_185	200	111_1	No
+2455	M_DeepCast_200m_m2_310	200	107_1	No
+2456	M_DeepCast_200m_mx_237	200	105_1	No
+2457	M_DeepCast_200m_m2_081	200	104_1	No
+2458	M_DeepCast_200m_m1_008	200	103_1	No
+2459	M_DeepCast_200m_m2_021	200	102_1	No
+2460	M_DeepCast_200m_m2_004	200	101_1	No
+2461	M_DeepCast_200m_mx_115	200	99_1	No
+2462	M_DeepCast_200m_m1_024	200	92_1	No
+2463	M_DeepCast_200m_mx_304	200	89_1	No
+2464	M_DeepCast_200m_m1_086	200	85_1	No
+2465	M_DeepCast_200m_mx_283	200	82_1	No
+2466	M_DeepCast_200m_mx_286	200	79_1	No
+2467	M_DeepCast_200m_m2_224	200	75_1	No
+2468	M_DeepCast_200m_m1_230	200	72_1	No
+2469	M_DeepCast_200m_m1_332	200	56_1	No
+2470	M_DeepCast_200m_m1_135	200	55_1	No
+2471	M_DeepCast_200m_m2_066	200	46_1	No
+2472	M_DeepCast_200m_m2_110	200	44_1	No
+2473	M_DeepCast_200m_m2_053	200	43_1	No
+2474	M_DeepCast_200m_m2_054	200	42_1	No
+2475	M_DeepCast_200m_m2_052	200	40_1	Representative sequence
+2476	M_DeepCast_200m_m2_139	200	39_1	No
+2477	M_DeepCast_200m_mx_369	200	37_1	No
+2478	M_DeepCast_200m_m2_195	200	36_1	No
+2479	M_DeepCast_200m_m2_268	200	35_1	No
+2480	M_DeepCast_200m_m2_220	200	31_1	Representative sequence
+2481	M_DeepCast_200m_m2_194	200	29_1	Representative sequence
+2482	M_DeepCast_200m_m1_142	200	28_1	No
+2483	M_DeepCast_200m_mx_194	200	27_1	Representative sequence
+2484	M_DeepCast_200m_m2_208	200	26_1	Representative sequence
+2485	M_DeepCast_200m_m2_200	200	25_1	No
+2486	M_DeepCast_200m_m2_237	200	24_2	No
+2487	M_DeepCast_200m_mx_183	200	23_1	No
+2488	M_DeepCast_200m_m2_068	200	22_1	No
+2489	M_DeepCast_200m_m2_202	200	21_1	No
+2490	M_DeepCast_200m_m2_046	200	20_1	Representative sequence
+2491	M_DeepCast_200m_m2_252	200	19_1	No
+2492	M_DeepCast_200m_m2_233	200	18_1	No
+2493	M_DeepCast_200m_mx_117	200	17_1	No
+2494	M_DeepCast_200m_m2_231	200	15_1	No
+2495	M_DeepCast_200m_m2_286	200	14_1	No
+2496	M_DeepCast_200m_m2_143	200	11_1	No
+2497	M_DeepCast_200m_m2_109	200	10_1	No
+2498	M_surface_8_m2_201	8	559_1	No
+2499	M_surface_9_m2_201	9	443_1	No
+2500	M_surface_9_m2_202	9	556_1	No
+2501	M_surface_10_m2_202	10	201_1	No
+2502	M_surface_6_m1_203	6	456_1	No
+2503	M_surface_9_mx_204	9	494_1	No
+2504	K_Offshore_surface_m1_204	0	386_0	Representative sequence
+2505	M_surface_8_m2_204	8	194_1	No
+2506	M_surface_6_m1_204	6	177_1	No
+2507	M_surface_8_m1_205	8	276_1	No
+2508	K_Offshore_surface_m1_205	0	226_1	No
+2509	K_Offshore_surface_m2_205	0	195_1	No
+2510	M_surface_10_m2_206	10	577_1	No
+2511	M_surface_7_m2_206	7	557_2	No
+2512	M_surface_8_mx_206	8	443_1	No
+2513	M_surface_9_mx_207	9	269_2	No
+2514	K_Offshore_surface_mx_207	0	199_1	No
+2515	M_surface_7_m2_208	7	556_1	No
+2516	K_Offshore_surface_m1_208	0	355_1	No
+2517	K_Offshore_surface_m2_208	0	181_1	No
+2518	M_surface_8_mx_209	8	542_1	No
+2519	K_Offshore_surface_m1_209	0	370_1	No
+2520	M_surface_8_m2_209	8	280_1	No
+2521	M_surface_7_m2_209	7	194_1	No
+2522	K_Offshore_surface_mx_210	0	322_1	Representative sequence
+2523	M_surface_8_m1_210	8	203_1	No
+2524	M_surface_6_m1_210	6	161_1	No
+2525	M_surface_8_m2_211	8	302_1	No
+2526	M_surface_8_m1_211	8	153_1	No
+2527	M_surface_9_mx_212	9	577_2	No
+2528	M_surface_8_mx_212	8	485_1	No
+2529	M_surface_10_m2_212	10	325_2	No
+2530	M_surface_6_m1_213	6	551_1	No
+2531	K_Offshore_surface_m2_213	0	471_1	No
+2532	M_surface_10_m2_213	10	447_1	Representative sequence
+2533	M_surface_7_m2_213	7	193_1	No
+2534	M_surface_9_mx_215	9	551_1	No
+2535	M_surface_6_m1_215	6	467_1	No
+2536	K_Offshore_surface_m1_215	0	187_1	No
+2537	M_surface_8_m1_216	8	471_1	No
+2538	M_surface_9_m2_216	9	196_1	No
+2539	K_Offshore_surface_m2_217	0	502_2	No
+2540	M_surface_10_m2_218	10	571_1	No
+2541	K_Offshore_surface_mx_218	0	400_2	No
+2542	K_Offshore_surface_m1_218	0	340_1	No
+2543	M_surface_8_mx_218	8	130_3	No
+2544	M_surface_9_mx_219	9	585_1	No
+2545	M_surface_8_m1_219	8	574_1	No
+2546	M_surface_10_m2_219	10	352_2	No
+2547	K_Offshore_surface_m1_220	0	137_1	Representative sequence
+2548	M_surface_7_m2_220	7	126_1	No
+2549	M_surface_8_mx_222	8	566_1	No
+2550	K_Offshore_surface_m1_222	0	559_1	No
+2551	M_surface_7_m2_222	7	300_1	No
+2552	M_surface_6_m1_223	6	208_1	No
+2553	K_Offshore_surface_m1_223	0	184_1	No
+2554	M_surface_8_mx_223	8	125_1	No
+2555	M_surface_10_m2_224	10	194_1	No
+2556	K_Offshore_surface_m2_225	0	579_1	No
+2557	M_surface_10_m2_225	10	280_1	No
+2558	M_surface_8_m1_225	8	205_1	No
+2559	M_surface_6_m1_225	6	169_1	No
+2560	M_surface_7_m2_225	7	125_1	No
+2561	M_surface_6_m1_226	6	485_1	No
+2562	K_Offshore_surface_m2_227	0	548_1	No
+2563	M_surface_6_m1_228	6	556_9	No
+2564	K_Offshore_surface_mx_228	0	276_1	No
+2565	M_surface_6_m1_229	6	537_1	No
+2566	K_Offshore_surface_m2_229	0	518_1	No
+2567	M_surface_9_m2_231	9	556_9	No
+2568	M_surface_6_m1_232	6	569_1	No
+2569	M_surface_10_mx_233	10	303_1	No
+2570	K_Offshore_surface_m2_234	0	564_1	No
+2571	K_Offshore_surface_m1_234	0	175_1	No
+2572	M_surface_6_m1_235	6	451_1	No
+2573	K_Offshore_surface_m2_235	0	200_1	No
+2574	M_surface_10_mx_236	10	485_1	Representative sequence
+2575	K_Offshore_surface_m2_237	0	563_1	No
+2576	M_surface_9_mx_237	9	485_1	No
+2577	M_surface_8_m1_237	8	242_1	No
+2578	K_Offshore_surface_m1_238	0	155_1	No
+2579	M_surface_8_m1_239	8	537_1	No
+2580	K_Offshore_surface_m2_239	0	465_1	Representative sequence
+2581	M_surface_6_m1_239	6	286_1	No
+2582	M_surface_7_m2_239	7	198_1	Representative sequence
+2583	K_Offshore_surface_m1_240	0	443_1	No
+2584	M_surface_10_m2_240	10	286_1	No
+2585	M_surface_9_m1_241	9	559_1	Representative sequence
+2586	M_surface_7_m2_242	7	585_1	Representative sequence
+2587	K_Offshore_surface_m1_242	0	204_1	No
+2588	M_surface_9_m1_243	9	170_1	No
+2589	M_surface_6_m1_244	6	470_1	No
+2590	M_surface_10_m2_244	10	467_1	No
+2591	M_surface_6_m1_245	6	553_1	No
+2592	K_Offshore_surface_m2_246	0	566_1	No
+2593	M_surface_6_m1_246	6	197_1	No
+2594	M_surface_9_m1_246	9	177_1	No
+2595	M_surface_10_m2_246	10	173_1	No
+2596	M_surface_10_mx_246	10	130_3	No
+2597	K_Offshore_surface_m2_247	0	574_1	Representative sequence
+2598	K_Offshore_surface_m1_247	0	205_1	No
+2599	M_surface_10_m2_248	10	556_9	No
+2600	M_surface_9_m1_248	9	155_1	No
+2601	M_surface_7_m2_249	7	269_2	No
+2602	K_Offshore_surface_m2_249	0	196_1	No
+2603	M_surface_9_m1_249	9	175_1	Representative sequence
+2604	K_DeepCast_250m_m2_107	250	598_1	No
+2605	K_DeepCast_250m_m2_024	250	597_1	No
+2606	K_DeepCast_250m_mx_056	250	594_1	No
+2607	K_DeepCast_250m_m2_304	250	590_1	No
+2608	K_DeepCast_250m_m1_019	250	585_1	No
+2609	K_DeepCast_250m_m1_070	250	580_1	No
+2610	K_DeepCast_250m_m2_343	250	579_1	No
+2611	K_DeepCast_250m_m2_040	250	578_1	No
+2612	K_DeepCast_250m_m2_276	250	577_2	No
+2613	K_DeepCast_250m_m1_064	250	572_1	No
+2614	K_DeepCast_250m_mx_154	250	571_1	No
+2615	K_DeepCast_250m_m2_103	250	570_1	No
+2616	K_DeepCast_250m_m1_028	250	569_1	No
+2617	K_DeepCast_250m_m2_094	250	566_1	No
+2618	K_DeepCast_250m_m1_372	250	565_1	No
+2619	K_DeepCast_250m_m1_375	250	559_1	No
+2620	K_DeepCast_250m_m2_120	250	557_2	No
+2621	K_DeepCast_250m_m2_042	250	556_9	No
+2622	K_DeepCast_250m_mx_343	250	556_1	No
+2623	K_DeepCast_250m_m2_151	250	555_1	No
+2624	K_DeepCast_250m_m1_005	250	551_1	No
+2625	K_DeepCast_250m_mx_109	250	549_1	No
+2626	K_DeepCast_250m_m1_009	250	548_1	No
+2627	K_DeepCast_250m_m1_159	250	542_1	No
+2628	K_DeepCast_250m_m1_109	250	541_1	No
+2629	K_DeepCast_250m_m1_092	250	540_1	No
+2630	K_DeepCast_250m_m1_113	250	518_1	No
+2631	K_DeepCast_250m_m2_150	250	517_1	No
+2632	K_DeepCast_250m_m1_095	250	513_1	No
+2633	K_DeepCast_250m_m1_124	250	500_1	No
+2634	K_DeepCast_250m_m1_120	250	499_1	No
+2635	K_DeepCast_250m_m2_043	250	497_1	No
+2636	K_DeepCast_250m_m2_215	250	496_1	No
+2637	K_DeepCast_250m_m1_125	250	495_1	No
+2638	K_DeepCast_250m_m1_098	250	494_1	No
+2639	K_DeepCast_250m_m2_335	250	493_1	No
+2640	K_DeepCast_250m_m1_151	250	492_1	No
+2641	K_DeepCast_250m_m1_364	250	489_1	Representative sequence
+2642	K_DeepCast_250m_m2_026	250	488_1	No
+2643	K_DeepCast_250m_mx_332	250	487_1	No
+2644	K_DeepCast_250m_m2_212	250	486_1	No
+2645	K_DeepCast_250m_m2_060	250	485_1	No
+2646	K_DeepCast_250m_m2_227	250	482_1	Representative sequence
+2647	K_DeepCast_250m_m2_167	250	481_1	No
+2648	K_DeepCast_250m_m1_046	250	478_1	No
+2649	K_DeepCast_250m_m2_294	250	473_1	No
+2650	K_DeepCast_250m_m2_070	250	471_1	No
+2651	K_DeepCast_250m_m1_082	250	470_1	No
+2652	K_DeepCast_250m_m2_192	250	467_1	No
+2653	K_DeepCast_250m_m1_044	250	464_1	Representative sequence
+2654	K_DeepCast_250m_m2_245	250	463_1	No
+2655	K_DeepCast_250m_m2_288	250	462_1	No
+2656	K_DeepCast_250m_m1_035	250	458_1	No
+2657	K_DeepCast_250m_m1_068	250	457_1	No
+2658	K_DeepCast_250m_m2_240	250	456_1	No
+2659	K_DeepCast_250m_mx_325	250	453_1	No
+2660	K_DeepCast_250m_m1_101	250	451_1	No
+2661	K_DeepCast_250m_m2_313	250	450_1	No
+2662	K_DeepCast_250m_mx_207	250	445_1	No
+2663	K_DeepCast_250m_m1_012	250	443_1	No
+2664	K_DeepCast_250m_m2_176	250	440_1	No
+2665	K_DeepCast_250m_m2_029	250	439_1	No
+2666	K_DeepCast_250m_mx_018	250	435_1	No
+2667	K_DeepCast_250m_m1_105	250	433_1	Representative sequence
+2668	K_DeepCast_250m_m2_010	250	432_1	No
+2669	K_DeepCast_250m_mx_179	250	431_1	No
+2670	K_DeepCast_250m_m1_288	250	426_1	No
+2671	K_DeepCast_250m_mx_051	250	425_1	No
+2672	K_DeepCast_250m_m2_007	250	424_1	No
+2673	K_DeepCast_250m_m2_231	250	421_1	Representative sequence
+2674	K_DeepCast_250m_m1_352	250	418_1	Representative sequence
+2675	K_DeepCast_250m_m2_056	250	417_1	Representative sequence
+2676	K_DeepCast_250m_mx_210	250	411_1	No
+2677	K_DeepCast_250m_m1_333	250	410_1	Representative sequence
+2678	K_DeepCast_250m_m1_328	250	406_1	No
+2679	K_DeepCast_250m_m2_251	250	400_1	No
+2680	K_DeepCast_250m_mx_009	250	394_1	No
+2681	K_DeepCast_250m_m1_077	250	393_1	Representative sequence
+2682	K_DeepCast_250m_m2_102	250	392_1	Representative sequence
+2683	K_DeepCast_250m_mx_161	250	391_1	No
+2684	K_DeepCast_250m_m2_326	250	390_1	No
+2685	K_DeepCast_250m_m1_354	250	385_1	No
+2686	K_DeepCast_250m_mx_024	250	376_1	No
+2687	K_DeepCast_250m_m1_050	250	370_1	No
+2688	K_DeepCast_250m_mx_006	250	364_1	No
+2689	K_DeepCast_250m_m2_141	250	356_1	No
+2690	K_DeepCast_250m_m2_068	250	355_1	No
+2691	K_DeepCast_250m_m1_021	250	352_2	No
+2692	K_DeepCast_250m_m2_296	250	330_1	No
+2693	K_DeepCast_250m_m2_287	250	329_1	No
+2694	K_DeepCast_250m_m1_346	250	327_1	No
+2695	K_DeepCast_250m_m2_221	250	326_1	No
+2696	K_DeepCast_250m_m1_325	250	325_2	No
+2697	K_DeepCast_250m_m1_083	250	322_1	No
+2698	K_DeepCast_250m_mx_269	250	321_1	No
+2699	K_DeepCast_250m_m2_027	250	320_1	Representative sequence
+2700	K_DeepCast_250m_m2_062	250	319_1	Representative sequence
+2701	K_DeepCast_250m_mx_220	250	318_1	No
+2702	K_DeepCast_250m_m2_098	250	312_1	No
+2703	K_DeepCast_250m_m2_065	250	309_1	No
+2704	K_DeepCast_250m_m2_200	250	308_1	No
+2705	K_DeepCast_250m_mx_113	250	307_1	No
+2706	K_DeepCast_250m_m2_314	250	305_2	No
+2707	K_DeepCast_250m_m2_224	250	304_1	No
+2708	K_DeepCast_250m_m2_132	250	303_1	No
+2709	K_DeepCast_250m_m1_320	250	302_1	No
+2710	K_DeepCast_250m_m2_178	250	301_1	No
+2711	K_DeepCast_250m_m2_257	250	300_1	No
+2712	K_DeepCast_250m_m2_022	250	297_1	No
+2713	K_DeepCast_250m_m1_330	250	296_2	Representative sequence
+2714	K_DeepCast_250m_mx_362	250	294_1	No
+2715	K_DeepCast_250m_mx_353	250	293_1	No
+2716	K_DeepCast_250m_m1_097	250	292_1	No
+2717	K_DeepCast_250m_m1_006	250	290_1	No
+2718	K_DeepCast_250m_m2_340	250	286_1	No
+2719	K_DeepCast_250m_m1_132	250	285_1	No
+2720	K_DeepCast_250m_m1_127	250	280_1	No
+2721	K_DeepCast_250m_m1_052	250	276_1	No
+2722	K_DeepCast_250m_m2_148	250	269_2	No
+2723	K_DeepCast_250m_m1_023	250	267_1	No
+2724	K_DeepCast_250m_m2_119	250	260_1	Representative sequence
+2725	K_DeepCast_250m_m1_199	250	243_1	Representative sequence
+2726	K_DeepCast_250m_mx_046	250	240_1	No
+2727	K_DeepCast_250m_m2_053	250	239_1	No
+2728	K_DeepCast_250m_mx_197	250	238_1	No
+2729	K_DeepCast_250m_m2_303	250	237_1	No
+2730	K_DeepCast_250m_m2_260	250	234_1	No
+2731	K_DeepCast_250m_m1_366	250	233_1	No
+2732	K_DeepCast_250m_m2_135	250	231_1	No
+2733	K_DeepCast_250m_mx_003	250	228_1	No
+2734	K_DeepCast_250m_mx_356	250	227_1	No
+2735	K_DeepCast_250m_m2_063	250	219_1	No
+2736	K_DeepCast_250m_m2_211	250	208_1	No
+2737	K_DeepCast_250m_m2_261	250	205_1	No
+2738	K_DeepCast_250m_mx_174	250	203_1	No
+2739	K_DeepCast_250m_m2_264	250	201_1	No
+2740	K_DeepCast_250m_m2_256	250	199_1	No
+2741	K_DeepCast_250m_m2_216	250	198_1	No
+2742	K_DeepCast_250m_mx_235	250	197_1	No
+2743	K_DeepCast_250m_m2_217	250	196_1	No
+2744	K_DeepCast_250m_m2_073	250	195_1	No
+2745	K_DeepCast_250m_m2_332	250	194_1	No
+2746	K_DeepCast_250m_m2_219	250	193_1	No
+2747	K_DeepCast_250m_m2_139	250	190_1	No
+2748	K_DeepCast_250m_m1_014	250	187_1	No
+2749	K_DeepCast_250m_m2_301	250	184_1	No
+2750	K_DeepCast_250m_m1_165	250	183_1	No
+2751	K_DeepCast_250m_m2_137	250	182_1	No
+2752	K_DeepCast_250m_m2_083	250	181_1	No
+2753	K_DeepCast_250m_m1_172	250	180_1	Representative sequence
+2754	K_DeepCast_250m_m1_138	250	177_1	No
+2755	K_DeepCast_250m_m2_198	250	176_1	No
+2756	K_DeepCast_250m_m1_367	250	175_1	No
+2757	K_DeepCast_250m_m2_149	250	174_1	No
+2758	K_DeepCast_250m_m1_081	250	173_1	No
+2759	K_DeepCast_250m_m1_043	250	172_1	Representative sequence
+2760	K_DeepCast_250m_m2_316	250	170_1	No
+2761	K_DeepCast_250m_m1_013	250	169_1	No
+2762	K_DeepCast_250m_m2_116	250	168_1	No
+2763	K_DeepCast_250m_m2_005	250	166_1	No
+2764	K_DeepCast_250m_mx_080	250	164_1	No
+2765	K_DeepCast_250m_mx_039	250	163_1	No
+2766	K_DeepCast_250m_m2_013	250	161_1	No
+2767	K_DeepCast_250m_mx_042	250	155_1	No
+2768	M_surface_7_m2_250	7	130_3	No
+2769	K_DeepCast_250m_m2_101	250	128_8	Representative sequence
+2770	K_DeepCast_250m_m1_080	250	126_1	No
+2771	K_DeepCast_250m_m2_095	250	124_1	No
+2772	K_DeepCast_250m_mx_116	250	113_1	Representative sequence
+2773	K_DeepCast_250m_m2_061	250	112_1	Representative sequence
+2774	K_DeepCast_250m_m1_110	250	111_1	Representative sequence
+2775	K_DeepCast_250m_m1_030	250	107_1	No
+2776	K_DeepCast_250m_m2_344	250	105_1	No
+2777	K_DeepCast_250m_m2_317	250	104_1	Representative sequence
+2778	K_DeepCast_250m_m1_381	250	103_1	No
+2779	K_DeepCast_250m_m2_143	250	102_1	Representative sequence
+2780	K_DeepCast_250m_mx_254	250	101_1	No
+2781	K_DeepCast_250m_m1_073	250	92_1	No
+2782	K_DeepCast_250m_m2_263	250	89_1	No
+2783	K_DeepCast_250m_m2_275	250	82_1	No
+2784	K_DeepCast_250m_mx_177	250	81_1	No
+2785	K_DeepCast_250m_m2_087	250	79_1	No
+2786	K_DeepCast_250m_mx_219	250	75_1	Representative sequence
+2787	K_DeepCast_250m_m2_233	250	73_1	No
+2788	K_DeepCast_250m_m1_236	250	72_1	Representative sequence
+2789	K_DeepCast_250m_m1_139	250	55_1	No
+2790	K_DeepCast_250m_mx_068	250	46_1	No
+2791	K_DeepCast_250m_m1_078	250	43_1	Representative sequence
+2792	K_DeepCast_250m_m2_015	250	42_1	Representative sequence
+2793	K_DeepCast_250m_m2_191	250	40_1	No
+2794	K_DeepCast_250m_m1_342	250	39_1	Representative sequence
+2795	K_DeepCast_250m_m2_218	250	37_1	No
+2796	K_DeepCast_250m_m1_351	250	36_1	No
+2797	K_DeepCast_250m_m2_302	250	35_1	Representative sequence
+2798	K_DeepCast_250m_mx_298	250	32_1	Representative sequence
+2799	K_DeepCast_250m_mx_283	250	31_1	No
+2800	K_DeepCast_250m_m2_299	250	28_1	No
+2801	K_DeepCast_250m_mx_377	250	27_1	No
+2802	K_DeepCast_250m_m1_373	250	26_1	No
+2803	K_DeepCast_250m_m2_019	250	25_1	No
+2804	K_DeepCast_250m_m2_195	250	24_2	Representative sequence
+2805	K_DeepCast_250m_m1_047	250	24_5	Representative sequence
+2806	K_DeepCast_250m_m1_045	250	21_1	Representative sequence
+2807	K_DeepCast_250m_m2_075	250	20_1	No
+2808	K_DeepCast_250m_m2_166	250	19_1	No
+2809	K_DeepCast_250m_m1_007	250	17_1	No
+2810	K_DeepCast_250m_m2_084	250	15_1	No
+2811	K_DeepCast_250m_m2_273	250	14_1	No
+2812	K_DeepCast_250m_m2_079	250	11_1	No
+2813	K_DeepCast_250m_m2_214	250	10_1	No
+2814	M_surface_8_m1_251	8	578_1	No
+2815	M_surface_10_m1_251	10	308_1	Representative sequence
+2816	K_Offshore_surface_mx_251	0	292_1	No
+2817	K_Offshore_surface_m1_251	0	134_1	No
+2818	M_surface_7_m1_252	7	559_1	No
+2819	M_surface_10_m2_252	10	559_1	No
+2820	M_surface_7_m2_252	7	356_1	No
+2821	M_surface_7_m1_253	7	574_1	No
+2822	M_surface_6_m1_253	6	203_1	No
+2823	M_surface_6_m1_254	6	457_1	No
+2824	K_Offshore_surface_m1_254	0	335_1	No
+2825	M_surface_8_m1_254	8	322_1	No
+2826	M_surface_9_m1_254	9	308_1	No
+2827	M_surface_10_m1_255	10	170_1	No
+2828	M_surface_9_m1_256	9	574_1	No
+2829	K_Offshore_surface_m1_256	0	571_1	No
+2830	M_surface_6_m1_256	6	541_1	No
+2831	K_Offshore_surface_mx_256	0	301_1	Representative sequence
+2832	M_surface_6_m1_257	6	497_1	No
+2833	M_surface_7_m1_258	7	447_1	No
+2834	M_surface_8_m1_260	8	572_1	No
+2835	K_Offshore_surface_m1_260	0	569_1	No
+2836	M_surface_9_m1_260	9	242_1	No
+2837	K_Offshore_surface_mx_261	0	556_14	Representative sequence
+2838	M_surface_9_m1_261	9	456_1	No
+2839	M_surface_10_m1_261	10	161_1	No
+2840	M_surface_10_m1_262	10	456_1	No
+2841	K_Offshore_surface_m1_262	0	439_1	No
+2842	M_surface_8_m1_263	8	500_1	No
+2843	M_surface_7_m1_264	7	308_1	No
+2844	M_surface_8_m1_264	8	168_1	No
+2845	K_Offshore_surface_m1_266	0	557_2	No
+2846	M_surface_7_m1_266	7	205_1	No
+2847	K_Offshore_surface_m1_267	0	590_1	No
+2848	M_surface_10_m1_267	10	551_1	No
+2849	M_surface_6_m1_269	6	513_1	No
+2850	M_surface_6_m1_270	6	566_1	No
+2851	M_surface_9_m1_270	9	194_1	No
+2852	K_Offshore_surface_mx_270	0	190_1	No
+2853	M_surface_9_m1_271	9	571_1	Representative sequence
+2854	M_surface_10_m1_271	10	177_1	No
+2855	M_surface_6_m1_272	6	498_1	No
+2856	M_surface_9_m1_273	9	569_1	No
+2857	K_Offshore_surface_m1_273	0	158_1	Representative sequence
+2858	M_surface_9_m1_274	9	169_1	No
+2859	K_Offshore_surface_m1_274	0	168_1	No
+2860	M_surface_9_m1_275	9	445_1	No
+2861	M_surface_6_m1_276	6	500_1	No
+2862	M_surface_7_m1_276	7	451_1	No
+2863	M_surface_9_m1_277	9	591_1	Representative sequence
+2864	M_surface_6_m1_278	6	563_1	No
+2865	M_surface_10_m1_278	10	210_0	Representative sequence
+2866	M_surface_9_m1_279	9	553_1	Representative sequence
+2867	M_surface_9_m1_282	9	566_1	Representative sequence
+2868	M_surface_7_m1_283	7	571_1	No
+2869	M_surface_10_m1_284	10	208_1	No
+2870	M_surface_9_m1_285	9	270_1	No
+2871	M_surface_10_m1_287	10	569_1	No
+2872	M_surface_9_m1_287	9	548_1	No
+2873	M_surface_7_m1_288	7	485_1	No
+2874	M_surface_9_m1_291	9	468_9	Representative sequence
+2875	M_surface_10_m1_294	10	451_1	Representative sequence
+2876	M_surface_10_m1_295	10	473_1	No
+2877	M_surface_10_m1_296	10	566_1	No
+2878	M_surface_9_m1_296	9	564_1	Representative sequence
+2879	M_surface_10_m1_298	10	472_1	Representative sequence
+2880	M_surface_9_m1_298	9	401_1	No
+2881	K_DeepCast_300m_m1_072	300	598_1	No
+2882	K_DeepCast_300m_m2_268	300	597_1	No
+2883	K_DeepCast_300m_mx_056	300	594_1	No
+2884	K_DeepCast_300m_m1_005	300	590_1	No
+2885	K_DeepCast_300m_m2_073	300	580_1	No
+2886	K_DeepCast_300m_m2_264	300	579_1	No
+2887	K_DeepCast_300m_mx_287	300	578_1	No
+2888	K_DeepCast_300m_m1_240	300	577_2	No
+2889	K_DeepCast_300m_m1_109	300	576_1	No
+2890	K_DeepCast_300m_m1_043	300	569_1	No
+2891	K_DeepCast_300m_m2_127	300	566_1	No
+2892	K_DeepCast_300m_m1_226	300	565_1	No
+2893	K_DeepCast_300m_m1_242	300	557_2	No
+2894	K_DeepCast_300m_m1_047	300	556_1	No
+2895	K_DeepCast_300m_m1_259	300	551_1	No
+2896	K_DeepCast_300m_m2_257	300	542_1	No
+2897	K_DeepCast_300m_m2_008	300	540_1	No
+2898	K_DeepCast_300m_m2_258	300	518_1	No
+2899	K_DeepCast_300m_m1_106	300	517_1	No
+2900	K_DeepCast_300m_m1_050	300	513_1	No
+2901	K_DeepCast_300m_m1_016	300	502_2	No
+2902	K_DeepCast_300m_m2_121	300	501_3	No
+2903	K_DeepCast_300m_m1_064	300	499_1	No
+2904	K_DeepCast_300m_m1_036	300	496_1	No
+2905	K_DeepCast_300m_m1_074	300	495_1	No
+2906	K_DeepCast_300m_m2_081	300	494_1	No
+2907	K_DeepCast_300m_m1_070	300	493_1	No
+2908	K_DeepCast_300m_mx_096	300	492_1	No
+2909	K_DeepCast_300m_m1_001	300	489_1	No
+2910	K_DeepCast_300m_m2_197	300	488_1	No
+2911	K_DeepCast_300m_mx_277	300	487_1	No
+2912	K_DeepCast_300m_m2_272	300	486_1	No
+2913	K_DeepCast_300m_m1_008	300	485_1	No
+2914	K_DeepCast_300m_mx_037	300	482_1	No
+2915	K_DeepCast_300m_m2_111	300	481_1	No
+2916	K_DeepCast_300m_mx_023	300	471_1	No
+2917	K_DeepCast_300m_mx_001	300	470_1	No
+2918	K_DeepCast_300m_m2_133	300	467_1	No
+2919	K_DeepCast_300m_m2_054	300	462_1	No
+2920	K_DeepCast_300m_m1_061	300	460_1	No
+2921	K_DeepCast_300m_m2_147	300	458_1	No
+2922	K_DeepCast_300m_m2_202	300	453_1	No
+2923	K_DeepCast_300m_m2_265	300	451_1	No
+2924	K_DeepCast_300m_m1_003	300	450_1	No
+2925	K_DeepCast_300m_m1_034	300	443_1	No
+2926	K_DeepCast_300m_mx_282	300	440_1	No
+2927	K_DeepCast_300m_mx_089	300	439_1	No
+2928	K_DeepCast_300m_m2_200	300	435_1	No
+2929	K_DeepCast_300m_m1_122	300	432_1	No
+2930	K_DeepCast_300m_m2_203	300	426_1	No
+2931	K_DeepCast_300m_mx_319	300	421_1	No
+2932	K_DeepCast_300m_m2_036	300	418_1	No
+2933	K_DeepCast_300m_m2_059	300	417_1	No
+2934	K_DeepCast_300m_m2_110	300	411_1	No
+2935	K_DeepCast_300m_mx_016	300	410_1	No
+2936	K_DeepCast_300m_m2_270	300	406_1	No
+2937	K_DeepCast_300m_m2_030	300	400_1	No
+2938	K_DeepCast_300m_m1_052	300	397_1	No
+2939	K_DeepCast_300m_m2_211	300	394_1	Representative sequence
+2940	K_DeepCast_300m_mx_297	300	393_1	No
+2941	K_DeepCast_300m_m2_003	300	392_1	No
+2942	K_DeepCast_300m_m2_156	300	391_1	No
+2943	K_DeepCast_300m_m2_247	300	390_1	Representative sequence
+2944	K_DeepCast_300m_m2_060	300	378_1	No
+2945	K_DeepCast_300m_m2_214	300	376_1	No
+2946	K_DeepCast_300m_m1_224	300	370_1	No
+2947	K_DeepCast_300m_m2_161	300	364_1	No
+2948	K_DeepCast_300m_m2_153	300	355_1	No
+2949	K_DeepCast_300m_mx_320	300	330_1	No
+2950	K_DeepCast_300m_m2_210	300	329_1	No
+2951	K_DeepCast_300m_mx_343	300	327_1	No
+2952	K_DeepCast_300m_mx_309	300	325_2	No
+2953	K_DeepCast_300m_mx_283	300	322_1	No
+2954	K_DeepCast_300m_m1_108	300	321_1	No
+2955	K_DeepCast_300m_m2_172	300	320_1	No
+2956	K_DeepCast_300m_mx_206	300	319_1	No
+2957	K_DeepCast_300m_m2_222	300	318_1	No
+2958	K_DeepCast_300m_m2_047	300	312_1	No
+2959	K_DeepCast_300m_m1_039	300	311_1	No
+2960	K_DeepCast_300m_m2_242	300	309_1	No
+2961	K_DeepCast_300m_m2_075	300	308_1	No
+2962	K_DeepCast_300m_m2_231	300	305_2	No
+2963	K_DeepCast_300m_m2_101	300	303_1	No
+2964	K_DeepCast_300m_m2_271	300	302_1	No
+2965	K_DeepCast_300m_m2_158	300	297_1	No
+2966	K_DeepCast_300m_m2_091	300	294_1	No
+2967	K_DeepCast_300m_m1_032	300	293_1	No
+2968	K_DeepCast_300m_m2_167	300	292_1	No
+2969	K_DeepCast_300m_m2_196	300	290_1	No
+2970	K_DeepCast_300m_m1_025	300	286_1	No
+2971	K_DeepCast_300m_m2_115	300	285_1	No
+2972	K_DeepCast_300m_m2_020	300	276_1	No
+2973	K_DeepCast_300m_m2_227	300	269_1	No
+2974	K_DeepCast_300m_m2_132	300	267_1	No
+2975	K_DeepCast_300m_m1_235	300	260_1	No
+2976	K_DeepCast_300m_m2_154	300	243_1	No
+2977	K_DeepCast_300m_m2_235	300	240_1	No
+2978	K_DeepCast_300m_m2_241	300	239_1	No
+2979	K_DeepCast_300m_m2_082	300	238_1	No
+2980	K_DeepCast_300m_m2_135	300	237_1	No
+2981	K_DeepCast_300m_m2_108	300	231_1	No
+2982	K_DeepCast_300m_mx_326	300	228_1	No
+2983	K_DeepCast_300m_m1_190	300	227_1	No
+2984	K_DeepCast_300m_m1_217	300	219_1	No
+2985	K_DeepCast_300m_m2_150	300	208_1	No
+2986	K_DeepCast_300m_mx_259	300	206_1	No
+2987	K_DeepCast_300m_mx_279	300	201_1	No
+2988	K_DeepCast_300m_mx_100	300	198_1	No
+2989	K_DeepCast_300m_m2_152	300	196_1	No
+2990	K_DeepCast_300m_m2_212	300	195_1	No
+2991	K_DeepCast_300m_mx_253	300	194_1	No
+2992	K_DeepCast_300m_mx_256	300	193_1	No
+2993	K_DeepCast_300m_m1_041	300	187_1	No
+2994	K_DeepCast_300m_m1_057	300	183_1	No
+2995	K_DeepCast_300m_m2_151	300	182_1	No
+2996	K_DeepCast_300m_m2_031	300	180_1	No
+2997	K_DeepCast_300m_m2_218	300	176_1	No
+2998	K_DeepCast_300m_m1_237	300	175_1	No
+2999	K_DeepCast_300m_m2_245	300	174_1	No
+3000	K_DeepCast_300m_m2_145	300	173_1	No
+3001	K_DeepCast_300m_mx_137	300	172_1	No
+3002	K_DeepCast_300m_mx_014	300	170_1	No
+3003	K_DeepCast_300m_m1_004	300	169_1	No
+3004	K_DeepCast_300m_m1_260	300	166_1	No
+3005	K_DeepCast_300m_m2_224	300	164_1	No
+3006	K_DeepCast_300m_m2_012	300	163_1	No
+3007	K_DeepCast_300m_mx_157	300	161_1	No
+3008	K_DeepCast_300m_mx_102	300	155_1	No
+3009	K_DeepCast_300m_mx_217	300	124_1	No
+3010	K_DeepCast_300m_m2_010	300	113_1	No
+3011	K_DeepCast_300m_m2_051	300	112_1	No
+3012	K_DeepCast_300m_m1_044	300	111_1	No
+3013	K_DeepCast_300m_m2_255	300	107_1	No
+3014	K_DeepCast_300m_m2_014	300	104_1	No
+3015	K_DeepCast_300m_m2_194	300	103_1	No
+3016	K_DeepCast_300m_m2_017	300	102_1	No
+3017	K_DeepCast_300m_mx_209	300	92_1	No
+3018	K_DeepCast_300m_m1_071	300	89_1	No
+3019	K_DeepCast_300m_m1_078	300	85_1	No
+3020	K_DeepCast_300m_m2_033	300	84_1	No
+3021	K_DeepCast_300m_m2_256	300	82_1	Representative sequence
+3022	K_DeepCast_300m_m1_027	300	81_1	No
+3023	K_DeepCast_300m_mx_017	300	79_1	No
+3024	K_DeepCast_300m_m1_150	300	75_1	No
+3025	K_DeepCast_300m_m2_084	300	73_1	No
+3026	K_DeepCast_300m_m1_094	300	55_1	No
+3027	K_DeepCast_300m_mx_268	300	54_1	No
+3028	K_DeepCast_300m_mx_218	300	51_0	Representative sequence
+3029	K_DeepCast_300m_m2_057	300	46_1	No
+3030	K_DeepCast_300m_m1_220	300	44_1	Representative sequence
+3031	K_DeepCast_300m_m2_102	300	43_1	No
+3032	K_DeepCast_300m_m1_232	300	42_1	No
+3033	K_DeepCast_300m_m1_214	300	39_1	No
+3034	K_DeepCast_300m_m2_052	300	36_1	No
+3035	K_DeepCast_300m_mx_278	300	35_1	No
+3036	K_DeepCast_300m_mx_237	300	32_1	No
+3037	K_DeepCast_300m_mx_252	300	31_1	No
+3038	K_DeepCast_300m_mx_207	300	28_1	No
+3039	K_DeepCast_300m_m2_160	300	24_2	No
+3040	K_DeepCast_300m_m1_012	300	21_1	No
+3041	K_DeepCast_300m_m2_067	300	19_1	Representative sequence
+3042	K_DeepCast_300m_m2_038	300	15_1	No
+3043	K_DeepCast_300m_m2_103	300	11_1	No
+3044	K_DeepCast_300m_m2_251	300	10_1	No
+3045	M_surface_9_m1_301	9	563_1	No
+3046	M_surface_7_m1_303	7	577_1	No
+3047	M_surface_7_m1_304	7	168_1	Representative sequence
+3048	M_surface_10_m1_311	10	591_1	No
+3049	M_surface_7_m1_313	7	280_1	No
+3050	M_surface_10_m1_315	10	179_0	Representative sequence
+3051	M_surface_7_m1_321	7	457_1	No
+3052	M_surface_7_m1_322	7	493_1	No
+3053	M_surface_7_m1_323	7	497_1	No
+3054	M_DeepCast_400m_m2_282	400	605_1	No
+3055	M_DeepCast_400m_m2_127	400	598_1	No
+3056	M_DeepCast_400m_m1_150	400	597_1	No
+3057	M_DeepCast_400m_m1_167	400	594_1	No
+3058	M_DeepCast_400m_m2_134	400	590_1	No
+3059	M_DeepCast_400m_m2_010	400	587_1	No
+3060	M_DeepCast_400m_m2_310	400	585_1	No
+3061	M_DeepCast_400m_m2_291	400	580_1	No
+3062	M_DeepCast_400m_m1_058	400	579_1	No
+3063	M_DeepCast_400m_m1_095	400	578_1	No
+3064	M_DeepCast_400m_m2_175	400	577_2	No
+3065	M_DeepCast_400m_m1_196	400	576_1	No
+3066	M_DeepCast_400m_m2_121	400	572_1	No
+3067	M_DeepCast_400m_m1_045	400	566_1	No
+3068	M_DeepCast_400m_m1_013	400	565_1	No
+3069	M_DeepCast_400m_m1_373	400	559_1	No
+3070	M_DeepCast_400m_m1_112	400	557_2	No
+3071	M_DeepCast_400m_m1_046	400	551_1	No
+3072	M_DeepCast_400m_m2_345	400	549_1	No
+3073	M_DeepCast_400m_m1_164	400	542_1	No
+3074	M_DeepCast_400m_m2_071	400	540_1	No
+3075	M_DeepCast_400m_m1_128	400	518_1	No
+3076	M_DeepCast_400m_m2_266	400	517_1	Representative sequence
+3077	M_DeepCast_400m_m2_245	400	513_1	No
+3078	M_DeepCast_400m_m2_343	400	499_1	No
+3079	M_DeepCast_400m_m2_030	400	497_1	No
+3080	M_DeepCast_400m_m2_214	400	496_1	No
+3081	M_DeepCast_400m_m2_066	400	495_1	No
+3082	M_DeepCast_400m_m1_097	400	494_1	No
+3083	M_DeepCast_400m_m2_179	400	493_1	No
+3084	M_DeepCast_400m_m1_183	400	492_1	No
+3085	M_DeepCast_400m_m1_008	400	489_1	No
+3086	M_DeepCast_400m_m2_128	400	488_1	Representative sequence
+3087	M_DeepCast_400m_m2_191	400	487_1	No
+3088	M_DeepCast_400m_m2_077	400	486_1	No
+3089	M_DeepCast_400m_m2_154	400	485_1	No
+3090	M_DeepCast_400m_m1_362	400	482_1	No
+3091	M_DeepCast_400m_m2_303	400	481_1	Representative sequence
+3092	M_DeepCast_400m_m1_105	400	478_1	No
+3093	M_DeepCast_400m_m2_307	400	471_1	No
+3094	M_DeepCast_400m_m1_071	400	470_1	No
+3095	M_DeepCast_400m_m2_047	400	467_1	No
+3096	M_DeepCast_400m_m1_110	400	464_1	No
+3097	M_DeepCast_400m_m2_244	400	463_1	Representative sequence
+3098	M_DeepCast_400m_m2_109	400	462_1	No
+3099	M_DeepCast_400m_m2_293	400	460_1	Representative sequence
+3100	M_DeepCast_400m_m2_133	400	461_0	Representative sequence
+3101	M_DeepCast_400m_m2_020	400	458_1	Representative sequence
+3102	M_DeepCast_400m_m1_072	400	457_1	No
+3103	M_DeepCast_400m_m1_006	400	453_1	No
+3104	M_DeepCast_400m_m1_043	400	451_1	No
+3105	M_DeepCast_400m_m1_052	400	450_1	No
+3106	M_DeepCast_400m_m2_107	400	447_1	No
+3107	M_DeepCast_400m_m1_366	400	445_1	No
+3108	M_DeepCast_400m_m1_040	400	444_0	Representative sequence
+3109	M_DeepCast_400m_m1_117	400	440_1	No
+3110	M_DeepCast_400m_m2_353	400	439_1	No
+3111	M_DeepCast_400m_m2_225	400	437_0	Representative sequence
+3112	M_DeepCast_400m_m2_130	400	435_1	Representative sequence
+3113	M_DeepCast_400m_m2_151	400	433_1	No
+3114	M_DeepCast_400m_m2_238	400	432_1	No
+3115	M_DeepCast_400m_m2_029	400	431_1	No
+3116	M_DeepCast_400m_m1_356	400	430_0	Representative sequence
+3117	M_DeepCast_400m_m2_048	400	426_1	Representative sequence
+3118	M_DeepCast_400m_m2_341	400	425_1	Representative sequence
+3119	M_DeepCast_400m_m2_195	400	424_1	Representative sequence
+3120	M_DeepCast_400m_m2_034	400	421_1	No
+3121	M_DeepCast_400m_m2_334	400	418_1	No
+3122	M_DeepCast_400m_m2_112	400	417_1	No
+3123	M_DeepCast_400m_m2_100	400	411_1	Representative sequence
+3124	M_DeepCast_400m_m2_052	400	410_1	No
+3125	M_DeepCast_400m_m1_331	400	409_0	Representative sequence
+3126	M_DeepCast_400m_m2_104	400	406_1	No
+3127	M_DeepCast_400m_m1_378	400	400_1	No
+3128	M_DeepCast_400m_m2_068	400	392_1	No
+3129	M_DeepCast_400m_m1_359	400	390_1	No
+3130	M_DeepCast_400m_m1_337	400	385_1	No
+3131	M_DeepCast_400m_m2_258	400	378_1	No
+3132	M_DeepCast_400m_m2_023	400	376_1	No
+3133	M_DeepCast_400m_m2_288	400	364_1	No
+3134	M_DeepCast_400m_m2_092	400	356_1	No
+3135	M_DeepCast_400m_m1_266	400	355_1	No
+3136	M_DeepCast_400m_m2_338	400	352_2	No
+3137	M_DeepCast_400m_m1_365	400	349_1	No
+3138	M_DeepCast_400m_m2_065	400	330_1	No
+3139	M_DeepCast_400m_m2_069	400	329_1	No
+3140	M_DeepCast_400m_m2_230	400	327_1	Representative sequence
+3141	M_DeepCast_400m_m1_010	400	326_1	No
+3142	M_DeepCast_400m_m2_097	400	325_2	No
+3143	M_DeepCast_400m_m1_114	400	322_1	No
+3144	M_DeepCast_400m_m1_102	400	321_1	Representative sequence
+3145	M_DeepCast_400m_m1_075	400	320_1	No
+3146	M_DeepCast_400m_m1_059	400	319_1	No
+3147	M_DeepCast_400m_m2_096	400	318_1	Representative sequence
+3148	M_DeepCast_400m_m2_169	400	312_1	No
+3149	M_DeepCast_400m_m1_370	400	311_1	No
+3150	M_DeepCast_400m_m2_072	400	309_1	No
+3151	M_DeepCast_400m_m2_090	400	308_1	No
+3152	M_DeepCast_400m_m2_019	400	307_1	No
+3153	M_DeepCast_400m_m2_270	400	305_2	No
+3154	M_DeepCast_400m_m2_055	400	304_1	No
+3155	M_DeepCast_400m_m1_333	400	303_1	No
+3156	M_DeepCast_400m_m1_320	400	302_1	No
+3157	M_DeepCast_400m_m2_221	400	297_1	No
+3158	M_DeepCast_400m_m1_062	400	295_1	No
+3159	M_DeepCast_400m_m2_049	400	294_1	No
+3160	M_DeepCast_400m_m1_067	400	293_1	No
+3161	M_DeepCast_400m_m1_073	400	292_1	No
+3162	M_DeepCast_400m_m2_312	400	290_1	No
+3163	M_DeepCast_400m_m2_296	400	286_1	No
+3164	M_DeepCast_400m_m2_259	400	285_1	No
+3165	M_DeepCast_400m_m1_127	400	280_2	Representative sequence
+3166	M_DeepCast_400m_m1_368	400	280_1	No
+3167	M_DeepCast_400m_m2_166	400	276_1	No
+3168	M_DeepCast_400m_m2_080	400	269_2	No
+3169	M_DeepCast_400m_m1_028	400	267_1	Representative sequence
+3170	M_DeepCast_400m_m2_241	400	243_1	No
+3171	M_DeepCast_400m_m1_081	400	242_1	No
+3172	M_DeepCast_400m_m2_309	400	240_1	No
+3173	M_DeepCast_400m_m2_235	400	239_1	Representative sequence
+3174	M_DeepCast_400m_m2_342	400	237_1	No
+3175	M_DeepCast_400m_m2_329	400	231_1	No
+3176	M_DeepCast_400m_m1_166	400	229_1	No
+3177	M_DeepCast_400m_m2_062	400	228_1	Representative sequence
+3178	M_DeepCast_400m_m2_229	400	227_1	No
+3179	M_DeepCast_400m_m1_327	400	219_1	No
+3180	M_DeepCast_400m_m2_325	400	218_1	Representative sequence
+3181	M_DeepCast_400m_m2_050	400	208_1	No
+3182	M_DeepCast_400m_m1_020	400	205_1	No
+3183	M_DeepCast_400m_m2_003	400	203_1	No
+3184	M_DeepCast_400m_m1_171	400	201_1	No
+3185	M_DeepCast_400m_m2_035	400	199_1	No
+3186	M_DeepCast_400m_m2_031	400	198_1	No
+3187	M_DeepCast_400m_m2_301	400	196_1	No
+3188	M_DeepCast_400m_m1_051	400	195_1	No
+3189	M_DeepCast_400m_m2_247	400	194_1	No
+3190	M_DeepCast_400m_m2_237	400	193_1	No
+3191	M_DeepCast_400m_m1_372	400	187_1	No
+3192	M_DeepCast_400m_m1_116	400	183_1	No
+3193	M_DeepCast_400m_m1_351	400	182_1	No
+3194	M_DeepCast_400m_m2_016	400	181_1	No
+3195	M_DeepCast_400m_m1_186	400	180_1	No
+3196	M_DeepCast_400m_m1_021	400	176_1	No
+3197	M_DeepCast_400m_m2_261	400	175_1	No
+3198	M_DeepCast_400m_m2_138	400	174_1	No
+3199	M_DeepCast_400m_m1_082	400	173_1	No
+3200	M_DeepCast_400m_m2_186	400	172_1	No
+3201	M_DeepCast_400m_m2_099	400	170_1	No
+3202	M_DeepCast_400m_m1_026	400	169_1	No
+3203	M_DeepCast_400m_m1_321	400	168_1	No
+3204	M_DeepCast_400m_m2_255	400	166_1	No
+3205	M_DeepCast_400m_m2_171	400	164_1	No
+3206	M_DeepCast_400m_m2_213	400	163_1	No
+3207	M_DeepCast_400m_m1_056	400	161_1	No
+3208	M_DeepCast_400m_m1_367	400	154_1	No
+3209	M_DeepCast_400m_m2_045	400	147_1	No
+3210	M_DeepCast_400m_m1_326	400	146_2	No
+3211	M_DeepCast_400m_m2_058	400	144_1	No
+3212	M_DeepCast_400m_m1_328	400	135_1	Representative sequence
+3213	M_DeepCast_400m_m2_344	400	125_1	No
+3214	M_DeepCast_400m_m1_076	400	113_1	No
+3215	M_DeepCast_400m_m1_066	400	112_1	No
+3216	M_DeepCast_400m_m1_077	400	111_1	No
+3217	M_DeepCast_400m_m2_025	400	107_1	No
+3218	M_DeepCast_400m_m2_351	400	105_1	Representative sequence
+3219	M_DeepCast_400m_m2_084	400	104_1	No
+3220	M_DeepCast_400m_m2_240	400	103_1	No
+3221	M_DeepCast_400m_m2_002	400	102_1	No
+3222	M_DeepCast_400m_m2_205	400	92_1	No
+3223	M_DeepCast_400m_m2_183	400	89_1	Representative sequence
+3224	M_DeepCast_400m_m1_009	400	84_1	Representative sequence
+3225	M_DeepCast_400m_m1_377	400	83_1	No
+3226	M_DeepCast_400m_m2_073	400	82_1	No
+3227	M_DeepCast_400m_m2_277	400	81_1	Representative sequence
+3228	M_DeepCast_400m_m2_082	400	79_1	Representative sequence
+3229	M_DeepCast_400m_m2_153	400	77_0	Representative sequence
+3230	M_DeepCast_400m_m2_187	400	75_1	No
+3231	M_DeepCast_400m_m2_122	400	73_1	Representative sequence
+3232	M_DeepCast_400m_m2_227	400	72_1	No
+3233	M_DeepCast_400m_m1_160	400	55_1	No
+3234	M_DeepCast_400m_m2_340	400	54_1	Representative sequence
+3235	M_DeepCast_400m_m2_264	400	46_1	No
+3236	M_DeepCast_400m_m2_108	400	43_1	No
+3237	M_DeepCast_400m_m1_065	400	42_1	No
+3238	M_DeepCast_400m_m2_022	400	40_1	No
+3239	M_DeepCast_400m_m1_363	400	39_1	No
+3240	M_DeepCast_400m_m1_316	400	37_1	No
+3241	M_DeepCast_400m_m1_342	400	36_1	No
+3242	M_DeepCast_400m_m2_043	400	35_1	No
+3243	M_DeepCast_400m_m2_269	400	28_1	Representative sequence
+3244	M_DeepCast_400m_m2_033	400	27_1	No
+3245	M_DeepCast_400m_m2_207	400	25_1	Representative sequence
+3246	M_DeepCast_400m_m2_252	400	24_4	Representative sequence
+3247	M_DeepCast_400m_m2_044	400	24_6	Representative sequence
+3248	M_DeepCast_400m_m2_105	400	21_1	No
+3249	M_DeepCast_400m_m1_149	400	19_1	No
+3250	M_DeepCast_400m_m2_142	400	15_1	No
+3251	M_DeepCast_400m_m2_256	400	11_1	No
+3252	M_DeepCast_400m_m2_232	400	10_1	No
+3253	K_DeepCast_1200m_m2_226	1200	605_1	No
+3254	K_DeepCast_1200m_m1_121	1200	599_1	No
+3255	K_DeepCast_1200m_m2_016	1200	597_1	No
+3256	K_DeepCast_1200m_m2_305	1200	594_1	No
+3257	K_DeepCast_1200m_m2_085	1200	590_1	No
+3258	K_DeepCast_1200m_m2_021	1200	585_1	No
+3259	K_DeepCast_1200m_m2_162	1200	580_1	No
+3260	K_DeepCast_1200m_m2_035	1200	579_1	No
+3261	K_DeepCast_1200m_m1_136	1200	578_1	No
+3262	K_DeepCast_1200m_m2_046	1200	577_2	No
+3263	K_DeepCast_1200m_m2_081	1200	576_1	Representative sequence
+3264	K_DeepCast_1200m_m2_112	1200	571_1	No
+3265	K_DeepCast_1200m_m2_182	1200	570_1	No
+3266	K_DeepCast_1200m_m1_024	1200	569_1	No
+3267	K_DeepCast_1200m_m2_282	1200	566_1	No
+3268	K_DeepCast_1200m_m2_113	1200	565_1	No
+3269	K_DeepCast_1200m_m2_176	1200	559_1	No
+3270	K_DeepCast_1200m_m2_221	1200	557_2	No
+3271	K_DeepCast_1200m_m2_001	1200	556_9	No
+3272	K_DeepCast_1200m_m2_291	1200	556_1	No
+3273	K_DeepCast_1200m_m1_354	1200	551_1	No
+3274	K_DeepCast_1200m_m2_161	1200	549_1	No
+3275	K_DeepCast_1200m_m2_313	1200	542_1	No
+3276	K_DeepCast_1200m_m1_096	1200	540_1	No
+3277	K_DeepCast_1200m_m1_104	1200	518_1	No
+3278	K_DeepCast_1200m_m1_158	1200	517_1	No
+3279	K_DeepCast_1200m_m1_080	1200	513_1	No
+3280	K_DeepCast_1200m_m2_280	1200	499_1	No
+3281	K_DeepCast_1200m_m1_130	1200	497_1	No
+3282	K_DeepCast_1200m_m2_189	1200	496_1	No
+3283	K_DeepCast_1200m_m2_089	1200	495_1	No
+3284	K_DeepCast_1200m_m2_195	1200	494_1	No
+3285	K_DeepCast_1200m_m1_095	1200	493_1	No
+3286	K_DeepCast_1200m_m2_127	1200	492_1	No
+3287	K_DeepCast_1200m_m1_056	1200	489_1	No
+3288	K_DeepCast_1200m_m2_047	1200	488_1	No
+3289	K_DeepCast_1200m_m2_283	1200	487_1	Representative sequence
+3290	K_DeepCast_1200m_m2_073	1200	486_1	No
+3291	K_DeepCast_1200m_m1_008	1200	485_1	No
+3292	K_DeepCast_1200m_m2_213	1200	482_1	No
+3293	K_DeepCast_1200m_m2_246	1200	481_1	No
+3294	K_DeepCast_1200m_m2_108	1200	471_1	No
+3295	K_DeepCast_1200m_m2_139	1200	470_1	No
+3296	K_DeepCast_1200m_m1_081	1200	467_1	No
+3297	K_DeepCast_1200m_m1_028	1200	462_1	No
+3298	K_DeepCast_1200m_m2_079	1200	458_1	No
+3299	K_DeepCast_1200m_m1_075	1200	457_1	No
+3300	K_DeepCast_1200m_m2_095	1200	456_1	No
+3301	K_DeepCast_1200m_m2_118	1200	453_1	No
+3302	K_DeepCast_1200m_m1_053	1200	451_1	No
+3303	K_DeepCast_1200m_m1_020	1200	450_1	No
+3304	K_DeepCast_1200m_m1_103	1200	445_1	No
+3305	K_DeepCast_1200m_m1_031	1200	443_1	No
+3306	K_DeepCast_1200m_m1_061	1200	440_1	No
+3307	K_DeepCast_1200m_m2_211	1200	439_1	No
+3308	K_DeepCast_1200m_m1_355	1200	435_1	No
+3309	K_DeepCast_1200m_m2_106	1200	434_1	No
+3310	K_DeepCast_1200m_m1_349	1200	432_1	No
+3311	K_DeepCast_1200m_m2_136	1200	431_1	No
+3312	K_DeepCast_1200m_m2_143	1200	426_1	No
+3313	K_DeepCast_1200m_m2_149	1200	425_1	No
+3314	K_DeepCast_1200m_m2_010	1200	424_1	No
+3315	K_DeepCast_1200m_m2_266	1200	421_1	No
+3316	K_DeepCast_1200m_m1_305	1200	418_1	No
+3317	K_DeepCast_1200m_m1_114	1200	417_1	No
+3318	K_DeepCast_1200m_m1_032	1200	411_1	No
+3319	K_DeepCast_1200m_m2_320	1200	410_1	No
+3320	K_DeepCast_1200m_m1_316	1200	406_1	No
+3321	K_DeepCast_1200m_m1_025	1200	400_1	No
+3322	K_DeepCast_1200m_m2_123	1200	397_1	No
+3323	K_DeepCast_1200m_m1_022	1200	393_1	No
+3324	K_DeepCast_1200m_m1_306	1200	392_1	No
+3325	K_DeepCast_1200m_m2_215	1200	391_1	No
+3326	K_DeepCast_1200m_m2_171	1200	390_1	No
+3327	K_DeepCast_1200m_m1_301	1200	385_1	No
+3328	K_DeepCast_1200m_m1_266	1200	378_1	No
+3329	K_DeepCast_1200m_m2_052	1200	376_1	No
+3330	K_DeepCast_1200m_m1_334	1200	370_1	No
+3331	K_DeepCast_1200m_m2_004	1200	364_1	No
+3332	K_DeepCast_1200m_m2_278	1200	360_1	No
+3333	K_DeepCast_1200m_m2_197	1200	356_1	No
+3334	K_DeepCast_1200m_m2_030	1200	355_1	No
+3335	K_DeepCast_1200m_m2_327	1200	352_2	No
+3336	K_DeepCast_1200m_m2_130	1200	351_1	No
+3337	K_DeepCast_1200m_m1_295	1200	349_1	No
+3338	K_DeepCast_1200m_m1_347	1200	345_1	No
+3339	K_DeepCast_1200m_m1_062	1200	344_1	No
+3340	K_DeepCast_1200m_m2_272	1200	342_0	Representative sequence
+3341	K_DeepCast_1200m_m2_124	1200	336_1	Representative sequence
+3342	K_DeepCast_1200m_m1_317	1200	338_0	Representative sequence
+3343	K_DeepCast_1200m_m2_303	1200	330_1	No
+3344	K_DeepCast_1200m_m1_329	1200	327_1	No
+3345	K_DeepCast_1200m_m1_338	1200	325_2	No
+3346	K_DeepCast_1200m_m2_020	1200	322_1	No
+3347	K_DeepCast_1200m_m2_192	1200	320_1	No
+3348	K_DeepCast_1200m_m1_319	1200	312_1	No
+3349	K_DeepCast_1200m_m2_163	1200	309_1	No
+3350	K_DeepCast_1200m_m2_218	1200	308_1	No
+3351	K_DeepCast_1200m_m2_203	1200	307_1	No
+3352	K_DeepCast_1200m_m2_232	1200	305_2	No
+3353	K_DeepCast_1200m_m2_126	1200	304_1	No
+3354	K_DeepCast_1200m_m2_092	1200	303_1	No
+3355	K_DeepCast_1200m_m1_290	1200	302_1	No
+3356	K_DeepCast_1200m_m2_168	1200	301_1	No
+3357	K_DeepCast_1200m_m2_295	1200	297_1	No
+3358	K_DeepCast_1200m_m2_178	1200	295_2	No
+3359	K_DeepCast_1200m_m2_048	1200	294_1	No
+3360	K_DeepCast_1200m_m1_042	1200	293_1	No
+3361	K_DeepCast_1200m_m2_268	1200	292_1	No
+3362	K_DeepCast_1200m_m2_158	1200	290_1	No
+3363	K_DeepCast_1200m_m2_057	1200	286_1	No
+3364	K_DeepCast_1200m_m2_273	1200	285_1	No
+3365	K_DeepCast_1200m_m2_150	1200	280_1	No
+3366	K_DeepCast_1200m_m1_023	1200	276_1	No
+3367	K_DeepCast_1200m_m2_222	1200	269_2	No
+3368	K_DeepCast_1200m_m2_153	1200	267_1	No
+3369	K_DeepCast_1200m_m2_220	1200	243_1	No
+3370	K_DeepCast_1200m_m2_076	1200	240_1	No
+3371	K_DeepCast_1200m_m1_310	1200	239_1	No
+3372	K_DeepCast_1200m_m2_314	1200	238_1	No
+3373	K_DeepCast_1200m_m1_088	1200	237_1	No
+3374	K_DeepCast_1200m_m1_303	1200	231_1	No
+3375	K_DeepCast_1200m_m1_293	1200	228_1	No
+3376	K_DeepCast_1200m_m2_190	1200	227_1	No
+3377	K_DeepCast_1200m_m1_255	1200	219_1	Representative sequence
+3378	K_DeepCast_1200m_m2_148	1200	208_1	No
+3379	K_DeepCast_1200m_m1_073	1200	205_1	No
+3380	K_DeepCast_1200m_m2_185	1200	203_1	No
+3381	K_DeepCast_1200m_m2_286	1200	201_1	No
+3382	K_DeepCast_1200m_m2_109	1200	199_1	No
+3383	K_DeepCast_1200m_m2_018	1200	198_1	No
+3384	K_DeepCast_1200m_m2_053	1200	196_1	No
+3385	K_DeepCast_1200m_m2_061	1200	195_1	No
+3386	K_DeepCast_1200m_m1_115	1200	194_1	No
+3387	K_DeepCast_1200m_m2_065	1200	193_1	No
+3388	K_DeepCast_1200m_m1_014	1200	191_1	No
+3389	K_DeepCast_1200m_m1_049	1200	187_1	No
+3390	K_DeepCast_1200m_m1_039	1200	184_1	No
+3391	K_DeepCast_1200m_m1_117	1200	183_1	No
+3392	K_DeepCast_1200m_m1_015	1200	182_1	No
+3393	K_DeepCast_1200m_m1_341	1200	181_1	No
+3394	K_DeepCast_1200m_m2_225	1200	176_1	No
+3395	K_DeepCast_1200m_m1_343	1200	175_1	No
+3396	K_DeepCast_1200m_m2_022	1200	174_1	No
+3397	K_DeepCast_1200m_m2_277	1200	173_1	No
+3398	K_DeepCast_1200m_m1_335	1200	170_1	No
+3399	K_DeepCast_1200m_m1_013	1200	169_1	No
+3400	K_DeepCast_1200m_m2_234	1200	168_1	No
+3401	K_DeepCast_1200m_m2_064	1200	166_1	No
+3402	K_DeepCast_1200m_m2_219	1200	164_1	No
+3403	K_DeepCast_1200m_m1_345	1200	163_1	No
+3404	K_DeepCast_1200m_m2_311	1200	161_1	No
+3405	K_DeepCast_1200m_m2_063	1200	155_1	No
+3406	K_DeepCast_1200m_m2_180	1200	135_1	No
+3407	K_DeepCast_1200m_m2_056	1200	124_1	No
+3408	K_DeepCast_1200m_m1_100	1200	113_1	No
+3409	K_DeepCast_1200m_m1_033	1200	112_1	No
+3410	K_DeepCast_1200m_m2_201	1200	111_1	No
+3411	K_DeepCast_1200m_m1_030	1200	107_1	No
+3412	K_DeepCast_1200m_m1_166	1200	104_1	No
+3413	K_DeepCast_1200m_m2_191	1200	103_1	Representative sequence
+3414	K_DeepCast_1200m_m2_034	1200	102_1	No
+3415	K_DeepCast_1200m_m1_068	1200	85_1	No
+3416	K_DeepCast_1200m_m1_004	1200	84_1	No
+3417	K_DeepCast_1200m_m2_204	1200	83_1	Representative sequence
+3418	K_DeepCast_1200m_m1_017	1200	82_1	No
+3419	K_DeepCast_1200m_m2_066	1200	79_1	No
+3420	K_DeepCast_1200m_m1_162	1200	75_1	No
+3421	K_DeepCast_1200m_m1_250	1200	73_1	No
+3422	K_DeepCast_1200m_m1_139	1200	55_1	No
+3423	K_DeepCast_1200m_m2_008	1200	50_1	No
+3424	K_DeepCast_1200m_m2_128	1200	46_1	No
+3425	K_DeepCast_1200m_m2_141	1200	43_1	No
+3426	K_DeepCast_1200m_m1_328	1200	39_1	No
+3427	K_DeepCast_1200m_m2_207	1200	38_3	Representative sequence
+3428	K_DeepCast_1200m_m2_217	1200	37_1	No
+3429	K_DeepCast_1200m_m1_309	1200	36_1	No
+3430	K_DeepCast_1200m_m1_296	1200	35_1	No
+3431	K_DeepCast_1200m_m2_025	1200	27_1	No
+3432	K_DeepCast_1200m_m1_344	1200	26_1	No
+3433	K_DeepCast_1200m_m2_255	1200	25_1	No
+3434	K_DeepCast_1200m_m2_102	1200	24_2	No
+3435	K_DeepCast_1200m_m1_027	1200	21_1	No
+3436	K_DeepCast_1200m_m2_239	1200	15_1	No
+3437	K_DeepCast_1200m_m2_005	1200	13_4	Representative sequence
+3438	K_DeepCast_1200m_m2_312	1200	11_1	No
+3439	K_DeepCast_1200m_m1_324	1200	10_1	No

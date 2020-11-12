@@ -1,0 +1,524 @@
+MAG_derep	Cluster Rep	Number of MAGs in that cluster	Taxonomy	Completeness	Contamination
+K_Offshore_120m_m2_006	254_1	2	Acidobacteria	90.51	3.85
+K_DeepCast_65m_m1_022	434_1	7	Acidobacteria	99.12	3.51
+K_DeepCast_65m_m1_223	307_1	13	Acidobacteria	97.44	4.32
+M_DeepCast_65m_m2_224	309_1	14	Acidobacteria	94.87	5.98
+K_Offshore_80m_m2_020	265_1	2	Acidobacteria	95.44	3.42
+K_Offshore_80m_m2_035	372_1	3	Acidobacteria	77.46	0.05
+K_Offshore_80m_m2_092	223_1	4	Acidobacteria	95.44	1.76
+K_Offshore_80m_m2_117	251_1	2	Acidobacteria	95.44	5.13
+M_surface_10_m1_251	308_1	22	Acidobacteria	95.67	4.27
+K_DeepCast_100m_m1_278	12_1	1	Actinobacteria	70.3	8.48
+K_DeepCast_1200m_m2_005	13_4	1	Actinobacteria	67.04	6.99
+K_DeepCast_1200m_m2_204	83_1	2	Actinobacteria	89.01	4.73
+K_DeepCast_150m_m1_051	14_1	4	Actinobacteria	68.39	5.56
+K_DeepCast_150m_m2_097	15_1	8	Actinobacteria	96.82	2.88
+K_DeepCast_150m_m2_294	12_2	1	Actinobacteria	87.27	9.33
+K_DeepCast_35m_m1_047	500_1	12	Actinobacteria	86	0.54
+K_DeepCast_35m_m1_297	190_1	11	Actinobacteria	96.58	2.14
+M_DeepCast_400m_m1_127	280_2	1	Actinobacteria	60.11	0.5
+M_DeepCast_400m_m2_130	435_1	6	Actinobacteria	93.16	5.98
+K_Offshore_40m_m2_012	276_1	23	Actinobacteria	93.97	0.72
+K_Offshore_40m_m2_139	519_0	1	Actinobacteria	58.76	0.26
+M_DeepCast_50m_m2_189	191_1	7	Actinobacteria	97.44	2.99
+K_DeepCast_65m_m2_097	192_1	6	Actinobacteria	98.29	2.14
+K_DeepCast_65m_m2_213	275_1	5	Actinobacteria	93.97	1.87
+M_DeepCast_65m_m2_256	279_1	3	Actinobacteria	77.39	0.09
+K_Offshore_80m_m2_056	189_1	5	Actinobacteria	95.73	2.33
+K_Offshore_80m_m2_094	274_1	3	Actinobacteria	84.24	3.62
+K_Offshore_surface_m2_014	280_1	16	Actinobacteria	97.41	0
+K_DeepCast_150m_m2_272	115_1	2	Actinobacteria	62.95	2.1
+K_DeepCast_65m_m2_193	315_1	2	Actinobacteria	81.16	2.09
+M_surface_7_m2_032	501_3	13	Actinobacteria	50.83	0
+K_Offshore_40m_m2_034	502_2	9	Actinobacteria	70.8	0.53
+K_DeepCast_65m_m2_221	495_1	14	Actinobacteria	81.15	0
+M_surface_9_m1_009	497_1	15	Actinobacteria	82.45	2.41
+M_surface_9_m1_017	498_1	7	Actinobacteria	81.75	4.82
+K_Offshore_0m_m1_007	494_1	24	Actinobacteria	86.94	2.36
+M_surface_9_m2_080	499_1	24	Actinobacteria	73.43	0
+M_surface_10_m2_076	493_1	22	Actinobacteria	77.47	0.79
+M_surface_10_m2_136	496_1	24	Actinobacteria	74.31	1.47
+K_DeepCast_1200m_m2_272	342_0	1	Actinobacteria	91.81	2.62
+K_Offshore_80m_m1_031	201_1	23	Actinobacteria	76.88	2.56
+K_Offshore_120m_m1_195	201_2	1	Actinobacteria	79.6	6.84
+K_Offshore_40m_m2_124	194_1	21	Actinobacteria	90.6	0.85
+M_surface_8_m2_026	196_1	24	Actinobacteria	91.45	1.28
+M_surface_10_m2_188	195_1	23	Actinobacteria	85.47	1.28
+K_Offshore_80m_m1_195	187_1	18	Actinobacteria	96.58	1.71
+K_DeepCast_0m_m1_227	193_1	24	Actinobacteria	84.62	1.28
+K_Offshore_40m_m2_105	200_1	9	Actinobacteria	97.44	2.14
+K_Offshore_surface_m2_010	197_1	12	Actinobacteria	96.58	1.28
+K_Offshore_40m_m2_150	204_1	3	Actinobacteria	90.27	3.41
+K_Offshore_40m_m1_268	205_1	20	Actinobacteria	94.14	0
+K_Offshore_80m_m2_226	203_1	19	Actinobacteria	92.22	0.54
+M_surface_9_m2_101	492_1	22	Actinobacteria	64.36	1.33
+M_DeepCast_50m_m2_117	199_1	23	Actinobacteria	89.74	1.71
+M_surface_7_m2_239	198_1	24	Actinobacteria	91.45	1.71
+M_DeepCast_200m_m2_041	542_1	24	Alphaproteobacteria LD12	74.7	2.41
+K_Offshore_40m_m1_069	541_1	7	Alphaproteobacteria LD12	77.71	3.34
+M_surface_10_m2_064	181_1	21	Alphaproteobacteria non LD12	88.53	0.28
+M_surface_9_m2_109	356_1	20	Alphaproteobacteria non LD12	95.98	1.03
+K_DeepCast_35m_m1_027	124_1	7	Alphaproteobacteria non LD12	93.55	3.23
+K_DeepCast_35m_m2_067	355_1	24	Alphaproteobacteria non LD12	95.61	0.78
+K_DeepCast_35m_m2_271	352_2	14	Alphaproteobacteria non LD12	96.09	4.8
+K_DeepCast_35m_m2_327	258_0	1	Alphaproteobacteria non LD12	61.67	0
+M_DeepCast_400m_m1_040	444_0	1	Alphaproteobacteria non LD12	86.06	0.18
+M_DeepCast_50m_m2_111	351_1	7	Alphaproteobacteria non LD12	96.59	0.87
+K_Offshore_80m_m1_220	366_0	1	Alphaproteobacteria non LD12	69.82	5.16
+K_Offshore_80m_m2_048	108_1	2	Alphaproteobacteria non LD12	60.53	0.94
+K_Offshore_80m_m2_049	347_0	1	Alphaproteobacteria non LD12	65.93	5.76
+K_Offshore_80m_m2_051	348_1	4	Alphaproteobacteria non LD12	93.45	1.74
+K_Offshore_80m_m2_053	350_1	5	Alphaproteobacteria non LD12	92.9	1.59
+K_Offshore_80m_m2_081	353_0	1	Alphaproteobacteria non LD12	62.52	7.53
+K_Offshore_80m_m2_107	349_1	9	Alphaproteobacteria non LD12	96.96	4.39
+K_Offshore_surface_m1_194	352_1	5	Alphaproteobacteria non LD12	96.16	5.39
+K_Offshore_40m_mx_105	130_3	8	Alphaproteobacteria non LD12	99	1
+K_Offshore_40m_mx_120	130_1	8	Alphaproteobacteria non LD12	99.97	7.96
+K_Offshore_80m_m2_191	369_1	3	Alphaproteobacteria non LD12	98.04	1.52
+M_surface_7_m2_013	442_0	1	Alphaproteobacteria non LD12	90.11	0.1
+M_surface_10_m2_100	125_1	9	Alphaproteobacteria non LD12	83.02	1.09
+K_Offshore_surface_mx_080	126_1	7	Alphaproteobacteria non LD12	64.1	1.3
+M_surface_8_m2_185	540_1	24	Alphaproteobacteria non LD12	81.43	0.63
+K_Offshore_120m_m2_043	354_1	4	Alphaproteobacteria non LD12	92.03	2.37
+K_Offshore_80m_m2_146	129_1	2	Alphaproteobacteria non LD12	70.05	0.74
+M_surface_10_m2_180	443_1	20	Alphaproteobacteria non LD12	93.17	1.12
+K_Offshore_40m_m1_243	134_1	3	Alphaproteobacteria non LD12	77.47	1.1
+K_DeepCast_100m_mx_141	127_2	1	Alphaproteobacteria non LD12	94.86	7.9
+M_DeepCast_200m_mx_060	128_2	1	Alphaproteobacteria non LD12	76.69	6.18
+K_DeepCast_250m_m2_101	128_8	1	Alphaproteobacteria non LD12	57.45	8.99
+M_DeepCast_65m_m1_019	606_1	2	Alphaproteobacteria non LD12	89.77	1.11
+M_DeepCast_65m_m1_022	128_1	3	Alphaproteobacteria non LD12	93.83	3.64
+M_DeepCast_65m_m2_041	127_1	4	Alphaproteobacteria non LD12	98.89	6.65
+M_DeepCast_65m_mx_036	128_3	3	Alphaproteobacteria non LD12	96.99	2.85
+M_DeepCast_65m_m2_016	397_1	11	Alphaproteobacteria non LD12	97.58	0.1
+K_Offshore_80m_m2_123	345_1	6	Alphaproteobacteria non LD12	97.78	2.22
+K_DeepCast_35m_m1_317	334_1	1	Alphaproteobacteria non LD12	66.97	8.08
+K_Offshore_40m_m1_238	340_1	3	Alphaproteobacteria non LD12	98.12	2.27
+M_DeepCast_400m_m1_328	135_1	2	Alphaproteobacteria non LD12	79.68	1.26
+K_DeepCast_65m_m1_262	372_3	1	Alphaproteobacteria non LD12	69.53	8.5
+M_DeepCast_65m_m1_275	136_0	1	Alphaproteobacteria non LD12	82.59	2.85
+M_DeepCast_65m_m2_266	372_2	4	Alphaproteobacteria non LD12	98.63	1.51
+K_Offshore_80m_m2_101	441_0	1	Alphaproteobacteria non LD12	94.22	1.06
+K_Offshore_surface_m2_020	537_1	6	Alphaproteobacteria non LD12	98.58	2.37
+K_Offshore_40m_m2_131	544_1	2	Alphaproteobacteria non LD12	87.85	5.14
+M_DeepCast_50m_m1_063	568_0	1	Alphaproteobacteria non LD12	87.36	2.43
+M_surface_6_m2_121	545_0	1	Alphaproteobacteria non LD12	90.11	1.1
+M_DeepCast_65m_m2_129	359_0	1	Alphaproteobacteria non LD12	93.99	0.25
+M_DeepCast_65m_m2_243	358_0	1	Alphaproteobacteria non LD12	90.09	7.43
+K_Offshore_80m_m2_061	363_0	1	Alphaproteobacteria non LD12	89.43	5.8
+K_Offshore_80m_m2_115	344_1	6	Alphaproteobacteria non LD12	97.79	5.14
+K_Offshore_80m_m2_162	365_1	3	Alphaproteobacteria non LD12	93.48	1.91
+K_Offshore_80m_m2_186	346_1	5	Alphaproteobacteria non LD12	98.85	3.48
+K_Offshore_80m_m2_228	360_1	6	Alphaproteobacteria non LD12	98.26	0
+K_Offshore_40m_m2_283	335_1	3	Alphaproteobacteria non LD12	73.56	1.42
+K_DeepCast_1200m_m2_124	336_1	1	Alphaproteobacteria non LD12	72.04	5.23
+M_DeepCast_50m_m2_221	364_1	13	Alphaproteobacteria non LD12	97.26	2.34
+K_Offshore_80m_m2_187	371_1	6	Alphaproteobacteria non LD12	95.9	4.39
+K_DeepCast_100m_m2_289	423_0	1	Armatimonadetes	71.63	4.45
+K_DeepCast_1200m_m2_191	103_1	9	Armatimonadetes	94.91	0.19
+K_DeepCast_150m_m2_147	422_1	2	Armatimonadetes	75.26	3.15
+K_DeepCast_250m_m2_231	421_1	5	Armatimonadetes	92.59	3.4
+M_DeepCast_50m_m2_086	316_1	4	Armatimonadetes	95.83	7.97
+M_DeepCast_50m_m2_207	317_0	1	Armatimonadetes	55.22	2.08
+K_Offshore_80m_m1_225	118_1	2	Armatimonadetes	88.89	2.42
+M_surface_6_mx_051	586_3	1	Bacteroidetes	54.05	7.61
+M_surface_7_m2_191	569_1	18	Bacteroidetes	90.64	0.25
+M_surface_7_m2_242	585_1	20	Bacteroidetes	98.11	0
+M_surface_8_m2_110	556_9	10	Bacteroidetes	78.51	1.92
+M_surface_9_m1_013	578_1	22	Bacteroidetes	81.77	0.25
+M_surface_9_m1_241	559_1	21	Bacteroidetes	84.73	0.74
+M_surface_9_m1_277	591_1	2	Bacteroidetes	96.15	2.36
+M_surface_9_m1_279	553_1	3	Bacteroidetes	98.09	0.02
+M_surface_9_m1_282	566_1	21	Bacteroidetes	93.6	0
+M_surface_9_m2_088	457_1	18	Bacteroidetes	93.91	0.54
+M_surface_9_mx_130	573_1	2	Bacteroidetes	78.06	2.89
+M_surface_9_mx_152	558_0	1	Bacteroidetes	88.68	5.12
+M_surface_10_m2_196	552_0	1	Bacteroidetes	65.73	1.5
+K_DeepCast_0m_m2_115	582_1	2	Bacteroidetes	78.05	2.7
+K_DeepCast_100m_m2_150	577_1	7	Bacteroidetes	72.43	0
+K_DeepCast_100m_m2_162	18_1	3	Bacteroidetes	74.61	3.69
+K_DeepCast_150m_m2_049	17_1	5	Bacteroidetes	96.77	2.69
+K_DeepCast_150m_m2_259	23_1	2	Bacteroidetes	80.21	3.1
+K_DeepCast_35m_m2_065	572_1	20	Bacteroidetes	93.1	0.59
+M_DeepCast_50m_m1_018	580_1	13	Bacteroidetes	95.07	0
+M_DeepCast_50m_m1_274	587_11	1	Bacteroidetes	70.16	3.57
+M_DeepCast_50m_m1_285	550_1	3	Bacteroidetes	84.13	2.32
+M_DeepCast_65m_mx_068	581_1	2	Bacteroidetes	94.01	0.49
+K_Offshore_80m_m1_206	565_1	13	Bacteroidetes	97.54	0.74
+K_Offshore_surface_m2_247	574_1	10	Bacteroidetes	95.99	1.48
+M_surface_9_m2_059	587_1	8	Bacteroidetes	92.16	1.44
+M_surface_9_m2_064	584_0	1	Bacteroidetes	92.06	1.08
+K_DeepCast_0m_m2_222	579_1	23	Bacteroidetes	93.07	0
+K_DeepCast_35m_m2_130	548_1	13	Bacteroidetes	96.67	0.4
+K_Offshore_40m_m1_251	551_1	22	Bacteroidetes	97.43	4.19
+K_Offshore_40m_m2_287	456_1	17	Bacteroidetes	99.73	0
+K_Offshore_surface_m2_005	577_2	16	Bacteroidetes	97.28	0
+K_Offshore_0m_mx_046	556_3	1	Bacteroidetes	61.06	3.6
+M_surface_10_m2_039	553_2	1	Bacteroidetes	72.26	7.05
+K_Offshore_120m_mx_094	556_20	1	Bacteroidetes	68.92	5.9
+K_DeepCast_35m_m1_052	556_1	12	Bacteroidetes	65.55	3.33
+K_Offshore_40m_m1_004	563_1	5	Bacteroidetes	94.83	1.63
+M_DeepCast_50m_m2_146	555_1	9	Bacteroidetes	92.44	3.27
+M_DeepCast_50m_m2_245	549_1	10	Bacteroidetes	94.37	1.67
+M_surface_9_m1_271	571_1	17	Bacteroidetes	96.27	0.55
+M_surface_9_m1_296	564_1	9	Bacteroidetes	92.62	0.5
+M_surface_9_mx_199	590_1	22	Bacteroidetes	99.73	0.54
+K_Offshore_surface_m2_088	556_2	1	Bacteroidetes	80.35	5.11
+K_Offshore_surface_mx_261	556_14	1	Bacteroidetes	72.56	8.47
+K_Offshore_120m_m2_141	224_1	3	Betaproteobacteria	84.1	9.85
+M_surface_7_m1_304	168_1	21	Betaproteobacteria	95.83	3.29
+M_surface_9_m1_249	175_1	22	Betaproteobacteria	99.14	0.26
+K_DeepCast_35m_m1_286	170_1	22	Betaproteobacteria	94.29	2.05
+K_Offshore_40m_m1_237	177_1	13	Betaproteobacteria	98.36	4.09
+K_Offshore_40m_mx_035	161_1	21	Betaproteobacteria	96.88	3.92
+K_Offshore_surface_m1_273	158_1	3	Betaproteobacteria	67.53	6.1
+M_surface_10_m1_315	179_0	1	Betaproteobacteria	68.73	2.23
+K_Offshore_120m_m1_203	178_0	1	Betaproteobacteria	74.14	2.06
+K_Offshore_surface_m1_010	138_1	5	Betaproteobacteria	91.14	1.28
+M_DeepCast_100m_m2_214	169_1	23	Betaproteobacteria	95.12	0.41
+K_DeepCast_35m_m1_018	173_1	22	Betaproteobacteria	93.23	1.39
+K_Offshore_40m_m2_080	155_1	19	Betaproteobacteria	90.98	7.08
+K_Offshore_surface_m2_092	156_1	5	Betaproteobacteria	68.85	6.12
+K_DeepCast_150m_m2_250	183_1	11	Betaproteobacteria	84.47	1.58
+K_DeepCast_150m_m1_387	164_1	9	Betaproteobacteria	97.71	2.19
+M_DeepCast_65m_m2_126	524_1	3	Betaproteobacteria	97.44	0
+M_DeepCast_100m_m1_373	163_1	11	Betaproteobacteria	95.73	1.81
+K_DeepCast_35m_m2_259	400_2	5	Betaproteobacteria	77.09	4.59
+K_Offshore_40m_m1_259	401_1	6	Betaproteobacteria	72.5	6.71
+K_Offshore_40m_m2_212	400_3	1	Betaproteobacteria	55.83	3.74
+K_DeepCast_65m_m2_129	400_1	13	Betaproteobacteria	98.46	1.66
+K_Offshore_80m_m2_043	225_0	1	Betaproteobacteria	73.78	3.4
+K_Offshore_40m_m1_292	404_1	4	Betaproteobacteria	73.3	1.33
+K_Offshore_80m_m1_178	341_1	6	Betaproteobacteria	96.56	1.26
+K_Offshore_80m_m2_113	403_1	4	Betaproteobacteria	95.18	0.33
+K_DeepCast_250m_m2_227	482_1	6	Calditrichaeota	97.19	2.2
+M_DeepCast_400m_m2_340	54_1	2	Calditrichaeota	57.03	0
+M_DeepCast_65m_m1_265	483_1	2	Calditrichaeota	97.8	0
+M_surface_7_m1_001	514_1	2	Chlamydiae	89.3	2.88
+M_surface_9_m2_137	515_1	2	Chlamydiae	89.23	2.23
+K_Offshore_120m_m2_055	506_0	1	Chlamydiae	80.11	8.11
+K_DeepCast_35m_m1_012	570_1	6	Chlamydiae	93.24	1.77
+K_DeepCast_35m_m1_073	511_1	2	Chlamydiae	57.58	1.05
+K_DeepCast_35m_m2_096	513_1	20	Chlamydiae	88.51	0
+K_DeepCast_35m_m2_204	512_1	7	Chlamydiae	87.16	0.34
+M_DeepCast_50m_m2_029	505_1	2	Chlamydiae	76.45	1.58
+M_DeepCast_50m_m2_194	484_0	1	Chlamydiae	60.59	0.68
+K_DeepCast_1200m_m2_283	487_1	9	Chlorobi	97.79	4.42
+M_DeepCast_65m_m2_268	486_1	9	Chlorobi	99.45	0.83
+K_DeepCast_100m_m1_112	24_1	2	Chloroflexi	72.28	1.19
+K_DeepCast_100m_m2_152	24_7	1	Chloroflexi	85.17	8.91
+K_DeepCast_100m_m2_203	101_1	6	Chloroflexi	93.64	2.91
+K_DeepCast_100m_m2_305	99_1	5	Chloroflexi	92.73	4.02
+M_DeepCast_100m_mx_191	24_12	1	Chloroflexi	58.25	8.25
+M_DeepCast_100m_mx_312	453_1	9	Chloroflexi	70.79	4.16
+K_DeepCast_1200m_m1_255	219_1	6	Chloroflexi	79.91	3.47
+K_Offshore_120m_m2_037	375_1	5	Chloroflexi	95.05	2.97
+K_DeepCast_150m_m1_015	24_8	1	Chloroflexi	86.3	8.58
+K_DeepCast_150m_m1_063	24_3	1	Chloroflexi	80.86	4.16
+K_DeepCast_150m_m2_048	56_1	2	Chloroflexi	64.91	0
+K_DeepCast_150m_m2_071	98_1	3	Chloroflexi	89.77	3.48
+K_DeepCast_150m_m2_126	116_0	1	Chloroflexi	73.99	1.82
+K_DeepCast_150m_m2_167	123_1	2	Chloroflexi	75.96	4.7
+M_DeepCast_200m_m2_194	29_1	2	Chloroflexi	91.75	3.08
+M_DeepCast_200m_m2_208	26_1	4	Chloroflexi	89.57	1.98
+M_DeepCast_200m_mx_194	27_1	5	Chloroflexi	91.25	6.93
+K_DeepCast_250m_m1_047	24_5	1	Chloroflexi	75.91	6.44
+K_DeepCast_250m_m1_199	243_1	8	Chloroflexi	90.52	3.24
+K_DeepCast_250m_m1_342	39_1	8	Chloroflexi	89.09	2.45
+K_DeepCast_250m_m2_061	112_1	8	Chloroflexi	95.91	4.91
+K_DeepCast_250m_m2_143	102_1	6	Chloroflexi	91.75	0
+K_DeepCast_250m_m2_195	24_2	4	Chloroflexi	83	0.99
+K_DeepCast_250m_m2_317	104_1	8	Chloroflexi	90.45	2.64
+K_DeepCast_250m_mx_116	113_1	6	Chloroflexi	79.04	2.07
+M_DeepCast_400m_m2_020	458_1	5	Chloroflexi	92.61	1.98
+M_DeepCast_400m_m2_044	24_6	1	Chloroflexi	80.36	4.62
+M_DeepCast_400m_m2_207	25_1	4	Chloroflexi	94.72	0.99
+M_DeepCast_400m_m2_252	24_4	1	Chloroflexi	74.69	8.42
+M_DeepCast_400m_m2_269	28_1	4	Chloroflexi	52.44	0.09
+M_DeepCast_400m_m2_351	105_1	3	Chloroflexi	61.13	5.69
+M_DeepCast_50m_m2_054	368_1	5	Chloroflexi	88.48	5.84
+M_DeepCast_65m_m1_226	246_1	5	Chloroflexi	94.55	2.73
+M_DeepCast_65m_m2_156	97_1	2	Chloroflexi	84.41	1.82
+K_Offshore_80m_m1_189	241_1	5	Chloroflexi	97.69	4.95
+K_Offshore_80m_m2_157	249_0	1	Chloroflexi	78.83	2.78
+K_Offshore_80m_m2_170	247_1	2	Chloroflexi	90.26	0.99
+K_Offshore_80m_m2_183	367_0	1	Chloroflexi	90.26	2.97
+K_Offshore_80m_m2_197	343_0	1	Chloroflexi	89.35	3.32
+K_Offshore_80m_m2_218	122_1	4	Chloroflexi	97.03	1.68
+K_Offshore_surface_m1_220	137_1	3	Chloroflexi	94.03	0
+K_Offshore_120m_m2_146	119_1	5	Chloroflexi	97.69	0.69
+M_DeepCast_50m_m2_018	107_1	14	Chloroflexi	96.7	0.33
+K_DeepCast_65m_m1_015	106_1	2	Chloroflexi	57.24	9.08
+K_DeepCast_65m_m2_033	117_1	4	Chloroflexi	96.7	1.19
+K_Offshore_80m_m1_004	120_0	1	Chloroflexi	81.08	1.98
+K_Offshore_80m_m2_034	121_0	1	Chloroflexi	94.72	0.11
+K_Offshore_80m_m2_079	213_1	2	Chloroflexi	99.67	1.19
+K_Offshore_80m_m2_084	490_1	2	Chloroflexi	96.7	0
+K_DeepCast_250m_m1_172	180_1	4	CP Aenigmarchaeota	76.07	4.05
+M_DeepCast_200m_m2_220	31_1	3	CP Altiarchaeota	81.82	2.8
+K_DeepCast_150m_m1_388	462_1	7	CP Aminicemantes (OP8)	91.11	1.71
+K_DeepCast_250m_m1_044	464_1	4	CP Aminicemantes (OP8)	82.07	3.21
+M_DeepCast_400m_m2_133	461_0	1	CP Aminicemantes (OP8)	50.71	0.91
+M_DeepCast_400m_m2_244	463_1	3	CP Aminicemantes (OP8)	81.88	5.24
+M_DeepCast_400m_m2_293	460_1	2	CP Aminicemantes (OP8)	80.1	3.89
+K_DeepCast_250m_m2_015	42_1	4	CP Bathyarchaeota	83.96	3.27
+K_DeepCast_250m_mx_298	32_1	2	CP Bathyarchaeota	55.9	1.87
+K_DeepCast_1200m_m1_317	338_0	1	CP BRC1	63.33	1.2
+K_DeepCast_150m_m1_344	406_1	8	CP Eisenbacteria	97.8	0
+M_DeepCast_400m_m1_028	267_1	7	CP Eisenbacteria	96.7	1.23
+M_DeepCast_400m_m2_100	411_1	7	CP Eisenbacteria	92.24	3.46
+K_DeepCast_250m_m1_333	410_1	7	CP Eisenbacteria	88.71	4.5
+K_DeepCast_250m_m1_078	43_1	6	CP Gottesmanbacteria	60.34	5.64
+M_DeepCast_400m_m2_153	77_0	1	CP Gribaldobacteria	52.62	3.45
+K_DeepCast_65m_m1_133	399_2	6	CP Handelsmanbacteria	96.7	4.4
+K_Offshore_120m_m1_041	68_1	5	CP Harrisonbacteria	73.84	0
+M_DeepCast_65m_m2_204	413_0	1	CP Hydrogenedentes	55.88	0.65
+M_DeepCast_65m_m1_095	207_0	1	CP Kaiserbacteria	62.22	1.71
+M_DeepCast_65m_mx_099	288_0	1	CP Kaiserbacteria	63.08	4.62
+M_DeepCast_50m_m2_187	67_1	5	CP Liptonbacteria	77.27	0
+K_DeepCast_150m_m2_305	49_1	2	CP Moranbacteria	66.29	1.12
+K_DeepCast_250m_m1_236	72_1	3	CP Nealsonbacteria	54.04	1.3
+M_DeepCast_400m_m2_122	73_1	4	CP Nealsonbacteria	53.09	0.11
+K_Offshore_120m_m2_023	91_1	4	CP Pacearchaeota	65.19	0
+K_Offshore_80m_m2_097	601_1	3	CP Pacearchaeota	63.24	0
+M_DeepCast_400m_m2_082	79_1	5	CP Pacearchaeota	71.88	0
+M_DeepCast_50m_m2_169	605_1	10	CP Pacearchaeota	65.81	0
+K_DeepCast_100m_m1_149	602_1	2	CP Pacearchaeota	66.74	1.87
+M_DeepCast_400m_m2_303	481_1	6	CP Pacearchaeota	65.58	0.93
+M_DeepCast_65m_mx_140	459_1	2	CP Parvarchaeota	91.82	3.81
+K_Offshore_120m_m1_009	50_1	6	CP Peribacteria	80.09	1.85
+K_DeepCast_65m_m2_238	48_1	4	CP Perigrinibacteria	73.04	1.71
+M_DeepCast_200m_m2_052	40_1	4	CP Poribacteria	93.34	9.07
+K_DeepCast_300m_m1_220	44_1	2	CP Poribacteria	51.76	4.95
+M_DeepCast_65m_m2_014	339_1	2	CP Poribacteria	97.8	3.3
+M_DeepCast_50m_m1_133	376_1	13	CP Rokubacteria	91.03	2.84
+M_DeepCast_50m_m1_244	377_1	6	CP Rokubacteria	82.76	9.31
+K_DeepCast_1200m_m2_081	576_1	3	CP Saccharibacteria	62.82	0
+K_DeepCast_150m_m1_139	55_1	7	CP Shapirobacteria	54.17	0.93
+K_DeepCast_250m_mx_219	75_1	6	CP Shapirobacteria	55.12	2.15
+M_DeepCast_50m_m2_049	604_1	2	CP Staskawiczbacteria	63.33	0.83
+K_Offshore_40m_m2_103	184_1	13	Sericytochromatia, Tanganyikabacteria	91.45	0.85
+K_DeepCast_65m_m2_236	261_0	1	Sericytochromatia, Tanganyikabacteria	56.81	7.58
+M_DeepCast_65m_m2_071	262_0	1	Sericytochromatia, Tanganyikabacteria	96.58	4.27
+K_DeepCast_65m_m2_066	523_0	1	CP Tectomicrobia	75.88	3.9
+K_Offshore_120m_m2_035	7_0	1	CP TM6	63.34	6.84
+K_DeepCast_35m_m1_037	6_1	2	CP TM6	61.38	2.91
+K_Offshore_40m_m1_063	1_1	2	CP TM6	77.46	1.12
+M_DeepCast_50m_m2_233	131_1	3	CP Urhbacteria	64.36	1.16
+M_DeepCast_50m_m1_090	133_0	1	CP Urhbacteria	68.98	1.98
+M_DeepCast_400m_m2_128	488_1	5	CP Verstraetaerchaeota	99.07	1.4
+K_DeepCast_150m_m2_086	8_1	2	CP WOR-2 Omnitrophica	83.23	1.24
+M_DeepCast_200m_m2_189	329_1	4	CP WOR-2 Omnitrophica	87.28	2.15
+K_DeepCast_250m_m2_027	320_1	6	CP WOR-2 Omnitrophica	87.57	4.3
+M_DeepCast_400m_m1_102	321_1	4	CP WOR-2 Omnitrophica	73.77	9.99
+M_DeepCast_400m_m2_096	318_1	5	CP WOR-2 Omnitrophica	73.97	1.68
+M_DeepCast_400m_m2_183	89_1	4	CP WOR-2 Omnitrophica	86.97	3.32
+K_DeepCast_150m_m1_084	9_1	3	CP WOR-2 Omnitrophica	75.99	3.23
+K_DeepCast_250m_m2_062	319_1	4	CP WOR-2 Omnitrophica	83.81	2.41
+K_DeepCast_150m_m2_040	432_1	8	CP WOR-3	94.51	4.4
+K_DeepCast_150m_m2_307	431_1	5	CP WOR-3	74.14	0.1
+K_DeepCast_250m_m1_105	433_1	2	CP WOR-3	54.59	0
+M_DeepCast_400m_m1_356	430_0	1	CP WOR-3	50.59	2.81
+K_DeepCast_150m_m2_105	46_1	7	CP WWE1	73.93	1.26
+K_DeepCast_250m_m1_043	172_1	4	CP WWE1	95.48	2.26
+M_DeepCast_400m_m2_266	517_1	4	CP WWE3	55.37	1.8
+K_DeepCast_100m_m2_307	273_1	2	CP Ziwabacteria	73.74	1.28
+K_DeepCast_100m_m2_321	263_1	4	CP Ziwabacteria	98.35	0
+K_Offshore_80m_m2_058	278_1	2	CP Zixibacteria	96.09	2.55
+M_surface_7_m2_037	473_1	15	Cyanobacteria	73.39	0.82
+M_surface_7_m2_040	468_5	2	Cyanobacteria	88.48	6.84
+M_surface_9_m1_291	468_9	1	Cyanobacteria	62.64	9.51
+M_surface_10_m1_298	472_1	11	Cyanobacteria	90.73	2.58
+M_surface_10_m2_119	477_1	10	Cyanobacteria	98.46	1.4
+M_surface_10_m2_179	476_1	2	Cyanobacteria	91.01	3.44
+K_DeepCast_0m_m1_088	473_3	1	Cyanobacteria	53.27	9.47
+K_Offshore_0m_m2_072	468_7	1	Cyanobacteria	74.69	7.97
+M_DeepCast_100m_m1_067	471_1	23	Cyanobacteria	88.18	2.16
+K_DeepCast_150m_m2_101	473_2	1	Cyanobacteria	80.05	9.65
+M_DeepCast_200m_mx_001	470_1	24	Cyanobacteria	65.02	0.05
+K_DeepCast_35m_m1_288	474_0	1	Cyanobacteria	82.63	9.19
+K_DeepCast_35m_m2_023	469_0	1	Cyanobacteria	96.55	6.19
+K_DeepCast_35m_m2_155	467_1	22	Cyanobacteria	88.68	1.36
+K_Offshore_surface_m2_011	478_1	16	Cyanobacteria	98.91	0.54
+K_Offshore_surface_m2_239	465_1	2	Cyanobacteria	95.89	2.8
+K_DeepCast_150m_m1_356	206_1	4	Deltaproteobacteria	95.78	6.56
+M_DeepCast_100m_m2_010	295_1	9	Deltaproteobacteria	93.22	5.37
+K_Offshore_120m_m2_196	295_2	7	Deltaproteobacteria	92.38	4.2
+K_Offshore_80m_m2_119	331_1	2	Deltaproteobacteria	90.48	1.68
+K_DeepCast_150m_m1_110	294_1	8	Deltaproteobacteria	95.16	4.52
+K_DeepCast_100m_m1_199	36_1	8	Deltaproteobacteria	85.66	3.73
+K_DeepCast_100m_m2_189	38_1	1	Deltaproteobacteria	54.03	2.62
+K_DeepCast_100m_mx_276	37_1	8	Deltaproteobacteria	80.32	3.23
+K_DeepCast_1200m_m2_207	38_3	1	Deltaproteobacteria	89.72	7.49
+K_DeepCast_150m_m2_257	38_5	1	Deltaproteobacteria	81.45	8.41
+K_DeepCast_250m_m2_302	35_1	8	Deltaproteobacteria	84.62	4.52
+K_DeepCast_150m_m2_098	391_1	7	Deltaproteobacteria	97.1	0.02
+K_DeepCast_250m_m1_077	393_1	4	Deltaproteobacteria	85.33	5.51
+K_DeepCast_250m_m2_102	392_1	6	Deltaproteobacteria	90.65	0.97
+K_DeepCast_300m_m2_211	394_1	2	Deltaproteobacteria	95.48	6.29
+K_DeepCast_300m_m2_247	390_1	5	Deltaproteobacteria	96.65	3.23
+K_DeepCast_300m_mx_218	51_0	1	Deltaproteobacteria	59.61	7.04
+K_DeepCast_150m_m1_199	176_1	8	Deltaproteobacteria	97.1	0.04
+M_DeepCast_400m_m1_009	84_1	3	Deltaproteobacteria	95.65	6.13
+K_DeepCast_150m_m2_113	100_1	3	Deltaproteobacteria	85.29	7.8
+K_DeepCast_100m_m1_326	415_1	2	Deltaproteobacteria	86.59	3.57
+K_DeepCast_100m_mx_210	60_0	1	Deltaproteobacteria	70.22	4.4
+M_DeepCast_400m_m1_331	409_0	1	Deltaproteobacteria	64.08	1.47
+K_DeepCast_100m_m2_268	381_1	3	Deltaproteobacteria	92.22	1.94
+K_Offshore_0m_m1_055	414_1	3	Deltaproteobacteria	80.53	1.31
+K_Offshore_80m_m2_039	250_0	1	Deltaproteobacteria	60.58	6.69
+K_DeepCast_35m_m2_009	234_1	4	Deltaproteobacteria	92.26	1.29
+K_DeepCast_35m_m2_046	236_0	1	Deltaproteobacteria	88.96	8.55
+K_DeepCast_100m_m2_324	230_1	3	Deltaproteobacteria	80.75	1.34
+M_DeepCast_200m_m2_133	420_0	1	Deltaproteobacteria	56.73	0.67
+K_DeepCast_35m_m1_177	370_1	13	Deltaproteobacteria	74	3.01
+K_DeepCast_35m_m1_088	233_1	6	Deltaproteobacteria	91.36	0.97
+K_Offshore_120m_m2_200	374_1	1	Deltaproteobacteria	85.97	2.62
+M_DeepCast_65m_m2_104	374_2	1	Deltaproteobacteria	92.68	3.78
+M_DeepCast_65m_m1_011	185_0	1	Deltaproteobacteria	85.57	3.55
+K_Offshore_120m_mx_162	378_1	12	Deltaproteobacteria	94.62	1.94
+K_DeepCast_65m_m1_217	361_2	1	Deltaproteobacteria	52.92	6.61
+K_DeepCast_65m_m2_035	383_1	6	Deltaproteobacteria	96	4.19
+K_Offshore_80m_m1_159	361_1	3	Deltaproteobacteria	98.69	3.55
+K_Offshore_80m_m2_194	328_1	3	Deltaproteobacteria	96.64	3.36
+K_Offshore_80m_m2_211	382_1	5	Deltaproteobacteria	95.35	4.46
+M_DeepCast_50m_m2_156	61_1	2	Diapherotrites	82.4	0.93
+M_DeepCast_200m_m1_298	182_1	7	Euryarchaeota	98.27	2
+K_DeepCast_300m_m2_256	82_1	5	Euryarchaeota	99.33	0
+M_DeepCast_400m_m2_325	218_1	2	Euryarchaeota	54.81	0
+M_DeepCast_100m_m2_066	147_1	5	Acidobacteria	97.81	7.65
+M_DeepCast_100m_m2_149	144_1	4	Acidobacteria	91.62	4.82
+M_DeepCast_100m_mx_118	146_2	4	Acidobacteria	89.42	2.29
+K_DeepCast_250m_m1_110	111_1	7	Acidobacteria	90.35	6.87
+K_DeepCast_250m_m2_119	260_1	3	Acidobacteria	75.75	3.78
+K_Offshore_40m_m2_176	150_1	6	Acidobacteria	98.26	0.87
+M_DeepCast_50m_m2_162	143_0	1	Acidobacteria	73.23	2.25
+K_DeepCast_65m_m2_251	146_1	4	Acidobacteria	97.27	2.19
+K_Offshore_80m_m2_003	142_1	4	Acidobacteria	97.08	0.93
+K_Offshore_80m_m2_102	141_1	2	Acidobacteria	96.52	2.78
+K_DeepCast_150m_m2_056	174_1	8	Firmicutes	90.04	2.9
+M_surface_6_m1_040	510_0	1	Firmicutes	66.05	1.17
+M_surface_9_m2_177	509_1	2	Gammaproteobacteria	57.56	0
+K_Offshore_40m_m1_049	518_1	23	Gammaproteobacteria	94.02	0
+M_surface_10_m2_141	153_1	10	Gammaproteobacteria	95.43	3.93
+M_DeepCast_65m_m1_270	507_1	3	Gammaproteobacteria	59.52	6.01
+M_DeepCast_65m_m1_284	85_1	9	Gammaproteobacteria	96.57	0
+K_Offshore_80m_m1_177	154_1	6	Gammaproteobacteria	91.91	4.17
+M_surface_6_m2_085	284_6	1	Gammaproteobacteria	72.47	6.29
+M_surface_9_m2_068	283_1	5	Gammaproteobacteria	84.36	5.75
+K_Offshore_0m_mx_117	283_10	1	Gammaproteobacteria	53.05	8.31
+M_DeepCast_100m_m1_014	166_1	13	Gammaproteobacteria	94.25	2.05
+M_DeepCast_100m_m2_072	286_1	22	Gammaproteobacteria	87.42	0.5
+K_Offshore_120m_m1_194	286_2	2	Gammaproteobacteria	73.91	2.25
+K_Offshore_120m_m2_034	283_8	1	Gammaproteobacteria	90.55	2.53
+K_DeepCast_35m_m1_077	283_13	1	Gammaproteobacteria	82.29	9.64
+K_Offshore_40m_mx_227	283_11	1	Gammaproteobacteria	74.84	8.84
+M_DeepCast_65m_mx_133	165_1	2	Gammaproteobacteria	94.81	2.63
+K_Offshore_80m_m2_057	285_1	13	Gammaproteobacteria	64.63	0.38
+K_Offshore_surface_m1_032	283_12	1	Gammaproteobacteria	64.23	5.64
+K_DeepCast_100m_m2_315	412_0	1	Gammaproteobacteria	57.96	2.54
+K_Offshore_80m_m2_176	214_1	4	Gammaproteobacteria	89.82	1.58
+K_Offshore_40m_m1_054	140_0	1	Gammaproteobacteria	72.64	1.42
+M_surface_7_m1_048	269_1	2	Gemmatimonadetes	60.39	1.28
+K_Offshore_120m_m2_038	253_1	3	Gemmatimonadetes	97.8	2.75
+K_Offshore_80m_m1_181	114_1	2	Gemmatimonadetes	97.44	2.2
+K_Offshore_80m_m2_041	268_1	2	Gemmatimonadetes	98.9	4.4
+M_DeepCast_400m_m2_225	437_0	1	Gemmatimonadetes	59.06	0.27
+K_Offshore_40m_mx_046	270_1	5	Gemmatimonadetes	92.31	4.4
+M_DeepCast_50m_m2_218	269_2	22	Gemmatimonadetes	95.6	5.04
+M_DeepCast_65m_m1_262	272_1	5	Gemmatimonadetes	85.71	1.1
+M_surface_10_mx_236	485_1	22	Ignavibacteria	96.99	4.46
+K_Offshore_0m_mx_139	557_2	22	Ignavibacteria	93.72	0.56
+K_DeepCast_100m_m2_118	10_1	9	Ignavibacteria	92.06	1.64
+K_DeepCast_100m_m2_176	11_1	9	Ignavibacteria	96.37	0.56
+K_DeepCast_100m_m2_316	330_1	9	Ignavibacteria	97.8	1.09
+K_DeepCast_250m_m1_364	489_1	5	Ignavibacteria	90.71	3.28
+M_DeepCast_400m_m2_062	228_1	6	Ignavibacteria	95.06	3.48
+M_DeepCast_65m_m1_282	438_1	3	Ignavibacteria	93.59	2.19
+K_Offshore_80m_m2_224	557_1	2	Ignavibacteria	95.9	0.87
+K_DeepCast_100m_m2_241	95_0	1	Kirimatiellacea	54.86	1.38
+K_DeepCast_100m_m2_028	297_1	8	Lentisphaerae	96.11	4.65
+M_DeepCast_200m_m2_085	326_1	3	Lentisphaerae	93.24	1.38
+K_DeepCast_250m_m2_056	417_1	6	Lentisphaerae	91.89	4.73
+M_DeepCast_400m_m2_230	327_1	7	Lentisphaerae	93.92	0.68
+K_DeepCast_150m_m2_200	22_1	3	Nitrospirae	95.45	6.72
+M_DeepCast_200m_m2_046	20_1	2	Nitrospirae	94.32	3.64
+K_DeepCast_250m_m1_045	21_1	6	Nitrospirae	92.73	0.91
+K_DeepCast_300m_m2_067	19_1	4	Nitrospirae	58.01	3.99
+M_DeepCast_50m_m2_151	293_1	13	Nitrospirae	96.82	4.22
+M_DeepCast_65m_m2_155	289_1	4	Nitrospirae	96.76	2.73
+M_DeepCast_65m_m2_186	291_0	1	Nitrospirae	86.81	2.73
+M_DeepCast_65m_mx_150	293_2	1	Nitrospirae	96.82	5.78
+K_Offshore_80m_m2_040	292_1	19	Nitrospirae	94.09	3.92
+K_Offshore_80m_m2_121	290_1	13	Nitrospirae	98.12	2.78
+M_surface_10_m1_294	451_1	22	Planctomycetes (Phycisphaerae)	85.8	4.72
+K_Offshore_120m_m2_041	211_1	2	Planctomycetes (Phycisphaerae)	88.12	4.65
+M_DeepCast_65m_m2_009	452_0	1	Planctomycetes (Phycisphaerae)	96.32	1.14
+M_DeepCast_65m_mx_077	215_1	4	Planctomycetes (Phycisphaerae)	97.73	0
+M_DeepCast_65m_mx_236	440_1	13	Planctomycetes (Phycisphaerae)	92.8	2.27
+K_Offshore_80m_m2_006	445_1	19	Planctomycetes (Phycisphaerae)	98.86	2.94
+M_surface_10_m2_213	447_1	10	Planctomycetes (Phycisphaerae)	97.73	1.14
+K_Offshore_120m_m2_148	450_1	12	Planctomycetes (Phycisphaerae)	96.21	0
+K_DeepCast_35m_m2_037	439_1	23	Planctomycetes (Phycisphaerae)	90.53	0
+K_Offshore_40m_m2_104	449_1	3	Planctomycetes (Phycisphaerae)	96.59	0
+K_Offshore_0m_mx_037	226_1	5	Planctomycetes	83.24	1.14
+K_DeepCast_100m_m1_307	92_1	7	Planctomycetes	96.59	3.41
+K_DeepCast_100m_m2_328	311_1	7	Planctomycetes	97.8	1.65
+K_DeepCast_100m_mx_218	384_1	5	Planctomycetes	92.47	2.15
+M_DeepCast_100m_m2_243	312_1	9	Planctomycetes	98.9	2.85
+M_DeepCast_100m_mx_241	561_1	2	Planctomycetes	52.31	3.78
+K_Offshore_120m_mx_222	221_1	5	Planctomycetes	94.32	3.41
+K_DeepCast_150m_m2_127	296_4	1	Planctomycetes	66.29	3
+M_DeepCast_200m_m1_344	301_2	1	Planctomycetes	54.73	8.8
+M_DeepCast_200m_m2_025	238_1	5	Planctomycetes	87.17	6.43
+M_DeepCast_200m_mx_231	296_3	1	Planctomycetes	76.32	5.9
+K_DeepCast_250m_m1_330	296_2	1	Planctomycetes	83.52	7.73
+K_DeepCast_250m_m1_352	418_1	6	Planctomycetes	90.91	2.94
+K_DeepCast_35m_m1_264	299_1	3	Planctomycetes	91.85	2.87
+K_DeepCast_35m_m2_150	300_1	10	Planctomycetes	97.7	2.3
+M_DeepCast_400m_m2_048	426_1	5	Planctomycetes	96.59	1.24
+M_DeepCast_400m_m2_195	424_1	4	Planctomycetes	88.12	3.41
+M_DeepCast_400m_m2_341	425_1	3	Planctomycetes	92.05	6.4
+M_DeepCast_50m_m2_133	387_1	4	Planctomycetes	93.18	3.41
+M_DeepCast_50m_m2_137	380_1	4	Planctomycetes	94.09	5.38
+K_DeepCast_65m_m1_055	229_1	8	Planctomycetes	96.48	0
+M_DeepCast_65m_m1_287	389_0	1	Planctomycetes	80.11	2.27
+M_DeepCast_65m_m2_011	257_1	2	Planctomycetes	98.78	0
+M_DeepCast_65m_m2_061	380_2	1	Planctomycetes	96.02	4.55
+M_DeepCast_65m_m2_181	379_1	4	Planctomycetes	90.32	8.06
+K_Offshore_80m_m1_186	385_1	12	Planctomycetes	97.73	1.7
+K_Offshore_80m_m2_029	227_1	18	Planctomycetes	99.87	2.25
+K_Offshore_80m_m2_128	222_1	4	Planctomycetes	95.45	3.41
+K_Offshore_80m_m2_185	405_0	1	Planctomycetes	92.95	3.41
+K_Offshore_surface_m1_204	386_0	1	Planctomycetes	74.47	2.15
+K_Offshore_surface_mx_130	281_1	2	Planctomycetes	92.87	3.38
+K_Offshore_surface_mx_256	301_1	12	Planctomycetes	95.4	2.3
+K_DeepCast_100m_mx_034	594_1	24	Thaumarchaeota	98.71	1.94
+M_DeepCast_50m_m1_060	596_1	2	Thaumarchaeota	55.83	2.59
+M_DeepCast_65m_m1_070	595_1	4	Thaumarchaeota	94.01	1.94
+K_DeepCast_65m_m2_187	599_1	6	Thaumarchaeota	98.06	1.94
+K_Offshore_80m_m1_039	597_1	16	Thaumarchaeota	90.13	1.94
+K_Offshore_80m_m2_203	598_1	10	Thaumarchaeota	50.19	1.94
+M_surface_10_m2_023	242_1	7	Verrucomicrobia V1	93.27	0.68
+K_DeepCast_35m_m1_007	282_1	3	Verrucomicrobia V2	85.36	1.01
+K_DeepCast_0m_m1_144	302_1	22	Verrucomicrobia V3	97.32	0.71
+K_Offshore_120m_m2_058	324_1	5	Verrucomicrobia V3	94.59	2.03
+K_DeepCast_150m_m2_164	231_1	7	Verrucomicrobia V3	97.06	5.54
+M_DeepCast_200m_mx_295	298_2	1	Verrucomicrobia V3	74.73	9.72
+K_DeepCast_35m_m2_191	325_2	21	Verrucomicrobia V3	96.6	2.87
+K_Offshore_40m_m1_220	303_1	22	Verrucomicrobia V3	98.65	2.7
+M_DeepCast_65m_m2_001	240_1	13	Verrucomicrobia V3	98.99	4.73
+M_DeepCast_65m_m2_010	306_0	1	Verrucomicrobia V3	63.9	5.2
+K_Offshore_80m_m1_157	237_1	13	Verrucomicrobia V3	90.2	2.03
+K_Offshore_80m_m1_165	148_1	4	Verrucomicrobia V3	98.65	1.35
+K_Offshore_80m_m2_019	333_0	1	Verrucomicrobia V3	85.89	2.7
+K_Offshore_80m_m2_222	325_1	3	Verrucomicrobia V3	93.24	1.73
+M_DeepCast_100m_m1_317	305_2	22	Verrucomicrobia V4	97.95	3.08
+M_DeepCast_100m_m1_323	304_1	22	Verrucomicrobia V4	98.63	2.05
+M_surface_10_m1_278	210_0	1	Verrucomicrobia V4	97.3	1.52
+M_DeepCast_400m_m2_235	239_1	7	Verrucomicrobia V4	96.62	2.39
+K_Offshore_40m_m2_239	305_1	3	Verrucomicrobia V4	92.28	0.68
+M_surface_9_m2_112	208_1	22	Verrucomicrobia V4	97.97	2.36
+K_Offshore_surface_mx_210	322_1	24	Verrucomicrobia V6	82.09	1.69
+M_DeepCast_400m_m2_277	81_1	3	Woesearchaeota	63.01	1.87
+M_DeepCast_65m_m2_091	562_0	1	Woesearchaeota	62.66	3.26

@@ -1,77 +1,77 @@
-Taxonomy	Taxon.order	Order	Domain	CPR
-CP Pacearchaeota	CP Pacearchaeota	1	Archaea	
-Woesearchaeota	Woesearchaeota	2	Archaea	
-CP Aenigmarchaeota	CP Aenigmarchaeota	3	Archaea	
-CP Altiarchaeota	CP Altiarchaeota	4	Archaea	
-CP Parvarchaeota	CP Parvarchaeota	5	Archaea	
-Diapherotrites	Diapherotrites	6	Archaea	
-Euryarchaeota	Euryarchaeota	7	Archaea	
-CP Verstraetaerchaeota	CP Verstraetaerchaeota	8	Archaea	
-CP Bathyarchaeota	CP Bathyarchaeota	9	Archaea	
-Thaumarchaeota	Thaumarchaeota	10	Archaea	
-Gammaproteobacteria	Gammaproteobacteria	11	Bacteria	
-Betaproteobacteria	Betaproteobacteria	12	Bacteria	
-Alphaproteobacteria LD12	Alphaproteobacteria LD12	13	Bacteria	
-Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	14	Bacteria	
-CP Hydrogenedentes	CP Hydrogenedentes	15	Bacteria	
-Deltaproteobacteria	Deltaproteobacteria	16	Bacteria	
-Nitrospirae	Nitrospirae	17	Bacteria	
-Acidobacteria	Acidobacteria	18	Bacteria	
-Fibrobacteres acidobacteria	Acidobacteria	18	Bacteria	
-Lentisphaerae	Lentisphaerae	19	Bacteria	
-Phycisphaerae	Planctomycetes (Phycisphaerae)	20	Bacteria	
-Planctomycetes	Planctomycetes	21	Bacteria	
-Verrucomicrobia V1	Verrucomicrobia	22	Bacteria	
-Verrucomicrobia V2	Verrucomicrobia	22	Bacteria	
-Verrucomicrobia V3	Verrucomicrobia	22	Bacteria	
-Verrucomicrobia V4	Verrucomicrobia	22	Bacteria	
-Verrucomicrobia V6	Verrucomicrobia	22	Bacteria	
-Chlamydiae	Chlamydiae	27	Bacteria	
-Kirimatiellacea	Kirimatiellacea	28	Bacteria	
-Bacteroidetes	Bacteroidetes	29	Bacteria	
-CP Eisenbacteria	CP Eisenbacteria	30	Bacteria	
-Chlorobi	Chlorobi	31	Bacteria	
-Calditrichaeota	Calditrichaeota	32	Bacteria	
-Ignavibacteria	Ignavibacteria	33	Bacteria	
-CP Zixibacteria	CP Zixibacteria	34	Bacteria	
-CP WOR-3	CP WOR-3	35	Bacteria	
-CP BRC1	CP BRC1	36	Bacteria	
-Gemmatimonadetes	Gemmatimonadetes	37	Bacteria	
-Actinobacteria	Actinobacteria	38	Bacteria	
-Actinobacteria acI-B1	Actinobacteria	38	Bacteria	
-Actinobacteria acI-C	Actinobacteria	38	Bacteria	
-Actinobacteria acI-C2	Actinobacteria	38	Bacteria	
-Actinobacteria acIII	Actinobacteria	38	Bacteria	
-Actinobacteria acIV	Actinobacteria	38	Bacteria	
-Actinobacteria acIV-C	Actinobacteria	38	Bacteria	
-Actinobacteria acSTL	Actinobacteria	38	Bacteria	
-Actinobacteria acTH1	Actinobacteria	38	Bacteria	
-Actinobacteria Iluma-A1	Actinobacteria	38	Bacteria	
-Armatimonadetes	Armatimonadetes	39	Bacteria	
-Chloroflexi	Chloroflexi	40	Bacteria	
-Firmicutes	Firmicutes	41	Bacteria	
-Cyanobacteria	Cyanobacteria	42	Bacteria	
-CP Tanganyikabacteria	"Sericytochromatia, Tanganyikabacteria"	43	Bacteria	
-CP Aminicemantes (OP8)	CP Aminicemantes (OP8)	44	Bacteria	
-CP Gottesmanbacteria	CP Gottesmanbacteria	45	Bacteria	CPR
-CP Gribaldobacteria	CP Gribaldobacteria	46	Bacteria	CPR
-CP Handelsmanbacteria	CP Handelsmanbacteria	47	Bacteria	
-CP Harrisonbacteria	CP Harrisonbacteria	48	Bacteria	CPR
-CP Kaiserbacteria	CP Kaiserbacteria	49	Bacteria	CPR
-CP Liptonbacteria	CP Liptonbacteria	50	Bacteria	CPR
-CP Moranbacteria	CP Moranbacteria	51	Bacteria	CPR
-CP Nealsonbacteria	CP Nealsonbacteria	52	Bacteria	CPR
-CP Peribacteria	CP Peribacteria	53	Bacteria	CPR
-CP Perigrinibacteria	CP Perigrinibacteria	54	Bacteria	CPR
-CP Poribacteria	CP Poribacteria	55	Bacteria	
-CP Rokubacteria	CP Rokubacteria	56	Bacteria	
-CP Saccharibacteria	CP Saccharibacteria	57	Bacteria	CPR
-CP Shapirobacteria	CP Shapirobacteria	58	Bacteria	CPR
-CP Staskawiczbacteria	CP Staskawiczbacteria	59	Bacteria	CPR
-CP Tectomicrobia	CP Tectomicrobia	60	Bacteria	
-CP TM6	CP TM6	61	Bacteria	CPR
-CP Urhbacteria	CP Urhbacteria	62	Bacteria	CPR
-CP WOR-2 Omnitrophica	CP WOR-2 Omnitrophica	63	Bacteria	
-CP WWE1	CP WWE1	64	Bacteria	CPR
-CP WWE3	CP WWE3	65	Bacteria	CPR
-CP Ziwabacteria	CP Ziwabacteria	66	Bacteria	CPR
+Taxonomy	Taxon.order	Order	Domain	CPR	DPANN
+CP Pacearchaeota	CP Pacearchaeota	1	Archaea		DPANN
+Woesearchaeota	Woesearchaeota	2	Archaea		DPANN
+CP Aenigmarchaeota	CP Aenigmarchaeota	3	Archaea		DPANN
+CP Altiarchaeota	CP Altiarchaeota	4	Archaea		DPANN
+CP Parvarchaeota	CP Parvarchaeota	5	Archaea		DPANN
+Diapherotrites	Diapherotrites	6	Archaea		DPANN
+Euryarchaeota	Euryarchaeota	7	Archaea		
+CP Verstratearchaeota	CP Verstratearchaeota	8	Archaea		
+CP Bathyarchaeota	CP Bathyarchaeota	9	Archaea		
+Thaumarchaeota	Thaumarchaeota	10	Archaea		
+Gammaproteobacteria	Gammaproteobacteria	11	Bacteria		
+Betaproteobacteria	Betaproteobacteria	12	Bacteria		
+Alphaproteobacteria LD12	Alphaproteobacteria LD12	13	Bacteria		
+Alphaproteobacteria non LD12	Alphaproteobacteria non LD12	14	Bacteria		
+CP Hydrogenedentes	CP Hydrogenedentes	15	Bacteria		
+Deltaproteobacteria	Deltaproteobacteria	16	Bacteria		
+CP Rokubacteria	CP Rokubacteria	17	Bacteria		
+CP Tectomicrobia	CP Tectomicrobia	18	Bacteria		
+Nitrospirae	Nitrospirae	19	Bacteria		
+Acidobacteria	Acidobacteria	20	Bacteria		
+Fibrobacteres acidobacteria	Acidobacteria	21	Bacteria		
+Lentisphaerae	Lentisphaerae	22	Bacteria		
+CP Poribacteria	CP Poribacteria	23	Bacteria		
+CP WWE1	CP WWE1	24	Bacteria		
+Phycisphaerae	Planctomycetes (Phycisphaerae)	25	Bacteria		
+Planctomycetes	Planctomycetes	26	Bacteria		
+Verrucomicrobia V1	Verrucomicrobia	27	Bacteria		
+Verrucomicrobia V2	Verrucomicrobia	28	Bacteria		
+Verrucomicrobia V3	Verrucomicrobia	29	Bacteria		
+Verrucomicrobia V4	Verrucomicrobia	30	Bacteria		
+Verrucomicrobia V6	Verrucomicrobia	31	Bacteria		
+Chlamydiae	Chlamydiae	32	Bacteria		
+CP WOR-2 Omnitrophica	CP WOR-2 Omnitrophica	33	Bacteria		
+Kirimatiellaeota	Kirimatiellaeota	34	Bacteria		
+CP TM6	CP TM6	35	Bacteria		
+Bacteroidetes	Bacteroidetes	36	Bacteria		
+CP Ziwabacteria	CP Ziwabacteria	37	Bacteria		
+CP Eisenbacteria	CP Eisenbacteria	38	Bacteria		
+Chlorobi	Chlorobi	39	Bacteria		
+Calditrichaeota	Calditrichaeota	40	Bacteria		
+Ignavibacteria	Ignavibacteria	41	Bacteria		
+CP Zixibacteria	CP Zixibacteria	42	Bacteria		
+CP WOR-3	CP WOR-3	43	Bacteria		
+CP BRC1	CP BRC1	44	Bacteria		
+Gemmatimonadetes	Gemmatimonadetes	45	Bacteria		
+Actinobacteria	Actinobacteria	46	Bacteria		
+Actinobacteria acI-B1	Actinobacteria	47	Bacteria		
+Actinobacteria acI-C	Actinobacteria	48	Bacteria		
+Actinobacteria acI-C2	Actinobacteria	49	Bacteria		
+Actinobacteria acIII	Actinobacteria	50	Bacteria		
+Actinobacteria acIV	Actinobacteria	51	Bacteria		
+Actinobacteria acIV-C	Actinobacteria	52	Bacteria		
+Actinobacteria acSTL	Actinobacteria	53	Bacteria		
+Actinobacteria acTH1	Actinobacteria	54	Bacteria		
+Actinobacteria Iluma-A1	Actinobacteria	55	Bacteria		
+Armatimonadetes	Armatimonadetes	56	Bacteria		
+Chloroflexi	Chloroflexi	57	Bacteria		
+CP Saccharibacteria	CP Saccharibacteria	58	Bacteria		
+Firmicutes	Firmicutes	59	Bacteria		
+Cyanobacteria	Cyanobacteria	60	Bacteria		
+CP Tanganyikabacteria	"Sericytochromatia, Tanganyikabacteria"	61	Bacteria		
+CP Aminicemantes (OP8)	CP Aminicemantes (OP8)	62	Bacteria		
+CP Handelsmanbacteria	CP Handelsmanbacteria	63	Bacteria		
+CP Gottesmanbacteria	CP Gottesmanbacteria	64	Bacteria	CPR	
+CP Gribaldobacteria	CP Gribaldobacteria	65	Bacteria	CPR	
+CP Harrisonbacteria	CP Harrisonbacteria	66	Bacteria	CPR	
+CP Kaiserbacteria	CP Kaiserbacteria	67	Bacteria	CPR	
+CP Liptonbacteria	CP Liptonbacteria	68	Bacteria	CPR	
+CP Moranbacteria	CP Moranbacteria	69	Bacteria	CPR	
+CP Nealsonbacteria	CP Nealsonbacteria	70	Bacteria	CPR	
+CP Peribacteria	CP Peribacteria	71	Bacteria	CPR	
+CP Perigrinibacteria	CP Perigrinibacteria	72	Bacteria	CPR	
+CP Shapirobacteria	CP Shapirobacteria	73	Bacteria	CPR	
+CP Staskawiczbacteria	CP Staskawiczbacteria	74	Bacteria	CPR	
+CP Urhbacteria	CP Urhbacteria	75	Bacteria	CPR	
+CP WWE3	CP WWE3	76	Bacteria	CPR	

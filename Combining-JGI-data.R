@@ -31,9 +31,9 @@ unique(nchar(binned.scaffs$header))
 setwd("~/Documents/JGI-LakeTanganyika-Globus-Data/")
 
 list.of.folders <- list.files()
-list.of.folders <- setdiff(list.of.folders,"list.of.headers.Tang.523MAGS.txt")
+list.of.folders <- setdiff(list.of.folders,c("list.of.headers.Tang.523MAGS.txt","headers.all.MAGS.cluster.tsv"))
 
-
+list.of.folders 
 
 for (i in 1:length(list.of.folders)){
   # Start a timer to see how long it takes to process each folder:
@@ -90,7 +90,7 @@ for (i in 1:length(list.of.folders)){
   hist(Pfam$V3, xlab="Percent ID")
   dev.off()
   print("Finished printing the distribution of % ID figure")
-
+  
   # Combining the tables:
   combined <- left_join(product_names, Pfam, by = "V1")
   nrow(combined)
@@ -122,7 +122,7 @@ for (i in 1:length(list.of.folders)){
   combined.count <- combined %>% select(Scaffold_ID, MAG) %>% group_by(MAG) %>% tally()
   
   # Make the plot
-  combined.count %>% ggplot(aes(x=MAG, y=combined.count[2])) +
+  combined.count %>% ggplot(aes(x=MAG, y=n)) +
     geom_bar(stat="identity")+
     theme_bw()+
     theme(axis.text.x = element_text(angle = 90))+
