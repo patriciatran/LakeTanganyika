@@ -1,0 +1,27 @@
+﻿SampleName,Short name,FileSize,Read files,Dataset,Uncompressed size,Location,Sequencing method,nb.lines,nb.lines.div.4,nb.reads.millions,Average GC content,year,month,day,Depth
+TA2Kig1200mmetaG,KigC1200,58,TA2Kig1200mmetaG.11788.1.219580.GTTTCG.filter-METAGENOME_1.fastq,Tanganyika - deep,58,Kigoma,Illumina HiSeq 2500-1TB (JGI),692795788,173198947,346,,2015,7,25,1200
+TA2KigC100mmetaG,KigC100,17,TA2KigC100mmetaG.11825.3.221725.GTGGCC.filter-METAGENOME_1.fastq.gz,Tanganyika,79,Kigoma,Illumina HiSeq 2500-1TB (JGI),886022524,221505631,443,,2015,7,25,100
+TA2KigC150mmetaG,KigC150,56,TA2KigC150mmetaG.11816.6.221454.ACAGTG.filter-METAGENOME_1.fastq,Tanganyika,56,Kigoma,Illumina HiSeq 2500-1TB (JGI),664295156,166073789,332,,2015,7,25,150
+TA2KigC250mmetaG,KigC250,11,TA2KigC250mmetaG.11816.5.221451.TGACCA.filter-METAGENOME_1.fastq.gz,Tanganyika,61,Kigoma,Illumina HiSeq 2500-1TB (JGI),677390308,169347577,339,,2015,7,25,250
+TA2KigC300mmetaG,KigC300,12,TA2KigC300mmetaG.11788.2.219583.CGTACG.filter-METAGENOME_1.fastq.gz,Tanganyika,56,Kigoma,Illumina HiSeq 2500-1TB (JGI),626768264,156692066,313,,2015,7,25,300
+TA2KigCa35mmetaG,KigCa35,15,TA2KigCa35mmetaG.11808.2.220606.CAGATC.filter-METAGENOME_1.fastq.gz,Tanganyika,81,Kigoma,Illumina HiSeq 2500-1TB (JGI),905368572,226342143,453,,2015,7,25,35
+TA2KigCa65mmetaG,KigCa65,8.8,TA2KigCa65mmetaG.11817.1.221463.GCCAAT.filter-METAGENOME_1.fastq.gz,Tanganyika,54,Kigoma,Illumina HiSeq 2500-1TB (JGI),607415304,151853826,304,,2015,7,25,65
+TA2KigCas0mmetaG,KigCas0,79,TA2KigCas0mmetaG.11825.2.221722.GTGAAA.filter-METAGENOME_1.fastq,Tanganyika,79,Kigoma,Illumina HiSeq 2500-1TB (JGI),941539956,235384989,471,,2015,10,23,0
+TA2KigO120mmetaG,KigOff120,54,TA2KigO120mmetaG.11817.2.221466.CAGATC.filter-METAGENOME_1.fastq,Tanganyika,54,Kigoma,Illumina HiSeq 2500-1TB (JGI),642933352,160733338,321,,2015,10,23,120
+TA2KigOf40mmetaG,KigOff40,72,TA2KigOf40mmetaG.11817.7.221481.GTTTCG.filter-METAGENOME_1.fastq,Tanganyika,72,Kigoma,Illumina HiSeq 2500-1TB (JGI),855893896,213973474,428,,2015,10,23,40
+TA2KigOf80mmetaG,KigOff80,56,TA2KigOf80mmetaG.11816.7.221457.ACTTGA.filter-METAGENOME_1.fastq,Tanganyika,56,Kigoma,Illumina HiSeq 2500-1TB (JGI),661019760,165254940,331,,2015,10,23,80
+TA2KigOff0mmetaG,KigOff0,47,TA2KigOff0mmetaG.11816.8.221460.GATCAG.filter-METAGENOME_1.fastq,Tanganyika,47,Kigoma,Illumina HiSeq 2500-1TB (JGI),553379008,138344752,277,,2015,10,23,0
+TA2KigsurfametaG,KigOffSurface,76,TA2KigsurfametaG.11808.3.220609.ACTTGA.filter-METAGENOME_1.fastq,Tanganyika,76,Kigoma,Illumina HiSeq 2500-1TB (JGI),906278436,226569609,453,,2015,7,25,0
+TA2MahC100mmetaG,MahC100,15,TA2MahC100mmetaG_11817.5.221475.GTAGAG.filter-METAGENOME_1.fastq.gz,Tanganyika,76,Mahale,Illumina HiSeq 2500-1TB (JGI),852962532,213240633,426,,2015,7,21,100
+TA2MahC200mmetaG,MahC200,12,TA2MahC200mmetaG_11788.4.219589.GGTAGC.filter-METAGENOME_1.fastq.gz,Tanganyika,66,Mahale,Illumina HiSeq 2500-1TB (JGI),733645924,183411481,367,,2015,7,21,200
+TA2MahC400mmetaG,MahC400,13,TA2MahC400mmetaG_11788.3.219586.GAGTGG.filter-METAGENOME_1.fastq.gz,Tanganyika,71,Mahale,Illumina HiSeq 2500-1TB (JGI),791618412,197904603,396,,2015,7,21,400
+TA2MahCa10mmetaG,MahCa10,11,TA2MahCa10mmetaG_11816.4.221448.TTAGGC.filter-METAGENOME_1.fastq.gz,Tanganyika,61,Mahale,Illumina HiSeq 2500-1TB (JGI),679343628,169835907,340,,2015,7,21,10
+TA2MahCa50mmetaG,MahCa50,11,TA2MahCa50mmetaG_11816.3.221445.CGATGT.filter-METAGENOME_1.fastq.gz,Tanganyika,61,Mahale,Illumina HiSeq 2500-1TB (JGI),676024460,169006115,338,,2015,7,21,50
+TA2MahCa65mmetaG,MahCa65,8.3,TA2MahCa65mmetaG_11816.2.221442.ATCACG.filter-METAGENOME_1.fastq.gz,Tanganyika,47,Mahale,Illumina HiSeq 2500-1TB (JGI),527861804,131965451,264,,2015,7,21,65
+TA2MahsurfametaG_10,Mahsurface_10,17,TA2MahsurfametaG_10_11817.6.221478.GTCCGC.filter-METAGENOME_1.fastq.gz,Tanganyika,86,Mahale,Illumina HiSeq 2500-1TB (JGI),959580924,239895231,480,,2015,7,22,0
+TA2MahsurfametaG_6,Mahsurface_6,13,TA2MahsurfametaG_6_11808.1.220603.GCCAAT.filter-METAGENOME_1.fastq.gz,Tanganyika,74,Mahale,Illumina HiSeq 2500-1TB (JGI),829874908,207468727,415,,2015,7,11,0
+TA2MahsurfametaG_7,Mahsurface_7,15,TA2MahsurfametaG_7_11817.4.221472.CCGTCC.filter-METAGENOME_1.fastq.gz,Tanganyika,75,Mahale,Illumina HiSeq 2500-1TB (JGI),840692956,210173239,420,,2015,7,18,0
+TA2MahsurfametaG_8,Mahsurface_8,15,TA2MahsurfametaG_8_11825.1.221719.ATGTCA.filter-METAGENOME_1.fastq.gz,Tanganyika,80,Mahale,Illumina HiSeq 2500-1TB (JGI),887809128,221952282,444,,2015,7,16,0
+TA2MahsurfametaG_9,Mahsurface_9,16,TA2MahsurfametaG_9_11817.3.221469.AGTTCC.filter-METAGENOME_1.fastq.gz,Tanganyika,81,Mahale,Illumina HiSeq 2500-1TB (JGI),901666692,225416673,451,,2015,7,14,0
+SRR8561390 Metagenomic sequencing from freshwater Lake Baikal 1350 m sample,Baikal 1350m,,,Baikal,99,Baikal,Illumina HiSeq X Ten PE2X150 bp (Novogene Company),965840992,241460248,483,54.04%,,,,
+SRR8561391 Metagenomic sequencing from freshwater Lake Baikal 1250 m sample,Baikal 1200m,,,Baikal,94,Baikal,Illumina HiSeq X Ten PE2X150 bp (Novogene Company),1137188620,284297155,569,53.64%,,,,
