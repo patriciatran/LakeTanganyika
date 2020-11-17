@@ -35,6 +35,8 @@ list.of.folders <- setdiff(list.of.folders,c("list.of.headers.Tang.523MAGS.txt",
 
 list.of.folders 
 
+
+
 for (i in 1:length(list.of.folders)){
   # Start a timer to see how long it takes to process each folder:
   ptm <- proc.time()
