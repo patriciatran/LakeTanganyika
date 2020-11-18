@@ -77,9 +77,9 @@ plotly.plot <- ps.assembly.tally %>% filter(!is.na(ManualTaxonomy)) %>%
   ggtitle("Diversity of organisms with Photosystem genes in binned scafflds/MAGs",
           subtitle="Binned MAGs only")
 
-library(plotly)
+#library(plotly)
 
-ggplotly(plotly.plot)
+#ggplotly(plotly.plot)
 
 # Organize by taxon.order:
 taxon.order <- read.table("Paper/Cazyme/order.taxonomy.tsv", sep="\t", header=TRUE)
@@ -108,7 +108,7 @@ ps.assembly.tally %>% filter(!is.na(ManualTaxonomy)) %>%
   xlab("Gene")+
   ylab("Taxonomic assignment of binned MAGs")
 
-ggsave("Paper/Photosystem/Genes.associated.with.Ps.by.Taxonomy.PDF", height = 11, width = 8.5, units = "in")
+ggsave("Paper/Photosystem/Genes.associated.with.Ps.by.Taxonomy.PDF", height = 8.5, width = 11, units = "in")
 
 # Let's zoom into Cyanos:
 cyanos <- ps.assembly.tally %>% filter(ManualTaxonomy == "Cyanobacteria")
@@ -144,6 +144,19 @@ ps.assembly.tally %>% filter(ManualTaxonomy == "Chlorobi") %>%
   ylab("MAG name")
 
 ggsave("Paper/Photosystem/Chlorobi.PDF", height = 8.5, width = 11, units="in")
+
+## WOR-3 our only CPR with PS genes
+ps.assembly.tally %>% filter(ManualTaxonomy == "CP WOR-3") %>%
+  ggplot(aes(x=V4, y=V44, fill=n))+
+  geom_tile()+
+  theme_bw()+
+  #theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+
+  ggtitle("Genes associated with photosynthesis in binned MAGs: CP WOR-3  only")+
+  #theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+
+  xlab("Gene")+
+  ylab("MAG name")
+
+ggsave("Paper/Photosystem/CP-WOR-3.PDF", height = 8.5, width = 11, units="in")
 
 
 ## All MAGs with a bar on the side for Taxo:

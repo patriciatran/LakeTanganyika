@@ -89,12 +89,15 @@ n.plot <- ggplot(metabolism.m %>% filter(!is.na(rescale) & Category %in% c("NITR
   #scale_fill_gradient(low = "light blue", high="steelblue")+
   ggtitle("Nitrogen", subtitle=paste0(nitrogen.taxa," taxonomic groups and ", nitrogen.mags, " distinct MAGs"))+
   theme_bw()+
-  theme(axis.text.x = element_text(angle = 90, hjust = 1))+
-  facet_grid(Domain.y+CPR+DPANN ~ short_reaction_name, scales="free",space = "free_y")
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        strip.text.x = element_text(angle = 90),
+        strip.text.y = element_text(angle = 0))+
+  facet_grid(Domain.y+CPR+DPANN ~ short_reaction_name, scales="free",space = "free_y")+
+  ylab("Taxonmy")
 
 n.plot
 
-ggsave("Paper/Metabolism-Summary/nitrogen.mags.pdf", width = 8.5, height = 11, units = "in")
+ggsave("Paper/Metabolism-Summary/nitrogen.mags.S10.lanscape.pdf", width = 11, height = 8.6, units = "in")
 
 
 # SULFUR:
@@ -112,10 +115,13 @@ s.plot <- ggplot(s.table, aes(x=Genes,y=Taxonomy_f))+
   theme_bw()+
   facet_grid(Domain.y+CPR+DPANN~short_reaction_name_f, scales="free",space = "free_y")+
   ggtitle("Sulfur",subtitle=paste0(s.taxa," taxonomic groups and ", s.mags, " distinct MAGs"))+
-  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        strip.text.x = element_text(angle = 90),
+        strip.text.y = element_text(angle = 0))+
+  ylab("Taxonomy")
 
 s.plot 
-ggsave("Paper/Metabolism-Summary/sulfur.mags.pdf", width = 8.5, height = 11, units = "in")
+ggsave("Paper/Metabolism-Summary/sulfur.mags.S11.landscape.pdf", width = 11, height = 8.5, units = "in")
 
 
 # Hydrogen:
@@ -127,7 +133,10 @@ h.plot <- ggplot(metabolism.m %>% filter(!is.na(rescale) & Category %in% c("HYDR
   #scale_fill_gradient(low = "light blue", high="steelblue")+
   ggtitle("Hydrogen",subtitle=paste0(H.taxa," taxonomic groups and ", H.mags, " distinct MAGs"))+
   theme_bw()+
-  theme(axis.text.x = element_text(angle = 90, hjust = 1))+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        strip.text.x = element_text(angle = 90),
+        strip.text.y = element_text(angle = 0))+
+  ylab("Taxonomy")+
   facet_grid(Domain.y+CPR+DPANN~short_reaction_name, scales="free",space = "free_y")
 
 h.plot 
@@ -141,7 +150,10 @@ o.plot <- ggplot(metabolism.m %>% filter(!is.na(rescale) & Category %in% c("OXYG
   geom_tile(aes(fill =Nb.of.genes),colour = "white") + 
   #scale_fill_gradient(low = "light blue", high="steelblue")+
   ggtitle("Oxygen",subtitle=paste0(O.taxa," taxonomic groups and ", O.mags, " distinct MAGs"))+
-  theme_bw()+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        strip.text.x = element_text(angle = 90),
+        strip.text.y = element_text(angle = 0))+
+  ylab("Taxonomy")+
   facet_grid(Domain.y+CPR+DPANN~short_reaction_name, scales="free",space = "free_y")+
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
 
@@ -158,11 +170,14 @@ c.plot <- ggplot(metabolism.m %>% filter(!is.na(rescale) & Category %in% c("METH
   #scale_fill_gradient(low = "light blue", high="steelblue")+
   theme_bw()+
   facet_grid(Domain.y+CPR+DPANN~short_reaction_name, scales="free",space = "free_y")+
-  theme(axis.text.x = element_text(angle = 90, hjust = 1))+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        strip.text.x = element_text(angle = 90),
+        strip.text.y = element_text(angle = 0))+
+  ylab("Taxonomy")+
   ggtitle("Carbon",subtitle=paste0(C.taxa," taxonomic groups and ", C.mags, " distinct MAGs"))
 
 c.plot 
-ggsave("Paper/Metabolism-Summary/carbon.mags.pdf", width = 8.5, height = 11, units = "in")
+ggsave("Paper/Metabolism-Summary/carbon.mags.S9.landscape.pdf", width = 11, height = 8.5, units = "in")
 
 #Other metabolism:
 other.taxa <- metabolism.m %>% filter(!is.na(rescale) & Category %in% c("HALOGENATED COMPOUNDS","ARSENIC","SELENIUM","NITRILES","METALS")) %>% summarise(NG = n_distinct(Taxonomy_f))
@@ -175,11 +190,14 @@ other.plot <- ggplot(metabolism.m %>% filter(!is.na(rescale) & Category %in% c("
   #scale_fill_gradient(low = "light blue", high="steelblue")+
   theme_bw()+
   facet_grid(Domain.y+CPR+DPANN~short_reaction_name, scales="free",space = "free_y")+
-  theme(axis.text.x = element_text(angle = 90, hjust = 1))+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        strip.text.x = element_text(angle = 90),
+        strip.text.y = element_text(angle = 0))+
+  ylab("Taxonomy")+
   ggtitle("Other",subtitle=paste0(other.taxa," taxonomic groups and ", other.mags, " distinct MAGs"))
 
 other.plot
-ggsave("Paper/Metabolism-Summary/other.mags.pdf", width = 8.5, height = 11, units = "in")
+ggsave("Paper/Metabolism-Summary/other.mags.S12.pdf", width = 8.5, height = 11, units = "in")
 
 
 ## Make one single plot:
