@@ -3,7 +3,7 @@ This is the code used to generate analyses and figures from my preprint on Lake 
 
 Thank you for citing our pre-print:
 
-Patricia Q Tran, Peter B McIntyre, Benjamin M Kraemer, Yvonne Vadeboncoeur, Ismael A Kimirei, Rashid Tamatamah, Katherine D McMahon, Karthik Anantharaman. "Depth-discrete eco-genomics of Lake Tanganyika reveals roles of diverse microbes, including candidate phyla, in tropical freshwater nutrient cycling" bioRxiv 834861; doi: https://doi.org/10.1101/834861
+Patricia Q Tran, Samantha C. Bachand, Peter B McIntyre, Benjamin M Kraemer, Yvonne Vadeboncoeur, Ismael A Kimirei, Rashid Tamatamah, Katherine D McMahon, Karthik Anantharaman. "Depth-discrete metagenomics reveals the roles of microbes in biogeochemical cycling in the tropical freshwater Lake Tanganyika" bioRxiv 834861; doi: https://doi.org/10.1101/834861
 
 # Genomes
 I've uploaded the metagenome-assembled-genomes (MAGs) on the Open Science Framework for viewing and downloading while the preprint is up, and during the peer-review process.
@@ -12,6 +12,8 @@ However, the genomes have been uploaded to NCBI Genbank and will be officially r
 Link: https://osf.io/pmhae/
 
 # Note
+November 18, 2020: I have updated the manuscript and files on BioRxiv, and submitted my rounds of revisions.
+
 January 20, 2020: I am currently editing figures and content as per reviewer's comments. the contents of this directory might change.
 
 October/November 2020: I am currently going through a round of revisions.
@@ -36,12 +38,13 @@ This folder contains the scripts to generate the main and supplementary figures 
 
 |     Directory Name    | Figure                                          |
 |-----------------------|-------------------------------------------------|
-| Abundance-Plot        | Main Figure 3 and Supplementary Figure 7        |
-| Cazyme                | Supplementary Figure 9                          |
+| Abundance-Plot        | Main Figure 4                                   |
+| Cazyme                | Supplementary Figure 13                         |
 | Compare-Baikal        | Main Figure 5 and Supplementary Figure 8        |
 | Comparison-Taxonomy   | Supplementary Figure 6                          |
 | Environmentaldata     | Main Figure 1 and Supplementary Figures 2,3,4,5 |
 | MAG_Characteristics   |                                                 |
 | METABOLIC-results     |                                                 |
-| Metabolism-Summary    |                                                 |
+| Metabolism-Summary    | Supplementary Figures 9,10,11,12                |
+| Photosystems          |                                                 |
 | Samples               | Supplementary Figure 1                          |
