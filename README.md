@@ -35,7 +35,7 @@ This is the folder containing the HMM for the 16 ribosomal proteins that were us
 
 ## Script: Combining-JGI-data.R
 
-We annotated the genomes using custome HMM (METABOLIC : https://github.com/AnantharamanLab/METABOLIC), and manual curation of certain genes such as nxrA and amoA (more details are provided in the paper). As an extra layer of evidence, because the 24 metagenomes were sequenced as part of a JGI CSP (Gold Study ID: Gs0129147 "Freshwater microbial communities from Lake Tanganyika, Tanzania"), and processed through the IMG/M annotation pipeline. You can download all the IMG/M annotation using the JGI Globus (https://genome.jgi.doe.gov/portal/help/download.jsf#/globus). This script that I made combines all IMG/M tables into a single table and summary figures for each folder (each folder = IMG results for 1 metagenome). 
+We annotated the genomes using custome HMM (METABOLIC : https://github.com/AnantharamanLab/METABOLIC), and manual curation of certain genes such as nxrA and amoA (more details are provided in the paper). As an extra layer of evidence, because the 24 metagenomes were sequenced as part of a JGI CSP (Gold Study ID: Gs0129147 "Freshwater microbial communities from Lake Tanganyika, Tanzania"), and processed through the IMG/M annotation pipeline. You can download all the IMG/M annotation using the JGI Globus (https://genome.jgi.doe.gov/portal/help/download.jsf#/globus). This script that I made combines all IMG/M tables into a single table and summary figures for each folder (each folder = IMG results for 1 metagenome). Because these are large raw files, you can download the proceesed tabled here: https://osf.io/pmhae/ 
 
 ## Figures
 
