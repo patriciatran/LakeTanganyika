@@ -5,7 +5,9 @@ Thank you for citing our pre-print:
 
 **Patricia Q Tran**, Samantha C. Bachand, Peter B McIntyre, Benjamin M Kraemer, Yvonne Vadeboncoeur, Ismael A Kimirei, Rashid Tamatamah, Katherine D McMahon, Karthik Anantharaman. "Depth-discrete metagenomics reveals the roles of microbes in biogeochemical cycling in the tropical freshwater Lake Tanganyika" bioRxiv 834861; doi: https://doi.org/10.1101/834861
 
-_contact information_: Patricia Tran: ptran5 [at] wisc [dot] edu
+_Contact information_: Patricia Tran: ptran5 [at] wisc [dot] edu
+
+Please feel free to email me!
 
 # Repository Notes
 - November 18, 2020: I have updated the manuscript and files on BioRxiv, and submitted my rounds of revisions.
@@ -46,10 +48,10 @@ The 24 raw, assembled and annotated metagenomes are available on the Integrated 
 This folder contains the 16 ribosomal proteins (Bacteria and Archaea) and the custom metabolic HMMs. 
 
 ### HMM > rp16_HMM
-This is the folder containing the HMM for the 16 ribosomal proteins that were used to search against MAGs and reference genomes. The result were used to create the concatenated gene phylogeny. the naming `_bact` or `_arch` signifies whether this HMM is built for Archaea or Bacteria. [Hmmsearch](http://hmmer.org/download.html) with the --cut_tc was used. 
+This is the folder containing the HMM for the 16 ribosomal proteins that were used to search against MAGs and reference genomes. The result were used to create the concatenated gene phylogeny. the naming `_bact` or `_arch` signifies whether this HMM is built for Archaea or Bacteria. [Hmmsearch](http://hmmer.org/download.html) with the `--cut_tc` was used. 
 
 ### HMM > Metabolic_hmms
-This contains the HMMs for the metabolic genes. Use `hmmsearch` with the --cut_tc option to search them against your datasets.
+This contains the HMMs for the metabolic genes. Use `hmmsearch` with the `--cut_tc` option to search them against your datasets.
 
 
 ## Script: Combining-JGI-data.R
