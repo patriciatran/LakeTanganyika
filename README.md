@@ -3,20 +3,29 @@ This is the code used to generate analyses and figures from my preprint on Lake 
 
 Thank you for citing our pre-print:
 
-Patricia Q Tran, Samantha C. Bachand, Peter B McIntyre, Benjamin M Kraemer, Yvonne Vadeboncoeur, Ismael A Kimirei, Rashid Tamatamah, Katherine D McMahon, Karthik Anantharaman. "Depth-discrete metagenomics reveals the roles of microbes in biogeochemical cycling in the tropical freshwater Lake Tanganyika" bioRxiv 834861; doi: https://doi.org/10.1101/834861
+**Patricia Q Tran**, Samantha C. Bachand, Peter B McIntyre, Benjamin M Kraemer, Yvonne Vadeboncoeur, Ismael A Kimirei, Rashid Tamatamah, Katherine D McMahon, Karthik Anantharaman. "Depth-discrete metagenomics reveals the roles of microbes in biogeochemical cycling in the tropical freshwater Lake Tanganyika" bioRxiv 834861; doi: https://doi.org/10.1101/834861
+
+# Repository Notes
+- November 18, 2020: I have updated the manuscript and files on BioRxiv, and submitted my rounds of revisions.
+
+- October/November 2020: I am currently going through a round of revisions.
+
+- July 2020: Manuscript has been revised and resubmitted. 
+
+- January 20, 2020: I am currently editing figures and content as per reviewer's comments. The contents of this directory might change.
 
 # Genomes
 I've uploaded the metagenome-assembled-genomes (MAGs) on the Open Science Framework for viewing and downloading while the preprint is up, and during the peer-review process.
+
 However, the genomes have been uploaded to NCBI Genbank and will be officially released with Accessed ID on the real publication date.
 
 Link: https://osf.io/pmhae/
 
-# Note
-November 18, 2020: I have updated the manuscript and files on BioRxiv, and submitted my rounds of revisions.
+The [NCBI Genome Accession numbers](https://www.ncbi.nlm.nih.gov/genome/) are in Supplementary Table 2, and also [here](https://github.com/patriciatran/LakeTanganyika/blob/master/NCBI_Accessions_LakeTanganyika_MAGs.txt).
+The [NCBI BioProject ID](https://www.ncbi.nlm.nih.gov/bioproject/) is PRJNA523022 and will be released upon publication.
 
-January 20, 2020: I am currently editing figures and content as per reviewer's comments. the contents of this directory might change.
-
-October/November 2020: I am currently going through a round of revisions.
+## Metagenomes on JGI (IMG/M):
+The 24 raw, assembled and annotated metagenomes are available on the Integrated Microbial Genomes & Microbiomes (IMG/M) portal using the following IMG Genome ID’s: 3300020220, 3300020083, 3300020183, 3300020200, 3300021376, 3300021093, 3300021091, 3300020109, 3300020074, 3300021092, 3300021424, 3300020179, 3300020193, 3300020204, 3300020221, 3300020196, 3300020190, 3300020197, 3300020222, 3300020214, 3300020084, 3300020198, 3300020603, 3300020578. 
 
 # Github Folder Organization
 
