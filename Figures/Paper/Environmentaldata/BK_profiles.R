@@ -32,18 +32,26 @@ library(ggpubr)
 ggarrange(DO,Temp, nrow=2, labels=c("C","D"))
 
 Chla <- ggplot(cast.tang) + 
-  geom_point(aes(x = Chla, y = Depth, fill = julianday), alpha=0.5, pch=21) + 
+  geom_point(aes(x = Chla, y = Depth, color = julianday,fill = julianday), alpha=1, pch=21) + 
   scale_y_reverse()+
   facet_wrap(.~Year)+
-  ggtitle("Chl a")+
+  xlab("Chlorophyll a (μg/L)")+
   theme_bw()+
   geom_hline(yintercept = 120)+
-  ggtitle("Chlorophyll a (ug/L)")+
-  ylab("Depth(m)")
+  ylab("Depth(m)")+
+  theme(#axis.title.x=element_blank(),
+        #axis.text.x=element_blank(),
+        #axis.ticks.x=element_blank(),
+        strip.background = element_rect(fill = 'white', colour = 'black'),
+        strip.text = element_text(size=12),
+        #legend.position = "none",
+        panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        text = element_text(size=15),
+        axis.text = element_text(colour = "black"))
   
-
-
 Chla
+
+ggsave("Paper/Environmentaldata/chla-2020-12-22.PDF", width = 11, height = 8.5, units = "in")
 
 Conductivity <- ggplot(cast.tang) + geom_point(aes(x = Conductivity, y = Depth, colour = julianday)) + 
   scale_y_reverse()+
