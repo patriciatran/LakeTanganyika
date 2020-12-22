@@ -5,6 +5,8 @@ Thank you for citing our pre-print:
 
 **Patricia Q Tran**, Samantha C. Bachand, Peter B McIntyre, Benjamin M Kraemer, Yvonne Vadeboncoeur, Ismael A Kimirei, Rashid Tamatamah, Katherine D McMahon, Karthik Anantharaman. "Depth-discrete metagenomics reveals the roles of microbes in biogeochemical cycling in the tropical freshwater Lake Tanganyika" bioRxiv 834861; doi: https://doi.org/10.1101/834861
 
+_contact information_: Patricia Tran: ptran5 [at] wisc [dot] edu
+
 # Repository Notes
 - November 18, 2020: I have updated the manuscript and files on BioRxiv, and submitted my rounds of revisions.
 
