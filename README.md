@@ -21,7 +21,7 @@ However, the genomes have been uploaded to NCBI Genbank and will be officially r
 
 Link: https://osf.io/pmhae/
 
-** In this project, we resolved 523 medium to highhquality metagenome-assembled genomes (MAGs), belonging to both Bacteria and Archaea.**
+**In this project, we resolved 523 medium to highhquality metagenome-assembled genomes (MAGs), belonging to both Bacteria and Archaea.**
 
 The [NCBI Genome Accession numbers](https://www.ncbi.nlm.nih.gov/genome/) are in Supplementary Table 2, and also [here](https://github.com/patriciatran/LakeTanganyika/blob/master/NCBI_Accessions_LakeTanganyika_MAGs.txt).
 The [NCBI BioProject ID](https://www.ncbi.nlm.nih.gov/bioproject/) is PRJNA523022 and will be released upon publication.
