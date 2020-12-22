@@ -33,10 +33,10 @@ The 24 raw, assembled and annotated metagenomes are available on the Integrated 
 This folder contains the 16 ribosomal proteins (Bacteria and Archaea) and the custom metabolic HMMs. 
 
 ### HMM > rp16_HMM
-This is the folder containing the HMM for the 16 ribosomal proteins that were used to search against MAGs and reference genomes. The result were used to create the concatenated gene phylogeny. the naming `_bact` or `_arch` signifies whether this HMM is built for Archaea or Bacteria. Hmmsearch with the --cut_tc was used. 
+This is the folder containing the HMM for the 16 ribosomal proteins that were used to search against MAGs and reference genomes. The result were used to create the concatenated gene phylogeny. the naming `_bact` or `_arch` signifies whether this HMM is built for Archaea or Bacteria. [Hmmsearch](http://hmmer.org/download.html) with the --cut_tc was used. 
 
 ### HMM > Metabolic_hmms
-This contains the HMMs for the metabolic genes. Use `hmmsearch` to search them against your datasets.
+This contains the HMMs for the metabolic genes. Use `hmmsearch` with the --cut_tc option to search them against your datasets.
 
 
 ## Script: Combining-JGI-data.R
