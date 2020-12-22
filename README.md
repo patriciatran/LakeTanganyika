@@ -1,5 +1,5 @@
 # Lake Tanganyika
-This is the code used to generate analyses and figures from my preprint on Lake Tanganyika genomes.
+This is the code used to generate analyses and figures from my preprint on Lake Tanganyika metagenome-assembled genomes.
 
 Thank you for citing our pre-print:
 
@@ -21,8 +21,18 @@ However, the genomes have been uploaded to NCBI Genbank and will be officially r
 
 Link: https://osf.io/pmhae/
 
+** In this project, we resolved 523 medium to highhquality metagenome-assembled genomes (MAGs), belonging to both Bacteria and Archaea.**
+
 The [NCBI Genome Accession numbers](https://www.ncbi.nlm.nih.gov/genome/) are in Supplementary Table 2, and also [here](https://github.com/patriciatran/LakeTanganyika/blob/master/NCBI_Accessions_LakeTanganyika_MAGs.txt).
 The [NCBI BioProject ID](https://www.ncbi.nlm.nih.gov/bioproject/) is PRJNA523022 and will be released upon publication.
+
+Some highlights
+- Two comammox genome (belonging to clade II-A)
+- A full circular and complete genome of Sacharibacteria (a.k.a candidate division TM7)
+- A clade of non-photosynthetic Sericytochromatia belonging to freshwater lakes
+- Several Candidate Phyla Radiation organisms from a freshwater lake
+- Several Archaeal (including DPANN) genomes from a freshwater lake
+Among others. I invite you to read the paper and explore the data associated with the paper.
 
 ## Metagenomes on JGI (IMG/M):
 The 24 raw, assembled and annotated metagenomes are available on the Integrated Microbial Genomes & Microbiomes (IMG/M) portal using the following IMG Genome ID’s: 3300020220, 3300020083, 3300020183, 3300020200, 3300021376, 3300021093, 3300021091, 3300020109, 3300020074, 3300021092, 3300021424, 3300020179, 3300020193, 3300020204, 3300020221, 3300020196, 3300020190, 3300020197, 3300020222, 3300020214, 3300020084, 3300020198, 3300020603, 3300020578. 
