@@ -10,6 +10,8 @@ _Contact information_: Patricia Tran: ptran5 [at] wisc [dot] edu
 Please feel free to email me!
 
 # Repository Notes
+- Feb 9, 2020: Our paper is now live. The BioProject will be released on NCBI on 02-18. Until then, all the MAGs can be found on the OSF server, linked below.
+
 - November 18, 2020: I have updated the manuscript and files on BioRxiv, and submitted my rounds of revisions.
 
 - October/November 2020: I am currently going through a round of revisions.
