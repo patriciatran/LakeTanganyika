@@ -1,15 +1,17 @@
 # Lake Tanganyika
 This is the code used to generate analyses and figures from my preprint on Lake Tanganyika metagenome-assembled genomes.
 
-Our paper is now published! Here is the citation:
+:newspaper: Our paper is now published!Here is the citation:
 
 **Patricia Q Tran**, Samantha C. Bachand, Peter B McIntyre, Benjamin M Kraemer, Yvonne Vadeboncoeur, Ismael A Kimirei, Rashid Tamatamah, Katherine D McMahon, Karthik Anantharaman. "Depth-discrete metagenomics reveals the roles of microbes in biogeochemical cycling in the tropical freshwater Lake Tanganyika" ISME J (2021). https://doi.org/10.1038/s41396-021-00898-x
 
-_Contact information_: Patricia Tran: ptran5 [at] wisc [dot] edu
+ :email: _Contact information_: Patricia Tran: ptran5 [at] wisc [dot] edu
 
 Please feel free to email me!
 
 # Repository Notes
+- Feb 16, 2020: Our BioProject is now publicly available at NCBI GenBank, I have updated the information in the "Genomes" section below.
+
 - Feb 9, 2020: Our paper is now live. The BioProject will be released on NCBI on 02-18. Until then, all the MAGs can be found on the OSF server, linked below.
 
 - November 18, 2020: I have updated the manuscript and files on BioRxiv, and submitted my rounds of revisions.
@@ -21,7 +23,7 @@ Please feel free to email me!
 - January 20, 2020: I am currently editing figures and content as per reviewer's comments. The contents of this directory might change.
 
 # Genomes
-Our genomes are available and citable at NCBI GenBank at using the BioProject PRJNA523022. https://www.ncbi.nlm.nih.gov/bioproject/PRJNA523022
+Our genomes are available and citable at NCBI GenBank at using the **BioProject PRJNA523022** https://www.ncbi.nlm.nih.gov/bioproject/PRJNA523022
 If you use these genomes in your analyses, please cite our ISME J paper above. Thank you!
 
 **In this project, we resolved 523 medium- to high-quality metagenome-assembled genomes (MAGs), belonging to both Bacteria and Archaea.**
