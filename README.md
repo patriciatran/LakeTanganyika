@@ -21,16 +21,12 @@ Please feel free to email me!
 - January 20, 2020: I am currently editing figures and content as per reviewer's comments. The contents of this directory might change.
 
 # Genomes
-I've uploaded the metagenome-assembled-genomes (MAGs) on the Open Science Framework for viewing and downloading while the preprint is up, and during the peer-review process.
-
-However, the genomes have been uploaded to NCBI Genbank and will be officially released with Accessed ID on the real publication date.
-
-Link: https://osf.io/pmhae/
+Our genomes are available and citable at NCBI GenBank at using the BioProject PRJNA523022. https://www.ncbi.nlm.nih.gov/bioproject/PRJNA523022
+If you use these genomes in your analyses, please cite our ISME J paper above. Thank you!
 
 **In this project, we resolved 523 medium- to high-quality metagenome-assembled genomes (MAGs), belonging to both Bacteria and Archaea.**
 
-The [NCBI Genome Accession numbers](https://www.ncbi.nlm.nih.gov/genome/) are in Supplementary Table 2, and also [here](https://github.com/patriciatran/LakeTanganyika/blob/master/NCBI_Accessions_LakeTanganyika_MAGs.txt).
-The [NCBI BioProject ID](https://www.ncbi.nlm.nih.gov/bioproject/) is PRJNA523022 and will be released upon publication.
+The full [NCBI Genome Accession numbers](https://www.ncbi.nlm.nih.gov/genome/) are in Supplementary Table 2, and also [here](https://github.com/patriciatran/LakeTanganyika/blob/master/NCBI_Accessions_LakeTanganyika_MAGs.txt).
 
 Some highlights
 - Two comammox genome (belonging to clade II-A)
