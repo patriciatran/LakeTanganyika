@@ -1,5 +1,5 @@
 # Lake Tanganyika
-This is the code used to generate analyses and figures from my preprint on Lake Tanganyika metagenome-assembled genomes.
+This is the code used to generate analyses and figures from my paper on Lake Tanganyika metagenome-assembled genomes.
 
 :newspaper: Our paper is now published!Here is the citation:
 
