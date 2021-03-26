@@ -10,9 +10,9 @@ This is the code used to generate analyses and figures from my paper on Lake Tan
 Please feel free to email me!
 
 # Repository Notes
-- Feb 16, 2020: Our BioProject is now publicly available at NCBI GenBank, I have updated the information in the "Genomes" section below.
+- Feb 16, 2021: Our BioProject is now publicly available at NCBI GenBank, I have updated the information in the "Genomes" section below.
 
-- Feb 9, 2020: Our paper is now live. The BioProject will be released on NCBI on 02-18. Until then, all the MAGs can be found on the OSF server, linked below.
+- Feb 9, 2021: Our paper is now live. The BioProject will be released on NCBI on 02-18. Until then, all the MAGs can be found on the OSF server, linked below.
 
 - November 18, 2020: I have updated the manuscript and files on BioRxiv, and submitted my rounds of revisions.
 
