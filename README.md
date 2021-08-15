@@ -1,9 +1,9 @@
 # Lake Tanganyika
 This is the code used to generate analyses and figures from my paper on Lake Tanganyika metagenome-assembled genomes.
 
-:newspaper: Our paper is now published!Here is the citation:
+:newspaper: Our paper is now published! Here is the citation:
 
-**Patricia Q Tran**, Samantha C. Bachand, Peter B McIntyre, Benjamin M Kraemer, Yvonne Vadeboncoeur, Ismael A Kimirei, Rashid Tamatamah, Katherine D McMahon, Karthik Anantharaman. "Depth-discrete metagenomics reveals the roles of microbes in biogeochemical cycling in the tropical freshwater Lake Tanganyika" ISME J (2021). https://doi.org/10.1038/s41396-021-00898-x
+**Tran, P.Q.**, Bachand, S.C., McIntyre, P.B. et al. Depth-discrete metagenomics reveals the roles of microbes in biogeochemical cycling in the tropical freshwater Lake Tanganyika. ISME J 15, 1971–1986 (2021). https://doi.org/10.1038/s41396-021-00898-x
 
  :email: _Contact information_: Patricia Tran: ptran5 [at] wisc [dot] edu
 
