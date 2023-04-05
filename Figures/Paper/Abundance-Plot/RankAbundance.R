@@ -1,32 +1,35 @@
 #install.packages("BiodiversityR")
+## Load packages:
+library(tidyverse)
+library(ggrepel)
 library(BiodiversityR)
+library(stringr)
 
+## Load data
 sp.matrix <- read.table("Paper/Abundance-Plot/abundance.2020-20-21-grouped-by-taxa.tsv", sep="\t", row.names=1,
                         header=TRUE)
-
 sp.matrix$taxa <- rownames(sp.matrix)
 
-library(stringr)
+# Fix spelling mistakes
 sp.matrix$taxa <- str_replace(sp.matrix$taxa, "CP Verstraetaerchaeota", "CP Verstratearchaeota")
 sp.matrix$taxa <- str_replace(sp.matrix$taxa, "Kirimatiellacea", "Kirimatiellaeota")
 sp.matrix$taxa <- str_replace(sp.matrix$taxa, "CP Aminicemantes (OP8)", "CP Aminicenantes (CP8)")
 
-
+# Rename rows
 rownames.sp.matrix <- sp.matrix$taxa
-
-
 sp.matrix <- sp.matrix[,-25]
 row.names(sp.matrix) <- rownames.sp.matrix
 
+# Transpose species matrix
 sp.matrix <- t(sp.matrix)
 
 cal.rankabund <- as.data.frame(rankabundance(sp.matrix))
 rankabunplot(rankabundance(sp.matrix), scale='abundance', addit=FALSE, specnames=c(1:62),srt=0, las=1)
-library(tidyverse)
-library(ggrepel)
+
 
 cal.rankabund$specie <- rownames(cal.rankabund)
 
+# Plot figure using ggplot:
 ggplot(cal.rankabund, aes(x=rank, y=proportion, label=specie))+
   geom_point(pch=21)+
   geom_line()+
@@ -38,10 +41,7 @@ ggplot(cal.rankabund, aes(x=rank, y=proportion, label=specie))+
         panel.grid.minor = element_blank())+
   ylab("Abundance")
 
-  
 
-## CLICK IN THE GRAPH TO INDICATE WHERE THE LEGEND NEEDS TO BE PLACED
-## IF YOU OPT FOR LEGEND=TRUE.
 
 matrix.env <- read.table("~/Documents/Github/LakeTanganyika/Figures/Paper/Samples/samples.tsv", sep="\t", header=TRUE, row.names=1)[,8:9]
 
