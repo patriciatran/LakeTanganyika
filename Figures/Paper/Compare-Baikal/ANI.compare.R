@@ -2,9 +2,12 @@
 # compare ANI Baikal and Tanganyika
 # October 22, 2020
 
-LB.LT <- read.table("Paper/Compare-Baikal/ANI.Baikal.Tang.491.vs.491.tsv", header=TRUE, sep="\t")
+# Load libraries:
 library(tidyverse)
 
+
+# Load tables:
+LB.LT <- read.table("Paper/Compare-Baikal/ANI.Baikal.Tang.491.vs.491.tsv", header=TRUE, sep="\t")
 LB.LT.gathered <- LB.LT %>% gather("Genome2", "ANI", 2:ncol(LB.LT))
 colnames(LB.LT.gathered) <- c("Genome1","Genome2", "ANI")
 LB.LT.gathered.not.na <- LB.LT.gathered %>% filter(!is.na(ANI)) %>% unique()
@@ -126,9 +129,6 @@ plot4 <- ggplot(LB.LT.gathered.not.na.versus,aes(x=ANI, color=Manual.Taxonomy)) 
   xlab("Average Nucleotide Identity (ANI) in %")+
   ylab("Number of pair-wise comparisons")+
   ggtitle("Tanganyika_vs_Baikal only")
- # scale_x_continuous(
-  #  labels = scales::number_format(accuracy = 0.1,
-   #                                decimal.mark = ','))
 
 ggarrange(plot1,  plot4, nrow=2,heights=c(0.75,1))
 
